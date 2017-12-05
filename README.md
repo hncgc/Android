@@ -1,6 +1,8 @@
-# pccbAndroidApp
-普资华企投资平台Android App
+##pccbAndroidApp ##
 
+Markdown
+========
+https://www.zybuluo.com/mdeditor
 
 MVP架构开发，一篇让你从看懂到会使用
 http://www.apkbus.com/blog-865069-76595.html
@@ -23,9 +25,8 @@ http://blog.csdn.net/harvic880925/article/details/44131865
 6、《Fragment详解之六——如何监听fragment中的回退事件与怎样保存fragment状态》
 http://blog.csdn.net/harvic880925/article/details/45013501
 
-
-
 Code Review 
+============
 https://baike.baidu.com/item/Code%20Review/8466134?fr=aladdin
 
 Code Review是轻量级代码评审
@@ -52,7 +53,8 @@ GitHub 查看地址
 https://github.com/HLQ-Struggle/AndroidImmersion
 
 
-lib,常用工作空间
+##lib,常用工作空间##
+
 https://github.com/yline/as_lib_sdk
 https://github.com/yline/as_lib_sdk/tree/master/_LibSDK/LibSDK/src/main/java/com/yline/utils
 https://github.com/yline/as_lib_sdk.git
@@ -78,8 +80,8 @@ UIScreenUtil 单位转换、获取屏幕信息
 baoyongzhang/android-PullRefreshLayout
 https://github.com/baoyongzhang/android-PullRefreshLayout
 
-
-
+刷新
+====
 十分钟学会定制 Android 酷炫下拉刷新
 http://www.jianshu.com/p/32cfab8e0d5a
 https://github.com/diamondlin2016/pullToRefresh
@@ -141,12 +143,10 @@ http://www.jianshu.com/p/7479b6ed5ebf
 
 下拉刷新、上拉加载、RefreshLayout、OverScroll，Android智能下拉刷新框架，支持越界回弹、越界拖动，具有极强的扩展性，集成了几十种炫酷的Header和 Footer。
 
-
 1.添加依赖
 
           compile 'com.scwang.smartrefresh:SmartRefreshLayout:1.0.1'
           compile 'com.scwang.smartrefresh:SmartRefreshHeader:1.0.1'
-
 
 2.布局文件
 
@@ -166,10 +166,8 @@ http://www.jianshu.com/p/7479b6ed5ebf
 最强大的下拉刷新框架_SmartRefreshLayout的基本使用
 http://blog.csdn.net/skylakexun/article/details/78115154
 
-
-
-
 安卓专栏
+=======
 http://www.okbase.net/home/android/file/
 
 Android动画进阶—使用开源动画库nineoldandroids
@@ -209,9 +207,7 @@ http://www.lcode.org/
 SwipeRefreshLayout详解和自定义上拉加载更多
 http://www.jianshu.com/p/d23b42b6360b
 
-
-
-
+##矢量图 & 动画##
 Android Loading动画分析设计
 http://www.jianshu.com/p/646b3b42c471
 https://github.com/dinuscxj/LoadingDrawable
@@ -221,6 +217,7 @@ http://blog.csdn.net/littlesmallless/article/details/70041810
 https://github.com/zyao89/ZLoading
 
 阿里巴巴矢量图库
+---------------
 http://www.iconfont.cn/collections?spm=a313x.7781069.0.0.fEW4eG&personal=1
 
 Android Vector曲折的兼容之路   
@@ -284,8 +281,12 @@ FLAG2只有两个值，确定从起点至终点的方向，1为顺时针，0为�
 X,Y为终点坐标。 
 M 20,50 A 30,30,0,1 0 80,50 这个就是画一个下半圆。 
 3.3 C指令 三次贝塞尔曲线。相关博客很多，不在追述
-网上找的一个开源的Vector的动画Demo库https://github.com/xuyisheng/VectorDemo
-----------------------------------------------
+
+网上找的一个开源的Vector的动画Demo库 https://github.com/xuyisheng/VectorDemo
+
+Rxjava2.x
+==========
+
 RxJava 2.x（2.1） 的文档
 http://reactivex.io/RxJava/2.x/javadoc/
 
@@ -356,8 +357,6 @@ https://github.com/nanchen2251/RxJava2Examples
 https://github.com/amitshekhariitbhu/RxJava2-Android-Samples
 
 
-
-
 JUnit教程
 http://www.yiibai.com/junit/
 JUnit是一个Java编程语言编写的单元测试框架
@@ -385,10 +384,8 @@ http://blog.csdn.net/a1018875550/article/details/52166916
 https://github.com/a1018875550/ViewInject/tree/master
 
 
-
 实战项目：Android6.0权限管理 工具，我用java重写别人的kotlin项目；地址： 
 https://github.com/a1018875550/PermissionDispatcher
-
 
 【新版】Android技术博客精华汇总
 http://www.apkbus.com/thread-313856-1-1.html
@@ -425,7 +422,6 @@ https://kymjs.com/code/2017/04/09/01/
 Kotlin Primer·第六章·集合泛型与操作符
 https://kymjs.com/code/2017/06/06/01/
 
-
 java 下载
 http://www.oracle.com/technetwork/java/javase/downloads/index.html
 
@@ -447,8 +443,6 @@ http://www.apkbus.com/blog-822717-68438.html
 Kotlin编程之Glide v4 Generated API
 http://www.apkbus.com/blog-847095-68125.html
 
-
-
 Android中的羊角符
 http://blog.csdn.net/haizishiwo/article/details/51045642
 
@@ -463,7 +457,6 @@ http://blog.csdn.net/Luoshengyang/article/details/8923485
 Android快速实现上传项目到Github（原来Android Studio的git已经这么好用了）
 http://www.jianshu.com/p/aa341d691658
 游戏头条 https://github.com/MarnoDev/GameNews
-
 
 Android产品研发系列
 http://blog.csdn.net/qq_23547831/article/details/51645787
@@ -530,7 +523,6 @@ https://github.com/yipianfengye/android-xmviewpager
 Github项目解析（十四）-->快速实现自定义地图聚合操作
 http://blog.csdn.net/qq_23547831/article/details/52063010
 
-
 android收益日历源码
 http://www.apkbus.com/thread-585738-1-1.html
 
@@ -566,7 +558,6 @@ http://lbsyun.baidu.com/index.php?title=android-locsdk
 http://wiki.lbsyun.baidu.com/cms/androidsdk/doc/v4_2_0/index.html
 http://wiki.lbsyun.baidu.com/cms/androidsdk/doc/v4_5_2/index.html
 http://developer.baidu.com/map/android_refer/index.html?overview-summary.html
-
 
 Android 百度定位获得当前具体位置
 http://www.2cto.com/kf/201501/373620.html
@@ -650,9 +641,6 @@ http://blog.csdn.net/shaoyezhangliwei/article/details/60959852
 http://blog.csdn.net/guoweish/article/details/47418953
 http://guoweish.github.io/raw-map-baidu.html
 
-
-
-
 --------------
 
 百度地图示例：网页版
@@ -727,9 +715,6 @@ http://blog.csdn.net/leonduhua/article/details/54604208
     app:subtitleTextColor="#fff" //标题颜色
     app:title="标题"
     app:titleTextColor="#fff"/> //子标题颜色
-
-
-
 
 Android开源项目-Easypermissions
 http://www.jianshu.com/p/2b3661928e66
@@ -844,7 +829,6 @@ http://hot.guanaitong.com/index.html
 
 我所理解的RxJava——上手其实很简单（一）
 http://www.jianshu.com/p/5e93c9101dc5
-
 
 
 ZLayer Android企业级应用开发框架(直播代码版)
@@ -1051,9 +1035,6 @@ https://github.com/AndroidHensen/GreenDaoDemo
 Android 4.0新增Space及GridLayout初谈
 http://tech.it168.com/a2011/1122/1277/000001277274.shtml
 
-
-
-
 git丢弃本地修改的所有文件（新增、删除、修改）
 http://blog.csdn.net/leedaning/article/details/51304690
 git checkout . #本地所有修改的。没有的提交的，都返回到原来的状态
@@ -1067,7 +1048,7 @@ git clean 参数
     -f 删除 文件
     -df 删除 文件 和 目录1
 
------------------------------------------------------------
+
 Android Studio 版本：3.0.0.18 发布日期：OCTOBER 25, 2017
 http://www.android-studio.org/
 
@@ -1136,13 +1117,11 @@ http://www.cnblogs.com/caoRM/p/3705615.html
 QuickContactBadge去掉三角
 https://yq.aliyun.com/articles/36017
 
-----------------------------------------------------
 
 Java String endsWith()方法
 此方法测试字符串是否以指定的后缀 suffix 结束
 
 
--------------------------------------------------------
 
 升级AS3.0随记 
 http://blog.csdn.net/iamzgx/article/details/72862509
@@ -1206,7 +1185,7 @@ github开源项目：https://github.com/google/guava/wiki/Release19
 Android Studio使用笔记（1）使用android studio时避免每次启动都进行网络gradle sync的方法
 http://blog.csdn.net/hwwlovejws/article/details/50888051
 
-----------------------------------------------------------------
+
 可视化的方式来编写界面
 
 Android新特性介绍，ConstraintLayout完全解析   
@@ -1218,8 +1197,6 @@ Android ConstraintLayout详解
 http://www.jianshu.com/p/a8b49ff64cd3
 
 
-
-----------------------------------------------------------------
 Butter Knife添加依赖 不生效 
 http://blog.csdn.net/zheng548/article/details/51722973
 
@@ -1329,7 +1306,6 @@ public class FancyFragment extends Fragment {
 
 
 
---------------------------------------------------
 android砸金蛋
 http://download.csdn.net/download/wt0731/5009525
 
@@ -1410,7 +1386,6 @@ public void startAlphaAnimation(){
         alphaAnimation.cancel();
    }
 
---------------------------------------------------
 Android 基于google Zxing实现二维码、条形码扫描，仿微信二维码扫描效果
 http://blog.csdn.net/xiaanming/article/details/10163203
 
@@ -1597,27 +1572,10 @@ values-v21/style.xml
 Android零基础入门第68节：完善RecyclerView，添加首尾视图 
 http://www.apkbus.com/blog-205190-72805.html
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Android开发路上那些小技巧与经验，一起聚沙成塔！
 http://www.apkbus.com/thread-463317-1-1.html
 
---------------------------
+
 
 添加了全局的application文件一定要记得AndroidManifest里面注册一下。
 
@@ -1648,14 +1606,14 @@ dependencies {
 }
 
 这样做的意思排除PressScanCode原有的依赖。而选择依赖我们自己设定的3.3.0的zxing库
---------------------------
+
 如何保持依赖最新的aar
 这个相当容易，代码如下。你只需要将appcompat-v7:25.1.1这个版本好替换成“+”号即可每次都依赖最新的版本。
 dependencies {
   // compile 'com.android.support:appcompat-v7:25.1.1'
     compile 'com.android.support:+'
 ｝
---------------------------
+
 fragment里getActivity()空指针
 重写fragment然后在onAttach方法存下一个Activity引用。在其他地方需用用到context或者Activity的时候使用该引用。而不使用getActivity()。可以规避这个问题。但请留意强引用可能会导致内存泄漏的问题。
 protected Activity mActivity;
@@ -1664,28 +1622,28 @@ public void onAttach(Activity activity) {
     super.onAttach(activity);
     this.mActivity = activity;
 }
---------------------------
+
 代码new 出来的VIew没有ID
 通常我们的VIew是通过布局文件依照@+id的方式在R文件中生成对映的一个Int值。这是用于运行时保证资源唯一性。但有一种情况，我们需要动态的在代码中new出一个VIew来。如果一个VIew还好。多个view的时，没有id会导致你不方便持有一个引用。那么可以 View的generateViewId() 方法来生成 id，让系统来保证唯一。而不是用随机数产生或者手写一个具体的值。注：API17++
 
---------------------------
+
 不传递的方式巧取context
 下面提供一种思路通过VIew直接获取context的api。特别是适配器中。别再传递这个对象了。注:从View上拿到的一定是Activity对象，但是如果你通过Service中或者Application中获取的Context是不能用做操作View的。本质区别就是抽象方法和对象是无法保证你要操作的具体对象是你要的对象(这句话没读懂的多读几遍，慢点读。说到底它就是依赖倒置原则问题)
 View.getContext()  //任何被创建的VIEW都持有了context对象
---------------------------
+
 不使用handle回到主线程（即UI线程）
 通常我们使用Activity.runOnUiThread在子线程完成逻辑后更新UI。否则系统不会同意你在子线程中更新UI的。还有一种场景可以用下面的api
 View.post(new Runnable() ) //同样可以切回UI线程执行。
 当然现在Rxjava和EventBus可以完美的解决此类问题。我更推荐Rxjava。
---------------------------
+
 防止VIew上信息被其他软件截屏或系统截图泄漏信息
 在某些特殊的场景下，你的app可能和用户隐私有关系。如果需求需要禁止截图行为和覆盖你当前的Acitivity行为，可以使用 如下API。
 getWindow().addFlags(WindowManager.LayoutParams.FLAG_SECURE)
---------------------------
+
 想想实现禁止应用截屏，只需要一行代码，如下：
 getWindow().addFlags(WindowManager.LayoutParams.FLAG_SECURE);
 放置setContentView后即可
---------------------------
+
 
 1.adapter里面的if判断,有if就一定要有else
 
@@ -1693,10 +1651,9 @@ getWindow().addFlags(WindowManager.LayoutParams.FLAG_SECURE);
 
 3.开发有比较复杂的业务逻辑时,先做设计再动手
 
---------------------------
+
 很多小白还在为寻找各种应用中的图片而四处寻找，其实只需要在相应文件夹右键[New] >[Image Asset]即可打开AndroidStudio自带的图标生成器。
 
---------------------------
 禁止输入特殊字符以及输入法表情，间接保护神一般后台。。。
 
     /**
@@ -1726,7 +1683,6 @@ getWindow().addFlags(WindowManager.LayoutParams.FLAG_SECURE);
 
 edtRemark.setFilters(new InputFilter[]{new UIHelper.EmojiExcludeFilter()});
 
---------------------------
 输入过滤器——InputFilter
 http://blog.csdn.net/wangyangzhizhou/article/details/44536553
 
@@ -1771,14 +1727,14 @@ public CharSequence filter(CharSequence src, int start, int end, Spanned dst, in
 } }); 
 
 由以上实例我们可以实现这样一个功能，让EditText控件无法输入任何内容，如何做呢？只需要将以上的“ATAAW.COM”替换成“”即可，每次输入都等于没输入任何内容。
---------------------------
+
 代码设置TextView的DrawableXXX系列
 
 
                     Drawable downIcon = getResources().getDrawable(R.drawable.bg_nearby_detail_photo);
                     downIcon.setBounds(0, 0, downIcon.getMinimumWidth(), downIcon.getMinimumHeight());
                     tvStoreTitle.setCompoundDrawables(null, null, downIcon, null);
---------------------------
+
 快捷键：
     ctrl + o                        重写父类方法
     Alt+Inset                    get和set快捷键
@@ -1787,20 +1743,20 @@ public CharSequence filter(CharSequence src, int start, int end, Spanned dst, in
     ctrl + alt + t                try catch快捷键
     Alt+Shift+↑                代码上衣一行
     Alt+Shift+↓                代码下移一行
---------------------------
+
 自动导包：
 1 Android studio 只有import单个包的快捷键：Alt+Enter。没有Eclipse下的快速导入包的快捷键Ctrl+Shift+O。
 2 但Android studio设置里有一项Auto Import自动导入功能。设置过程如下：
   Android studio --> File--> Settings --> Editor --> Auto Import:然后设置如下图。
 
   Add unambiguous imports on the fly：这个就是自动导入功能了，当你输入类名后，声明就被自动导入了
---------------------------
+
 ArrayList<String> newList=new ArrayList<>(new TreeSet(strList));
 
 去重 假设 strList里面有三个值 分别为：str1 str2 str1 
 
 我们通过上面的代码 newList等于 str1 str2
---------------------------
+
 git 操作：
 
 强制push：
@@ -1811,24 +1767,24 @@ git fetch --all
 git reset --hard origin/master 
 git pull
 
---------------------------
+
 
 Android Studio在线升级失败可以尝试用下面的方法离线升级。
 Android Studio下载及离线升级方法
 http://www.apkbus.com/blog-901770-72691.html
 
---------------------------
+
 Android自定义带百分比的水平和圆形进度条
 http://www.apkbus.com/blog-865196-75794.html
 代码已上传至 http://www.apkbus.com/thread-565022-1-1.html
---------------------------
+
 简单易用的星级控件
 http://www.apkbus.com/thread-268891-1-1.html
---------------------------
+
 android一个可以上拉下滑的Ui效果源码
 http://www.apkbus.com/thread-465680-1-1.html
 
---------------------------
+
 国内顶尖团队的开源地址
 http://www.apkbus.com/thread-463708-1-1.html
 1.阿里巴巴
@@ -1954,12 +1910,10 @@ https://github.com/netease
 主团队
 https://github.com/qiniu
 
---------------------------
 Android-SpinKit多个漂亮的加载效果
 http://itbbu.com/archives/325
 源码下载：https://github.com/ybq/Android-SpinKit
 
---------------------------
 让你的app提升一个档次－Android酷炫自定义控件
 http://blog.csdn.net/u011172283/article/details/52092076
 https://github.com/madongqiang2201/views
@@ -2187,15 +2141,14 @@ BezierDemo
 又一个模仿qq未读消息小红点拖动消失效果的控件。
 项目地址：https://github.com/chenupt/BezierDemo
 
---------------------------
 轻量级底部导航栏
 http://www.apkbus.com/thread-463190-1-1.html
 源码地址 https://github.com/chaychan/BottomBarLayout
 
---------------------------
+
 android企业级商城源码
 http://www.apkbus.com/thread-462905-1-1.html
---------------------------
+
 《Android 使用RecyclerView实现（仿微信）的联系人A-Z字母排序和过滤搜索功能》 
 http://blog.csdn.net/silenceoo/article/details/75661590
 一个快速跳跃分组的侧边栏控件，示例中配合RecyclerView实现
@@ -2205,13 +2158,15 @@ RecyclerView实现顶部悬浮、字母排序、过滤搜索最优雅的方式
 http://blog.csdn.net/silenceoo/article/details/77839683
 http://www.apkbus.com/thread-462455-1-1.html
 https://github.com/xupeng92/SortRecyclerviewList
+
 PinyinUtils
 将中文转化为拼音的工具类
 --------------------------
+
 一款优雅的干货集中营android客户端、实现沉浸式状态栏
 http://www.apkbus.com/thread-282666-1-1.html
 Github源码地址：https://github.com/dongjunkun/GanK 
---------------------------
+
 
 透明状态栏(StatusBar)的全适配
 http://blog.csdn.net/lisdye2/article/details/51331602
@@ -2221,7 +2176,7 @@ http://blog.csdn.net/lisdye2/article/details/51331602
 网上有很多关于透明状态栏实现的技术博客，以及我之前的博客透明状态栏（沉浸式状态栏）中，实现方式为通过设置android：windowTanslucentStatus和fitSystemWindows实现。
 
 但通过属性设置的方式在使用中会出现沉浸状态不一样的现象，在5.0及以上的系统中使用透明状态栏不是完全透明的，会在透明的基础上添加一层半透明的阴影，非常的不友好。于是解决在不同系统版本之间的适配是主要问题。
---------------------------
+
 Android实现状态栏(statusbar)渐变效果的示例
 http://www.jb51.net/article/124110.htm
 
@@ -2231,8 +2186,6 @@ http://www.jianshu.com/p/34a8b40b9308
 Android 沉浸式状态栏的实现方法、状态栏透明
 http://blog.csdn.net/fan7983377/article/details/51604657
 
-
-==================================================
 Android编辑信息界面，组合控件的封装
 http://www.jianshu.com/p/cde81809c24a
 https://github.com/zhouxu88/ItemGroup
@@ -2265,6 +2218,7 @@ https://segmentfault.com/t/android
 http://code.taobao.org/p/YuanWen/src/trunk/
 
 阿里云开源项目
+-------------
 http://code.taobao.org/project/explore/ 
 http://code.taobao.org/newest/
 
@@ -2308,9 +2262,10 @@ http://code.taobao.org/p/YuanWen/diff/66/trunk/app/src/main/java/com/smile/yuanw
 +                        + mDynamic.getImgBig() + "')\"");
 +    }
 +
-----------------------------------------------
+
 
 android 动态添加view
+--------------------------
 
 Android 在程序中动态添加 View 布局或控件
 http://blog.csdn.net/q610098308/article/details/49998457
@@ -2352,7 +2307,6 @@ View view = inflater.inflate(R.layout.block_gym_album_list_item, null);
 
 3.添加视图文件
 
-
 三、步骤
 1、通过在xml文件定义layout(block_gym_album_list_item.xml)
 
@@ -2377,7 +2331,6 @@ block_gym_album_list_item.xml
 
 
 main.xml
-
 
 <!--?xml version="1.0" encoding="utf-8"?-->
 <linearlayout xmlns:android="https://schemas.android.com/apk/res/android"
@@ -2504,6 +2457,7 @@ public class DynamicViewActivity extends Activity implements OnClickListener{
 }
 
 ANDROID 实现布局动态加载
+--------------------------
 http://www.cnblogs.com/Greenwood/archive/2011/03/02/1969340.html
 
 
@@ -2536,9 +2490,8 @@ Glide.with(context).load(imageUrl).centerCrop().into(imageView);
 Glide.with(context).load(imageUrl).fitCenter().into(imageView);
 
 
-
-=====================================================================
 MVP专题：
+--------------------------
 
 一套完整的Android通用框架
 http://mp.weixin.qq.com/s?__biz=MzI4MTQyNDg3Mg==&mid=2247483693&idx=1&sn=e2b39eecec435f6a135e52b60c17fb6d#rd
@@ -2691,8 +2644,9 @@ protected void onDestroy() {
     super.onDestroy();
 }
 
-=====================================================================
+
 RxJava RxAndroid RxBus Retrofit2 Dagger2
+-----------------------------------------
 
 聊聊对RxJava与Retrofit的封装
 http://www.jianshu.com/p/93f8c9ae8819
@@ -2776,7 +2730,7 @@ https://github.com/ReactiveX/RxAndroid
 
 
 Rxandroid
-
+----------
 RxAndroid使用方法介绍
 http://www.2cto.com/kf/201601/456019.html
 
@@ -2869,8 +2823,9 @@ Android Retrofit 2.0使用
 http://www.open-open.com/lib/view/open1465993338254.html
 Android Retrofit 2.0 使用-补充篇
 http://www.mobile-open.com/2016/965159.html
------------------------------------------------------------
+
 OkHttp3
+--------
 Android网络编程（六）OkHttp3用法全解析
 http://blog.csdn.net/itachi85/article/details/51190687
 
@@ -2889,7 +2844,6 @@ Android网络编程（九）Retrofit2前篇[基本使用] 		http://liuwangshu.cn
 Android网络编程（十）Retrofit2后篇[注解] 		http://liuwangshu.cn/application/network/10-retrofit2-annotations.html
 Android网络编程（十一）源码解析Retrofit			http://liuwangshu.cn/application/network/11-retrofit2-sourcecode.html
 
------------------------------------------------------------
 
 Android中Retrofit+OkHttp进行HTTP网络编程的使用指南
 http://www.jb51.net/article/88542.htm
@@ -2935,9 +2889,8 @@ http://www.jianshu.com/p/9d40b298eca9
 本博客原地址：http://www.jianshu.com/p/9d40b298eca9
 项目github地址：https://github.com/CameloeAnthony/AndroidMVPDemo
 
-=====================================================================
-
 Kotlin专题
+----------
 
 谷歌宣布 Kotlin 成安卓开发一级语言，我们如何来学习它
 https://juejin.im/entry/591cffb82f301e006bd9407a
@@ -2972,7 +2925,7 @@ https://github.com/JetBrains/kotlin
 Kotlin API https://kotlinlang.org/api/latest/jvm/stdlib/index.html
 Kotlin中文文档 https://www.gitbook.com/book/canglangwenyue/kotlin-/details
 
-=====================================================================
+
 lambda
 Java 8 Lambda表达式探险
 http://www.cnblogs.com/feichexia/archive/2012/11/15/Java8_LambdaExpression.html
@@ -2980,7 +2933,7 @@ http://www.cnblogs.com/feichexia/archive/2012/11/15/Java8_LambdaExpression.html
 在Android上使用Lambda表达式 - retrolambda插件
 http://blog.csdn.net/codezjx/article/details/51327164
 
-=====================================================================
+
 Material Design
 
 模仿网易云音乐UI来完成一个基于Material Design +Rxjava + Retrofit + dagger2 + MVP构架的项目
@@ -3016,8 +2969,6 @@ http://blog.csdn.net/u011051627/article/details/48177095
 
 如何使用Android Design中的TextInputLayout
 http://www.jianshu.com/p/35080eb5a28f
-
-=====================================================================
 
 
 Volley源码分析
@@ -3058,7 +3009,6 @@ Android windowSoftInputMode软键盘显示和隐藏的监听和实现
 http://blog.csdn.net/u010852801/article/details/43198313
 
 
-
 Android studio 之ANalyze 清理无用资源
 http://blog.csdn.net/qulonglong110/article/details/51911261
 
@@ -3088,8 +3038,6 @@ http://www.tutorialspoint.com/android/android_camera.htm
 Android文件图片上传的详细讲解（一）HTTP multipart/form-data 上传报文格式实现手机端上传
 http://topmanopensource.iteye.com/blog/1605238
 
----------------------------------------------------------
---------------------------------------------
 Android SnackBar
 http://blog.csdn.net/jdsjlzx/article/details/46892363
 还在用Toast？你Out啦，试试Snackbar吧！
@@ -3108,7 +3056,7 @@ android studio 无法在可视化页面预览布局文件
 <!-- Base application theme. -->
 <style name="AppTheme" parent="Base.Theme.AppCompat.Light.DarkActionBar">    
 <!-- Customize your theme here. --></style>
-----------------------------------------------------------
+
 Build.VERSION.SDK_INT
 http://aijiawang-126-com.iteye.com/blog/1481572
 
@@ -3131,7 +3079,6 @@ http://www.tuicool.com/articles/nMNVVj
 StringUtils工具类的常用方法
 http://www.tuicool.com/articles/am2u6fm
 
-----------------------------------------------
 chrome网上商店
 https://chrome.google.com/webstore/search/postman?hl=zh-CN
 
@@ -3139,8 +3086,8 @@ Postman
 http://chromecj.com/web-development/2014-09/60.html
 Postman是一款功能强大的网页调试与发送网页HTTP请求的Chrome插件。
 
------------------------------------------
 Android 热修复
+--------------
 Android热修复技术选型——三大流派解析
 http://www.chinaz.com/news/2016/0912/579753.shtml
 一、QQ空间超级补丁技术
@@ -3219,7 +3166,7 @@ Android自动滚动 轮播循环的ViewPager
 http://www.trinea.cn/android/auto-scroll-view-pager/
 项目已开源 https://github.com/Trinea/android-auto-scroll-view-pager
 示例代码地址 https://github.com/Trinea/android-demo/blob/master/src/cn/trinea/android/demo/AutoScrollViewPagerDemo.java
---------------------------------------------------------------
+
 android webview里设置cookie
 http://blog.csdn.net/encienqi/article/details/7912733
 
@@ -3266,7 +3213,7 @@ com.pccb.app.ui.webview.OpenWebActivity.class
 
 Android Webview清除缓存和Cookie
 http://blog.csdn.net/ronaldong99/article/details/40392847
---------------------------------------------------------------
+
 Android 动态切换全屏和非全屏模式
 http://blog.csdn.net/michaelpp/article/details/7302308
 	/**
@@ -3302,7 +3249,7 @@ http://www.jianshu.com/p/140be70b84cd?utm_source=tuicool&utm_medium=referral
 
 android状态栏一体化、沉浸式状态栏(兼容低版本)
 http://blog.csdn.net/jdsjlzx/article/details/50437779
---------------------------------------------------------------
+
 
 android图片缓存框架
 
@@ -3436,15 +3383,12 @@ http://blog.csdn.net/liu1164316159/article/details/38728259
 
 android universal-image-loader disk 缓存 存在本地什么位置
 https://zhidao.baidu.com/question/1306133363278940059.html
---------------------------------------------------------------
+
 Markdown Navigator
 IntelliJ IDEA Multi-MarkDown插件安装破J全过程
 http://www.jianshu.com/p/a0550f81cbd1
 简单理解就是用来写文章排版的，一般 github 上面的项目默认都有一个 readme.md 文件（以".md"结尾来描述项目的说明文档）。本文就是使用简书的 markdown 语法写的。
---------------------------------------------------------------
 
-
------------------------------------------------------
 原生Android结合H5混合开发小结
 http://blog.csdn.net/leaf_130/article/details/54099173
 
@@ -3454,7 +3398,7 @@ http://www.51xdn.net/czxt/Linux/20170109/43978.html
 Jade —— 源于 Node.js 的 HTML 模板引擎
 https://segmentfault.com/a/1190000000357534
 
---------------------------------------------------------------
+
 @NotEmpty、@NotBlank、@NotNull的区别
 http://blog.csdn.net/zz_life/article/details/51470909
 @NotNull和@NotEmpty和@NotBlank区别
@@ -3463,7 +3407,6 @@ http://blog.csdn.net/melenpeng/article/details/50236449
 Java中避免NullPointerException的一些方法
 https://segmentfault.com/a/1190000002477715
 
---------------------------------------------------------------
 
 涨姿势了，原来Android屏幕适配还可以这么玩
 http://www.tuicool.com/articles/3MziUj7
@@ -3648,7 +3591,6 @@ http://blog.csdn.net/harvic880925/article/details/40787203
 org.greenrobot.eventbus.EventBus
 https://github.com/greenrobot/EventBus
 
-----------------------------------------------------------
 Gradle:
 
 compile 'org.greenrobot:eventbus:3.0.0'
@@ -3678,15 +3620,14 @@ public void onStop() {
 Post events:
 
 EventBus.getDefault().post(new MessageEvent());
-----------------------------------------------------------
+
 Otto
+----
 Android 事件总线OTTO用法快速入门
 http://blog.csdn.net/zhangweiwtmdbf/article/details/49096615
 
 Android Otto框架浅析
 http://itindex.net/detail/50349-android-otto-框架
-
-----------------------------------------------------------
 
 Android版本检测更新 使用腾讯bugly自动更新
 http://www.apkbus.com/blog-705730-62592.html
@@ -3718,17 +3659,9 @@ Disable this notification.
 IntelliJ IDEA Multi-MarkDown插件安装破J全过程
 http://www.jianshu.com/p/a0550f81cbd1
 
-
-
------------------------------------------------------------
 React Native
 http://reactnative.cn/
 
--------------------------------------------------------
-
-
-
------------------------------------------------------------
 
 Android EventBus详解其使用
 http://www.apkbus.com/blog-705730-61398.html
@@ -3741,21 +3674,17 @@ Android Butter Knife 框架——最好用的View注入
 http://www.jianshu.com/p/9ad21e548b69
 
 
-----------
 Okhttp Logging Interceptor
 http://blog.csdn.net/u010278882/article/details/50724694
 compile 'com.squareup.okhttp3:logging-interceptor:3.1.2'
 该拦截器用于记录应用中的网络请求的信息
 
-
------------------------------------------------------------
 Android开发架构思考及经验总结
 http://blog.csdn.net/jf_1994/article/details/53870534
 
 
 另外除了 Google 列出的架构，还有 Facebook 推出的 Flux 架构也值得考虑。
 
----------------------------
 DrawerLayout
 android官方侧滑菜单DrawerLayout详解
 http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2014/0925/1713.html
@@ -3774,10 +3703,8 @@ Android vector标签 PathData 画图超详解
 http://blog.csdn.net/easyer2012/article/details/52618228
 
 
-
-=========================================================================
 SSL(Secure Sockets Layer 安全套接层), TLS(Transport Layer Security 安全传输层协议), HTTPS(Hyper Text Transfer Protocol over Secure Socket Layer 安全套接字层超文本传输协议)
--------------------------------------------------
+
 证书四种文件格式
 证书导入和导出操作支持四种文件格式。选择符合您特定需求的格式。
 
@@ -3793,7 +3720,7 @@ DER 编码的二进制 X.509
 
 Base64 编码的 X.509
 Base64 格式支持存储单个证书。该格式不支持存储私钥或证书路径。
---------------------------------------------------------------
+
 OkHttp关于https请求的设置
 http://blog.csdn.net/u012045061/article/details/50218393
 
@@ -4008,7 +3935,7 @@ public class HttpService {
 
 }
 
-=============================================================================
+
 
 xUtils 中的HttpUtils全面注释
 http://yangguangfu.iteye.com/blog/2213020/
@@ -4022,7 +3949,6 @@ https://zhidao.baidu.com/question/1704643335759759060.html
 浅谈https\ssl\数字证书
 http://www.cnblogs.com/P_Chou/archive/2010/12/27/https-ssl-certification.html
 
----------------------
 为你的Android App实现自签名的 SSL 证书
 http://www.open-open.com/lib/view/open1413071600531.html
 自签名证书跟花钱购买机构颁发的证书有什么区别
@@ -4058,7 +3984,6 @@ InputStream in = urlConnection.getInputStream();
 
 如果你使用上述的代代码去验证你的自己签署的证书，由于在android操作系统中自己签署的不能通过验证的，所以安卓应用软件将会抛出错误。因此你需要书写你自己的代码来检查你的自己签署的证书。
 
------------------------
 使用 xutils中的 HttpUtils 发送https请求 设置证书
 
 import org.apache.http.conn.ssl.SSLSocketFactory; 
@@ -4218,7 +4143,7 @@ private void getJson() {
 	});
 }
 
---------------------
+
 使用 xutils中的 HttpUtils 发送https请求 设置不了证书的问题
 import org.apache.http.conn.ssl.SSLSocketFactory; （import javax.net.ssl.SSLSocketFactory;）
 
@@ -4228,15 +4153,11 @@ SSLSocketFactory socketFactory = new SSLSocketFactory(keyStore,pemPassword,trust
 keyStore是从.p12文件来的   
 trustStore是从.pem文件来的   
 
------------------------------------------------------------
 聊聊HTTPS与Android安全
 http://blog.csdn.net/yzzst/article/details/46693685
 
 xUtils3.x的网络请求封装和请求https之单向SSL验证
 http://blog.csdn.net/dlx2chengyt/article/details/53081329
-
------------------------------------------------------------
-
 
 
 React Native 基于 JavaScript 的开源框架 React Native
@@ -4408,11 +4329,11 @@ http://www.cnblogs.com/rayray/p/3410204.html
 码云平台帮助文档 V1.2
 http://git.mydoc.io/
 http://git.oschina.net/
-----------------------------------------------------------
+
 注解框架的偷懒插件Android Butterknife Zelezny使用
 在build.gradle中已经加入：compile 'com.jakewharton:butterknife:8.2.1'
 Android Studio-> Files---> Sttrings ----> (preferences ->) plugins -> 搜索Android Butterknife Zelezny 安装
-----------------------------------------------------------
+
 一键上传应用到fir.im
 FIR_Plugin_Android
 https://github.com/FIRHQ/FIR_Plugin_Android
@@ -4489,9 +4410,6 @@ http://blog.csdn.net/litian921226/article/details/51187467
 http://www.apkbus.com/thread-85971-1-1.html
 有下载
 
-
-------------------------------------------
-
 Android中获取系统通讯录联系人并显示在EditText
 http://www.cnblogs.com/yejiurui/archive/2013/01/02/2842061.html
 
@@ -4506,7 +4424,6 @@ http://hukai.me/android-training-course-in-chinese/index.html
 
 Android Api中文版
 http://www.embeddedlinux.org.cn/androidapi/
-
 
 
 Android：控件GridView的使用
@@ -4556,7 +4473,7 @@ b1c8_1_mwpl_05500201.jpeg",/*图片3*/
                 "realtype": "娱乐"/*类型二*/
             },
 ...]}}
-----------------------
+
 
 
 ListView 自定义头部、自定义加载尾部、上拉主动加载
@@ -4671,6 +4588,7 @@ dependencies {
 -----------------------------------------------
 
 三种方式实现沉浸状态栏
+---------------------
 http://www.apkbus.com/forum.php?mod=viewthread&tid=268595
 https://github.com/wuyinlei/ImmersiveStatusBar
 第一种方式
@@ -4683,8 +4601,10 @@ https://github.com/wuyinlei/ImmersiveStatusBar
         }
 activity和布局文件
 FirstActivity.java:
-/**[/font]     * 沉浸式状态栏
-     */
+
+/**
+* 沉浸式状态栏
+*/
     private void initState() {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
             //透明状态栏
@@ -4693,9 +4613,11 @@ FirstActivity.java:
             getWindow().addFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_NAVIGATION);
         }
     }
+    
 第二种方式
 实现思路，添加隐藏布局，然后我们动态的计算状态栏的高度，然后把这个高度设置成这个隐藏的布局的高度，便可以实现
 在这里我们通过反射来获取状态栏的高度
+
 /**
      * 通过反射的方式获取状态栏高度
      *
@@ -4739,8 +4661,6 @@ Android 系统状态栏沉浸式/透明化完整解决方案
 http://www.jianshu.com/p/34a8b40b9308
 https://github.com/ljgsonx/adaptiveStatusBar
 
-----------------------------------------------------------
-
 我的Android笔记（八）—— 使用Jsoup解析Html
 http://blog.csdn.net/barryhappy/article/details/7366654
 
@@ -4770,7 +4690,7 @@ JVM:          1.8.0_101 (Oracle Corporation 25.101-b13)
 OS:           Windows 7 6.1 amd64
 
 C:\Users\Administrator>
-------------------------------------------------------------------
+
 Android收藏夹：
 Android开发者的收藏夹
 https://github.com/ruijun/Android-Dev-Favorites
@@ -4810,7 +4730,6 @@ https://github.com/kenumir/android-calendar-card
 开源日历控件Caldroid的使用
 http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2014/0314/1592.html
 https://github.com/roomorama/Caldroid
-
 
 
 Android之Sensor 简介
@@ -4962,8 +4881,6 @@ android {
     useLibrary 'org.apache.http.legacy'
 }
 
-Markdown
-https://www.zybuluo.com/mdeditor
 
 Android (Java) 编码惯例及最佳实践
 http://www.apkbus.com/blog-705730-61363.html
@@ -5026,7 +4943,6 @@ http://www.bubuko.com/infodetail-1000864.html
 
 命令进入keystore文件所在的目录 运行 keytool -list  -v -keystore xxxx.keystore -storepass xxxxxxxxxx（密码） 　签名的信息就有了
 这样就可以顺利的打包了！
----------------------------------------------------
 
 eclipse 迁移 Android Studio 证书问题
 
@@ -5036,8 +4952,6 @@ keytool -list -v -keystore 签名证书的路径
 1
 Eclipse 生成的签名证书是.keystore结尾的，Android Studio 生成的签名证书是.jks结尾的，这一点要注意哦
 
-
------------------------------------------------------------------------
 
 极光中日文推送标签（tag）名称定义：
 rxt_registered_user_group_cn, 
@@ -5135,7 +5049,7 @@ https://github.com/ryanhoo/PhotoCropper
 
 -------------------------------------------------------------
 android 角标
-
+------------
 android中角标的实现
 http://my.oschina.net/droidwolf/blog/285411?fromerr=Q7Qi0hAm
 
@@ -5151,13 +5065,12 @@ http://www.eoeandroid.com/forum.php?mod=misc&action=attachcredit&aid=132865&form
 Android仿Iphone通知角标的实现(一)
 http://www.2cto.com/kf/201308/238403.html
 
-==================================================
 圆角矩形进度条，包含带图标和不带图标两种形式
 Android-RoundCornerProgressBar
-==================================================
-=====================================================================
-动态权限
 
+
+动态权限
+--------
 Android6.0动态获取权限
 
 在Android 6.0 设备上动态获取权限
@@ -5427,12 +5340,9 @@ public class ContactActivity extends Activity {
 	}
 }
 
-=====================================================================
-
-=====================================================================
 
 抓包专题
-
+--------
 抓包工具Fidder详解(主要来抓取Android中app的请求)
 http://blog.csdn.net/jiangwei0910410003/article/details/19806999
 
@@ -5457,10 +5367,9 @@ https://github.com/JZ-Darkal/AndroidHttpCapture
 抓包工具Fidder详解(主要来抓取Android中app的请求)
 https://my.oschina.net/u/587105/blog/322952
 
-=====================================================================
-
 
 dp与pix:
+---------
 xxxhdpi:	1280x2560  1dp=4pix     48dp=192px
 xxhdpi:	1080x1920  1dp=3pix     48dp=144px
 xhdpi:	720x1280   1dp=2pix	48dp=96px
