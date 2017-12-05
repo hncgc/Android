@@ -1,5 +1,9 @@
 ##pccbAndroidApp ##
 
+Git教程
+-------
+http://www.yiibai.com/git
+
 Markdown
 ========
 https://www.zybuluo.com/mdeditor
@@ -53,8 +57,8 @@ GitHub 查看地址
 https://github.com/HLQ-Struggle/AndroidImmersion
 
 
-##lib,常用工作空间##
-
+lib,常用工作空间
+----------------
 https://github.com/yline/as_lib_sdk
 https://github.com/yline/as_lib_sdk/tree/master/_LibSDK/LibSDK/src/main/java/com/yline/utils
 https://github.com/yline/as_lib_sdk.git
@@ -297,7 +301,6 @@ http://www.jianshu.com/p/785d9dfb0a5b
 
 如果你对RxJava1.x还不是了解，可以参考下面文章。
 
-
 1. RxJava使用介绍 【视频教程】
 http://blog.csdn.net/jdsjlzx/article/details/51485778
 2. RxJava操作符
@@ -332,6 +335,7 @@ compile 'com.squareup.retrofit2:retrofit:2.1.0'
 compile 'com.jakewharton.retrofit:retrofit2-rxjava2-adapter:1.0.0'
 
 Android 免费学习
+----------------
 http://sem.shiguangkey.com/shiguang/it/android/pc/
 
 这可能是最好的RxJava 2.x 教程（完结版）
@@ -358,6 +362,7 @@ https://github.com/amitshekhariitbhu/RxJava2-Android-Samples
 
 
 JUnit教程
+---------
 http://www.yiibai.com/junit/
 JUnit是一个Java编程语言编写的单元测试框架
 集成测试应该使用TestNG来代替
@@ -390,7 +395,32 @@ https://github.com/a1018875550/PermissionDispatcher
 【新版】Android技术博客精华汇总
 http://www.apkbus.com/thread-313856-1-1.html
 
+
+java 下载
+---------
+http://www.oracle.com/technetwork/java/javase/downloads/index.html
+
+Download IntelliJ IDEA
+https://www.jetbrains.com/idea/download/?fromIDE=#section=windows
+
+Kotlin学习资料汇总
+-----------------
+http://www.apkbus.com/blog-261991-68033.html
+使用Kotlin来开发Android【安卓巴士博文大赛】
+http://www.apkbus.com/blog-780485-68062.html
+Kotlin如何实现MVP架构
+http://www.apkbus.com/blog-847095-68637.html
+使用Kotlin封装RecycleView和重构
+http://www.apkbus.com/blog-822415-68616.html
+使用Kotlin开发Android项目-Kibo【安卓巴士博文大赛】
+http://www.apkbus.com/blog-780485-68292.html
+让你的 Kotlin 代码远离 !!
+http://www.apkbus.com/blog-822717-68438.html
+Kotlin编程之Glide v4 Generated API
+http://www.apkbus.com/blog-847095-68125.html
+
 Kotlin学习资料
+-------------
 http://www.apkbus.com/blog-261991-68033.html
 
 Kotlin语言文档翻译项目
@@ -422,28 +452,8 @@ https://kymjs.com/code/2017/04/09/01/
 Kotlin Primer·第六章·集合泛型与操作符
 https://kymjs.com/code/2017/06/06/01/
 
-java 下载
-http://www.oracle.com/technetwork/java/javase/downloads/index.html
-
-Download IntelliJ IDEA
-https://www.jetbrains.com/idea/download/?fromIDE=#section=windows
-
-Kotlin学习资料汇总
-http://www.apkbus.com/blog-261991-68033.html
-使用Kotlin来开发Android【安卓巴士博文大赛】
-http://www.apkbus.com/blog-780485-68062.html
-Kotlin如何实现MVP架构
-http://www.apkbus.com/blog-847095-68637.html
-使用Kotlin封装RecycleView和重构
-http://www.apkbus.com/blog-822415-68616.html
-使用Kotlin开发Android项目-Kibo【安卓巴士博文大赛】
-http://www.apkbus.com/blog-780485-68292.html
-让你的 Kotlin 代码远离 !!
-http://www.apkbus.com/blog-822717-68438.html
-Kotlin编程之Glide v4 Generated API
-http://www.apkbus.com/blog-847095-68125.html
-
 Android中的羊角符
+----------------
 http://blog.csdn.net/haizishiwo/article/details/51045642
 
 那两年炼就的Android内功修养 老罗
@@ -527,6 +537,7 @@ android收益日历源码
 http://www.apkbus.com/thread-585738-1-1.html
 
 Android框架+常用控件汇总-侧滑、上下拉加载、tab、各种ui
+---------------------------------------------------
 http://www.apkbus.com/thread-585366-1-1.html
 国人写的Android开发框架 AndBase
 http://blog.csdn.net/oguohui12/article/details/48895407
@@ -549,6 +560,7 @@ http://www.jianshu.com/p/ec6234c22722
 
 -------------------------------------------------------------------------------
 百度地图
+========
 
 百度地图文档
 http://lbsyun.baidu.com/index.php?title=androidsdk
@@ -604,7 +616,6 @@ http://blog.csdn.net/rongwenbin/article/details/47395563
 百度地图SDK 踩坑之旅------百度定位OnReceiveLocation没回调，什么都没有。
 http://blog.csdn.net/caidi1988314/article/details/73136622
 
------------------------
 点标记
 添加Marker
 点聚合功能 baidumapsdk.demo.map.MarkerClusterDemo
@@ -640,8 +651,6 @@ http://blog.csdn.net/shaoyezhangliwei/article/details/60959852
 百度地图API开发：大量坐标点进行分组聚合
 http://blog.csdn.net/guoweish/article/details/47418953
 http://guoweish.github.io/raw-map-baidu.html
-
---------------
 
 百度地图示例：网页版
 http://developer.baidu.com/map/jsdemo.htm#a1_2
@@ -687,8 +696,9 @@ http://blog.csdn.net/panyingdao/article/details/52200100
             mMapView.removeViewAt(1);
 
 
--------------------------------------------------------------------------------
+
 Java 8 Lambda表达式探险
+-----------------------
 https://www.cnblogs.com/feichexia/archive/2012/11/15/Java8_LambdaExpression.html
 
 Android中Activity与AppCompatActivity的理解
@@ -752,6 +762,7 @@ http://blog.csdn.net/axuanqq/article/details/50687490
 http://blog.csdn.net/qczg_wxg/article/details/53131146
 
 RxJava2 实战系列文章
+--------------------
 
 RxJava2 实战知识梳理(1) - 后台执行耗时操作，实时通知 UI 更新
 http://www.jianshu.com/p/c935d0860186
@@ -800,7 +811,8 @@ https://github.com/alibaba/vlayout
 Android Tangram模型：连淘宝、天猫都在用的UI框架模型你一定要懂
 http://www.jianshu.com/p/b339c2d2d500
 
-
+Glide
+------
 Glide之GlideModule
 http://blog.csdn.net/shangmingchao/article/details/51026742
 
@@ -843,30 +855,28 @@ http://xybcoder.github.io/ANDROID/
 项目地址：https://github.com/daimajia/NumberProgressBar
 
 GridPasswordView
-
+----------------
 模仿支付宝输入密码框
 项目地址：https://github.com/Jungerr/GridPasswordView
 
 DateTimePicker
-
+--------------
 日期选择部件(Google Agenda 的样式风格)
 项目地址：https://github.com/flavienlaurent/datetimepicker
 
 PickerView
-
+------------
 仿 iOS 的 PickerView 控件，有时间选择和选项选择并支持一二三级联动效果，TimePopupWindow 时间选择器，支持年月日时分，年月日，时分等格式；OptionsPopupWindow 选项选择器，支持一，二，三级选项选择，并且可以设置是否联动
 项目地址：https://github.com/saiwu-bigkoo/Android-PickerView
 
 Android 的图案密码解锁
+---------------------
 项目地址：https://code.google.com/p/android-lockpattern/
 Demo 地址：https://play.google.com/store/apps/details?id=group.pals.android.lib.ui.lockpattern.demo
 文档介绍：https://code.google.com/p/android-lockpattern/wiki/QuickUse
 
 高仿淘宝，网易新闻，微信，应用宝，环聊等等热门App的通知视图，并且完通知工具类的封装，提供多达8种最常见的App通知接口,支持Android 5.0悬浮式通知样式
 项目地址:https://github.com/wenmingvs/NotifyUtil
-
-Git教程
-http://www.yiibai.com/git
 
 
 RxJava/RxAndroid 使用实例实践
@@ -935,6 +945,7 @@ http://www.cnblogs.com/ganchuanpu/p/6920000.html
 
 
 GreenDao3.0简单使用
+--------------------
 http://www.jianshu.com/p/4986100eff90
 http://greenrobot.org/greendao/
 https://github.com/anye0803/GreenDao/
@@ -1053,6 +1064,7 @@ Android Studio 版本：3.0.0.18 发布日期：OCTOBER 25, 2017
 http://www.android-studio.org/
 
 Gradle 教程
+-----------
 http://ask.android-studio.org/?/topic/Gradle%E6%95%99%E7%A8%8B
 
 【Gradle教程】第一章：引言
@@ -1098,7 +1110,7 @@ VPN、5VPN、Snap VPN、极速安全VPN、蝙蝠VPN、绿豆VPN、VPN333、快�
 防火长城
 
 科学上网软件
-
+------------
 7种形式的Android Dialog使用举例
 https://www.oschina.net/question/54100_32486
 
@@ -1124,6 +1136,7 @@ Java String endsWith()方法
 
 
 升级AS3.0随记 
+-------------
 http://blog.csdn.net/iamzgx/article/details/72862509
 
 迁移到Android Studio 3.0
@@ -1227,8 +1240,9 @@ class ExampleActivity extends Activity {
   }
 }
 
-资源绑定
 
+资源绑定
+--------
 绑定资源到类成员上可以使用@BindBool、@BindColor、@BindDimen、@BindDrawable、@BindInt、@BindString。使用时对应的注解需要传入对应的id资源，例如@BindString你需要传入R.string.id_string的字符串的资源id。
 
 例如在Fragment中：
@@ -1386,6 +1400,8 @@ public void startAlphaAnimation(){
         alphaAnimation.cancel();
    }
 
+二维码
+------
 Android 基于google Zxing实现二维码、条形码扫描，仿微信二维码扫描效果
 http://blog.csdn.net/xiaanming/article/details/10163203
 
