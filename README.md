@@ -42,20 +42,20 @@ http://www.apkbus.com/blog-865069-76595.html
 FlycoTabLayout    UI(多种多样指示器效果)
 https://github.com/H07000223/FlycoTabLayout
 
-1、《Fragment详解之一——概述》
-http://blog.csdn.net/harvic880925/article/details/44917955
-2、《Fragment详解之二——基本使用方法》
-http://blog.csdn.net/harvic880925/article/details/44927363
-3、《Fragment详解之三——管理Fragment（1）》
-http://blog.csdn.net/harvic880925/article/details/44927375
-4、《Fragment详解之四——管理Fragment（2）》
-http://blog.csdn.net/harvic880925/article/details/44948027
-5、《Fragment详解之五——Fragment间参数传递》
-http://blog.csdn.net/harvic880925/article/details/44966913
-Fragment跳转时传递参数及结果回传的方法
-http://blog.csdn.net/harvic880925/article/details/44131865
-6、《Fragment详解之六——如何监听fragment中的回退事件与怎样保存fragment状态》
-http://blog.csdn.net/harvic880925/article/details/45013501
+1、《Fragment详解之一——概述》  
+http://blog.csdn.net/harvic880925/article/details/44917955  
+2、《Fragment详解之二——基本使用方法》  
+http://blog.csdn.net/harvic880925/article/details/44927363  
+3、《Fragment详解之三——管理Fragment（1）》  
+http://blog.csdn.net/harvic880925/article/details/44927375  
+4、《Fragment详解之四——管理Fragment（2）》  
+http://blog.csdn.net/harvic880925/article/details/44948027  
+5、《Fragment详解之五——Fragment间参数传递》  
+http://blog.csdn.net/harvic880925/article/details/44966913  
+Fragment跳转时传递参数及结果回传的方法  
+http://blog.csdn.net/harvic880925/article/details/44131865  
+6、《Fragment详解之六——如何监听fragment中的回退事件与怎样保存fragment状态》  
+http://blog.csdn.net/harvic880925/article/details/45013501  
 
 Code Review 
 ============
