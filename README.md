@@ -1,8 +1,36 @@
 ## pccbAndroidApp ##
 
+Android 免费学习
+----------------
+http://sem.shiguangkey.com/shiguang/it/android/pc/
+
+java 下载
+---------
+http://www.oracle.com/technetwork/java/javase/downloads/index.html
+
+Download IntelliJ IDEA
+https://www.jetbrains.com/idea/download/?fromIDE=#section=windows
+
+Android Studio 版本：3.0.0.18 发布日期：OCTOBER 25, 2017
+http://www.android-studio.org/
+
+博客精华
+-------
+【新版】Android技术博客精华汇总
+http://www.apkbus.com/thread-313856-1-1.html
+
+
 Git教程
 -------
 http://www.yiibai.com/git
+
+Android快速实现上传项目到Github（原来Android Studio的git已经这么好用了）
+http://www.jianshu.com/p/aa341d691658
+游戏头条 https://github.com/MarnoDev/GameNews
+
+
+在Android Studio 中使用Git 教程
+http://www.apkbus.com/blog-866962-75821.html
 
 Markdown
 ========
@@ -291,6 +319,28 @@ M 20,50 A 30,30,0,1 0 80,50 这个就是画一个下半圆。
 Rxjava2.x
 ==========
 
+这可能是最好的RxJava 2.x 教程（完结版）
+http://www.jianshu.com/p/0cd258eecf60
+
+文章链接：
+
+这可能是最好的RxJava 2.x 入门教程（一）
+
+这可能是最好的RxJava 2.x 入门教程（二）
+
+这可能是最好的RxJava 2.x 入门教程（三）
+
+这可能是最好的RxJava 2.x 入门教程（四）
+
+这可能是最好的RxJava 2.x 入门教程（五）
+
+GitHub 代码同步更新：https://github.com/nanchen2251/RxJava2Examples
+https://github.com/nanchen2251/RxJava2Examples
+
+该例子借鉴了以下项目：
+
+https://github.com/amitshekhariitbhu/RxJava2-Android-Samples
+
 RxJava 2.x（2.1） 的文档
 http://reactivex.io/RxJava/2.x/javadoc/
 
@@ -334,32 +384,6 @@ compile 'com.squareup.okio:okio:1.10.0'
 compile 'com.squareup.retrofit2:retrofit:2.1.0'
 compile 'com.jakewharton.retrofit:retrofit2-rxjava2-adapter:1.0.0'
 
-Android 免费学习
-----------------
-http://sem.shiguangkey.com/shiguang/it/android/pc/
-
-这可能是最好的RxJava 2.x 教程（完结版）
-http://www.jianshu.com/p/0cd258eecf60
-
-文章链接：
-
-这可能是最好的RxJava 2.x 入门教程（一）
-
-这可能是最好的RxJava 2.x 入门教程（二）
-
-这可能是最好的RxJava 2.x 入门教程（三）
-
-这可能是最好的RxJava 2.x 入门教程（四）
-
-这可能是最好的RxJava 2.x 入门教程（五）
-
-GitHub 代码同步更新：https://github.com/nanchen2251/RxJava2Examples
-https://github.com/nanchen2251/RxJava2Examples
-
-该例子借鉴了以下项目：
-
-https://github.com/amitshekhariitbhu/RxJava2-Android-Samples
-
 
 JUnit教程
 ---------
@@ -387,21 +411,6 @@ APT可以把注解，在编译时生成代码。
 Android注解-编译时生成代码 (APT)
 http://blog.csdn.net/a1018875550/article/details/52166916
 https://github.com/a1018875550/ViewInject/tree/master
-
-
-实战项目：Android6.0权限管理 工具，我用java重写别人的kotlin项目；地址： 
-https://github.com/a1018875550/PermissionDispatcher
-
-【新版】Android技术博客精华汇总
-http://www.apkbus.com/thread-313856-1-1.html
-
-
-java 下载
----------
-http://www.oracle.com/technetwork/java/javase/downloads/index.html
-
-Download IntelliJ IDEA
-https://www.jetbrains.com/idea/download/?fromIDE=#section=windows
 
 Kotlin学习资料汇总
 -----------------
@@ -452,21 +461,14 @@ https://kymjs.com/code/2017/04/09/01/
 Kotlin Primer·第六章·集合泛型与操作符
 https://kymjs.com/code/2017/06/06/01/
 
-Android中的羊角符
-----------------
-http://blog.csdn.net/haizishiwo/article/details/51045642
-
+老罗
+------------------
 那两年炼就的Android内功修养 老罗
 http://blog.csdn.net/Luoshengyang/article/details/8923485
         对于Android应用开发，力推官方文档：
         http://developer.android.com/training/index.html
         http://developer.android.com/guide/components/index.html
         http://developer.android.com/tools/index.html
-
-
-Android快速实现上传项目到Github（原来Android Studio的git已经这么好用了）
-http://www.jianshu.com/p/aa341d691658
-游戏头条 https://github.com/MarnoDev/GameNews
 
 Android产品研发系列
 http://blog.csdn.net/qq_23547831/article/details/51645787
@@ -533,8 +535,6 @@ https://github.com/yipianfengye/android-xmviewpager
 Github项目解析（十四）-->快速实现自定义地图聚合操作
 http://blog.csdn.net/qq_23547831/article/details/52063010
 
-android收益日历源码
-http://www.apkbus.com/thread-585738-1-1.html
 
 Android框架+常用控件汇总-侧滑、上下拉加载、tab、各种ui
 ---------------------------------------------------
@@ -704,6 +704,8 @@ https://www.cnblogs.com/feichexia/archive/2012/11/15/Java8_LambdaExpression.html
 Android中Activity与AppCompatActivity的理解
 http://blog.csdn.net/wsdssss/article/details/51276379
 
+Toolbar
+-------
 Android中Toolbar的使用
 http://blog.csdn.net/wsdssss/article/details/51276715
 android.support.v7.widget.Toolbar
@@ -726,19 +728,15 @@ http://blog.csdn.net/leonduhua/article/details/54604208
     app:title="标题"
     app:titleTextColor="#fff"/> //子标题颜色
 
-Android开源项目-Easypermissions
-http://www.jianshu.com/p/2b3661928e66
-官方文档：https://github.com/googlesamples/easypermissions
-
 Android开发之脚本替换PackageName
 http://www.jianshu.com/p/dca9c323c686
 
 关于Android SDK里的compileSdk、minSdk、targetSdk、buildTools、Tools、Platform-tools
 http://www.jianshu.com/p/544d9f72883d
 
-TopRightMenu
-https://github.com/zaaach/TopRightMenu
 
+选择城市
+--------
 Android 类似美团的选择城市界面
 http://blog.csdn.net/bruce_qiwei/article/details/73656964
 新方案地址
@@ -797,6 +795,10 @@ RxJava2 实战知识梳理(14) - 在 token 过期时，刷新过期 token 并重
 
 RxJava2 实战知识梳理(15) - 实现一个简单的 MVP + RxJava + Retrofit 应用
 
+RxJava
+------
+我所理解的RxJava——上手其实很简单（一）
+http://www.jianshu.com/p/5e93c9101dc5
 
 我所理解的RxJava——上手其实很简单（一）
 http://www.jianshu.com/p/5e93c9101dc5
@@ -810,6 +812,10 @@ https://github.com/alibaba/vlayout
 
 Android Tangram模型：连淘宝、天猫都在用的UI框架模型你一定要懂
 http://www.jianshu.com/p/b339c2d2d500
+
+
+RxJava/RxAndroid 使用实例实践
+http://www.jianshu.com/p/031745744bfa
 
 Glide
 ------
@@ -837,11 +843,6 @@ Glide 知识梳理(5) - 自定义GlideModule
 http://www.jianshu.com/p/156b8b742155
 
 http://hot.guanaitong.com/index.html
-
-
-我所理解的RxJava——上手其实很简单（一）
-http://www.jianshu.com/p/5e93c9101dc5
-
 
 ZLayer Android企业级应用开发框架(直播代码版)
 http://www.eoeandroid.com/thread-923392-1-1.html?_dsign=214604da
@@ -879,9 +880,6 @@ Demo 地址：https://play.google.com/store/apps/details?id=group.pals.android.l
 项目地址:https://github.com/wenmingvs/NotifyUtil
 
 
-RxJava/RxAndroid 使用实例实践
-http://www.jianshu.com/p/031745744bfa
-
 Android UI 大全 里面包含所以特效大全的项目，都是每个特效一个项目的结构
 https://gitee.com/bob4j/Android-UI
 
@@ -900,6 +898,9 @@ http://www.sohu.com/a/201764376_608959
 
 MRichEditor
 这是一个丰富的文本编辑器（基于summernote）
+
+底部菜单 & 部导航栏
+------------------
 
 底部菜单 FragmentTabHost 的使用
 http://www.cnblogs.com/changyinlu/p/5511932.html
@@ -942,6 +943,9 @@ app:itemTextColor:设置文字的颜色，对应setIteTextColor(ColorStateList t
 
 BottomNavigationView结合ViewPager
 http://www.cnblogs.com/ganchuanpu/p/6920000.html
+
+TopRightMenu
+https://github.com/zaaach/TopRightMenu
 
 
 GreenDao3.0简单使用
@@ -1036,9 +1040,6 @@ http://blog.csdn.net/io_field/article/details/52214099
 Gradle各版本下载地址：
 https://pan.baidu.com/s/1pLEkm4F?errno=0&errmsg=Auth%20Login%20Sucess&&bduss=&ssnerror=0#list/path=%2FAndroid%2FDeveloper%20Tools%2FGradle&parentPath=%2FAndroid%2FDeveloper%20Tools
 
-android studio 更新 Gradle
-http://www.orzapp.com/?p=269
-
 Android 笔记：GreenDao3.2的使用，爱不释手
 http://blog.csdn.net/qq_30379689/article/details/54410838
 https://github.com/AndroidHensen/GreenDaoDemo
@@ -1060,8 +1061,6 @@ git clean 参数
     -df 删除 文件 和 目录1
 
 
-Android Studio 版本：3.0.0.18 发布日期：OCTOBER 25, 2017
-http://www.android-studio.org/
 
 Gradle 教程
 -----------
@@ -1193,6 +1192,10 @@ http://maven.outofmemory.cn/com.google.guava/guava/19.0/
 https://stackexchange.com/
 
 
+android studio 更新 Gradle
+http://www.orzapp.com/?p=269
+
+
 github开源项目：https://github.com/google/guava/wiki/Release19
 
 Android Studio使用笔记（1）使用android studio时避免每次启动都进行网络gradle sync的方法
@@ -1321,9 +1324,11 @@ public class FancyFragment extends Fragment {
 
 
 android砸金蛋
+------------
 http://download.csdn.net/download/wt0731/5009525
 
-
+Android 动画
+-----------
 Android 动画之AlphaAnimation应用详解
 http://www.jb51.net/article/32337.htm
 android中提供了4中动画： 
@@ -1491,8 +1496,6 @@ exclude group:'io.card'表明不允许直接用卡支付，如果不添加这一
 http://blog.csdn.net/a53657561/article/details/64982411
 
 
-在Android Studio 中使用Git 教程
-http://www.apkbus.com/blog-866962-75821.html
 
 包含所有Android library的数据库
 https://android-arsenal.com/
@@ -1599,7 +1602,7 @@ http://www.apkbus.com/thread-463317-1-1.html
 
 插件GsonFormat快速实现JavaBean
 http://blog.csdn.net/dakaring/article/details/46300963
---------------------------
+
 全屏可以在配置文件里修改
 android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
 
@@ -1699,6 +1702,8 @@ getWindow().addFlags(WindowManager.LayoutParams.FLAG_SECURE);
 
 edtRemark.setFilters(new InputFilter[]{new UIHelper.EmojiExcludeFilter()});
 
+输入过滤
+-------
 输入过滤器——InputFilter
 http://blog.csdn.net/wangyangzhizhou/article/details/44536553
 
@@ -1802,6 +1807,8 @@ http://www.apkbus.com/thread-465680-1-1.html
 
 
 国内顶尖团队的开源地址
+--------------------
+
 http://www.apkbus.com/thread-463708-1-1.html
 1.阿里巴巴
 阿里巴巴主团队
@@ -1984,7 +1991,7 @@ ExpandingPager
 项目地址：https://github.com/qs-lll/ExpandingPager
 
 图片Image
-
+---------
 CircleImageView
 一个非常漂亮的圆形ImageView，保持了ImageView的所有特性，可以像原生ImageView一样直接用Picasso加载图片展示。
 项目地址：https://github.com/hdodenhof/CircleImageView
@@ -2075,7 +2082,7 @@ GifImageView的特点是你可以针对每一帧进行操作，例如添加模�
 项目地址：https://github.com/felipecsl/GifImageView
 
 其它黑科技
-
+=========
 android-shape-imageview
 这个项目简直把ImageView玩坏了-_-#，可以把图片蹂躏成各种形状，然而项目中出了圆图和矩形／圆角矩形外，其它的基本用不到。
 项目地址：https://github.com/siyamed/android-shape-imageview
@@ -2115,7 +2122,7 @@ MetaballLoading
 项目地址：https://github.com/dodola/MetaballLoading
 
 提示框Dialog
-
+-----------
 material-dialogs
 一个简单易用的material风格的dialog
 项目地址：https://github.com/afollestad/material-dialogs
@@ -2140,7 +2147,7 @@ SpringIndicator
 项目地址：https://github.com/chenupt/SpringIndicator
 
 贝塞尔曲线
-
+---------
 BezierMaker
 这个开源库演示了1-7阶贝塞尔曲线的形成过程，让我们直观的看到1-7阶贝塞尔曲线的形成动画，相当牛逼
 项目地址：https://github.com/venshine/BezierMaker
@@ -2506,7 +2513,7 @@ Glide.with(context).load(imageUrl).centerCrop().into(imageView);
 Glide.with(context).load(imageUrl).fitCenter().into(imageView);
 
 
-MVP专题：
+MVP专题
 --------------------------
 
 一套完整的Android通用框架
@@ -3000,10 +3007,6 @@ https://github.com/JakeWharton/butterknife
 http://www.apkbus.com/thread-273921-1-1.html
 https://github.com/Sherchen/SlideToggleHeader
 
-
-日历签到
-http://www.apkbus.com/thread-273611-1-1.html
-
 Android App内部更新Library
 http://www.apkbus.com/thread-273464-1-1.html
 https://github.com/MZCretin/AutoUpdateProject
@@ -3045,7 +3048,7 @@ List of Android UI/UX Libraries
 https://github.com/wasabeef/awesome-android-ui
 
 PhotoUpload
-
+-----------
 http://www.cnblogs.com/zhuyuliang/
 
 Android - Camera
@@ -3156,7 +3159,7 @@ http://mp.weixin.qq.com/s/NWM-OKuKCyHTlXc32h39uA
 
 Android 知识梳理
 https://gold.xitu.io/post/587dbaf9570c3522010e400e
---------------------------------------------------------------
+
 Android Auto Scroll ViewPager
 Android自动滚动 轮播循环的ViewPager
 http://www.trinea.cn/android/auto-scroll-view-pager/
@@ -3424,19 +3427,8 @@ Java中避免NullPointerException的一些方法
 https://segmentfault.com/a/1190000002477715
 
 
-涨姿势了，原来Android屏幕适配还可以这么玩
-http://www.tuicool.com/articles/3MziUj7
-Android开发时用此单位设置文字大小，可根据字体大小首选项进行缩放，推荐使用12sp、14sp、18sp、22sp作为字体设置的大小，不推荐使用奇数和小数，容易造成精度的丢失问题,小于12sp的字体会太小导致用户看不清。
-在设计图标时，对于5种主流的像素密度(mdpi,hdpi,xhdpi,xxhdpi和xxxdpi)应按照2:3:4:6:8的比例进行缩放。例如一个启动图片ic_launcher.png,它在各个像素密度文件夹下大小为：
-ldpi(低)
-mdpi(中)48*48
-hdpi(高)72*72
-xhdpi(超高)96*96
-xxhdpi(超超高)144*144
-xxxhdpi(超超超高)192*192
-
 Android SDK加载图片流程
-
+-----------------------
 Android SDK会根据屏幕密度自动选择对应的资源文件进行渲染加载，比如说，SDK检测到你手机的分辨率是xhdpi，会优先到xhdpi文件夹下找对应的图片资源;
 如果xhdpi文件夹下没有图片资源，那么就会去分辨率高的文件夹下查找，比如xxhdpi，直到找到同名图片资源，将它按比例缩小成xhpi图片;
 如果往上查找图片还是没有找到，那么就会往低分辨率的文件夹查找，比如hdpi，直到找到同名图片资源，将它按比例放大成xhpi图片。
@@ -3563,6 +3555,7 @@ String sFinalAge = String.format(sAgeFormat, nAge);
 
 
 java string 去掉html标签
+-----------------------
 java 去掉html标签
 http://www.cnblogs.com/newsouls/p/3995394.html
 import java.util.regex.Matcher; 
@@ -3951,8 +3944,8 @@ public class HttpService {
 
 }
 
-
-
+xUtils
+--------
 xUtils 中的HttpUtils全面注释
 http://yangguangfu.iteye.com/blog/2213020/
 
@@ -4246,6 +4239,8 @@ http://mobile.51cto.com/aprogram-442833.htm
 Android Handler详细使用方法实例
 http://www.codeceo.com/article/android-handler-usage.html
 
+EventBus
+---------
 android EventBus 3.0 混淆配置
 http://blog.csdn.net/yangzs516/article/details/51776576
 https://github.com/greenrobot/EventBus  
@@ -4306,7 +4301,8 @@ http://blog.csdn.net/aminfo/article/details/7604451
 怎样取安卓设备唯一标识来防刷
 http://www.eoeandroid.com/thread-917649-1-1.html?_dsign=d27b4af2
 
-
+ 项目模板化
+ ---------
 
 大幅提高 Android 开发效率之 Android 项目模板化 (上)
 http://www.diycode.cc/topics/410
@@ -4323,6 +4319,8 @@ http://www.jianshu.com/p/cb95ce1ba336
 https://www.jetbrains.com/help/idea/2016.1/live-template-variables.html#predefined_functions
 
 
+统一规范
+--------
 Android开发之版本统一规范
 http://blankj.com/874.html
 
@@ -4518,8 +4516,6 @@ listview.addHeaderView（hearderViewLayout）;
 listview.addFooterView（footerViewLayout）;
 
 listview.setAdapter（myAdapter）;
-
-
 
 android中 RecyclerView 添加头部视图的功能
 http://zhidao.baidu.com/link?url=1CJ4Fcn9cyw2mg8_MsXbsrvDFHRkm94Aw9Ex13XP0WN-48dEXTYZALlEtI4ELgzYj_TAPBabbRQjcTcTxs6aUTENhr5Na9QLcomYJuDEk_u
@@ -5059,11 +5055,11 @@ http://www.cnblogs.com/w-y-f/p/4028379.html
 
 https://github.com/ryanhoo/PhotoCropper
 
------------------------------------------------
+Android中的羊角符
+----------------
+http://blog.csdn.net/haizishiwo/article/details/51045642
 
 
-
--------------------------------------------------------------
 android 角标
 ------------
 android中角标的实现
@@ -5084,6 +5080,14 @@ http://www.2cto.com/kf/201308/238403.html
 圆角矩形进度条，包含带图标和不带图标两种形式
 Android-RoundCornerProgressBar
 
+权限管理
+--------
+实战项目：Android6.0权限管理 工具，我用java重写别人的kotlin项目；地址： 
+https://github.com/a1018875550/PermissionDispatcher
+
+Android开源项目-Easypermissions
+http://www.jianshu.com/p/2b3661928e66
+官方文档：https://github.com/googlesamples/easypermissions
 
 动态权限
 --------
@@ -5206,6 +5210,7 @@ http://www.cnblogs.com/whoislcj/p/6137398.html
 
 <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
 <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
 总李写代码
 http://www.cnblogs.com/whoislcj/
 
@@ -5382,6 +5387,17 @@ https://github.com/JZ-Darkal/AndroidHttpCapture
 
 抓包工具Fidder详解(主要来抓取Android中app的请求)
 https://my.oschina.net/u/587105/blog/322952
+
+
+日历
+-----
+android收益日历源码
+http://www.apkbus.com/thread-585738-1-1.html
+
+日历签到
+http://www.apkbus.com/thread-273611-1-1.html
+
+
 
 
 dp与pix:
