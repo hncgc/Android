@@ -30,7 +30,6 @@ Android快速实现上传项目到Github（原来Android Studio的git已经这�
 http://www.jianshu.com/p/aa341d691658
 游戏头条 https://github.com/MarnoDev/GameNews
 
-
 在Android Studio 中使用Git 教程
 http://www.apkbus.com/blog-866962-75821.html
 
@@ -61,10 +60,8 @@ http://blog.jobbole.com/83595/
 从零开始Code Review
 http://blog.csdn.net/uxyheaven/article/details/49773619
 
-
-
 Markdown
----
+--------
 https://www.zybuluo.com/mdeditor
 
 MVP架构开发，一篇让你从看懂到会使用
@@ -129,8 +126,7 @@ http://blog.csdn.net/harvic880925/article/details/44131865
 http://blog.csdn.net/harvic880925/article/details/45013501  
 
 
-
-lib,常用工作空间
+lib常用工作空间
 ----------------
 https://github.com/yline/as_lib_sdk
 https://github.com/yline/as_lib_sdk/tree/master/_LibSDK/LibSDK/src/main/java/com/yline/utils
@@ -222,8 +218,8 @@ http://www.jianshu.com/p/7479b6ed5ebf
 
 1.添加依赖
 
-          compile 'com.scwang.smartrefresh:SmartRefreshLayout:1.0.1'
-          compile 'com.scwang.smartrefresh:SmartRefreshHeader:1.0.1'
+>          compile 'com.scwang.smartrefresh:SmartRefreshLayout:1.0.1'
+>          compile 'com.scwang.smartrefresh:SmartRefreshHeader:1.0.1'
 
 2.布局文件
 
