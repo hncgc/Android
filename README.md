@@ -1,4 +1,6 @@
-## pccbAndroidApp ##
+# pccbAndroidApp
+
+[TOC]
 
 Android 免费学习
 ----------------
@@ -32,43 +34,6 @@ http://www.jianshu.com/p/aa341d691658
 在Android Studio 中使用Git 教程
 http://www.apkbus.com/blog-866962-75821.html
 
-Markdown
-========
-https://www.zybuluo.com/mdeditor
-
-##MVP架构开发，一篇让你从看懂到会使用##
-http://www.apkbus.com/blog-865069-76595.html
-
-FlycoTabLayout    UI(多种多样指示器效果)
-https://github.com/H07000223/FlycoTabLayout
-
-1、《Fragment详解之一——概述》  
-http://blog.csdn.net/harvic880925/article/details/44917955  
-2、《Fragment详解之二——基本使用方法》  
-http://blog.csdn.net/harvic880925/article/details/44927363  
-3、《Fragment详解之三——管理Fragment（1）》  
-http://blog.csdn.net/harvic880925/article/details/44927375  
-4、《Fragment详解之四——管理Fragment（2）》  
-http://blog.csdn.net/harvic880925/article/details/44948027  
-5、《Fragment详解之五——Fragment间参数传递》  
-http://blog.csdn.net/harvic880925/article/details/44966913  
-Fragment跳转时传递参数及结果回传的方法  
-http://blog.csdn.net/harvic880925/article/details/44131865  
-6、《Fragment详解之六——如何监听fragment中的回退事件与怎样保存fragment状态》  
-http://blog.csdn.net/harvic880925/article/details/45013501  
-
-Code Review 
-============
-https://baike.baidu.com/item/Code%20Review/8466134?fr=aladdin
-
-Code Review是轻量级代码评审
-
-程序员必备的代码审查（Code Review）清单
-http://blog.jobbole.com/83595/
-
-从零开始Code Review
-http://blog.csdn.net/uxyheaven/article/details/49773619
-
 企业级开发：Gitflow Workflow工作流
 http://www.jianshu.com/p/104fa8b15d1e
 
@@ -83,6 +48,86 @@ Android Study Material Design 十 再探沉浸式
 http://www.apkbus.com/blog-904057-76600.html
 GitHub 查看地址
 https://github.com/HLQ-Struggle/AndroidImmersion
+
+Code Review 
+-----------
+https://baike.baidu.com/item/Code%20Review/8466134?fr=aladdin
+
+Code Review是轻量级代码评审
+
+程序员必备的代码审查（Code Review）清单
+http://blog.jobbole.com/83595/
+
+从零开始Code Review
+http://blog.csdn.net/uxyheaven/article/details/49773619
+
+
+
+Markdown
+---
+https://www.zybuluo.com/mdeditor
+
+MVP架构开发，一篇让你从看懂到会使用
+http://www.apkbus.com/blog-865069-76595.html
+
+FlycoTabLayout    UI(多种多样指示器效果)
+https://github.com/H07000223/FlycoTabLayout
+
+ToolBar
+-------
+Android ToolBar 使用完全解析
+http://www.jianshu.com/p/ae0013a4f71a
+创建了android.support.v7.widget.Toolbar，同时我们在内部放了一个TextView，这是与ActionBar最大的不同，因为ToolBar实际上是一个ViewGroup，支持在其内部放入子View。
+
+修改标题和子标题的字体大小、颜色等，可以调用 setTitleTextColor 、 setTitleTextAppearance 、 setSubtitleTextColor 、 setSubtitleTextAppearance 
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:toolbar="http://schemas.android.com/apk/res-auto"
+    ...>
+    <android.support.v7.widget.Toolbar
+        ...
+        toolbar:logo="@mipmap/ic_launcher"
+        toolbar:title="Title"
+        toolbar:subtitle="Sub Title"
+        toolbar:titleTextColor="#ffffff">
+    </android.support.v7.widget.Toolbar>
+</FrameLayout>
+
+Android Toolbar样式定制详解
+http://blog.csdn.net/cnpath/article/details/47980871
+https://github.com/oyjt/android-toolbar
+
+android：ToolBar详解（手把手教程）
+http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2014/1118/2006.html
+https://github.com/mosil/Android-Mosil-Sample-Toolbar
+
+Android 初识AppBarLayout 和 CoordinatorLayout
+http://www.jianshu.com/p/ab04627cce58
+https://github.com/Mike-bel/MDStudySamples
+
+
+Material Design
+---------------
+Material Design 中文版
+http://wiki.jikexueyuan.com/project/material-design/
+
+Fragment
+--------
+1. 《Fragment详解之一——概述》  
+http://blog.csdn.net/harvic880925/article/details/44917955  
+2. 《Fragment详解之二——基本使用方法》  
+http://blog.csdn.net/harvic880925/article/details/44927363  
+3. 《Fragment详解之三——管理Fragment（1）》  
+http://blog.csdn.net/harvic880925/article/details/44927375  
+4. 《Fragment详解之四——管理Fragment（2）》  
+http://blog.csdn.net/harvic880925/article/details/44948027  
+5. 《Fragment详解之五——Fragment间参数传递》  
+http://blog.csdn.net/harvic880925/article/details/44966913  
+Fragment跳转时传递参数及结果回传的方法  
+http://blog.csdn.net/harvic880925/article/details/44131865  
+6. 《Fragment详解之六——如何监听fragment中的回退事件与怎样保存fragment状态》  
+http://blog.csdn.net/harvic880925/article/details/45013501  
+
 
 
 lib,常用工作空间
@@ -113,7 +158,7 @@ baoyongzhang/android-PullRefreshLayout
 https://github.com/baoyongzhang/android-PullRefreshLayout
 
 刷新
-====
+---
 十分钟学会定制 Android 酷炫下拉刷新
 http://www.jianshu.com/p/32cfab8e0d5a
 https://github.com/diamondlin2016/pullToRefresh
@@ -199,7 +244,7 @@ http://www.jianshu.com/p/7479b6ed5ebf
 http://blog.csdn.net/skylakexun/article/details/78115154
 
 安卓专栏
-=======
+--------
 http://www.okbase.net/home/android/file/
 
 Android动画进阶—使用开源动画库nineoldandroids
