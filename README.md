@@ -28,31 +28,7 @@ http://www.android-studio.org/
 http://www.apkbus.com/thread-313856-1-1.html
 
 
-Git教程
--------
-http://www.yiibai.com/git
 
-Android快速实现上传项目到Github（原来Android Studio的git已经这么好用了）
-http://www.jianshu.com/p/aa341d691658
-游戏头条 https://github.com/MarnoDev/GameNews
-
-在Android Studio 中使用Git 教程
-http://www.apkbus.com/blog-866962-75821.html
-
-企业级开发：Gitflow Workflow工作流
-http://www.jianshu.com/p/104fa8b15d1e
-
-基于git的源代码管理模型——git flow
-http://www.ituring.com.cn/article/56870
-软件开发模型有常见的瀑布模型、迭代开发模型、以及最近出现的敏捷开发模型
-
-Git版本控制与工作流
-http://www.techug.com/post/git-2.html
-
-Android Study Material Design 十 再探沉浸式
-http://www.apkbus.com/blog-904057-76600.html
-GitHub 查看地址
-https://github.com/HLQ-Struggle/AndroidImmersion
 
 Code Review 
 -----------
