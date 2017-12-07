@@ -54,24 +54,6 @@ Material Design
 Material Design 中文版
 http://wiki.jikexueyuan.com/project/material-design/
 
-Fragment
---------
-1. 《Fragment详解之一——概述》  
-http://blog.csdn.net/harvic880925/article/details/44917955  
-2. 《Fragment详解之二——基本使用方法》  
-http://blog.csdn.net/harvic880925/article/details/44927363  
-3. 《Fragment详解之三——管理Fragment（1）》  
-http://blog.csdn.net/harvic880925/article/details/44927375  
-4. 《Fragment详解之四——管理Fragment（2）》  
-http://blog.csdn.net/harvic880925/article/details/44948027  
-5. 《Fragment详解之五——Fragment间参数传递》  
-http://blog.csdn.net/harvic880925/article/details/44966913  
-Fragment跳转时传递参数及结果回传的方法  
-http://blog.csdn.net/harvic880925/article/details/44131865  
-6. 《Fragment详解之六——如何监听fragment中的回退事件与怎样保存fragment状态》  
-http://blog.csdn.net/harvic880925/article/details/45013501  
-
-
 lib常用工作空间
 ----------------
 https://github.com/yline/as_lib_sdk
@@ -99,91 +81,6 @@ UIScreenUtil 单位转换、获取屏幕信息
 baoyongzhang/android-PullRefreshLayout
 https://github.com/baoyongzhang/android-PullRefreshLayout
 
-刷新
----
-十分钟学会定制 Android 酷炫下拉刷新
-http://www.jianshu.com/p/32cfab8e0d5a
-https://github.com/diamondlin2016/pullToRefresh
-
-Android几种强大的下拉刷新库   
-http://blog.csdn.net/android_zhengyongbo/article/details/68922763?locationNum=12&fps=1
-
-Android-PullToRefresh
-https://github.com/chrisbanes/Android-PullToRefresh
-
-SuperSwipeRefreshLayout
-SuperSwipeRefreshLayout源码分析
-http://blog.csdn.net/nupt123456789/article/details/48225139
-
-自定义下拉刷新组件SuperSwipeRefreshLayout 源码
-http://blog.csdn.net/yxrc_fendoubuzhi/article/details/51867140
-
-https://github.com/nuptboyzhb/SuperSwipeRefreshLayout
-这个是网友推荐的 SuperSwipeRefreshLayout ,顾名思义，是扩展自SwipeRefreshLayout。
-
-SwipeRefreshLayout实现上拉加载 源码
-https://www.cnblogs.com/manmanlu/p/5736856.html
-
-
-SmartRefreshLayout上拉下拉框架简单使用
-http://www.jianshu.com/p/45371b16b61d
-https://github.com/scwang90/SmartRefreshLayout
-
-SwipeRefreshLayout上拉下拉框架简单使用
-http://www.jianshu.com/p/45371b16b61d
-https://github.com/scwang90/SmartRefreshLayout
-https://github.com/race604/FlyRefresh
-https://github.com/Yalantis/Phoenix
-
-https://github.com/goyourfly/TabViewPager
-TabViewPager，通过简单的接口实现ViewPager，Head，TabLayout，RecyclerView组合展示
-
-自定义Header和Footer
-https://github.com/scwang90/SmartRefreshLayout/blob/master/art/md_custom.md
-
-属性设置 请访问
-https://github.com/scwang90/SmartRefreshLayout/blob/master/art/md_property.md
-常见问题
-https://github.com/scwang90/SmartRefreshLayout/issues/71
-
-
-Android智能下拉刷新框架-SmartRefreshLayout
-下拉刷新、上拉加载、RefreshLayout、OverScroll，Android智能下拉刷新框架，支持越界回弹、越界拖动，具有极强的扩展性，集成了几十种炫酷的Header和 Footer。
-
-Android智能下拉刷新框架-SmartRefreshLayout
-https://segmentfault.com/a/1190000010066071
-
-最强大的下拉刷新框架_SmartRefreshLayout的基本使用
-http://blog.csdn.net/skylakexun/article/details/78115154
-
-
-Android智能下拉刷新框架-SmartRefreshLayout
-http://www.jianshu.com/p/7479b6ed5ebf
-
-下拉刷新、上拉加载、RefreshLayout、OverScroll，Android智能下拉刷新框架，支持越界回弹、越界拖动，具有极强的扩展性，集成了几十种炫酷的Header和 Footer。
-
-1.添加依赖
-
->          compile 'com.scwang.smartrefresh:SmartRefreshLayout:1.0.1'
->          compile 'com.scwang.smartrefresh:SmartRefreshHeader:1.0.1'
-
-2.布局文件
-
-    <?xml version="1.0" encoding="utf-8"?>
-    <com.scwang.smartrefresh.layout.SmartRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        android:id="@+id/refreshLayout"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-        <android.support.v7.widget.RecyclerView
-            android:id="@+id/recyclerview"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:overScrollMode="never"
-            android:background="#fff" />
-    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
-
-最强大的下拉刷新框架_SmartRefreshLayout的基本使用
-http://blog.csdn.net/skylakexun/article/details/78115154
 
 安卓专栏
 --------
