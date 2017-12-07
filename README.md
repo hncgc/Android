@@ -1,6 +1,9 @@
 # pccbAndroidApp
-
 [TOC]
+资源
+---
+百度云干货资源
+http://blog.csdn.net/wcqwcq123/article/details/53408789
 
 Android 免费学习
 ----------------
@@ -224,16 +227,16 @@ http://www.jianshu.com/p/7479b6ed5ebf
 2.布局文件
 
     <?xml version="1.0" encoding="utf-8"?>
-<com.scwang.smartrefresh.layout.SmartRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/refreshLayout"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
-    <android.support.v7.widget.RecyclerView
-        android:id="@+id/recyclerview"
+    <com.scwang.smartrefresh.layout.SmartRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/refreshLayout"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:overScrollMode="never"
-        android:background="#fff" />
+        android:layout_height="match_parent">
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:overScrollMode="never"
+            android:background="#fff" />
     </com.scwang.smartrefresh.layout.SmartRefreshLayout>
 
 最强大的下拉刷新框架_SmartRefreshLayout的基本使用
@@ -453,31 +456,32 @@ Android注解-编译时生成代码 (APT)
 http://blog.csdn.net/a1018875550/article/details/52166916
 https://github.com/a1018875550/ViewInject/tree/master
 
+Kotlin
+===
 Kotlin学习资料汇总
------------------
 http://www.apkbus.com/blog-261991-68033.html
-使用Kotlin来开发Android【安卓巴士博文大赛】
-http://www.apkbus.com/blog-780485-68062.html
-Kotlin如何实现MVP架构
-http://www.apkbus.com/blog-847095-68637.html
-使用Kotlin封装RecycleView和重构
-http://www.apkbus.com/blog-822415-68616.html
-使用Kotlin开发Android项目-Kibo【安卓巴士博文大赛】
-http://www.apkbus.com/blog-780485-68292.html
-让你的 Kotlin 代码远离 !!
-http://www.apkbus.com/blog-822717-68438.html
-Kotlin编程之Glide v4 Generated API
-http://www.apkbus.com/blog-847095-68125.html
+学习 Kotlin 的 20 个实用资源  
+http://www.apkbus.com/blog-866962-76616.html  
+不可错过的 Kotlin 资源列表  
+https://github.com/KotlinBy/awesome-kotlin  
+使用Kotlin来开发Android【安卓巴士博文大赛】  
+http://www.apkbus.com/blog-780485-68062.html  
+Kotlin如何实现MVP架构  
+http://www.apkbus.com/blog-847095-68637.html  
+使用Kotlin封装RecycleView和重构  
+http://www.apkbus.com/blog-822415-68616.html  
+使用Kotlin开发Android项目-Kibo【安卓巴士博文大赛】  
+http://www.apkbus.com/blog-780485-68292.html  
+让你的 Kotlin 代码远离 !!  
+http://www.apkbus.com/blog-822717-68438.html  
+Kotlin编程之Glide v4 Generated API  
+http://www.apkbus.com/blog-847095-68125.html  
 
-Kotlin学习资料
--------------
-http://www.apkbus.com/blog-261991-68033.html
+Kotlin语言文档翻译项目  
+https://github.com/kymjs/KotlinDoc-cn  
 
-Kotlin语言文档翻译项目
-https://github.com/kymjs/KotlinDoc-cn
-
-kotlin基础语法
-https://kymjs.com/code/2015/08/02/01/
+kotlin基础语法  
+https://kymjs.com/code/2015/08/02/01/  
 
 《Kotlin 一门强大的语言》_开源实验室-张涛
 https://kymjs.com/column/kotlin.html
@@ -503,7 +507,7 @@ Kotlin Primer·第六章·集合泛型与操作符
 https://kymjs.com/code/2017/06/06/01/
 
 老罗
-------------------
+---
 那两年炼就的Android内功修养 老罗
 http://blog.csdn.net/Luoshengyang/article/details/8923485
         对于Android应用开发，力推官方文档：
@@ -602,7 +606,6 @@ http://www.jianshu.com/p/ec6234c22722
 -------------------------------------------------------------------------------
 百度地图
 ========
-
 百度地图文档
 http://lbsyun.baidu.com/index.php?title=androidsdk
 Android 定位SDK
