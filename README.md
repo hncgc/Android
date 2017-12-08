@@ -217,55 +217,6 @@ TabLayout的用法进行总结和归纳
 http://www.apkbus.com/misc.php?mod=tag&id=6169&type=blog
 Demo地址：https://github.com/setasmallgoal/TabLayoutDemo
 
-沉浸式状态栏
----
-一款优雅的干货集中营android客户端、实现沉浸式状态栏(http://www.apkbus.com/thread-282666-1-1.html)  
-Github源码地址：https://github.com/dongjunkun/GanK 
-
-Android 系统状态栏沉浸式/透明化完整解决方案
-http://www.apkbus.com/blog-847095-72808.html
-
-if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
-    WindowManager.LayoutParams localLayoutParams = getWindow().getAttributes();    
-    local LayoutParams.flags = (WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS | localLayoutParams.flags);
-    if(Build.VERSION.SDK_INT < Build.VERSION_CODES.LOLLIPOP){
-        //将侧边栏顶部延伸至status bar
-        mDrawerLayout.setFitsSystemWindows(true);        
-        //将主页面顶部延伸至status bar;虽默认为false,但经测试,DrawerLayout需显示设置
-        mDrawerLayout.setClipToPadding(false);
-    }
-}
-
-Android开发：Translucent System Bar 的最佳实践
-http://www.jianshu.com/p/0acc12c29c1b
-
-
-values/style.xml
-<style name="ImageTranslucentTheme" parent="AppTheme">
-    <!--在Android 4.4之前的版本上运行，直接跟随系统主题-->
-</style>
-
-values-v19/style.xml
-<style name="ImageTranslucentTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-    <item name="android:windowTranslucentStatus">true</item>
-    <item name="android:windowTranslucentNavigation">true</item>
-
-    <item name="android:fitsSystemWindows">true</item>
-</style>
-
-values-v21/style.xml
-<style name="ImageTranslucentTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-    <item name="android:windowTranslucentStatus">false</item>
-    <item name="android:windowTranslucentNavigation">true</item>
-    <!--Android 5.x开始需要把颜色设置透明，否则导航栏会呈现系统默认的浅灰色-->
-    <item name="android:statusBarColor">@android:color/transparent</item>
-
-    <item name="android:fitsSystemWindows">true</item>
-</style>
-
-
-
-<?xml version="1.0" encoding="utf-8"?> <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:background="@mipmap/env_bg" android:fitsSystemWindows="true"> </RelativeLayout>
 
 Android零基础入门第68节：完善RecyclerView，添加首尾视图 
 http://www.apkbus.com/blog-205190-72805.html
@@ -688,29 +639,6 @@ https://github.com/xupeng92/SortRecyclerviewList
 PinyinUtils
 将中文转化为拼音的工具类
 --------------------------
-
-一款优雅的干货集中营android客户端、实现沉浸式状态栏
-http://www.apkbus.com/thread-282666-1-1.html
-Github源码地址：https://github.com/dongjunkun/GanK 
-
-
-透明状态栏(StatusBar)的全适配
-http://blog.csdn.net/lisdye2/article/details/51331602
-
-因为状态栏是在4.4加入的，所以在4.4以前的系统上无法实现。现在世面上的手机android4.4一下的占比不是很大，所以不是太影响。
-
-网上有很多关于透明状态栏实现的技术博客，以及我之前的博客透明状态栏（沉浸式状态栏）中，实现方式为通过设置android：windowTanslucentStatus和fitSystemWindows实现。
-
-但通过属性设置的方式在使用中会出现沉浸状态不一样的现象，在5.0及以上的系统中使用透明状态栏不是完全透明的，会在透明的基础上添加一层半透明的阴影，非常的不友好。于是解决在不同系统版本之间的适配是主要问题。
-
-Android实现状态栏(statusbar)渐变效果的示例
-http://www.jb51.net/article/124110.htm
-
-Android 系统状态栏沉浸式/透明化完整解决方案
-http://www.jianshu.com/p/34a8b40b9308
-
-Android 沉浸式状态栏的实现方法、状态栏透明
-http://blog.csdn.net/fan7983377/article/details/51604657
 
 Android编辑信息界面，组合控件的封装
 http://www.jianshu.com/p/cde81809c24a
@@ -1502,24 +1430,9 @@ http://blog.csdn.net/michaelpp/article/details/7302308
 	}
 
 
-android 播放视频时切换全屏隐藏状态栏
-http://www.cnblogs.com/satng/p/3690854.html
-
-android 动态控制状态栏显示和隐藏的方法实例
-http://www.jb51.net/article/44219.htm
-
-android状态栏一体化(沉浸式状态栏)
-http://blog.csdn.net/jdsjlzx/article/details/41643587
-
-由沉浸式状态栏引发的血案
-http://www.jianshu.com/p/140be70b84cd?utm_source=tuicool&utm_medium=referral
-
-android状态栏一体化、沉浸式状态栏(兼容低版本)
-http://blog.csdn.net/jdsjlzx/article/details/50437779
-
 
 android图片缓存框架
-
+---
 开源选型之Android三大图片缓存原理、特性对比
 http://www.csdn.net/article/2015-10-21/2825984
 
@@ -2297,79 +2210,6 @@ dependencies {
 
 -----------------------------------------------
 
-三种方式实现沉浸状态栏
----------------------
-http://www.apkbus.com/forum.php?mod=viewthread&tid=268595
-https://github.com/wuyinlei/ImmersiveStatusBar
-第一种方式
-//当系统版本为4.4或者4.4以上时可以使用沉浸式状态栏
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
-            //透明状态栏
-            getWindow().addFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
-            //透明导航栏
-            getWindow().addFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_NAVIGATION);
-        }
-activity和布局文件
-FirstActivity.java:
-
-/**
-* 沉浸式状态栏
-*/
-    private void initState() {
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
-            //透明状态栏
-           getWindow().addFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
-            //透明导航栏
-            getWindow().addFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_NAVIGATION);
-        }
-    }
-    
-第二种方式
-实现思路，添加隐藏布局，然后我们动态的计算状态栏的高度，然后把这个高度设置成这个隐藏的布局的高度，便可以实现
-在这里我们通过反射来获取状态栏的高度
-
-/**
-     * 通过反射的方式获取状态栏高度
-     *
-     * @return
-     */
-    private int getStatusBarHeight() {
-        try {
-            Class<?> c = Class.forName("com.android.internal.R$dimen");
-            Object obj = c.newInstance();
-            Field field = c.getField("status_bar_height");
-            int x = Integer.parseInt(field.get(obj).toString());
-            return getResources().getDimensionPixelSize(x);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-        return 0;
-    }
-......
-第三种这个是用的github上的第三方库
-1.库地址:https://github.com/jgilfelt/SystemBarTint
-2.添加依赖库:
-compile 'com.readystatesoftware.systembartint:systembartint:1.0.3'
-android:fitsSystemWindows="true"
-android:clipToPadding="true
-
-Android 透明状态栏解决方案
-http://www.jianshu.com/p/f29053be12a9
-
-Android 沉浸式状态栏攻略 让你的状态栏变色吧
-http://blog.csdn.net/lmj623565791/article/details/48649563
-源码地址:https://github.com/hongyangAndroid/ColorfulStatusBar
-
-如何实现沉浸式状态栏
-http://www.jianshu.com/p/00fed1371bb0
-https://github.com/fodroid/XStatusBarHelper
-
-Android 4.4＋实现透明状态栏（ transparent status bar）
-http://blog.csdn.net/u013450131/article/details/51002602
-
-Android 系统状态栏沉浸式/透明化完整解决方案
-http://www.jianshu.com/p/34a8b40b9308
-https://github.com/ljgsonx/adaptiveStatusBar
 
 我的Android笔记（八）—— 使用Jsoup解析Html
 http://blog.csdn.net/barryhappy/article/details/7366654
@@ -2522,9 +2362,7 @@ https://www.zybuluo.com/wangwangheng/note/106998#1android浏览器打开客户�
 Bus Weekly 汇总
 http://www.apkbus.com/forum.php?mod=viewthread&tid=267776&page=1&extra=&_dsign=dd10d522
 
-
 《Android Studio实战 快速、高效地构建Android应用》
-
 
 eclipse怎样修改包(package)的显示样式、格式
 http://jingyan.baidu.com/article/c1a3101eabe8a2de656debe2.html
@@ -2613,24 +2451,20 @@ Json转换利器Gson之实例一-简单对象转化和带泛型的List转化
 http://blog.csdn.net/lk_blog/article/details/7685169
 
 
-Android开发经验总结:开发规范
-http://www.apkbus.com/blog-705730-60906.html
+[Android开发经验总结:开发规范](http://www.apkbus.com/blog-705730-60906.html)  
 
-AppCodeArchitecture 安卓APP代码架构，包含比较常用的开源库使用
-https://github.com/Frank-Zhu/AppCodeArchitecture
+[AppCodeArchitecture 安卓APP代码架构，包含比较常用的开源库使用](https://github.com/Frank-Zhu/AppCodeArchitecture)  
 
-Android项目基础规范
-http://frank-zhu.github.io/android/2016/04/26/android-code-rule/
+[Android项目基础规范](http://frank-zhu.github.io/android/2016/04/26/android-code-rule/)  
 
 [效果demo] Android-WilliamChart各种图表效果
 http://www.androidym.com/forum.php?mod=viewthread&tid=18933&extra=page%3D8%26filter%3Dtypeid%26typeid%3D3%26typeid%3D3
 
-Android_滑动的时候头部变化效果
-http://blog.csdn.net/qiuchunjia/article/details/51094667
+[Android_滑动的时候头部变化效果](http://blog.csdn.net/qiuchunjia/article/details/51094667)  
 
-Android App 代码架构(http://frank-zhu.github.io/2014-11-22-android-app-code-architecture.html)
+[Android App 代码架构](http://frank-zhu.github.io/2014-11-22-android-app-code-architecture.html)  
 
-安卓集成发布详解（二）(http://frank-zhu.github.io/android/2015/06/15/android-release_app_build_gradle/)
+[安卓集成发布详解（二）](http://frank-zhu.github.io/android/2015/06/15/android-release_app_build_gradle/)  
 
     //View注解   代码地址-----> https://github.com/JakeWharton/butterknife
     compile 'com.jakewharton:butterknife:6.1.0'
@@ -2657,21 +2491,13 @@ Android App 代码架构(http://frank-zhu.github.io/2014-11-22-android-app-code-
 
 
 http://api.pccb.com/update/pccb_android_app.apk
------------------------------------------------
-Android Studio实用指南 
-http://yuedu.baidu.com/ebook/31beb61a9b6648d7c1c746e8
+[Android Studio实用指南](http://yuedu.baidu.com/ebook/31beb61a9b6648d7c1c746e8)  
 
+[拍照、相册及裁剪的终极实现（一）——拍照及裁剪功能实现](http://blog.csdn.net/harvic880925/article/details/43163175)  
 
-拍照、相册及裁剪的终极实现（一）——拍照及裁剪功能实现
+[拍照、相册及裁剪的终极实现（二）——相册选择及裁剪功能实现](http://blog.csdn.net/harvic880925/article/details/43314451)  
 
-http://blog.csdn.net/harvic880925/article/details/43163175
-
-拍照、相册及裁剪的终极实现（二）——相册选择及裁剪功能实现
-http://blog.csdn.net/harvic880925/article/details/43314451
-
-Android 拍照或从相册取图片并裁剪
-http://www.cnblogs.com/w-y-f/p/4028379.html
-
+[Android 拍照或从相册取图片并裁剪](http://www.cnblogs.com/w-y-f/p/4028379.html)  
 https://github.com/ryanhoo/PhotoCropper
 
 Android中的羊角符
