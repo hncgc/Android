@@ -54,29 +54,6 @@ Material Design
 Material Design 中文版
 http://wiki.jikexueyuan.com/project/material-design/
 
-lib常用工作空间
-----------------
-https://github.com/yline/as_lib_sdk
-https://github.com/yline/as_lib_sdk/tree/master/_LibSDK/LibSDK/src/main/java/com/yline/utils
-https://github.com/yline/as_lib_sdk.git
-$ git clone https://github.com/yline/as_lib_sdk.git
-
-LibSDK 是一个Android开发基类库，提供一些基础功能；主要功能分为：
-常用工具类包
-AppUtil 获取程序名称、版本信息
-FileSizeUtil 获取文件、文件夹大小
-FileUtil 文件操作帮助类
-IOUtil IO流帮助类
-KeyBoardUtil 键盘帮助类
-LogUtil 打印日志类
-PermissionUtil 权限帮助类
-SDCardUtil SDCard帮助类
-SPUtil SP读、存的帮助类
-TimeConvertUtil 时间转换类
-TimeStampUtil 时间戳、时间相互转换
-UIResizeUtil 对View设置成固定大小
-UIScreenUtil 单位转换、获取屏幕信息
-
 
 baoyongzhang/android-PullRefreshLayout
 https://github.com/baoyongzhang/android-PullRefreshLayout
@@ -141,88 +118,21 @@ PickerView
 仿 iOS 的 PickerView 控件，有时间选择和选项选择并支持一二三级联动效果，TimePopupWindow 时间选择器，支持年月日时分，年月日，时分等格式；OptionsPopupWindow 选项选择器，支持一，二，三级选项选择，并且可以设置是否联动
 项目地址：https://github.com/saiwu-bigkoo/Android-PickerView
 
-Android 的图案密码解锁
----------------------
-项目地址：https://code.google.com/p/android-lockpattern/
-Demo 地址：https://play.google.com/store/apps/details?id=group.pals.android.lib.ui.lockpattern.demo
-文档介绍：https://code.google.com/p/android-lockpattern/wiki/QuickUse
-
-高仿淘宝，网易新闻，微信，应用宝，环聊等等热门App的通知视图，并且完通知工具类的封装，提供多达8种最常见的App通知接口,支持Android 5.0悬浮式通知样式
-项目地址:https://github.com/wenmingvs/NotifyUtil
-
-
-Android UI 大全 里面包含所以特效大全的项目，都是每个特效一个项目的结构
-https://gitee.com/bob4j/Android-UI
-
-http://mp.sohu.com/profile?xpt=c29odW1wNDI3dXhwQHNvaHUuY29t
-安卓巴士Android开发者门户
-
-带你实现漂亮的滑动卷尺
-http://www.jianshu.com/p/06e65ef3f3f1
-
-HenCoder「仿写酷界面」活动——征稿
-http://hencoder.com/activity-mock-1/
-
-
-新鲜出炉的26个Android库，你关注了吗？
-http://www.sohu.com/a/201764376_608959
-
-MRichEditor
-这是一个丰富的文本编辑器（基于summernote）
-
-底部菜单 & 部导航栏
-------------------
-
-底部菜单 FragmentTabHost 的使用
-http://www.cnblogs.com/changyinlu/p/5511932.html
-
-BottomNavigationViewEx
-http://www.jcodecraeer.com/plus/view.php?aid=8283
-https://github.com/ittianyu/BottomNavigationViewEx
-https://github.com/ittianyu/BottomNavigationViewEx/blob/master/README_ZH.md
-
-Android流行UI布局——底部导航（BottomNavigationView+ViewPager+Fragment）
-http://www.jianshu.com/p/0ba25cc65889
-https://github.com/brucevanfdm/BottomNavigationView
-
-
-超简单，几行代码搞定Android底部导航栏
-http://www.jianshu.com/p/ade8485a16be
-https://github.com/hujinmeng/MyApplication
-
-Android实现顶部底部双导航界面功能
-http://www.jb51.net/article/92143.htm
-
-BottomNavigationView 的使用
-http://blog.csdn.net/wl9739/article/details/52875710
-
-BottomNavigationView从入门到强行改造,取消位移动画？和ViewPager绑定？添加Badge？
-http://blog.csdn.net/qq_35064774/article/details/54177702
-https://github.com/ittianyu/BottomNavigationViewEx
-
-android新特性： 底部导航栏BottomNavigationView系统库与第三方库的两种不同库的使用方法
-http://blog.csdn.net/huangxiaoguo1/article/details/53842536
-
-app:itemBackground:设置item的背景，对应setItemBackgroundResource(int resId)方法
-app:itemIconTint:设置icon的颜色，对应setItemIconTintList(ColorStateList tint)方法
-app:itemTextColor:设置文字的颜色，对应setIteTextColor(ColorStateList textColor)方法
-
-    <android.support.v4.view.ViewPager
-        android:id="@+id/viewPager"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent" />
-
-BottomNavigationView结合ViewPager
-http://www.cnblogs.com/ganchuanpu/p/6920000.html
-
-TopRightMenu
-https://github.com/zaaach/TopRightMenu
-
-
-
 
 其他  
 ---
+
+Android UI 大全 里面包含所以特效大全的项目，都是每个特效一个项目的结构(https://gitee.com/bob4j/Android-UI)
+
+[安卓巴士Android开发者门户](http://mp.sohu.com/profile?xpt=c29odW1wNDI3dXhwQHNvaHUuY29t)
+
+[带你实现漂亮的滑动卷尺](http://www.jianshu.com/p/06e65ef3f3f1)
+
+[HenCoder「仿写酷界面」活动——征稿](http://hencoder.com/activity-mock-1/)  
+
+MRichEditor
+[这是一个丰富的文本编辑器（基于summernote）TopRightMenu](https://github.com/zaaach/TopRightMenu)
+
 Android开发之脚本替换PackageName
 http://www.jianshu.com/p/dca9c323c686
 
@@ -259,11 +169,6 @@ android砸金蛋
 http://download.csdn.net/download/wt0731/5009525
 
 
-PatternLockView 图形锁
-https://github.com/aritraroy/PatternLockView
-PinLockView
-https://github.com/aritraroy/PinLockView
-
 Android输入框EditText输入银行卡,输入手机,输入身份证格式化的实现   
 http://blog.csdn.net/jiangyufeng123/article/details/51577938
 SpaceTextWatcher https://github.com/Robin-jiangyufeng/SpaceTextWatcher
@@ -283,16 +188,8 @@ exclude group:'io.card'表明不允许直接用卡支付，如果不添加这一
 算是目前PAYPAL最全最完整的开发方式了
 http://blog.csdn.net/a53657561/article/details/64982411
 
-
-
-包含所有Android library的数据库
-https://android-arsenal.com/
-
 一个多年安卓开发者的一些感悟与忠告
 http://www.apkbus.com/blog-847095-72728.html
-
-最佳library的列表
-https://snowdream.github.io/awesome-android/
 
 所有开源安卓app的列表
 https://github.com/pcqpcq/open-source-android-apps
@@ -305,13 +202,6 @@ https://github.com/ribot/android-guidelines/blob/master/project_and_code_guideli
 
 ThinkAndroid
 https://github.com/white-cat/ThinkAndroid
-
-Glide v4 介绍
-http://www.apkbus.com/blog-873055-75797.html
-Glide 支持拉取，解码和展示视频快照，图片，和GIF动画
-
-Glide v4 使用教程与详细文档
-http://www.apkbus.com/blog-873055-75813.html
 
 
 DataBinding初认识
@@ -327,8 +217,9 @@ TabLayout的用法进行总结和归纳
 http://www.apkbus.com/misc.php?mod=tag&id=6169&type=blog
 Demo地址：https://github.com/setasmallgoal/TabLayoutDemo
 
-一款优雅的干货集中营android客户端、实现沉浸式状态栏
-http://www.apkbus.com/thread-282666-1-1.html
+沉浸式状态栏
+---
+一款优雅的干货集中营android客户端、实现沉浸式状态栏(http://www.apkbus.com/thread-282666-1-1.html)  
 Github源码地址：https://github.com/dongjunkun/GanK 
 
 Android 系统状态栏沉浸式/透明化完整解决方案
@@ -1689,6 +1580,7 @@ Android之RxBus详解
 http://blog.csdn.net/caben_/article/details/52786184
 
 Dagger2
+---
 Dagger表示 有向非循环图(Directed Acyclic Graph, DAGger) 
 
 依赖注入库 Dagger2 的使用方法
@@ -1745,41 +1637,7 @@ http://www.cnblogs.com/feichexia/archive/2012/11/15/Java8_LambdaExpression.html
 http://blog.csdn.net/codezjx/article/details/51327164
 
 
-Material Design
 
-模仿网易云音乐UI来完成一个基于Material Design +Rxjava + Retrofit + dagger2 + MVP构架的项目
-https://github.com/laotan7237/EasyReader
-
-Material Design 中文版 http://design.1sters.com/
-
-Android design support library
-Materail Design
-compile 'com.android.support:design:23.2.1'
-
-Material Design 入门（一）——TextInputLayout和TextInputEditText
-http://blog.csdn.net/u012230055/article/details/52354111
-
-Material Design 入门（二）——CardView
-http://blog.csdn.net/u012230055/article/details/52354869
-
-Materail Design 入门（三）——FloatingActionButton和Snackba
-http://blog.csdn.net/u012230055/article/details/52355293
-
-Materail Design 入门（四）——Toolbar的使用方法（1）
-http://blog.csdn.net/u012230055/article/details/53396749
-
-Materail Design 入门（四）——Toolbar的使用方法（2）
-http://blog.csdn.net/u012230055/article/details/53404627
-
-Android Design Support Library使用详解
-http://blog.csdn.net/eclipsexys/article/details/46349721
-https://github.com/xuyisheng/DesignSupportLibraryDemo
-
-Android Design TextInputLayout 解析,带你深入TextInputLayout
-http://blog.csdn.net/u011051627/article/details/48177095
-
-如何使用Android Design中的TextInputLayout
-http://www.jianshu.com/p/35080eb5a28f
 
 
 Volley源码分析
@@ -1931,9 +1789,6 @@ http://blog.csdn.net/lmj623565791/article/details/46767825
 
 開源安卓 https://www.gitbook.com/book/yongjhih/feed/details
 https://github.com/yongjhih/android-gitbook/
-
-Android Studio 60个插件整理
-http://www.apkbus.com/home.php?mod=space&uid=719059&do=blog&id=63008
 
 
 Android 程序框架设计
@@ -2377,47 +2232,6 @@ http://blog.csdn.net/lindonghai/article/details/49613895
 andorid中Html.fromHtml方法
 http://blog.csdn.net/joebaby_/article/details/7954495
 
-Android EventBus框架（一）之使用详细介绍
-http://blog.csdn.net/happy_horse/article/details/51565441
-EventBus是一款针对Android优化的发布/订阅事件总线
-源码：https://github.com/greenrobot/EventBus
-
-EventBus使用详解(二)——EventBus使用进阶
-http://blog.csdn.net/harvic880925/article/details/40787203
-
-org.greenrobot.eventbus.EventBus
-https://github.com/greenrobot/EventBus
-
-Gradle:
-
-compile 'org.greenrobot:eventbus:3.0.0'
-
-EventBus in 3 steps
-
-Define events:
-
-public static class MessageEvent { /* Additional fields if needed */ }
-Prepare subscribers: Declare and annotate your subscribing method, optionally specify a thread mode:
-
-@Subscribe(threadMode = ThreadMode.MAIN)  
-public void onMessageEvent(MessageEvent event) {/* Do something */};
-Register and unregister your subscriber. For example on Android, activities and fragments should usually register according to their life cycle:
-
-@Override
-public void onStart() {
-    super.onStart();
-    EventBus.getDefault().register(this);
-}
-
-@Override
-public void onStop() {
-    super.onStop();
-    EventBus.getDefault().unregister(this);
-}
-Post events:
-
-EventBus.getDefault().post(new MessageEvent());
-
 Otto
 ----
 Android 事件总线OTTO用法快速入门
@@ -2459,10 +2273,6 @@ http://www.jianshu.com/p/a0550f81cbd1
 React Native
 http://reactnative.cn/
 
-
-Android EventBus详解其使用
-http://www.apkbus.com/blog-705730-61398.html
-
 Butterknife
 https://github.com/JakeWharton/butterknife
 ButterKnife：8.1.0的使用
@@ -2498,463 +2308,6 @@ http://www.w2bc.com/article/132096
 
 Android vector标签 PathData 画图超详解
 http://blog.csdn.net/easyer2012/article/details/52618228
-
-
-SSL(Secure Sockets Layer 安全套接层), TLS(Transport Layer Security 安全传输层协议), HTTPS(Hyper Text Transfer Protocol over Secure Socket Layer 安全套接字层超文本传输协议)
-
-证书四种文件格式
-证书导入和导出操作支持四种文件格式。选择符合您特定需求的格式。
-
-个人信息交换 (PKCS #12)
-个人信息交换格式（PFX，也称为 PKCS #12）支持安全存储证书、私钥和证书路径中的所有证书。
-PKCS #12 是唯一可用于导出证书及其私钥的文件格式。
-
-加密消息语法标准 (PKCS #7)
-PKCS #7 格式支持存储证书和证书路径中的所有证书。 
-
-DER 编码的二进制 X.509
-区别编码规则 (DER) 格式支持存储单个证书。该格式不支持存储私钥或证书路径。
-
-Base64 编码的 X.509
-Base64 格式支持存储单个证书。该格式不支持存储私钥或证书路径。
-
-OkHttp关于https请求的设置
-http://blog.csdn.net/u012045061/article/details/50218393
-
-Android Https相关完全解析 当OkHttp遇到Https
-http://blog.csdn.net/lmj623565791/article/details/48129405
-
-分析铁道部12306 SRCA证书
-http://blog.sina.com.cn/s/blog_4daf73df0102uwpm.html
-
-GeoTrust SSL Certificates
-https://www.sslcertificateshop.com/geotrust-ssl-certificates/
-Geotrust 为全球第二大数字证书提供商，服务范围超过150多个国家，拥有超过10万客户
-
---------------------------------------------------------------
-在Android应用中使用自定义证书的HTTPS连接（上）
-http://blog.csdn.net/raptor/article/details/18896375
-
-使用系统承认的商业证书的HTTPS连接方式
-最简单的解决办法就是参照HTTP的方式，加入对HTTPS的支持：
-schReg.register(new Scheme("https", SSLSocketFactory.getSocketFactory(), 443));  
-
-
-在Android应用中使用自定义证书的HTTPS连接（下）
-http://blog.csdn.net/raptor/article/details/18898937
-
-android httpClient 支持HTTPS的2种处理方式
-http://blog.csdn.net/tianxuhong/article/details/47419351
-
-http请求No peer certificate的解决方法
-http://www.eoeandroid.com/thread-161747-1-1.html?_dsign=0c24eb02
-
-xUtils3.x的网络请求封装和请求https之单向SSL验证
-http://blog.csdn.net/dlx2chengyt/article/details/53081329
-
-Xutils3如何访问自制证书的https请求
-https://www.oschina.net/question/734744_2151177
-
-Android开发框架xUtils3.x新手教学(二)HTTPS访问
-http://blog.csdn.net/xujiayin/article/details/51697355
-
-xUtils 请求网络数据 怎么请求https？
-https://www.zhihu.com/question/27414355
-
-=============================================================================
-xUtils https请求网络数据（https://yjf3.pccb.com成功， https://www.pccb.com失败）
-
-package com.pccb.app.net;
-
-import android.content.Context;
-import android.content.res.AssetManager;
-
-import com.lidroid.xutils.http.HttpUtils;
-import com.lidroid.xutils.http.RequestParams;
-import com.lidroid.xutils.http.callback.RequestCallBack;
-import com.lidroid.xutils.http.client.HttpRequest;
-import com.pccb.androidcommon.utils.LogUtils;
-import com.pccb.app.global.Constant;
-import com.pccb.app.logic.UserLogic;
-
-import org.apache.http.conn.ssl.SSLSocketFactory;
-
-import java.io.IOException;
-import java.io.InputStream;
-import java.security.KeyManagementException;
-import java.security.KeyStore;
-import java.security.KeyStoreException;
-import java.security.NoSuchAlgorithmException;
-import java.security.UnrecoverableKeyException;
-import java.security.cert.Certificate;
-import java.security.cert.CertificateException;
-import java.security.cert.CertificateFactory;
-
-/**
- * xutils的http网络请求封装类
- *
- * @author zhuyuliang
- * @version 1.0
- * @created 2015-4-20
- */
-public class HttpService {
-
-    /**
-     * 网络请求Status
-     */
-    public static final String STATUS_FAIL = "0";
-    public static final String STATUS_OK = "1";
-    public static final String STATUS_2 = "2";
-    public static final String STATUS_9 = "9"; //没有记录
-    public static final String STATUS_11 = "11";
-    public static final String STATUS_12 = "12";
-    public static final String STATUS_13 = "13";
-    public static final String STATUS_14 = "14";
-
-    private final static int MY_SOCKET_TIMEOUT_MS = 10000;//访问超时时间
-    private final static String TAG = "HttpService";
-
-    protected Context ctx;
-    private static Object locker = new Object();
-    private static HttpService instance = null;
-
-    //xUtil的实现
-    private HttpUtils http;
-
-    private HttpService(Context _ctx)  {
-        ctx = _ctx;
-        http = new HttpUtils(MY_SOCKET_TIMEOUT_MS);
-
-        if(Urls.HTTP.equals("https://")) {
-            try {
-                KeyStore keyStore = getKeyStore();
-                //SSLSocketFactory socketFactory = new SSLSocketFactory(keyStore,pemPassword,trustStore);
-                SSLSocketFactory socketFactory = new SSLSocketFactory(keyStore);
-                http.configSSLSocketFactory(socketFactory);
-                LogUtils.d("HttpService keyStore ok: " + keyStore.toString());
-            } catch (IOException e) {
-                e.printStackTrace();
-                LogUtils.d("HttpService: IOException");
-
-            } catch (UnrecoverableKeyException e) {
-                e.printStackTrace();
-                LogUtils.d("HttpService: UnrecoverableKeyException");
-            } catch (NoSuchAlgorithmException e) {
-                e.printStackTrace();
-                LogUtils.d("HttpService: NoSuchAlgorithmException");
-            } catch (KeyStoreException e) {
-                e.printStackTrace();
-                LogUtils.d("HttpService: KeyStoreException");
-            } catch (KeyManagementException e) {
-                e.printStackTrace();
-                LogUtils.d("HttpService: KeyManagementException");
-            }
-        }
-
-
-    }
-
-    /**
-     * 单例获取实例
-     *
-     * @param ctx
-     * @return
-     * @throws IOException
-     */
-    public static HttpService getInstance(Context ctx) throws IOException {
-        synchronized (locker) {
-            if (null == instance) {
-                instance = new HttpService(ctx);
-            }
-            instance.ctx = ctx;
-        }
-        return instance;
-    }
-
-    /**
-     * 封装Action
-     *
-     * @param params     请求参数
-     * @param urls       请求地址
-     * @param requesttag 请求标示
-     * @param listener
-     */
-    public void Action(RequestParams params, String urls, String requesttag, RequestCallBack<String> listener) {
-        params.addBodyParameter("app_type", Constant.APP_TYPE);// 设置客户端类型
-
-        //2016-12-19 登录用户加token
-        String token = "";
-        if (UserLogic.getIntance(ctx).isLoginUser()) {
-            token = UserLogic.getIntance(ctx).getLoginUser().getToken_session();
-        }
-        params.addBodyParameter("token", token);
-        //LogUtils.d("用户token: " + token);
-
-        http.send(HttpRequest.HttpMethod.POST, urls, params, listener);
-    }
-
-    /**
-     *获取KeyStore
-     **/
-
-    public KeyStore getKeyStore() throws IOException {
-        AssetManager am = ctx.getAssets();
-        //二进制的.cer
-        InputStream ins = am.open("pccb_com_der_x_509.cer");
-        //纯文本的.crt
-        //InputStream ins = am.open("pccb_com_base64_x_509.cer");
-        try {
-            //读取证书
-            CertificateFactory cerFactory = CertificateFactory.getInstance("X.509");
-            Certificate cer = cerFactory.generateCertificate(ins);
-            //创建一个证书库，并将证书导入证书库
-            //KeyStore keyStore = KeyStore.getInstance("PKCS12", "BC");
-            KeyStore keyStore = KeyStore.getInstance(KeyStore.getDefaultType());
-            keyStore.load(null, null);
-            keyStore.setCertificateEntry("trust", cer);
-            LogUtils.d("HttpService getKeyStore ok: " + keyStore.toString());
-            return keyStore;
-        } catch (CertificateException e) {
-            e.printStackTrace();
-        } catch (NoSuchAlgorithmException e) {
-            e.printStackTrace();
-        } catch (KeyStoreException e) {
-            e.printStackTrace();
-        //} catch (NoSuchProviderException e) {
-        //    e.printStackTrace();
-        } finally {
-            ins.close();
-        }
-        return null;
-
-    }
-
-
-}
-
-xUtils
---------
-xUtils 中的HttpUtils全面注释
-http://yangguangfu.iteye.com/blog/2213020/
-
-Aandroid中https请求的单向认证和双向认证
-http://blog.csdn.net/u011394071/article/details/52880062
-
-android xutils怎么用session
-https://zhidao.baidu.com/question/1704643335759759060.html
-
-浅谈https\ssl\数字证书
-http://www.cnblogs.com/P_Chou/archive/2010/12/27/https-ssl-certification.html
-
-为你的Android App实现自签名的 SSL 证书
-http://www.open-open.com/lib/view/open1413071600531.html
-自签名证书跟花钱购买机构颁发的证书有什么区别
-
-证书颁发机构（CA）
-什么是自签名证书( self-signed certicates)
-自签名证书就是没有通过受信任的证书颁发机构, 自己给自己颁发的证书.
-
-SSL 证书大致分三类:
-
-1. 由安卓认可的证书颁发机构(如: VeriSign), 或这些机构的下属机构颁发的证书.
-
-2. 没有得到安卓认可的证书颁发机构颁发的证书.
-
-3. 自己颁发的证书, 分临时性的(在开发阶段使用)或在发布的产品中永久性使用的两种.
-
-只有第一种, 也就是那些被安卓系统认可的机构颁发的证书, 在使用过程中不会出现安全提示.
-
-最近一项调查表明, 810万个证书中, 只有 320万个是由受信任机构颁发的. 剩余490万证书中, 自签名的占48%, 未知机构颁发的占33%, 而不被信任的机构颁发的证书占19%.
-
-无独有偶, 我的分析结果也表明, 起码有 60% 安卓应用使用自签证书.
-
-
-下面的戏法的一般性的https代码
-
-URL url = new URL("https://www.example.com/");   
-HttpsURLConnection urlConnection = (HttpsURLConnection) url.openConnection(); 
-InputStream in = urlConnection.getInputStream();
-
-如果你连接的服务器(www.example.com)传过来的证书是由机构颁发的, 这段代码就能正常运行.
-
-但是如果你连的服务器用的是自己颁发的证书(self-singed certificate), 那就会出现错误.
-
-如果你使用上述的代代码去验证你的自己签署的证书，由于在android操作系统中自己签署的不能通过验证的，所以安卓应用软件将会抛出错误。因此你需要书写你自己的代码来检查你的自己签署的证书。
-
-使用 xutils中的 HttpUtils 发送https请求 设置证书
-
-import org.apache.http.conn.ssl.SSLSocketFactory; 
-//import javax.net.ssl.SSLSocketFactory;
-
-......
-	private HttpService(Context _ctx) {
-		ctx = _ctx;
-		http = new HttpUtils(MY_SOCKET_TIMEOUT_MS);
-
-		SSLSocketFactory socketFactory = new SSLSocketFactory(keyStore,pemPassword,trustStore);
-		http.configSSLSocketFactory(socketFactory);
-
-	}
-
-
-如果需要验证服务器端证书（这样能够防钓鱼），我是这样做的，还有些问题问大牛：
-    a. 导出公钥。在浏览器上用https访问tomcat，查看其证书，并另存为一个文件(存成了X.509格式：xxxx.cer)
-    b. 导入公钥。把xxxx.cer放在Android的assets文件夹中，以方便在运行时通过代码读取此证书，留了两个问题给大牛：
-
-AssetManager am = context.getAssets();  
-InputStream ins = am.open("robusoft.cer");  
-try {  
-        //读取证书  
-        CertificateFactory cerFactory = CertificateFactory.getInstance("X.509");  //问1  
-        Certificate cer = cerFactory.generateCertificate(ins);  
-        //创建一个证书库，并将证书导入证书库  
-        KeyStore keyStore = KeyStore.getInstance("PKCS12", "BC");   //问2  
-        keyStore.load(null, null);  
-        keyStore.setCertificateEntry("trust", cer);  
-        return keyStore;  
-} finally {  
-        ins.close();  
-}  
-
-//把咱的证书库作为信任证书库  
-SSLSocketFactory socketFactory = new SSLSocketFactory(keystore);  
-Scheme sch = new Scheme("https", socketFactory, 443);  
-//完工  
-HttpClient mHttpClient = new DefaultHttpClient();  
-mHttpClient.getConnectionManager().getSchemeRegistry().register(sch);  
-
-android ssl验证、https验证
-http://www.2cto.com/kf/201310/252811.html
-
-android https 证书
-android调用https接口原理及解决方案
-http://wenku.baidu.com/link?url=eHS0Ol3xPXu24uhyRNvoPqbGw_HbtmgLOHkznGajiK0woUOZcCRJHoApndf2sGXmO3XdzP-UwGYKRfW2Lcon4uA7fcFy6Ksc34gO-GXsHPH-_uzgHLM4h2khnRv-mevO
------------------------------------------------
-Android 用SSL构建安全的Socket
-http://www.cnblogs.com/zhujiabin/p/5895079.html
-
-自定义SSLSocketFactory
-http://blog.csdn.net/u013598111/article/details/50489529
-
-Class SSLSocketFactory
-http://hc.apache.org/httpcomponents-client-ga/httpclient/apidocs/org/apache/http/conn/ssl/SSLSocketFactory.html
-
-Class KeyStore
-http://docs.oracle.com/javase/6/docs/api/java/security/KeyStore.html?is-external=true
-
------------------------------------------------
-org.apache.http.conn.ssl.SSLSocketFactory
-http://hc.apache.org/httpcomponents-client-ga/httpclient/apidocs/org/apache/http/conn/ssl/SSLSocketFactory.html
-
-public SSLSocketFactory(KeyStore keystore,
-                String keystorePassword,
-                KeyStore truststore)
-                 throws NoSuchAlgorithmException,
-                        KeyManagementException,
-                        KeyStoreException,
-                        UnrecoverableKeyException
-Deprecated. 
-Throws:
-NoSuchAlgorithmException
-KeyManagementException
-KeyStoreException
-UnrecoverableKeyException
-
-public SSLSocketFactory(KeyStore truststore)
-                 throws NoSuchAlgorithmException,
-                        KeyManagementException,
-                        KeyStoreException,
-                        UnrecoverableKeyException
-Deprecated. 
-Throws:
-NoSuchAlgorithmException
-KeyManagementException
-KeyStoreException
-UnrecoverableKeyException
-
-public SSLSocketFactory(KeyStore keystore,
-                String keystorePassword,
-                KeyStore truststore)
-                 throws NoSuchAlgorithmException,
-                        KeyManagementException,
-                        KeyStoreException,
-                        UnrecoverableKeyException
-Deprecated. 
-Throws:
-NoSuchAlgorithmException
-KeyManagementException
-KeyStoreException
-UnrecoverableKeyException
-
-public SSLSocketFactory(KeyStore truststore)
-                 throws NoSuchAlgorithmException,
-                        KeyManagementException,
-                        KeyStoreException,
-                        UnrecoverableKeyException
-Deprecated. 
-Throws:
-NoSuchAlgorithmException
-KeyManagementException
-KeyStoreException
-UnrecoverableKeyException
-
-HttpClient如何访问需要提交客户端证书的SSL服务
-http://wenku.baidu.com/link?url=vVp9nxQnYGxUpjKvTQgeB-3bdAj0G8i4SZliRp8FM_fA8qDv43aRByWpSX0bwF3HCDS2FJQGqF3NyYV-AhlVQPBCFSWzXEjP_AkymcrPqtq
-
-SSLSocketFactory
-Android org.apache.http.conn.ssl.SSLSocketFactory
-https://developer.android.com/reference/org/apache/http/conn/ssl/SSLSocketFactory.html
-
-AndroidHttps服务器端和客户端简单实例
-http://wenku.baidu.com/link?url=-H7pH8b9OSQy08Hd54-9Hwf_dGEN8q1dbHDOkIa5ixlKNhiJnViXWvOWEyr66vWLdlIgxhGeFCDLDdly30aP_5lPCxsHh1yZcaQ7JCygSKC
-
-
-android中进行https连接的方式
-http://blog.csdn.net/a79412906/article/details/10060795
-
-xutils https请求头
-
-xUtils 中的HttpUtils全面注释
-http://yangguangfu.iteye.com/blog/2213020/
-
-xUtils 请求网络数据 怎么请求https
-https://zhidao.baidu.com/question/618697074970468412.html
-/**
-* 获取json数据
-* 
-* @return
-*/
-private void getJson() {
-	HttpUtils http = new HttpUtils();
-	http.configCurrentHttpCacheExpiry(1000 * 10);// 设置超时时间
-	http.send(HttpMethod.GET, DOWNLOAD_URL, null,new RequestCallBack<String>() {// 接口回调
-		@Override
-		public void onFailure(HttpException arg0, String arg1) {
-			Toast.makeText(getApplicationContext(), "请求数据失败！！", 0).show();
-		}
-
-		@Override
-		public void onSuccess(ResponseInfo<String> info) {
-			System.out.println("返回的json字符串：" + info.result);
-		}
-	});
-}
-
-
-使用 xutils中的 HttpUtils 发送https请求 设置不了证书的问题
-import org.apache.http.conn.ssl.SSLSocketFactory; （import javax.net.ssl.SSLSocketFactory;）
-
-...... 
-
-SSLSocketFactory socketFactory = new SSLSocketFactory(keyStore,pemPassword,trustStore);  httpUtils.configSSLSocketFactory(socketFactory); 
-keyStore是从.p12文件来的   
-trustStore是从.pem文件来的   
-
-聊聊HTTPS与Android安全
-http://blog.csdn.net/yzzst/article/details/46693685
-
-xUtils3.x的网络请求封装和请求https之单向SSL验证
-http://blog.csdn.net/dlx2chengyt/article/details/53081329
 
 
 React Native 基于 JavaScript 的开源框架 React Native
@@ -3026,54 +2379,6 @@ http://mobile.51cto.com/aprogram-442833.htm
 
 Android Handler详细使用方法实例
 http://www.codeceo.com/article/android-handler-usage.html
-
-EventBus
----------
-android EventBus 3.0 混淆配置
-http://blog.csdn.net/yangzs516/article/details/51776576
-https://github.com/greenrobot/EventBus  
-
-使用的这个库在github的官网README中没有写明相应混淆的配置.
-
-经过对官网的查询，在一个小角落还是被我找到了。
-
--keepattributes *Annotation*
--keepclassmembers class ** {
-    @org.greenrobot.eventbus.Subscribe <methods>;
-}
--keep enum org.greenrobot.eventbus.ThreadMode { *; }
-
-# Only required if you use AsyncExecutor
--keepclassmembers class * extends org.greenrobot.eventbus.util.ThrowableFailureEvent {
-    <init>(Java.lang.Throwable);
-}
-链接：http://greenrobot.org/eventbus/documentation/proguard/
-
-
-EnevtBus 发布、订阅消息--android
-http://blog.csdn.net/shareus/article/details/50748804
-
-EventBus 3.0使用
-http://www.th7.cn/Program/Android/201607/901646.shtml
-
-首先添加引用
-compile 'org.greenrobot:eventbus:3.0.0'
-
-#EventBus 3.0
--keepattributes *Annotation*
--keepclassmembers class ** {
-    @org.greenrobot.eventbus.Subscribe <methods>;
-}
--keep enum org.greenrobot.eventbus.ThreadMode { *; }
-
-# Only required if you use AsyncExecutor
--keepclassmembers class * extends org.greenrobot.eventbus.util.ThrowableFailureEvent {
-    <init>(java.lang.Throwable);
-}
-
-实例讲解EventBus for Android
-http://blog.csdn.net/bigconvience/article/details/46278719
-https://github.com/greenrobot/EventBus
 
 android设置Activity背景色为透明的3种方
 http://blog.csdn.net/lily9/article/details/11983221
