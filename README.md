@@ -82,46 +82,12 @@ baoyongzhang/android-PullRefreshLayout
 https://github.com/baoyongzhang/android-PullRefreshLayout
 
 
-
-
-
 Java 8 Lambda表达式探险
 -----------------------
 https://www.cnblogs.com/feichexia/archive/2012/11/15/Java8_LambdaExpression.html
 
 Android中Activity与AppCompatActivity的理解
 http://blog.csdn.net/wsdssss/article/details/51276379
-
-Toolbar
--------
-Android中Toolbar的使用
-http://blog.csdn.net/wsdssss/article/details/51276715
-android.support.v7.widget.Toolbar
-
-android之Toolbar使用详解
-http://blog.csdn.net/listeners_gao/article/details/52736008
-
-Android5.0之Toolbar详解
-http://blog.csdn.net/leonduhua/article/details/54604208
-基本属性设置
-
-<android.support.v7.widget.Toolbar
-    android:id="@+id/toolbar"
-    android:layout_width="match_parent"
-    android:layout_height="?attr/actionBarSize"
-    android:background="@color/colorPrimary"
-    app:navigationIcon="@mipmap/title_bar_back"//左侧图标
-    app:subtitle="子标题"
-    app:subtitleTextColor="#fff" //标题颜色
-    app:title="标题"
-    app:titleTextColor="#fff"/> //子标题颜色
-
-Android开发之脚本替换PackageName
-http://www.jianshu.com/p/dca9c323c686
-
-关于Android SDK里的compileSdk、minSdk、targetSdk、buildTools、Tools、Platform-tools
-http://www.jianshu.com/p/544d9f72883d
-
 
 选择城市
 --------
@@ -255,8 +221,14 @@ https://github.com/zaaach/TopRightMenu
 
 
 
-其他
+其他  
 ---
+Android开发之脚本替换PackageName
+http://www.jianshu.com/p/dca9c323c686
+
+关于Android SDK里的compileSdk、minSdk、targetSdk、buildTools、Tools、Platform-tools
+http://www.jianshu.com/p/544d9f72883d
+
 
 7种形式的Android Dialog使用举例
 https://www.oschina.net/question/54100_32486
@@ -281,108 +253,11 @@ Java String endsWith()方法
 此方法测试字符串是否以指定的后缀 suffix 结束
 
 
-资源绑定
---------
-绑定资源到类成员上可以使用@BindBool、@BindColor、@BindDimen、@BindDrawable、@BindInt、@BindString。使用时对应的注解需要传入对应的id资源，例如@BindString你需要传入R.string.id_string的字符串的资源id。
-
-例如在Fragment中：
-
-
-public class FancyFragment extends Fragment {
-    @BindView(R.id.button1) Button button1;
-    @BindView(R.id.button2) Button button2;
-
-    @Override public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fancy_fragment, container, false);
-        ButterKnife.bind(this, view);
-        // TODO Use fields...
-        return view;
-    }
-}
-
-在ListView的Adapter中，我们常常会使用ViewHolder
-    static class ViewHolder {
-        @BindView(R.id.title)
-        TextView name;
-        @BindView(R.id.job_title) TextView jobTitle;
-
-        public ViewHolder(View view) {
-            ButterKnife.bind(this, view);
-        }
-    }
-
-监听器绑定
-
-@OnClick(R.id.submit)
-public void submit(View view) {
-  // TODO submit data to server...
-}
-
-而监听器方法的参数可选的：
-@OnClick(R.id.submit)
-public void submit() {
-    // TODO submit data to server...
-}
-
-可以指定多个View ID到一个方法上，这样，这个方法就成为了这些View的共同事件处理。
-
-@OnClick({ R.id.door1, R.id.door2, R.id.door3 })
-public void pickDoor(DoorView door) {
-    if (door.hasPrizeBehind()) {
-        Toast.makeText(this, "You win!", LENGTH_SHORT).show();
-    } else {
-        Toast.makeText(this, "Try again", LENGTH_SHORT).show();
-    }
-}
-
-
-重置绑定:
-
-Fragment的生命周期与Activity不同。在Fragment中，如果你在onCreateView中使用绑定，那么你需要在onDestroyView中设置所有view为null。为此，ButterKnife返回一个Unbinder实例以便于你进行这项处理。在合适的生命周期回调中调用unbind函数就可完成重置。
-
-public class FancyFragment extends Fragment {
-    @BindView(R.id.button1) Button button1;
-    @BindView(R.id.button2) Button button2;
-    private Unbinder unbinder;
-
-    @Override public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fancy_fragment, container, false);
-        unbinder = ButterKnife.bind(this, view);
-        // TODO Use fields...
-        return view;
-    }
-
-    @Override public void onDestroyView() {
-        super.onDestroyView();
-        unbinder.unbind();
-    }
-}
-
-
 
 android砸金蛋
 ------------
 http://download.csdn.net/download/wt0731/5009525
 
-
-
-二维码
-------
-Android 基于google Zxing实现二维码、条形码扫描，仿微信二维码扫描效果
-http://blog.csdn.net/xiaanming/article/details/10163203
-
-
-Android 使用Zxing实现二维码的生成，扫描 
-http://blog.csdn.net/qq_28057541/article/details/52034988
-https://github.com/zxing/zxing
-一个非常好用的android工具 zxing-android-embedded https://github.com/journeyapps/zxing-android-embedded
-
-ZXing二维码扫描Demo
-QrCodeScan
-https://github.com/HappyMiao/QrCodeScan
-
-十个Android的另类库，快来看看吧！
-http://www.apkbus.com/blog-822721-75850.html
 
 PatternLockView 图形锁
 https://github.com/aritraroy/PatternLockView
@@ -393,54 +268,6 @@ Android输入框EditText输入银行卡,输入手机,输入身份证格式化的
 http://blog.csdn.net/jiangyufeng123/article/details/51577938
 SpaceTextWatcher https://github.com/Robin-jiangyufeng/SpaceTextWatcher
 
-使用开源的card.io 扫描识别银行卡 
-http://blog.csdn.net/niu0147/article/details/73618375
-https://www.card.io/
-https://github.com/card-io/card.io-Android-SDK
-https://github.com/card-io/card.io-Android-SDK/tree/master/SampleApp
-compile 'io.card:android-sdk:5.5.1'
-
-Android平台银行卡识别--慧视银行卡号识别SDK
-http://blog.sina.com.cn/s/blog_7a21a0b10102wag2.html
-
-Android平台证件识别系统
-http://blog.sina.com.cn/s/blog_7a21a0b10102w9z7.html
-
-Android OCR识别身份证，银行卡等证件信息
-http://www.apkbus.com/blog-927424-75847.html
-百度云OCR识别身份证，银行卡，驾驶证，车牌等证件
-https://github.com/zhouxu88/OCRDemo
-
-Android 银行卡扫描识别获取卡号  用card.io 实现的银行卡扫描，免费
-http://blog.csdn.net/a53657561/article/details/64982411
-eclipse上面运行的Demo：
-http://download.csdn.net/detail/liqingmiao123/9492343     
-AndroidStudio上运行的Demo：
-http://download.csdn.net/detail/rjliulei/8766921
-
-
-android ocr——身份证识别的功能实现
-http://www.jb51.net/article/97505.htm
-google 开源的项目tesseract-ocr 
-https://github.com/justin/tesseract-ocr
-
-二维码扫描项目
-http://www.jb51.net/article/53487.htm
-
-Android 笔记：识别银行卡，获取银行卡卡号 
-http://blog.csdn.net/xiaoyu940601/article/details/54575866
-Android笔记(翻译)：card.io SDK for Android银行卡扫描 
-http://blog.csdn.net/xiaoyu940601/article/details/54575387
-
-https://github.com/paypal/PayPal-Java-SDK
-https://github.com/paypal/PayPal-Android-SDK
-compile 'com.paypal.sdk:paypal-android-sdk:2.15.3'
-
-dependencies {
-    compile('com.paypal.sdk:paypal-android-sdk:2.15.3') {
-        exclude group: 'io.card'
-    }
-}
 
 PayPal Android SDK 2.0 支付
 http://blog.csdn.net/adongqin/article/details/38781329
