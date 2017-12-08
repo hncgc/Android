@@ -1262,42 +1262,6 @@ http://www.jianshu.com/p/9d40b298eca9
 本博客原地址：http://www.jianshu.com/p/9d40b298eca9
 项目github地址：https://github.com/CameloeAnthony/AndroidMVPDemo
 
-Kotlin专题
-----------
-
-谷歌宣布 Kotlin 成安卓开发一级语言，我们如何来学习它
-https://juejin.im/entry/591cffb82f301e006bd9407a
-
-
-Kotlin是什么
-http://blog.csdn.net/abc6368765/article/details/72494075
-
-Kotlin（一）-->Android Studio配置Kotlin开发环境
-http://blog.csdn.net/qq_23547831/article/details/52857346
-
-使用Kotlin开发Android应用
-http://blog.csdn.net/cuiran/article/details/50681473
-
-Kotlin如何成为我们Android开发的主要语言
-http://www.infoq.com/cn/articles/how-kotlin-become-our-android-develop-language
-
-Kotlin相关网址
-Kotlin官网 
-http://kotlinlang.org
-官网文档：
-http://kotlinlang.org/docs/reference/android-overview.html
-http://kotlinlang.org/docs/reference/kotlin-doc.html
-
-国内中文文档：https://huanglizhuo.gitbooks.io/kotlin-in-chinese/content/
-
-国内中文文档2：http://www.liying-cn.net/kotlin/docs/reference/
-
-Kotlin-github地址 
-https://github.com/JetBrains/kotlin
-
-Kotlin API https://kotlinlang.org/api/latest/jvm/stdlib/index.html
-Kotlin中文文档 https://www.gitbook.com/book/canglangwenyue/kotlin-/details
-
 
 lambda
 Java 8 Lambda表达式探险
@@ -1420,35 +1384,6 @@ https://chrome.google.com/webstore/search/postman?hl=zh-CN
 Postman
 http://chromecj.com/web-development/2014-09/60.html
 Postman是一款功能强大的网页调试与发送网页HTTP请求的Chrome插件。
-
-Android 热修复
---------------
-Android热修复技术选型——三大流派解析
-http://www.chinaz.com/news/2016/0912/579753.shtml
-一、QQ空间超级补丁技术
-二、微信Tinker
-三、阿里百川HotFix--AndFix
-
-如何使用阿里百川hotfix热修复功能（一）
-http://blog.csdn.net/wsdbssxq/article/details/53286764
-如何使用阿里百川hotfix热修复功能（二）
-http://blog.csdn.net/wsdbssxq/article/details/53287464
-如何使用阿里百川hotfix热修复功能（三）
-http://blog.csdn.net/wsdbssxq/article/details/53288257
-
-Android 热修复其实很简单
-http://blog.csdn.net/qq_31530015/article/details/51785228?locationNum=11
-AndFix热修复Demo http://download.csdn.net/detail/qq_31530015/9565615
-
-Java的ClassLoader加载机制
-http://blog.csdn.net/qq_31530015/article/details/51768937
-
-安卓App热补丁动态修复技术介绍
-https://mp.weixin.qq.com/s?__biz=MzI1MTA1MzM2Nw==&mid=400118620&idx=1&sn=b4fdd5055731290eef12ad0d17f39d4a&scene=1&srcid=1106Imu9ZgwybID13e7y2nEi#wechat_redirect%20%20%20da
-
-阿里开源的热修复框架AndFix https://github.com/alibaba/AndFix
-
-https://m.oschina.net/
 
 Android 百分比布局库(percent-support-lib) 解析与扩展
 http://blog.csdn.net/lmj623565791/article/details/46695347
