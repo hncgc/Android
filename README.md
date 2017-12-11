@@ -43,11 +43,9 @@ Markdown
 --------
 https://www.zybuluo.com/mdeditor
 
-MVP架构开发，一篇让你从看懂到会使用
-http://www.apkbus.com/blog-865069-76595.html
-
-FlycoTabLayout    UI(多种多样指示器效果)
-https://github.com/H07000223/FlycoTabLayout
+MarkdownView-Android
+MarkdownView-Android是一个可以加载markdown或者普通文件并显示成html格式。
+项目地址：https://github.com/mukeshsolanki/MarkdownView-Android
 
 Material Design
 ---------------
@@ -59,12 +57,13 @@ baoyongzhang/android-PullRefreshLayout
 https://github.com/baoyongzhang/android-PullRefreshLayout
 
 
-Java 8 Lambda表达式探险
------------------------
-https://www.cnblogs.com/feichexia/archive/2012/11/15/Java8_LambdaExpression.html
-
 Android中Activity与AppCompatActivity的理解
 http://blog.csdn.net/wsdssss/article/details/51276379
+
+
+有大量的Gson数据需要生成javaBean时，可以使用 GsonFormat插件，快速完成javaBean的生成。
+[插件GsonFormat快速实现JavaBean](http://blog.csdn.net/dakaring/article/details/46300963)  
+
 
 选择城市
 --------
@@ -100,14 +99,6 @@ Android开源框架收集大全，包含描述和效果图
 http://www.eoeandroid.com/thread-922412-1-1.html?_dsign=b3e2d5df
 http://xybcoder.github.io/ANDROID/
 
-带数字进度的进度条
-项目地址：https://github.com/daimajia/NumberProgressBar
-
-GridPasswordView
-----------------
-模仿支付宝输入密码框
-项目地址：https://github.com/Jungerr/GridPasswordView
-
 DateTimePicker
 --------------
 日期选择部件(Google Agenda 的样式风格)
@@ -121,17 +112,9 @@ PickerView
 
 其他  
 ---
-
 Android UI 大全 里面包含所以特效大全的项目，都是每个特效一个项目的结构(https://gitee.com/bob4j/Android-UI)
 
 [安卓巴士Android开发者门户](http://mp.sohu.com/profile?xpt=c29odW1wNDI3dXhwQHNvaHUuY29t)
-
-[带你实现漂亮的滑动卷尺](http://www.jianshu.com/p/06e65ef3f3f1)
-
-[HenCoder「仿写酷界面」活动——征稿](http://hencoder.com/activity-mock-1/)  
-
-MRichEditor
-[这是一个丰富的文本编辑器（基于summernote）TopRightMenu](https://github.com/zaaach/TopRightMenu)
 
 Android开发之脚本替换PackageName
 http://www.jianshu.com/p/dca9c323c686
@@ -140,39 +123,10 @@ http://www.jianshu.com/p/dca9c323c686
 http://www.jianshu.com/p/544d9f72883d
 
 
-7种形式的Android Dialog使用举例
-https://www.oschina.net/question/54100_32486
-
-android 围绕中心旋转动画
-https://my.oschina.net/janson2013/blog/118558
-
-Android ConstraintLayout详解
-http://www.jianshu.com/p/a8b49ff64cd3
-
-https://github.com/googlecodelabs/constraint-layout.git
-$ git clone https://github.com/googlecodelabs/constraint-layout.git
-
-android学习笔记——使用QuickContactBadge关联联系人
-http://www.cnblogs.com/caoRM/p/3705615.html
-
-QuickContactBadge去掉三角
-https://yq.aliyun.com/articles/36017
-
-
-Java String endsWith()方法
-此方法测试字符串是否以指定的后缀 suffix 结束
-
-
 
 android砸金蛋
 ------------
 http://download.csdn.net/download/wt0731/5009525
-
-
-Android输入框EditText输入银行卡,输入手机,输入身份证格式化的实现   
-http://blog.csdn.net/jiangyufeng123/article/details/51577938
-SpaceTextWatcher https://github.com/Robin-jiangyufeng/SpaceTextWatcher
-
 
 PayPal Android SDK 2.0 支付
 http://blog.csdn.net/adongqin/article/details/38781329
@@ -207,19 +161,8 @@ https://github.com/white-cat/ThinkAndroid
 DataBinding初认识
 http://www.apkbus.com/blog-927424-72831.html
 
-Android零基础入门第69节：ViewPager快速实现引导页
-http://www.apkbus.com/blog-205190-72814.html
-
 安卓零基础
 http://www.apkbus.com/misc.php?mod=tag&id=6169
-
-TabLayout的用法进行总结和归纳
-http://www.apkbus.com/misc.php?mod=tag&id=6169&type=blog
-Demo地址：https://github.com/setasmallgoal/TabLayoutDemo
-
-
-Android零基础入门第68节：完善RecyclerView，添加首尾视图 
-http://www.apkbus.com/blog-205190-72805.html
 
 技巧与经验
 ---
@@ -227,11 +170,6 @@ Android开发路上那些小技巧与经验，一起聚沙成塔！
 http://www.apkbus.com/thread-463317-1-1.html
 
 添加了全局的application文件一定要记得AndroidManifest里面注册一下。
-
-有大量的Gson数据需要生成javaBean时，可以使用 GsonFormat插件，快速完成javaBean的生成。
-
-插件GsonFormat快速实现JavaBean
-http://blog.csdn.net/dakaring/article/details/46300963
 
 全屏可以在配置文件里修改
 android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
@@ -367,33 +305,10 @@ git fetch --all
 git reset --hard origin/master 
 git pull
 
-
-
 Android Studio在线升级失败可以尝试用下面的方法离线升级。
 Android Studio下载及离线升级方法
 http://www.apkbus.com/blog-901770-72691.html
 
-
-Android自定义带百分比的水平和圆形进度条
-http://www.apkbus.com/blog-865196-75794.html
-代码已上传至 http://www.apkbus.com/thread-565022-1-1.html
-
-简单易用的星级控件
-http://www.apkbus.com/thread-268891-1-1.html
-
-android一个可以上拉下滑的Ui效果源码
-http://www.apkbus.com/thread-465680-1-1.html
-
-
-
-
-Android-SpinKit多个漂亮的加载效果
-http://itbbu.com/archives/325
-源码下载：https://github.com/ybq/Android-SpinKit
-
-让你的app提升一个档次－Android酷炫自定义控件
-http://blog.csdn.net/u011172283/article/details/52092076
-https://github.com/madongqiang2201/views
 
 阅读器Read View
 
@@ -405,44 +320,10 @@ AndroidPdfViewer
 一个android版本的PDF阅读渲染器，可以用来阅读PDF文档。
 项目地址：https://github.com/barteksc/AndroidPdfViewer
 
-RichText
-Android平台下的富文本解析器，支持HTML和Markdown。
-项目地址：https://github.com/zzhoujay/RichText
-
-MarkdownView-Android
-MarkdownView-Android是一个可以加载markdown或者普通文件并显示成html格式。
-项目地址：https://github.com/mukeshsolanki/MarkdownView-Android
-
-
-产品介绍页Introduction
-
-GuideView
-GuideView是一个遮罩式的导航页，能够快速为任何一个View创建一个遮罩层，支持单个页面，多个引导提示，支持为高亮区域设置不同的图形，支持引导动画，方便扩展。
-项目地址：https://github.com/binIoter/GuideView
-
-Highlight
-鸿洋大神的作品，也是遮罩式引导页
-项目地址：https://github.com/hongyangAndroid/Highlight
-
-ShowcaseView
-一个通过局部高亮达到突出重点，实现引导效果的控件。
-项目地址：https://github.com/amlcurran/ShowcaseView
-
-AppIntro
-一个常规的viewpager产品介绍页。
-项目地址：https://github.com/PaoloRotolo/AppIntro
-
-CardStackView
-非常酷炫的卡片是交互控件。
-项目地址：https://github.com/loopeer/CardStackView
 
 android-card-slide-panel
 就是“探探”app实现的那种交互体验，为此我还特意下了一个探探体验了一下，卡片上展示的全是美女！左右拖动操作页非常nice，探探这个产品交互简直无可挑剔。
 项目地址：https://github.com/xmuSistone/android-card-slide-panel
-
-ExpandingPager
-一个比较常规的卡片式交互控件。
-项目地址：https://github.com/qs-lll/ExpandingPager
 
 图片Image
 ---------
@@ -502,16 +383,6 @@ uCrop这个项目的目标是：提供终极的、灵活的图片剪裁体验！
 android-crop
 android-crop看起来更像一个单纯的剪裁库，没有uCrop提供的那么多效果，但是就剪裁功能来说，还是很好的。
 项目地址：https://github.com/jdamcd/android-crop
-
-图片轮播
-
-AndroidImageSlider
-AndroidImageSlider是代码家大神开源的图片轮播库，支持从网络／drawable／文件夹在图片进行轮播展示，并且有很多酷炫的动画。
-项目地址：https://github.com/daimajia/AndroidImageSlider
-
-DecentBanner
-DecentBanner是另一个支持图片自动滚动轮播，并支持友好动画的图片轮播库，话不多说，看效果图！
-项目地址：https://github.com/chengdazhi/DecentBanner
 
 仿微信从文件系统加载图片
 
@@ -943,264 +814,20 @@ Glide.with(context).load(imageUrl).centerCrop().into(imageView);
 
 Glide.with(context).load(imageUrl).fitCenter().into(imageView);
 
-
-
-RxJava RxAndroid RxBus Retrofit2 Dagger2
------------------------------------------
-
-聊聊对RxJava与Retrofit的封装
-http://www.jianshu.com/p/93f8c9ae8819
-
-给初学者的RxJava2.0教程
-http://www.jianshu.com/u/c50b715ccaeb
-给初学者的RxJava2.0教程(一)
-http://www.jianshu.com/p/464fa025229e
-给初学者的RxJava2.0教程(二)
-http://www.jianshu.com/p/8818b98c44e2
-给初学者的RxJava2.0教程(三)
-http://www.jianshu.com/p/128e662906af
-给初学者的RxJava2.0教程(四)
-http://www.jianshu.com/p/bb58571cdb64
-给初学者的RxJava2.0教程(五)
-http://www.jianshu.com/p/0f2d6c2387c9
-给初学者的RxJava2.0教程(六)
-http://www.jianshu.com/p/e4c6d7989356
-给初学者的RxJava2.0教程(七)
-http://www.jianshu.com/p/9b1304435564
-给初学者的RxJava2.0教程(八)
-http://www.jianshu.com/p/a75ecf461e02
-给初学者的RxJava2.0教程(九)
-http://www.jianshu.com/p/36e0f7f43a51
-
-
-Learning RxJava(RxJava详解)
-https://github.com/xinghongfei/Hello-RxJava
-给 Android 开发者的 RxJava 详解
-http://gank.io/post/560e15be2dca930e00da1083
-在正文开始之前的最后，放上 GitHub 链接和引入依赖的 gradle 代码： Github： 
-https://github.com/ReactiveX/RxJava 
-https://github.com/ReactiveX/RxAndroid 
-引入依赖： 
-compile 'io.reactivex:rxjava:1.0.14' 
-compile 'io.reactivex:rxandroid:1.0.1' 
-
-http://blog.csdn.net/lzyzsd?viewmode=contents
-深入浅出RxJava（一：基础篇）
-http://blog.csdn.net/lzyzsd/article/details/41833541/
-
-深入浅出RxJava(二：操作符)
-http://blog.csdn.net/lzyzsd/article/details/44094895
-深入浅出RxJava三--响应式的好处
-http://blog.csdn.net/lzyzsd/article/details/44891933
-深入浅出RxJava四-在Android中使用响应式编程
-http://blog.csdn.net/lzyzsd/article/details/45033611
-
-给 Android 开发者的 RxJava 详解
-http://gank.io/post/560e15be2dca930e00da1083#toc_1
-
-RxJava操作符（一）Creating Observables 
-http://blog.chinaunix.net/uid-20771867-id-5187376.html
-RxJava操作符（二）Transforming Observables
-http://blog.chinaunix.net/uid-20771867-id-5192193.html
-RxJava操作符（三）Filtering 
-http://blog.chinaunix.net/uid-20771867-id-5194384.html
-RxJava操作符（四）Combining
-http://blog.chinaunix.net/uid-20771867-id-5197584.html
-RxJava操作符（五）Error Handling 
-http://blog.chinaunix.net/uid-20771867-id-5201914.html
-RxJava操作符（六）Utility 
-http://blog.chinaunix.net/uid-20771867-id-5206187.html
-RxJava操作符（七）Conditional and Boolean
-http://blog.chinaunix.net/uid-20771867-id-5208237.html
-RxJava操作符（八）Aggregate 
-http://blog.chinaunix.net/uid-20771867-id-5209862.html
-
-Rx Android实战之项目重构详解
-http://www.maiziedu.com/article/10771/
-
-
-RxJava 混淆配置
-http://blog.csdn.net/soslinken/article/details/51375036
-
-RxJava(RxAndroid)入门级教程及衍生教程
-http://blog.csdn.net/biezhihua/article/details/49155111
-https://github.com/ReactiveX/RxJava
-https://github.com/ReactiveX
-https://github.com/ReactiveX/RxAndroid
-
-
-Rxandroid
-----------
-RxAndroid使用方法介绍
-http://www.2cto.com/kf/201601/456019.html
-
-Retrofit
-
-官网 http://square.github.io/retrofit/ 
-Github https://github.com/square/retrofit
-
-# Platform calls Class.forName on types which do not exist on Android to determine platform.
--dontnote retrofit2.Platform
-# Platform used when running on RoboVM on iOS. Will not be used at runtime.
--dontnote retrofit2.Platform$IOS$MainThreadExecutor
-# Platform used when running on Java 8 VMs. Will not be used at runtime.
--dontwarn retrofit2.Platform$Java8
-# Retain generic type information for use by reflection by converters and adapters.
--keepattributes Signature
-# Retain declared checked exceptions for use by a Proxy instance.
--keepattributes Exceptions
-
-Retrofit2使用（非常简洁易懂）
-http://blog.csdn.net/baidu_31093133/article/details/51759452
-
-Android Retrofit 2.0使用
-http://wuxiaolong.me/2016/01/15/retrofit/
-Retrofit2 源码解析
-http://bxbxbai.github.io/2015/12/13/retrofit2/
-
-
-Retrofit源码分析
-http://blog.csdn.net/duanyy1990/article/details/52071954
-
-https://github.com/square/okhttp
-
-Android 介绍Retrofit的简单使用
-http://blog.csdn.net/bitian123/article/details/51899716
-Retrofit用法详解
-http://blog.csdn.net/duanyy1990/article/details/52139294
-
-compile 'com.squareup.retrofit2:retrofit:2.1.0'
-compile 'com.squareup.retrofit2:converter-gson:2.1.0'
-compile 'com.squareup.retrofit2:adapter-rxjava:2.1.0'
-
-
-compile 'com.squareup.retrofit2:retrofit:2.0.0-beta4'//Retrofit2所需要的包
-compile 'com.squareup.retrofit2:converter-gson:2.0.0-beta4'//ConverterFactory的Gson依赖包
-compile 'com.squareup.retrofit2:converter-scalars:2.0.0-beta4'//ConverterFactory的String依赖包
-
-
-Retrofit — Getting Started and Creating an Android Client
-https://futurestud.io/tutorials/retrofit-getting-started-and-android-client
-
-
-RetrofitClient
-Android基于Retrofit2.0 +RxJava 封装的超好用的RetrofitClient工具类（六）
-http://blog.csdn.net/sk719887916/article/details/51958010
-
-玩转IOC，教你徒手实现自定义的Retrofit框架（七）
-Android 玩转IOC，Retfotit源码解析，教你徒手实现自定义的Retrofit框架
-http://blog.csdn.net/sk719887916/article/details/51957819
-
-Rxjava和Retrofit 需要掌握的几个实用技巧,缓存问题和统一对有无网络处理问题（八）
-Rxjava +Retrofit 你需要掌握的几个技巧，Retrofit缓存，RxJava封装，统一对有无网络处理,异常处理， 返回结果问题
-http://blog.csdn.net/sk719887916/article/details/52132106
-
-Novate：对Retrofit2.0的又一次完美改进加强！（九）
-Novate 网络库：Retrofit2.0和RxJava的又一次完美改进加强(Tamic博客 -CSDN)
-http://blog.csdn.net/sk719887916/article/details/52195428
-GitHub:https://github.com/Tamicer/Novate/
-
-是时候客观评价Retrofit了，Retrofit这几点你必须明白！
-http://blog.csdn.net/sk719887916/article/details/53613263
-
-rrd结构 ：Retrofit + Rxjava + Dagger2
-ReactiveX是Reactive Extensions的缩写，一般简写为Rx
-ReactiveX 是一个使用可观察数据流进行异步编程的编程接口，ReactiveX结合了观察者模式、迭代器模式和函数式编程的精华
-
-The Reactive Extensions 简称Rx 反应式扩展 
-
-RxJava+Retrofit 简单结合
-http://www.tuicool.com/articles/qQFVven
-git地址： https://github.com/meijius/RxRetrofitDemo
-【知识必备】RxJava+Retrofit二次封装最佳结合体验，打造懒人封装框架~
-http://www.cnblogs.com/liushilin/p/6164901.html
-代码地址: https://github.com/nanchen2251/RetrofitRxUtil
-
-RxJava+Retrofit+OkHttp 封装
-http://www.tuicool.com/articles/eiyUziM
-
-Android Retrofit 2.0使用
-http://www.open-open.com/lib/view/open1465993338254.html
-Android Retrofit 2.0 使用-补充篇
-http://www.mobile-open.com/2016/965159.html
-
-OkHttp3
---------
-Android网络编程（六）OkHttp3用法全解析
-http://blog.csdn.net/itachi85/article/details/51190687
-
-相关文章 
-Android网络编程（一）HTTP协议原理  			http://liuwangshu.cn/application/network/1-http.html
-Android网络编程（二）HttpClient与HttpURLConnection 	http://liuwangshu.cn/application/network/2-httpclienthttp-urlconnection.html https://github.com/henrymorgen/java-httpurl
-Android网络编程（三）Volley用法全解析 			http://liuwangshu.cn/application/network/3-volley.html https://github.com/henrymorgen/android-volley
-Android网络编程（四）从源码解析volley 			http://liuwangshu.cn/application/network/4-volley-sourcecode.html
-Android网络编程（五）OkHttp2.x用法全解析 		http://liuwangshu.cn/application/network/5-okhttp2x.html  https://github.com/henrymorgen/MoonOkHttp
-Android网络编程（六）OkHttp3用法全解析 			http://liuwangshu.cn/application/network/6-okhttp3.html https://github.com/henrymorgen/android-okhttp3 
-							封装封装 https://github.com/pengjianbo/OkHttpFinal 封装Demo:https://github.com/henrymorgen/android-okhttp3
-							下载管理 https://github.com/pengjianbo/FileDownloaderFinal
-Android网络编程（七）源码解析OkHttp前篇[请求网络] 	http://liuwangshu.cn/application/network/7-okhttp3-sourcecode.html
-Android网络编程（八）源码解析OkHttp后篇[复用连接池] 	http://liuwangshu.cn/application/network/8-okhttp3-sourcecode2.html
-Android网络编程（九）Retrofit2前篇[基本使用] 		http://liuwangshu.cn/application/network/9-retrofit2.html
-Android网络编程（十）Retrofit2后篇[注解] 		http://liuwangshu.cn/application/network/10-retrofit2-annotations.html
-Android网络编程（十一）源码解析Retrofit			http://liuwangshu.cn/application/network/11-retrofit2-sourcecode.html
-
-
-Android中Retrofit+OkHttp进行HTTP网络编程的使用指南
-http://www.jb51.net/article/88542.htm
-
-Android app开发中Retrofit框架的初步上手使用
-http://www.jb51.net/article/79729.htm
-
-Retrofit自定义GsonConverter处理所有请求错误情况
-http://www.jianshu.com/p/5b8b1062866b
-
-Retrofit 2.0 超能实践（一），okHttp完美支持Https传输
-http://blog.csdn.net/sk719887916/article/details/51597816
-
-Retrofit2.0 ，OkHttp3完美同步持久Cookie实现免登录(二)
-http://blog.csdn.net/sk719887916/article/details/51700659
-
-Retrofit 2.0 超能实践（三），轻松实现文件/多图片上传/Json字符串
-http://blog.csdn.net/sk719887916/article/details/51755427
-
-Retrofit 2.0 超能实践（四），完成大文件断点下载
-http://www.jianshu.com/p/582e0a4a4ee9
-
-Retrofit，Okhttp对每个Request统一动态添加header和参数（五）
-http://blog.csdn.net/sk719887916/article/details/52189602
-
-    //API网络请求注解库    代码地址-----> https://github.com/square/retrofit
-    compile 'com.squareup.retrofit:retrofit:1.9.0'
-
-
 RxBus
+---
 Android之RxBus详解
 http://blog.csdn.net/caben_/article/details/52786184
 
-Dagger2
----
-Dagger表示 有向非循环图(Directed Acyclic Graph, DAGger) 
-
-依赖注入库 Dagger2 的使用方法
-http://www.tuicool.com/articles/uAN7ZbZ
-
-Dagger2
-Android中的MVP模式，带实例
-http://www.jianshu.com/p/9d40b298eca9
-本博客原地址：http://www.jianshu.com/p/9d40b298eca9
-项目github地址：https://github.com/CameloeAnthony/AndroidMVPDemo
 
 
 lambda
+---
 Java 8 Lambda表达式探险
 http://www.cnblogs.com/feichexia/archive/2012/11/15/Java8_LambdaExpression.html
 
 在Android上使用Lambda表达式 - retrolambda插件
 http://blog.csdn.net/codezjx/article/details/51327164
-
-
-
-
 
 Volley源码分析
 http://bxbxbai.github.io/2014/12/24/read-volley-source-code/
@@ -1336,31 +963,6 @@ http://mp.weixin.qq.com/s/NWM-OKuKCyHTlXc32h39uA
 Android 知识梳理
 https://gold.xitu.io/post/587dbaf9570c3522010e400e
 
-Android Auto Scroll ViewPager
-Android自动滚动 轮播循环的ViewPager
-http://www.trinea.cn/android/auto-scroll-view-pager/
-
-android-auto-scroll-view-pager.jar
-https://github.com/Trinea/android-auto-scroll-view-pager
-
-示例代码地址:
-https://github.com/Trinea/android-demo
-https://github.com/Trinea/android-demo/blob/master/src/cn/trinea/android/demo/AutoScrollViewPagerDemo.java
-
-指示器，圆形或是方形指示器请配合ViewPagerIndicator使用
-Android ViewPagerIndicator
-https://github.com/JakeWharton/ViewPagerIndicator
-
-更多自动滚动轮播的开源项目可见：自动滚动 ViewPager
-http://p.codekk.com/?s=自动滚动%20ViewPager
-
-AutoScrollViewPager与PageIndicator无限循环混合使用
-http://blog.csdn.net/za5419479/article/details/40979857
-
-Android自动滚动 轮播循环的ViewPager
-http://www.trinea.cn/android/auto-scroll-view-pager/
-项目已开源 https://github.com/Trinea/android-auto-scroll-view-pager
-示例代码地址 https://github.com/Trinea/android-demo/blob/master/src/cn/trinea/android/demo/AutoScrollViewPagerDemo.java
 
 android webview里设置cookie
 http://blog.csdn.net/encienqi/article/details/7912733
@@ -1971,7 +1573,9 @@ fir.im upload 安装
 
 插件会在Views -> tool windows显示 FIR.im
 API token:  d4b972e14b530f2d2fe5fc951d58a5d7
-----------------------------------------------------------
+
+图表
+---
 MPAndroidChart开源图表库（一）之饼状图
 http://blog.csdn.net/shineflowers/article/details/44701645
 https://github.com/PhilJay/MPAndroidChart
@@ -2050,13 +1654,6 @@ http://hukai.me/android-training-course-in-chinese/index.html
 Android Api中文版
 http://www.embeddedlinux.org.cn/androidapi/
 
-
-Android：控件GridView的使用
-http://www.cnblogs.com/tinyphp/p/3855224.html
-
-Android GridView的使用
-https://www.oschina.net/code/snippet_16_3069
-
 Android高阶之Android studio-友盟多渠道打包方式
 http://blog.csdn.net/chenliguan/article/details/51066933
 
@@ -2098,117 +1695,6 @@ b1c8_1_mwpl_05500201.jpeg",/*图片3*/
                 "realtype": "娱乐"/*类型二*/
             },
 ...]}}
-
-
-
-ListView 自定义头部、自定义加载尾部、上拉主动加载
-http://blog.csdn.net/wangwei_cq/article/details/9383759
-
-（1）定自义一个xml布局 my_headview.xml
-
-在Activity类里找到这个自定义布局，并添加到头部
-
-
-LinearLayout hearderViewLayout = (LinearLayout) LayoutInflater.from(xwActivity.this).inflate(R.layout.xwActivity, null);
-
-listview.addHeaderView（hearderViewLayout）;
-
-（2）定自义一个xml布局 my_footview.xml
-
-LinearLayout footViewLayout = (LinearLayout) LayoutInflater.from(xwActivity.this).inflate(R.layout.my_footview, null);
-
-listview.addFooterView（footerViewLayout）;
-（3）重视事务
-
-listview必然会有Adapter，参加头尾部，必须在参加Adapter之前！
-
-listview.addHeaderView（hearderViewLayout）;
-
-listview.addFooterView（footerViewLayout）;
-
-listview.setAdapter（myAdapter）;
-
-android中 RecyclerView 添加头部视图的功能
-http://zhidao.baidu.com/link?url=1CJ4Fcn9cyw2mg8_MsXbsrvDFHRkm94Aw9Ex13XP0WN-48dEXTYZALlEtI4ELgzYj_TAPBabbRQjcTcTxs6aUTENhr5Na9QLcomYJuDEk_u
-https://github.com/jczmdeveloper/XCRecyclerView
-
-
-	/**
-	 * 根据进度值移动进度文本水平控件位置
-	 */
-	private void moveProgressTextView() {
-		//根据进度值确定进度文本显示控件水平位置
-
-		//获取屏幕大小
-		/*
-		WindowManager wm = (WindowManager) getContext()
-				.getSystemService(mActivity.WINDOW_SERVICE);
-		int screenW0 = wm.getDefaultDisplay().getWidth();;
-		int screenH0 = wm.getDefaultDisplay().getHeight();;
-		LogUtils.d("Screen width: " + screenW0 + " Screen height: " + screenH0);
-		*/
-
-		WindowManager manager = mActivity.getWindowManager();
-		DisplayMetrics outMetrics = new DisplayMetrics();
-		manager.getDefaultDisplay().getMetrics(outMetrics);
-		int screenW = outMetrics.widthPixels;
-		int screenH = outMetrics.heightPixels;
-		LogUtils.d("Screen width: " + screenW + " Screen height: " + screenH);
-
-		//控件宽度
-		int w = View.MeasureSpec.makeMeasureSpec(0,View.MeasureSpec.UNSPECIFIED);
-		int h = View.MeasureSpec.makeMeasureSpec(0,View.MeasureSpec.UNSPECIFIED);
-		tv_progress_text.measure(w, h);
-		int tvW = tv_progress_text.getMeasuredWidth();
-		LogUtils.d("tv_progress_text width: " + tvW);
-		//可移宽度
-		int offsetMax = screenW - tvW;
-		//计算水平移动值
-		double offsetPer = ArithUtils.div(offsetMax, 100);
-		double offsetdouble = planningDetailData.getProgress() * offsetPer;
-		int offset = (int) offsetdouble;
-		LogUtils.d("offsetPer:" + offsetPer +" offsetdouble : " + offsetdouble + " offset:" + offset);
-		tv_progress_text.setPadding(tv_progress_text.getPaddingLeft() + offset,
-				tv_progress_text.getPaddingTop(),
-				tv_progress_text.getPaddingRight(),
-				tv_progress_text.getPaddingBottom());
-	}
-android获得屏幕高度和宽度
-http://www.cnblogs.com/pswzone/archive/2012/03/11/2389993.html
-Android获取屏幕宽度的4种方法
-http://www.android100.org/html/201506/26/158724.html
-
-android 动态改变控件位置和大小
-http://blog.csdn.net/c_see/article/details/6439860
-动态改变控件位置的方法：
-view.setPadding(left, top, right, bottom) ，设置自己本身位置的偏移
-
-setPadding（）的方法更改布局位置。
-如我要把Imageview下移200px：     
-       ImageView.setPadding( ImageView.getPaddingLeft(),  ImageView.getPaddingTop()+200,  
-ImageView.getPaddingRight(),  ImageView.getPaddingBottom());
-
-
-动态改变控件大小的方法：
-
-1、声明控件参数获取对象 LayoutParams lp；
-2、获取控件参数： lp = 控件id.getLayoutParams();
-3、设置控件参数：如高度。   lp.height -= 10;
-4:、使设置生效：控件id.setLayoutParams(lp);
-
-获取控件大小和设置调整控件的位置XY示例
-http://www.jb51.net/article/38744.htm
-
-Android应用开发：CardView的使用及兼容
-http://blog.csdn.net/airk000/article/details/39520977
-虽然说CardView整合到了V7中，但是在support-v7中并不能发现，通过查看sdk extra路径下的文件可以发现，其名字叫cardview-v7
-依赖
-dependencies {  
-    compile fileTree(dir: 'libs', include: ['*.jar'])  
-    compile 'com.android.support:cardview-v7:21.0.0-rc1'  
-}  
-
------------------------------------------------
 
 
 我的Android笔记（八）—— 使用Jsoup解析Html
@@ -2253,34 +1739,6 @@ Material Design 中文版 http://design.1sters.com/
 groovy 2.4.5 API http://www.groovy-lang.org/api.html
 Android Plugin DSL Reference http://google.github.io/android-gradle-dsl/current/
 Java API https://docs.oracle.com/javase/7/docs/api/
-
-Android自定义日历控件的实现过程详解
-http://www.apkbus.com/forum.php?mod=viewthread&tid=258396
-
-android 可签到的自定义日历控件
-http://www.apkbus.com/blog-625356-61022.html
-
-自定义的一个日历Calender（签到）
-http://blog.csdn.net/u012808234/article/details/47832073
-
-Android UI-自定义日历控件（pccb签到使用）
-http://blog.csdn.net/wwj_748/article/details/42244865
-
-Android控件之CalendarView 日历对话框
-http://blog.csdn.net/wangjintao1988/article/details/8674408
-源码下载：http://download.csdn.net/detail/wwj_748/8312233
-
-Android自定义控件之日历控件
-http://blog.csdn.net/mr_dsw/article/details/48755993
-https://github.com/dengshiwei/CalendarView
-https://github.com/dengshiwei/CalendarComponent
-
-https://github.com/kenumir/android-calendar-card
-
-开源日历控件Caldroid的使用
-http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2014/0314/1592.html
-https://github.com/roomorama/Caldroid
-
 
 Android之Sensor 简介
 http://wenku.baidu.com/link?url=_x3clXnKWIygI3ey362EoPII_9lZaDvNs9Y9I-424q9nZfBfwcsCl8SxcGTi9c8DnTSHgjMl9ctaK8tOLTn916om7LKbJY4mpF1U8_KwDPC
@@ -2379,10 +1837,6 @@ http://www.apkbus.com/forum.php?mod=viewthread&tid=268127&extra=page%3D1%26filte
 Android 者开发如何选择测试机列表
 http://www.apkbus.com/blog-705730-61682.html
 http://kvh.io/cn/android-test-device.html
-
-
-图片文字混合编辑、排序的富文本编辑器
-http://www.apkbus.com/forum.php?mod=viewthread&tid=268116&extra=page%3D1%26filter%3Dsortid%26sortid%3D12
 
 Eclipse中使用SVN
 http://blog.csdn.net/v123411739/article/details/22512133
@@ -2499,41 +1953,6 @@ http://api.pccb.com/update/pccb_android_app.apk
 
 [Android 拍照或从相册取图片并裁剪](http://www.cnblogs.com/w-y-f/p/4028379.html)  
 https://github.com/ryanhoo/PhotoCropper
-
-Android中的羊角符
-----------------
-http://blog.csdn.net/haizishiwo/article/details/51045642
-
-
-android 角标
-------------
-android中角标的实现
-http://my.oschina.net/droidwolf/blog/285411?fromerr=Q7Qi0hAm
-
-Android 为应用添加数字角标
-http://www.bubuko.com/infodetail-565730.html
-
-在小米 三星 索尼 手机 ：图标上显示数字（未读消息数）
-http://www.eoeandroid.com/thread-542394-1-1.html
-
-TestShortCut.rar
-http://www.eoeandroid.com/forum.php?mod=misc&action=attachcredit&aid=132865&formhash=d73a6ac6
-
-Android仿Iphone通知角标的实现(一)
-http://www.2cto.com/kf/201308/238403.html
-
-圆角矩形进度条，包含带图标和不带图标两种形式
-Android-RoundCornerProgressBar
-
-日历
------
-android收益日历源码
-http://www.apkbus.com/thread-585738-1-1.html
-
-日历签到
-http://www.apkbus.com/thread-273611-1-1.html
-
-
 
 
 dp与pix:
