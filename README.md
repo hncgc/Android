@@ -1,59 +1,39 @@
 
 资源
+===
+
+[百度云干货资源](http://blog.csdn.net/wcqwcq123/article/details/53408789)  
+---
+[Android 免费学习](http://sem.shiguangkey.com/shiguang/it/android/pc/)  
+---
+[java 下载](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
+---------
+
+[Download IntelliJ IDEA](https://www.jetbrains.com/idea/download/?fromIDE=#section=windows)  
 ---
 
-百度云干货资源
-http://blog.csdn.net/wcqwcq123/article/details/53408789
-
-Android 免费学习
-----------------
-
-http://sem.shiguangkey.com/shiguang/it/android/pc/
-
-java 下载
----------
-http://www.oracle.com/technetwork/java/javase/downloads/index.html
-
-Download IntelliJ IDEA
-https://www.jetbrains.com/idea/download/?fromIDE=#section=windows
-
-Android Studio 版本：3.0.0.18 发布日期：OCTOBER 25, 2017
-http://www.android-studio.org/
+[Android Studio 版本：3.0.0.18 发布日期：OCTOBER 25, 2017](http://www.android-studio.org/)  
 
 博客精华
 -------
-【新版】Android技术博客精华汇总
-http://www.apkbus.com/thread-313856-1-1.html
+[【新版】Android技术博客精华汇总](http://www.apkbus.com/thread-313856-1-1.html)  
 
 Code Review 
------------
-https://baike.baidu.com/item/Code%20Review/8466134?fr=aladdin
-
+---
+[Code Review](https://baike.baidu.com/item/Code%20Review/8466134?fr=aladdin)  
 Code Review是轻量级代码评审
 
-程序员必备的代码审查（Code Review）清单
-http://blog.jobbole.com/83595/
+[程序员必备的代码审查（Code Review）清单](http://blog.jobbole.com/83595/)  
 
-从零开始Code Review
-http://blog.csdn.net/uxyheaven/article/details/49773619
+[从零开始Code Review](http://blog.csdn.net/uxyheaven/article/details/49773619)  
 
 Markdown
---------
-https://www.zybuluo.com/mdeditor
+---
+[Markdown](https://www.zybuluo.com/mdeditor)  
 
 MarkdownView-Android
 MarkdownView-Android是一个可以加载markdown或者普通文件并显示成html格式。
 项目地址：https://github.com/mukeshsolanki/MarkdownView-Android
-
-Material Design
----------------
-Material Design 中文版
-http://wiki.jikexueyuan.com/project/material-design/
-
-
-baoyongzhang/android-PullRefreshLayout
-https://github.com/baoyongzhang/android-PullRefreshLayout
-
 
 Android中Activity与AppCompatActivity的理解
 http://blog.csdn.net/wsdssss/article/details/51276379
@@ -61,31 +41,6 @@ http://blog.csdn.net/wsdssss/article/details/51276379
 
 有大量的Gson数据需要生成javaBean时，可以使用 GsonFormat插件，快速完成javaBean的生成。
 [插件GsonFormat快速实现JavaBean](http://blog.csdn.net/dakaring/article/details/46300963)  
-
-
-选择城市
---------
-Android 类似美团的选择城市界面
-http://blog.csdn.net/bruce_qiwei/article/details/73656964
-新方案地址
-https://github.com/qiwei0727/CityPicker
-此框架引入了高德地图，建议将源码抽取出来，将地图SDK分离， 
- 其他方面还不错。
-
-
-【Android开源库】美团等APP城市选择
-http://www.jianshu.com/p/b469c6f02754
-https://github.com/zaaach/CityPicker
-
-Android中使用开源框架citypickerview实现省市区三级联动选择   
-http://blog.csdn.net/panhouye/article/details/60872318
-https://github.com/crazyandcoder/citypicker
-
-RxJava 创建操作符 timer与interval
-http://blog.csdn.net/axuanqq/article/details/50687490
-
-王学岗RxJava(十二)————————interval，timer，取消Observable
-http://blog.csdn.net/qczg_wxg/article/details/53131146
 
 开发框架
 ---
@@ -110,62 +65,50 @@ PickerView
 
 其他  
 ---
-Android UI 大全 里面包含所以特效大全的项目，都是每个特效一个项目的结构(https://gitee.com/bob4j/Android-UI)
+[Android UI 大全 里面包含所以特效大全的项目，都是每个特效一个项目的结构](https://gitee.com/bob4j/Android-UI)  
 
 [安卓巴士Android开发者门户](http://mp.sohu.com/profile?xpt=c29odW1wNDI3dXhwQHNvaHUuY29t)
 
-Android开发之脚本替换PackageName
-http://www.jianshu.com/p/dca9c323c686
+[Android开发之脚本替换PackageName](http://www.jianshu.com/p/dca9c323c686)  
 
-关于Android SDK里的compileSdk、minSdk、targetSdk、buildTools、Tools、Platform-tools
-http://www.jianshu.com/p/544d9f72883d
+[关于Android SDK里的compileSdk、minSdk、targetSdk、buildTools、Tools、Platform-tools](http://www.jianshu.com/p/544d9f72883d)  
 
 
 
 android砸金蛋
-------------
-http://download.csdn.net/download/wt0731/5009525
+---
+[android砸金蛋](http://download.csdn.net/download/wt0731/5009525)  
 
-PayPal Android SDK 2.0 支付
-http://blog.csdn.net/adongqin/article/details/38781329
-
-PayPal Android SDK的接入和开发、与服务器对接IPN   
-http://blog.csdn.net/carmideychen/article/details/72420467
-
-引入SDK
-compile('com.paypal.sdk:paypal-android-sdk:2.15.3')
- { exclude group:'io.card'}
-exclude group:'io.card'表明不允许直接用卡支付，如果不添加这一行，在支付时用卡支付的按钮选项出现
-
-算是目前PAYPAL最全最完整的开发方式了
-http://blog.csdn.net/a53657561/article/details/64982411
-
-一个多年安卓开发者的一些感悟与忠告
-http://www.apkbus.com/blog-847095-72728.html
-
-所有开源安卓app的列表
-https://github.com/pcqpcq/open-source-android-apps
-
-ProGuard代码混淆技术详解
-http://www.cnblogs.com/cr330326/p/5534915.html
-
-android-guidelines 代码风格
-https://github.com/ribot/android-guidelines/blob/master/project_and_code_guidelines.md
-
-ThinkAndroid
-https://github.com/white-cat/ThinkAndroid
-
-
-DataBinding初认识
-http://www.apkbus.com/blog-927424-72831.html
-
-安卓零基础
-http://www.apkbus.com/misc.php?mod=tag&id=6169
 
 技巧与经验
 ---
-Android开发路上那些小技巧与经验，一起聚沙成塔！
-http://www.apkbus.com/thread-463317-1-1.html
+
+[PayPal Android SDK 2.0 支付](http://blog.csdn.net/adongqin/article/details/38781329)  
+
+[PayPal Android SDK的接入和开发、与服务器对接IPN](http://blog.csdn.net/carmideychen/article/details/72420467)  
+
+引入SDK
+   compile('com.paypal.sdk:paypal-android-sdk:2.15.3')
+       { exclude group:'io.card'}
+exclude group:'io.card'表明不允许直接用卡支付，如果不添加这一行，在支付时用卡支付的按钮选项出现
+
+[算是目前PAYPAL最全最完整的开发方式了](http://blog.csdn.net/a53657561/article/details/64982411)  
+
+[一个多年安卓开发者的一些感悟与忠告](http://www.apkbus.com/blog-847095-72728.html)  
+
+[所有开源安卓app的列表](https://github.com/pcqpcq/open-source-android-apps)  
+
+[ProGuard代码混淆技术详解](http://www.cnblogs.com/cr330326/p/5534915.html)  
+
+[android-guidelines 代码风格](https://github.com/ribot/android-guidelines/blob/master/project_and_code_guidelines.md)  
+
+[ThinkAndroid](https://github.com/white-cat/ThinkAndroid)  
+
+[DataBinding初认识](http://www.apkbus.com/blog-927424-72831.html)  
+
+[安卓零基础](http://www.apkbus.com/misc.php?mod=tag&id=6169)  
+
+[Android开发路上那些小技巧与经验，一起聚沙成塔！](http://www.apkbus.com/thread-463317-1-1.html)  
 
 添加了全局的application文件一定要记得AndroidManifest里面注册一下。
 
@@ -183,12 +126,12 @@ dependencies {
 }
 PressScanCode是一个长按扫描屏幕上的二维码工具库，他底层的二维码识别使用了zxing库。我们假设作者开发时使用了老版本zxing 1.0.1的版本。而我们集成进来以后却发现本身项目里也依赖Zxing 但是我们的版本是3.3.0的。由于包管理具有传递性。这时就会起冲突。gradle无法自己处理你到底是该依赖哪个。下面是处理办法。
 
-dependencies {
-    compile('com.github.BolexLiu:PressScanCode:v1.0.0'', {
-       exclude group: 'com.google.zxing' //排除依赖
-    })
-  compile 'com.google.zxing:core:3.3.0'
-}
+    dependencies {
+        compile('com.github.BolexLiu:PressScanCode:v1.0.0'', {
+           exclude group: 'com.google.zxing' //排除依赖
+        })
+        compile 'com.google.zxing:core:3.3.0'
+    }
 
 这样做的意思排除PressScanCode原有的依赖。而选择依赖我们自己设定的3.3.0的zxing库
 
@@ -323,86 +266,6 @@ android-card-slide-panel
 就是“探探”app实现的那种交互体验，为此我还特意下了一个探探体验了一下，卡片上展示的全是美女！左右拖动操作页非常nice，探探这个产品交互简直无可挑剔。
 项目地址：https://github.com/xmuSistone/android-card-slide-panel
 
-图片Image
----------
-CircleImageView
-一个非常漂亮的圆形ImageView，保持了ImageView的所有特性，可以像原生ImageView一样直接用Picasso加载图片展示。
-项目地址：https://github.com/hdodenhof/CircleImageView
-
-PhotoView
-一个支持缩放功能的ImageView，通过多点触控或者双击都可以实现缩放效果。
-项目地址：https://github.com/chrisbanes/PhotoView
-
-rebound
-Facebook出品，必属精品。这个库不是一个控件库，而是一个功能库，实现了点击图片，像按压弹簧一样的效果；点击图片之后，图片会先缩小，再放大，效果非常绚丽漂亮。
-项目地址：http://facebook.github.io/rebound/
-
-InstaCapture
-这个库严格说起来和图片关系不大，这是一个强大的通过一行代码实现截屏的功能的库，而且可以指定当前activity截屏不包含哪些具体view组件，而且可以和当下流行的RXJava结合使用，非常简单易用，截屏之后的文件怎么处理就随便了，通常截屏文件我们还是要加载成位图显示的，所以先放在图片这里。
-项目地址：https://github.com/tarek360/InstaCapture
-
-PicassoFaceDetectionTransformation
-这是一个和Picasso配合使用的图片剪裁库，特点就是自带面部识别，会把脸部剪裁到中间。
-项目地址：https://github.com/aryarohit07/PicassoFaceDetectionTransformation
-
-Luban
-这又是一个功能库，实现高效率的无损图片压缩功能，作者对比了使用该库压缩和使用微信压缩的压缩比例，发现压缩效果和微信差不多！这是相当逆天的效果！有了这个库，其它的压缩库基本可以放一边了！
-项目地址：https://github.com/Curzibn/Luban
-
-Compressor
-又一个无损图片压缩处理库，这个库可能没有上面那个库厉害，但是这个库可以和RXJava配合使用，实现处理链式化，所以如果是RXJava深度用户的话，可以去看看。
-项目地址：https://github.com/zetbaitsu/Compressor
-
-
-AndroidPhotoFilters
-这叒是一个功能库，实现了灵活多样的滤镜效果，相当漂亮。
-项目地址：https://github.com/Zomato/AndroidPhotoFilters?utm_campaign=explore-email&utm_medium=email&utm_source=newsletter&utm_term=weekly
-
-MagicCamera
-一个包含美颜等40余种实时滤镜的相机库，实现的是一个完整的照相机功能，可进行拍照、录像和图片修改。个人来说不喜欢这种杂合功能较多的库，我一向认为越小越精致，所以我一般不会使用这种库。但是可以学习里面的功能。
-项目地址：https://github.com/wuhaoyu1990/MagicCamera
-
-毛玻璃模糊效果Blur
-
-Blurry
-Blurry没什么好介绍的，看效果图就行。
-项目地址：https://github.com/wasabeef/Blurry/raw/master/art/blurry.gif
-
-ImageBlurring
-ImageBlurring的特点是使用多种手段实现对图片的模糊处理，并比较了处理效率，可以了解使用哪种方式处理图片效率更高。
-项目地址：https://github.com/qiujuer/ImageBlurring
-
-图片裁剪
-
-uCrop
-uCrop这个项目的目标是：提供终极的、灵活的图片剪裁体验！听着就很厉害的样子，事实上也确实非常厉害，个人认为这应该是史上体验最好的剪裁库。
-项目地址：https://github.com/Yalantis/uCrop
-
-android-crop
-android-crop看起来更像一个单纯的剪裁库，没有uCrop提供的那么多效果，但是就剪裁功能来说，还是很好的。
-项目地址：https://github.com/jdamcd/android-crop
-
-仿微信从文件系统加载图片
-
-MultiImageSelector
-MultiImageSelector是一个高仿微信朋友圈图片选择的功能库，提供多种选择，例如可以配置选单张还是多张，可以配置最多选几张，还可以配置是否显示拍照按钮等。
-项目地址：https://github.com/lovetuzitong/MultiImageSelector
-
-仿微博加载超长大图
-
-LargeImage
-LargeImage库，可以让你高清显示10000*10000像素的图片，轻松实现微博长图功能，怎么实现的也非常值得我们学习。
-项目地址：https://github.com/LuckyJayce/LargeImage
-
-加载动态图
-
-GifView
-GifView是一个可以播放GIF图片的自定义view，并且提供了开始／暂停／停止播放的功能。
-项目地址：https://github.com/Cutta/GifView
-
-GifImageView
-GifImageView的特点是你可以针对每一帧进行操作，例如添加模糊效果等。
-项目地址：https://github.com/felipecsl/GifImageView
 
 其它黑科技
 =========
@@ -445,27 +308,26 @@ MetaballLoading
 项目地址：https://github.com/dodola/MetaballLoading
 
 提示框Dialog
------------
-material-dialogs
-一个简单易用的material风格的dialog
-项目地址：https://github.com/afollestad/material-dialogs
+---
+#### material-dialogs
+[一个简单易用的material风格的dialog](项目地址：https://github.com/afollestad/material-dialogs)  
 
-sweet-alert-dialog
+#### sweet-alert-dialog
 这个项目最后维护时间是两年前，现在可能都没人维护了，但是实现的效果还是挺好的
 项目地址：[https://github.com/pedant/sweet-alert-dialog]](https://github.com/pedant/sweet-alert-dialog])
 
 指示器Indicator
 指示器用来提示用户当前操作到了哪一步。
 
-StepView
+#### StepView
 提示操作步骤的巅峰之作，非常符合我的审美。
 项目地址：https://github.com/baoyachi/StepView
 
-stepper-indicator
+#### stepper-indicator
 一个和StepView差不多效果的步骤指示器。
 项目地址：https://github.com/badoualy/stepper-indicator
 
-SpringIndicator
+#### SpringIndicator
 一个切换使用了贝塞尔曲线的indicator，说实话作者给的示例图很丑，我不是很喜欢，但是我很喜欢贝塞尔曲线，所以这个也拿来放在这里，学习用，实际使用我还是会使用上面两个。
 项目地址：https://github.com/chenupt/SpringIndicator
 
@@ -1031,116 +893,7 @@ http://blog.csdn.net/michaelpp/article/details/7302308
 
 
 
-android图片缓存框架
----
-开源选型之Android三大图片缓存原理、特性对比
-http://www.csdn.net/article/2015-10-21/2825984
 
-聊聊Android优秀的图片加载缓存的开源框架？UIL、Glide、Picasso
-http://www.cnblogs.com/xianglinglong/p/5578466.html
-
-Android四大图片缓存框架之-Fresco（一）
-http://blog.csdn.net/qq_21430549/article/details/49338547
-
-Android四大图片缓存框架之-Fresco之initialize（二）
-标签： android框架图片缓存
-http://blog.csdn.net/qq_21430549/article/details/49387741
-
-Android 四大缓存框架之-Universal-Image-Loade
-http://blog.csdn.net/qq_21430549/article/details/49405115
-DisplayOption参数的配置
-default_options = new DisplayImageOptions.Builder()
-                /**
-                 * 这只Uri为空、加载失败、加载时候的图片资源，可以接受Drawable 和 资源ID
-                 */
-                .showImageForEmptyUri(R.mipmap.ic_launcher)
-                .showImageOnFail(R.mipmap.ic_launcher)
-                .showImageOnLoading(R.mipmap.ic_launcher)
-                //是否设置在加载之前重置view
-                .resetViewBeforeLoading(false)
-
-                .delayBeforeLoading(1000)
-                //是否缓存在内存中
-                .cacheInMemory(false)
-                //是否缓存在文件中
-                .cacheOnDisk(false)
-//                .preProcessor(...)
-//                .postProcessor(...)
-//                .extraForDownloader(...)
-                .considerExifParams(false)
-                //Image的缩放类型
-                .imageScaleType(ImageScaleType.IN_SAMPLE_POWER_OF_2)
-                //bitmap 的config
-                .bitmapConfig(Bitmap.Config.ARGB_8888)
-                //decode参数
-//                .decodingOptions()
-                //设置显示，可以设置为圆角
-                .displayer(new SimpleBitmapDisplayer())
-                .handler(new Handler())
-                .build();
-
-根据自己的需求设置就好，比如说我这里想设置圆角怎么办
-head_options = new DisplayImageOptions.Builder()
-                .showStubImage(R.mipmap.ic_launcher)
-                .showImageOnFail(R.mipmap.ic_launcher)
-                .showImageForEmptyUri(R.mipmap.ic_launcher)
-                //设置圆角显示
-                .displayer(new RoundedBitmapDisplayer(50))
-                .cacheOnDisk(true)
-                .cacheInMemory(true)
-                .build();
-
-Android开源框架ImageLoader的完美例子
-http://www.cnblogs.com/zgz345/p/3502315.html
-很完善的一个例子下载地址：http://download.csdn.net/detail/wwj_748/5975847
-        // 使用DisplayImageOptions.Builder()创建DisplayImageOptions  
-        options = new DisplayImageOptions.Builder()  
-            .showStubImage(R.drawable.ic_stub)          // 设置图片下载期间显示的图片  
-            .showImageForEmptyUri(R.drawable.ic_empty)  // 设置图片Uri为空或是错误的时候显示的图片  
-            .showImageOnFail(R.drawable.ic_error)       // 设置图片加载或解码过程中发生错误显示的图片      
-            .cacheInMemory(true)                        // 设置下载的图片是否缓存在内存中  
-            .cacheOnDisc(true)                          // 设置下载的图片是否缓存在SD卡中  
-            .displayer(new RoundedBitmapDisplayer(20))  // 设置成圆角图片  
-            .build();                                   // 创建配置过得DisplayImageOption对象  
-
-Android四大图片缓存框架之-Picasso和Glide
-http://blog.csdn.net/qq_21430549/article/details/49406575
-Gilde：gGithub地址  https://github.com/bumptech/glide   用法: Google推荐的图片加载库Glide介绍 http://jcodecraeer.com/a/anzhuokaifa/androidkaifa/2015/0327/2650.html
-Picasso Github地址 http://square.github.io/picasso/#features  用法: Android图片下载缓存库picasso解析 http://blog.csdn.net/xu_fu/article/details/17043231
-
-
-
-使用AndroidStudio分析和解决ImageLoader引起内存泄露问题
-http://blog.csdn.net/editor1994/article/details/50394560
-
-UniversalImageLoader源码解读01-用来显示图片的ImageAware
-http://blog.csdn.net/mtaxot/article/details/51375332
-
-UniversalImageLoader源码解读02-图片处理和显示
-http://blog.csdn.net/mtaxot/article/details/51376242
-
-UniversalImageLoader源码解读03-一些无关紧要的小类
-http://blog.csdn.net/mtaxot/article/details/51376865
-
-UniversalImageLoader源码解读04-内存缓存
-http://blog.csdn.net/mtaxot/article/details/51377287
-
-UniversalImageLoader源码解读05-磁盘缓存
-http://blog.csdn.net/mtaxot/article/details/51377546
-
-UniversalImageLoader源码解读06-任务调度
-http://blog.csdn.net/mtaxot/article/details/51381325
-
-UniversalImageLoader源码解读07-内存泄漏和bug
-http://blog.csdn.net/mtaxot/article/details/51383991
-
-imageloader加载图片的内存泄露问题
-http://tieba.baidu.com/p/3850014474
-
-android 大量图片加载导致的内存问题
-https://segmentfault.com/q/1010000004121952?_ea=497717
-
-http://www.bootcss.com/
 
 自己开发的Android APP消耗流量过多，如何解决？
 http://bbs.csdn.net/topics/390790742
@@ -1872,9 +1625,6 @@ http://blog.csdn.net/lk_blog/article/details/7685169
     //超强滚动效果View    代码地址-----> https://github.com/ksoichiro/Android-ObservableScrollView
     compile 'com.github.ksoichiro:android-observablescrollview:1.5.1'
 
-
-
-http://api.pccb.com/update/pccb_android_app.apk
 [Android Studio实用指南](http://yuedu.baidu.com/ebook/31beb61a9b6648d7c1c746e8)  
 
 [拍照、相册及裁剪的终极实现（一）——拍照及裁剪功能实现](http://blog.csdn.net/harvic880925/article/details/43163175)  
@@ -1883,6 +1633,9 @@ http://api.pccb.com/update/pccb_android_app.apk
 
 [Android 拍照或从相册取图片并裁剪](http://www.cnblogs.com/w-y-f/p/4028379.html)  
 https://github.com/ryanhoo/PhotoCropper
+
+简洁、直观、强悍的前端开发框架，让web开发更迅速、简单。  
+http://www.bootcss.com/
 
 
 dp与pix:
