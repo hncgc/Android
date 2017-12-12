@@ -32,9 +32,39 @@ Markdown
 [Markdown](https://www.zybuluo.com/mdeditor)  
 ### [Markdown Windows/Mac/Linux 全平台客户端](https://www.zybuluo.com/cmd/)
 
+[Cmd Markdown 简明语法手册](https://www.zybuluo.com/mdeditor?url=https://www.zybuluo.com/static/editor/md-help.markdown)  
+
+[Cmd Markdown 高阶语法手册](https://www.zybuluo.com/mdeditor?url=https://www.zybuluo.com/static/editor/md-help.markdown#cmd-markdown-高阶语法手册)  
+
 MarkdownView-Android
+---
 MarkdownView-Android是一个可以加载markdown或者普通文件并显示成html格式。
 项目地址：https://github.com/mukeshsolanki/MarkdownView-Android
+
+
+https://vladsch.com/product/markdown-navigator/referrals
+Markdown Navigator 2.2.0
+ Now Even Faster  Spread the word & get up to 100% off enhanced edition.       Details  
+Basic & Enhanced / Enhanced Edition only
+Amazing typing response
+Better GFM Preview emulation
+Split Editor now in Basic Edition
+HTML text preview now in Basic Edition
+Bug Fixes, Full Version Notes
+Click in Preview scrolls to source
+Soft wrap at right margin
+Strip trailing spaces Hard Break aware
+Markdown to HTML Export
+Per Project Rendering options
+Per Scope Rendering options
+Customizable link address mapping
+Print HTML Preview for JavaFX browser
+Buy a license, view Promotions. View all enhanced features.
+Disable this notification.
+
+IntelliJ IDEA Multi-MarkDown插件安装破J全过程
+http://www.jianshu.com/p/a0550f81cbd1
+
 
 Android中Activity与AppCompatActivity的理解
 http://blog.csdn.net/wsdssss/article/details/51276379
@@ -53,18 +83,13 @@ Android开源框架收集大全，包含描述和效果图
 http://www.eoeandroid.com/thread-922412-1-1.html?_dsign=b3e2d5df
 http://xybcoder.github.io/ANDROID/
 
-DateTimePicker
---------------
-日期选择部件(Google Agenda 的样式风格)
-项目地址：https://github.com/flavienlaurent/datetimepicker
 
-PickerView
-------------
-仿 iOS 的 PickerView 控件，有时间选择和选项选择并支持一二三级联动效果，TimePopupWindow 时间选择器，支持年月日时分，年月日，时分等格式；OptionsPopupWindow 选项选择器，支持一，二，三级选项选择，并且可以设置是否联动
-项目地址：https://github.com/saiwu-bigkoo/Android-PickerView
+android砸金蛋
+---
+[android砸金蛋](http://download.csdn.net/download/wt0731/5009525)  
 
 
-其他  
+技巧与经验
 ---
 [Android UI 大全 里面包含所以特效大全的项目，都是每个特效一个项目的结构](https://gitee.com/bob4j/Android-UI)  
 
@@ -74,34 +99,22 @@ PickerView
 
 [关于Android SDK里的compileSdk、minSdk、targetSdk、buildTools、Tools、Platform-tools](http://www.jianshu.com/p/544d9f72883d)  
 
-
-
-android砸金蛋
----
-[android砸金蛋](http://download.csdn.net/download/wt0731/5009525)  
-
-
-技巧与经验
----
-
 [PayPal Android SDK 2.0 支付](http://blog.csdn.net/adongqin/article/details/38781329)  
 
 [PayPal Android SDK的接入和开发、与服务器对接IPN](http://blog.csdn.net/carmideychen/article/details/72420467)  
 
-引入SDK
-   compile('com.paypal.sdk:paypal-android-sdk:2.15.3')
-       { exclude group:'io.card'}
-exclude group:'io.card'表明不允许直接用卡支付，如果不添加这一行，在支付时用卡支付的按钮选项出现
+引入SDK  
+>   compile('com.paypal.sdk:paypal-android-sdk:2.15.3')
+>       { exclude group:'io.card'}
+>   exclude group:'io.card'表明不允许直接用卡支付，如果不添加这一行，在支付时用卡支付的按钮选项出现
 
 [算是目前PAYPAL最全最完整的开发方式了](http://blog.csdn.net/a53657561/article/details/64982411)  
+
+
 
 [一个多年安卓开发者的一些感悟与忠告](http://www.apkbus.com/blog-847095-72728.html)  
 
 [所有开源安卓app的列表](https://github.com/pcqpcq/open-source-android-apps)  
-
-[ProGuard代码混淆技术详解](http://www.cnblogs.com/cr330326/p/5534915.html)  
-
-[android-guidelines 代码风格](https://github.com/ribot/android-guidelines/blob/master/project_and_code_guidelines.md)  
 
 [ThinkAndroid](https://github.com/white-cat/ThinkAndroid)  
 
@@ -239,13 +252,13 @@ ArrayList<String> newList=new ArrayList<>(new TreeSet(strList));
 
 #### git 操作：
 
-强制push：
-git push -u origin master -f
+强制push：  
+    git push -u origin master -f
 
-强制pull
-git fetch --all  
-git reset --hard origin/master 
-git pull
+强制pull  
+    git fetch --all  
+    git reset --hard origin/master 
+    git pull
 
 Android Studio在线升级失败可以尝试用下面的方法离线升级。
 Android Studio下载及离线升级方法
@@ -304,56 +317,6 @@ LoadingView
 哈哈，不多说，主要看动效，好看最重要。
 项目地址：https://github.com/ldoublem/LoadingView
 
-MetaballLoading
-一个有贝塞尔曲线动画的加载提示框
-项目地址：https://github.com/dodola/MetaballLoading
-
-提示框Dialog
----
-#### material-dialogs
-[一个简单易用的material风格的dialog](项目地址：https://github.com/afollestad/material-dialogs)  
-
-#### sweet-alert-dialog
-这个项目最后维护时间是两年前，现在可能都没人维护了，但是实现的效果还是挺好的
-项目地址：[https://github.com/pedant/sweet-alert-dialog]](https://github.com/pedant/sweet-alert-dialog])
-
-指示器Indicator
-指示器用来提示用户当前操作到了哪一步。
-
-#### StepView
-提示操作步骤的巅峰之作，非常符合我的审美。
-项目地址：https://github.com/baoyachi/StepView
-
-#### stepper-indicator
-一个和StepView差不多效果的步骤指示器。
-项目地址：https://github.com/badoualy/stepper-indicator
-
-#### SpringIndicator
-一个切换使用了贝塞尔曲线的indicator，说实话作者给的示例图很丑，我不是很喜欢，但是我很喜欢贝塞尔曲线，所以这个也拿来放在这里，学习用，实际使用我还是会使用上面两个。
-项目地址：https://github.com/chenupt/SpringIndicator
-
-贝塞尔曲线
----------
-BezierMaker
-这个开源库演示了1-7阶贝塞尔曲线的形成过程，让我们直观的看到1-7阶贝塞尔曲线的形成动画，相当牛逼
-项目地址：https://github.com/venshine/BezierMaker
-
-Bubble-Notification
-一个模仿qq未读消息小红点拖动消失效果的控件。
-项目地址：https://github.com/dkmeteor/Bubble-Notification
-
-DraggableFlagView
-另一个模仿qq未读消息小红点拖动消失效果的控件。
-项目地址：https://github.com/wangjiegulu/DraggableFlagView
-
-BezierDemo
-又一个模仿qq未读消息小红点拖动消失效果的控件。
-项目地址：https://github.com/chenupt/BezierDemo
-
-轻量级底部导航栏
-http://www.apkbus.com/thread-463190-1-1.html
-源码地址 https://github.com/chaychan/BottomBarLayout
-
 
 android企业级商城源码
 http://www.apkbus.com/thread-462905-1-1.html
@@ -372,36 +335,13 @@ PinyinUtils
 将中文转化为拼音的工具类
 --------------------------
 
-Android编辑信息界面，组合控件的封装
-http://www.jianshu.com/p/cde81809c24a
-https://github.com/zhouxu88/ItemGroup
-
-介绍几个工作开发中封装的好用的android自定义控件
-http://www.cnblogs.com/Jaylong/p/3641027.html
-下载地址：http://www.eoeandroid.com/forum.php?mod=attachment&aid=MTIwMDM1fDM5NTYzZjQ3fDEzOTY0Mjc4NDF8NzU4MzI1fDMyODQyNw%3D%3D
-
+正则表达式  
+---
 JAVA replaceAll 正则表达式(
 http://blog.csdn.net/s445320/article/details/50729736
 
 Java 正则表达式
 http://www.runoob.com/java/java-regular-expressions.html
-
-android photoview 图片放大缩放功能 ImageView
-http://blog.csdn.net/aaawqqq/article/details/43128111
-https://github.com/chrisbanes/PhotoView
-
-oschina-app源码解析-webview重组html
-http://blog.csdn.net/xiangxue336/article/details/20062347
-
-Android实现点击WebView界面中图片滑动浏览与保存图片功能
-http://www.jb51.net/article/112028.htm
-
-从WebView中点击一张图片，转换成一个可缩放，可旋转的图片。
-http://www.jianshu.com/p/e24ee6d67f01
-
-https://segmentfault.com/t/android
-
-http://code.taobao.org/p/YuanWen/src/trunk/
 
 阿里云开源项目
 -------------
@@ -644,42 +584,7 @@ public class DynamicViewActivity extends Activity implements OnClickListener{
 
 ANDROID 实现布局动态加载
 --------------------------
-http://www.cnblogs.com/Greenwood/archive/2011/03/02/1969340.html
-
-
-android design library提供的TabLayout的用法
-http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2015/0731/3247.html
-
-Android开发之设置TabLayout下方下划线的宽度
-http://blog.csdn.net/sheajin/article/details/59104205
-
-Design库-TabLayout属性详解
-http://www.jianshu.com/p/2b2bb6be83a8
-在清单文件中设置如下代码即可：
-
-android:theme="@style/Theme.AppCompat"
-
-TabLayout用法详解及自定义样式
-http://www.jb51.net/article/101912.htm
-
-TabLayout高端用法（一）
-http://www.jianshu.com/p/be1e8a1da639?nomobile=yes
-
-Android图片加载框架Glide用法
-http://www.cnblogs.com/guilin-hu/p/5706916.html
-图片的缩放，centerCrop()和fitCenter()： 
-1)使用centerCrop是利用图片图填充ImageView设置的大小，如果ImageView的Height是match_parent则图片就会被拉伸填充
-
-Glide.with(context).load(imageUrl).centerCrop().into(imageView);
-2)使用fitCenter即缩放图像让图像都测量出来等于或小于 ImageView 的边界范围,该图像将会完全显示，但可能不会填满整个ImageView。
-
-Glide.with(context).load(imageUrl).fitCenter().into(imageView);
-
-RxBus
----
-Android之RxBus详解
-http://blog.csdn.net/caben_/article/details/52786184
-
+[ANDROID 实现布局动态加载](http://www.cnblogs.com/Greenwood/archive/2011/03/02/1969340.html)  
 
 
 lambda
@@ -717,6 +622,8 @@ https://www.coursera.org/specializations/scala
 Groovy
 http://baike.baidu.com/link?url=OJLu44SO9onNCWpsm7zl_uDGWYvnK-M_e0PmUB6g_FgBVj153PeYvSslVfU6HDOq8rhT04M5ujLRjSXtQqiRhq
 
+软键盘  
+---
 Android 软键盘监听事件
 http://blog.csdn.net/breeze666/article/details/27082419
 
@@ -724,27 +631,11 @@ Android windowSoftInputMode软键盘显示和隐藏的监听和实现
 http://blog.csdn.net/u010852801/article/details/43198313
 
 
-Android studio 之ANalyze 清理无用资源
-http://blog.csdn.net/qulonglong110/article/details/51911261
-
-android之as自动化删除无用资源为apk瘦身
-http://blog.csdn.net/zhongwn/article/details/52769927
-
-如何获取Android唯一标识（唯一序列号）
-http://blog.csdn.net/ljz2009y/article/details/22895297
-
-
-彻底解决Android 应用方法数不能超过65K的问题
-http://www.itnose.net/detail/6168594.html
-
-Android开发方法数超过64k（65k）解决办法
-http://www.jianshu.com/p/271668909cc6
-
 List of Android UI/UX Libraries
 https://github.com/wasabeef/awesome-android-ui
 
-PhotoUpload
------------
+PhotoUpload  
+---
 http://www.cnblogs.com/zhuyuliang/
 
 Android - Camera
@@ -784,13 +675,6 @@ http://blog.csdn.net/wop_niaoren19870227/article/details/6531095
 Java数组String []的用法详解
 http://blog.csdn.net/cation/article/details/4387857/
 
-
-MessageDigest简介
-http://blog.csdn.net/hudashi/article/details/8394158
-
-Java 自带的加密类MessageDigest类（加密MD5和SHA）
-http://www.tuicool.com/articles/nMNVVj
-
 StringUtils工具类的常用方法
 http://www.tuicool.com/articles/am2u6fm
 
@@ -824,54 +708,6 @@ http://mp.weixin.qq.com/s/NWM-OKuKCyHTlXc32h39uA
 Android 知识梳理
 https://gold.xitu.io/post/587dbaf9570c3522010e400e
 
-
-android webview里设置cookie
-http://blog.csdn.net/encienqi/article/details/7912733
-
-[Android] WebView删除缓存
-http://blog.csdn.net/s278777851/article/details/6534316
-1.删除保存于手机上的缓存.
-	// clear the cache before time numDays
-	private int clearCacheFolder(File dir, long numDays) {
-		int deletedFiles = 0;
-		if (dir!= null && dir.isDirectory()) {
-			try {
-				for (File child:dir.listFiles()) {
-					if (child.isDirectory()) {
-						deletedFiles += clearCacheFolder(child, numDays);
-					}
-					if (child.lastModified() < numDays) {
-						if (child.delete()) {
-							deletedFiles++;
-						}
-					}
-				}
-			} catch(Exception e) {
-				e.printStackTrace();
-			}
-		}
-		return deletedFiles;
-	}
-
-com.pccb.app.ui.webview.OpenWebActivity.class
-
-	@Override
-	protected void onDestroy() {
-		super.onDestroy();
-		////删除此时之前的缓存
-		clearCacheFolder(OpenWebActivity.this.getCacheDir(), System.currentTimeMillis());
-	}
-
-2. 打开关闭使用缓存：
-
-    优先使用缓存，WebView.getSettings().setCacheMode(WebSettings.LOAD_CACHE_ELSE_NETWORK);
-
-    不使用缓存，WebView.getSettings().setCacheMode(WebSettings.LOAD_NO_CACHE);
-
-
-Android Webview清除缓存和Cookie
-http://blog.csdn.net/ronaldong99/article/details/40392847
-
 Android 动态切换全屏和非全屏模式
 http://blog.csdn.net/michaelpp/article/details/7302308
 	/**
@@ -892,31 +728,6 @@ http://blog.csdn.net/michaelpp/article/details/7302308
 		}
 	}
 
-
-
-
-
-自己开发的Android APP消耗流量过多，如何解决？
-http://bbs.csdn.net/topics/390790742
-
-安卓居然比苹果更费流量?轻松几招教你如何节省流量
-http://www.360doc.com/content/16/0404/22/11613470_547885459.shtml
-
-Android 开源框架Universal-Image-Loader完全解析（一）--- 基本介绍及使用
-http://blog.csdn.net/xiaanming/article/details/26810303/
-https://github.com/nostra13/Android-Universal-Image-Loader
-
-Android 开源框架Universal-Image-Loader完全解析（二）--- 图片缓存策略详解
-http://blog.csdn.net/xiaanming/article/details/27525741
-
-Android 图片缓存处理
-http://blog.csdn.net/weiyidemaomao/article/details/21237833
-
-Universal-Image-Loader（android图片缓存）
-http://blog.csdn.net/liu1164316159/article/details/38728259
-
-android universal-image-loader disk 缓存 存在本地什么位置
-https://zhidao.baidu.com/question/1306133363278940059.html
 
 Markdown Navigator
 IntelliJ IDEA Multi-MarkDown插件安装破J全过程
@@ -1119,29 +930,6 @@ https://bugly.qq.com/docs/user-guide/instruction-manual-android-upgrade/?v=20161
 RecyclerView 定制item 分割线
 http://blog.csdn.net/jxxfzgy/article/details/43736385
 
-https://vladsch.com/product/markdown-navigator/referrals
-Markdown Navigator 2.2.0
- Now Even Faster  Spread the word & get up to 100% off enhanced edition.       Details  
-Basic & Enhanced / Enhanced Edition only
-Amazing typing response
-Better GFM Preview emulation
-Split Editor now in Basic Edition
-HTML text preview now in Basic Edition
-Bug Fixes, Full Version Notes
-Click in Preview scrolls to source
-Soft wrap at right margin
-Strip trailing spaces Hard Break aware
-Markdown to HTML Export
-Per Project Rendering options
-Per Scope Rendering options
-Customizable link address mapping
-Print HTML Preview for JavaFX browser
-Buy a license, view Promotions. View all enhanced features.
-Disable this notification.
-
-IntelliJ IDEA Multi-MarkDown插件安装破J全过程
-http://www.jianshu.com/p/a0550f81cbd1
-
 React Native
 http://reactnative.cn/
 
@@ -1161,26 +949,7 @@ compile 'com.squareup.okhttp3:logging-interceptor:3.1.2'
 Android开发架构思考及经验总结
 http://blog.csdn.net/jf_1994/article/details/53870534
 
-
 另外除了 Google 列出的架构，还有 Facebook 推出的 Flux 架构也值得考虑。
-
-DrawerLayout
-android官方侧滑菜单DrawerLayout详解
-http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2014/0925/1713.html
-
-AppBar布局的使用方式
-http://www.jianshu.com/p/4ce0f3419ca8
-玩转AppBarLayout，更酷炫的顶部栏
-http://www.jianshu.com/p/d159f0176576
-CoordinatorLayout的使用如此简单
-http://blog.csdn.net/huachao1001/article/details/51554608
-
-Android vector Path Data画图详解
-http://www.w2bc.com/article/132096
-
-Android vector标签 PathData 画图超详解
-http://blog.csdn.net/easyer2012/article/details/52618228
-
 
 React Native 基于 JavaScript 的开源框架 React Native
 React Native 中文网
@@ -1209,15 +978,6 @@ http://www.blogjava.net/xmlspy/archive/2013/04/28/398522.html
 
 shouldOverrideUrlLoading相关说明
 https://my.oschina.net/u/1446273/blog/200968
-
-Android APK瘦身经验总结
-http://www.jianshu.com/p/bfe44ef18aca
-
-使用Android Studio的lint清除无用的资源文件
-http://waychel.com/shi-yong-android-studiode-lintqing-chu-wu-yong-de-zi-yuan-wen-jian/
-
-Android的性能优化
-http://www.jianshu.com/p/be05874965d4
 
 Android实战技巧：ViewStub的应用
 http://blog.csdn.net/hitlion2008/article/details/6737537/
@@ -1255,20 +1015,23 @@ http://www.codeceo.com/article/android-handler-usage.html
 android设置Activity背景色为透明的3种方
 http://blog.csdn.net/lily9/article/details/11983221
 
+Android唯一标识
+---
 如何获取Android唯一标识（唯一序列号）
 http://blog.csdn.net/ljz2009y/article/details/22895297
 http://www.cnblogs.com/lvcha/p/3721091.html
+
 android获取设备唯一标识完美解决方案
 http://www.tuicool.com/articles/MfQBbe
+
 Android 如何检索Android设备的唯一ID
 http://blog.csdn.net/aminfo/article/details/7604451
 
 怎样取安卓设备唯一标识来防刷
 http://www.eoeandroid.com/thread-917649-1-1.html?_dsign=d27b4af2
 
- 项目模板化
- ---------
-
+项目模板化  
+---
 大幅提高 Android 开发效率之 Android 项目模板化 (上)
 http://www.diycode.cc/topics/410
 http://www.jianshu.com/p/e8ac0c284601
@@ -1284,10 +1047,14 @@ http://www.jianshu.com/p/cb95ce1ba336
 https://www.jetbrains.com/help/idea/2016.1/live-template-variables.html#predefined_functions
 
 
-统一规范
+规范
 --------
 Android开发之版本统一规范
 http://blankj.com/874.html
+
+[ndroid (Java) 编码惯例及最佳实践](http://www.apkbus.com/blog-705730-61363.html)  
+
+[android-guidelines 代码风格](https://github.com/ribot/android-guidelines/blob/master/project_and_code_guidelines.md)  
 
 Android开发人员不得不收集的代码(持续更新中)
 http://www.diycode.cc/projects/Blankj/AndroidUtilCode
@@ -1300,6 +1067,12 @@ Proguard
 -dontwarn com.blankj.utilcode.**
 
 https://github.com/huangkunkun/AndroidUtilCode
+
+[Android开发经验总结:开发规范](http://www.apkbus.com/blog-705730-60906.html)  
+
+[AppCodeArchitecture 安卓APP代码架构，包含比较常用的开源库使用](https://github.com/Frank-Zhu/AppCodeArchitecture)  
+
+[Android项目基础规范](http://frank-zhu.github.io/android/2016/04/26/android-code-rule/)  
 
 
 【Android】ContentValues的用法
@@ -1340,6 +1113,8 @@ http://hukai.me/android-training-course-in-chinese/index.html
 Android Api中文版
 http://www.embeddedlinux.org.cn/androidapi/
 
+多渠道打包
+---
 Android高阶之Android studio-友盟多渠道打包方式
 http://blog.csdn.net/chenliguan/article/details/51066933
 
@@ -1348,6 +1123,9 @@ http://www.cnblogs.com/0616--ataozhijia/p/4203997.html
 
 在AS中gradle多渠道打包应用
 https://my.oschina.net/gef/blog/603991
+
+[Android Proguard混淆打包经验总结](http://blog.csdn.net/u011459799/article/details/52637214?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io)  
+
 
 Android Studio利用Gradle删除没有使用到的资源和代码文件
 http://www.cnblogs.com/tianzhijiexian/p/4457763.html
@@ -1389,9 +1167,6 @@ http://blog.csdn.net/barryhappy/article/details/7366654
 android-dynamical-loading 动态加载技术
 https://github.com/kaedea/android-dynamical-loading
 
-Android Proguard混淆打包经验总结
-http://blog.csdn.net/u011459799/article/details/52637214?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io
---------------------------------------------------------------
 GRADLE下载、安装、配置与检查
 Gradle User Guide 中文版 https://dongchuan.gitbooks.io/gradle-user-guide-/content/index.html
 DOWNLOAD GRADLE 3.1 
@@ -1432,9 +1207,6 @@ http://wenku.baidu.com/link?url=_x3clXnKWIygI3ey362EoPII_9lZaDvNs9Y9I-424q9nZfBf
 SensorEventListener 接口 摇一摇
 http://284772894.iteye.com/blog/1807499
 
-Android几种常见的多渠道(批量)打包方式介绍
-http://www.itnose.net/detail/6614021.html
-
 使用 AXMLPrinter单独反编译AndriodManifest.xml
 AXMLPrinter (Android XML)
 
@@ -1447,41 +1219,13 @@ for /r layout %%a in (*.xml) do @java -jar AXMLPrinter2.jar "%%a" >>"%%a".txt
 使用示例：
 java -jar AXMLPrinter2.jar AndroidManifest.xml > AndroidManifest.txt
 
-通过ant脚本，编译打包android工程
-http://blog.csdn.net/chenzhiqin20/article/details/8191889
-
-#下面这句是自动生成的
-sdk.dir=D:\\Program Files\\Android\\android-sdk
-#数字签名文件
-key.store=jingchen.keystore
-#别名alias
-key.alias=jingchen
-#数字签名的密码
-key.store.password=111111
-#alias的密码
-key.alias.password=111111
-#这里设置混淆代码，在当前项目的proguard-project.txt中编写混淆规则
-proguard.config=${sdk.dir}/tools/proguard/proguard-android.txt:proguard-project.txt
-
-
-Eclipse下Ant自动打包，混淆和签名
-http://www.aiuxian.com/article/p-1675466.html
-
 Ant编译提示“Unsupported major.minor version 52.0”
 http://www.cnblogs.com/e007/p/5603477.html
-
-Eclipse下使用Ant多渠道批量打包
-http://www.aiuxian.com/article/p-1675467.html
-
 
 你想要的安卓技术博文这里都有！（待续）
 http://www.apkbus.com/forum.php?mod=viewthread&tid=256632&_dsign=08f33db1
 
-Android Studio 权威教程
-http://www.eoeandroid.com/thread-909881-1-1.html
-
-Android Studio 运行出现 Multiple dex files define Landroid/support/annotation/AnimRes 解决方法
-http://www.cnblogs.com/liulipeng/p/4345179.html
+[Android Studio 权威教程](http://www.eoeandroid.com/thread-909881-1-1.html)  
 
 解决AndroidStudio添加ProjectLibary后在编译时遇到的各种问题之解决方式索引
 http://www.ithao123.cn/content-10690193.html
@@ -1496,9 +1240,6 @@ android {
     useLibrary 'org.apache.http.legacy'
 }
 
-
-Android (Java) 编码惯例及最佳实践
-http://www.apkbus.com/blog-705730-61363.html
 
 分享链接打开客户端功能实现逻辑
 https://www.zybuluo.com/wangwangheng/note/106998#1android浏览器打开客户端原理
@@ -1536,32 +1277,6 @@ https://github.com/ChanJLee/AndroidPatch
 结合Small的增量升级方案
 https://github.com/ChanJLee/SmallPatch
 
-Android Studio 使用Eclipse中的keystore为App签名
-http://blog.csdn.net/kangear/article/details/52069726
-最终在Project Structure中配置一个Signing，store文件还是Eclipse中使用的那个
-
-Android 获取签名证书的详细信息（Eclipse和Android studio通用）
-http://www.bkjia.com/Androidjc/1012685.html
-今天要用到签名证书的MD5,但是这个只有在第一次生成的时候我看到了，这可怎么办呢，幸亏我们有google,我们运行下面的命令就OK了。
-keytool -list -v -keystore 签名证书的路径
-Eclipse 生成的签名证书是.keystore结尾的，Android Studio 生成的签名证书是.jks结尾的，这一点要注意哦
-
-eclipse打包和android studio打包使用同一签名文件
-http://www.bubuko.com/infodetail-1000864.html
-当我们把eclipse 项目转到到android studio中时，打包会有所不同，在eclispe中打包时只需要选择签名文件和输入密码就可以了，但是在android stuido中打包是需要输入key.alias（别名），可能这个keystore不是你生成的或已经忘记了key.alias，你可以通过以下命令查看keystore的key.alias（别名），
-
-命令进入keystore文件所在的目录 运行 keytool -list  -v -keystore xxxx.keystore -storepass xxxxxxxxxx（密码） 　签名的信息就有了
-这样就可以顺利的打包了！
-
-eclipse 迁移 Android Studio 证书问题
-
-Android 获取签名证书的详细信息（Eclipse和Android studio通用）
-今天要用到签名证书的MD5,但是这个只有在第一次生成的时候我看到了，这可怎么办呢，幸亏我们有google,我们运行下面的命令就OK了。
-keytool -list -v -keystore 签名证书的路径
-1
-Eclipse 生成的签名证书是.keystore结尾的，Android Studio 生成的签名证书是.jks结尾的，这一点要注意哦
-
-
 极光中日文推送标签（tag）名称定义：
 rxt_registered_user_group_cn, 
 rxt_registered_user_group_jp
@@ -1578,9 +1293,6 @@ bo_id : 业务对象ID
 总共有6类点对点推送事件：组团超时，发货超时，订单完成，订单拒收，提现成功，提现失败。
 因此，业务对象类型bo_type有三种类型（00:无关联业务对象，01:订单，02:提现，03：组团）。
 
-Android学好Shape不再依赖美工
-http://www.aiuxian.com/article/p-628585.html
-
 shape和selector和layer-list的（详细说明）
 http://www.aiuxian.com/article/p-1312640.html
 
@@ -1589,14 +1301,6 @@ http://www.apkbus.com/thread-252748-1-1.html
 
 Json转换利器Gson之实例一-简单对象转化和带泛型的List转化
 http://blog.csdn.net/lk_blog/article/details/7685169
-
-
-[Android开发经验总结:开发规范](http://www.apkbus.com/blog-705730-60906.html)  
-
-[AppCodeArchitecture 安卓APP代码架构，包含比较常用的开源库使用](https://github.com/Frank-Zhu/AppCodeArchitecture)  
-
-[Android项目基础规范](http://frank-zhu.github.io/android/2016/04/26/android-code-rule/)  
-
 
 [Android_滑动的时候头部变化效果](http://blog.csdn.net/qiuchunjia/article/details/51094667)  
 
@@ -1637,6 +1341,14 @@ https://github.com/ryanhoo/PhotoCropper
 
 简洁、直观、强悍的前端开发框架，让web开发更迅速、简单。  
 http://www.bootcss.com/
+
+Java MessageDigest类
+---
+[MessageDigest简介](http://blog.csdn.net/hudashi/article/details/8394158)
+为应用程序提供信息摘要算法的功能
+
+Java 自带的加密类MessageDigest类（加密MD5和SHA）
+http://www.tuicool.com/articles/nMNVVj
 
 
 dp与pix:
