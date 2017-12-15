@@ -1,6 +1,9 @@
 
 资源
 ===
+
+[微影，一款纯粹的在线视频App，基于Material Design + MVP + Dagger2 + RxJava + Retrofit + Realm + Glide](https://github.com/GeekGhost/Ghost)  
+
 [Android开源库汇总](http://xybcoder.github.io/ANDROID/)  
 
 [Android 开源项目分类汇总](https://github.com/Trinea/android-open-project)  
