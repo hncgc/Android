@@ -1,8 +1,9 @@
 
 资源
 ===
+[Android开源库汇总](http://xybcoder.github.io/ANDROID/)  
 
-[Android 开源项目分类汇总](https://github.com/Trinea/android-open-project)  
+[Android 开源项目分类汇总](https://github.com/Trinea/android-open-project)  
 
 [数极客安装教程](http://docs.shujike.com/developer/install_android_sdk.html)  
 
