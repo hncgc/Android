@@ -2,7 +2,13 @@
 资源
 ===
 
-[百度云干货资源](http://blog.csdn.net/wcqwcq123/article/details/53408789)  
+[Android 开源项目分类汇总](https://github.com/Trinea/android-open-project)  
+
+[数极客安装教程](http://docs.shujike.com/developer/install_android_sdk.html)  
+
+删除数极客插件release闪退，重启AS!!!
+
+[百度云干货资源](http://blog.csdn.net/wcqwcq123/article/details/53408789)  
 ---
 [Android 免费学习](http://sem.shiguangkey.com/shiguang/it/android/pc/)  
 ---
