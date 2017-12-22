@@ -8,6 +8,7 @@ http://weibo.com/apkbusbbs
 
 [Bus Weekly回顾](http://www.apkbus.com/thread-565259-1-1.html)  
 
+[像大牛一样写代码：31个Android 开发者工具](http://www.apkbus.com/blog-822715-76717.html)  
 
 [codeKK](http://p.codekk.com/)  
 
