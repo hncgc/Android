@@ -2,6 +2,12 @@
 资源
 ===
 
+[安卓巴士官方微博链接](http://weibo.com/apkbusbbs)  
+http://weibo.com/apkbusbbs
+
+[Bus Weekly回顾](http://www.apkbus.com/thread-565259-1-1.html)  
+
+
 [codeKK](http://p.codekk.com/)  
 
 [微影，一款纯粹的在线视频App，基于Material Design + MVP + Dagger2 + RxJava + Retrofit + Realm + Glide](https://github.com/GeekGhost/Ghost)  
