@@ -65,7 +65,6 @@ MarkdownView-Android
 MarkdownView-Android是一个可以加载markdown或者普通文件并显示成html格式。
 项目地址：https://github.com/mukeshsolanki/MarkdownView-Android
 
-
 https://vladsch.com/product/markdown-navigator/referrals
 Markdown Navigator 2.2.0
  Now Even Faster  Spread the word & get up to 100% off enhanced edition.       Details  
@@ -86,8 +85,7 @@ Print HTML Preview for JavaFX browser
 Buy a license, view Promotions. View all enhanced features.
 Disable this notification.
 
-IntelliJ IDEA Multi-MarkDown插件安装破J全过程
-http://www.jianshu.com/p/a0550f81cbd1
+[IntelliJ IDEA Multi-MarkDown插件安装破J全过程](http://www.jianshu.com/p/a0550f81cbd1)  
 
 
 Android中Activity与AppCompatActivity的理解
@@ -97,15 +95,7 @@ http://blog.csdn.net/wsdssss/article/details/51276379
 有大量的Gson数据需要生成javaBean时，可以使用 GsonFormat插件，快速完成javaBean的生成。
 [插件GsonFormat快速实现JavaBean](http://blog.csdn.net/dakaring/article/details/46300963)  
 
-开发框架
----
-ZLayer Android企业级应用开发框架(直播代码版)
-http://www.eoeandroid.com/thread-923392-1-1.html?_dsign=214604da
-https://github.com/z-android/ZLayer
 
-Android开源框架收集大全，包含描述和效果图
-http://www.eoeandroid.com/thread-922412-1-1.html?_dsign=b3e2d5df
-http://xybcoder.github.io/ANDROID/
 
 
 android砸金蛋
@@ -647,14 +637,6 @@ ANDROID 实现布局动态加载
 [ANDROID 实现布局动态加载](http://www.cnblogs.com/Greenwood/archive/2011/03/02/1969340.html)  
 
 
-lambda
----
-Java 8 Lambda表达式探险
-http://www.cnblogs.com/feichexia/archive/2012/11/15/Java8_LambdaExpression.html
-
-在Android上使用Lambda表达式 - retrolambda插件
-http://blog.csdn.net/codezjx/article/details/51327164
-
 Volley源码分析
 http://bxbxbai.github.io/2014/12/24/read-volley-source-code/
 Android库Volley的使用介绍
@@ -754,10 +736,6 @@ http://blog.csdn.net/lmj623565791/article/details/46767825
 
 開源安卓 https://www.gitbook.com/book/yongjhih/feed/details
 https://github.com/yongjhih/android-gitbook/
-
-
-Android 程序框架设计
-http://itindex.net/detail/44207-android-程序-框架
 
 开发中所遇问题归纳
 http://www.apkbus.com/blog-719059-62993.html
@@ -1094,7 +1072,8 @@ http://www.eoeandroid.com/thread-917649-1-1.html?_dsign=d27b4af2
 ---
 大幅提高 Android 开发效率之 Android 项目模板化 (上)
 http://www.diycode.cc/topics/410
-http://www.jianshu.com/p/e8ac0c284601
+http://www.jianshu.com/p/e8ac0c284601  
+
 测试项目和测试模板的代码已放到 github 上: AndroidStudioTemplateTest
 https://github.com/zhenghuiy/AndroidStudioTemplateTest
 Android Studio 模板：
@@ -1107,14 +1086,6 @@ http://www.jianshu.com/p/cb95ce1ba336
 https://www.jetbrains.com/help/idea/2016.1/live-template-variables.html#predefined_functions
 
 
-规范
---------
-Android开发之版本统一规范
-http://blankj.com/874.html
-
-[ndroid (Java) 编码惯例及最佳实践](http://www.apkbus.com/blog-705730-61363.html)  
-
-[android-guidelines 代码风格](https://github.com/ribot/android-guidelines/blob/master/project_and_code_guidelines.md)  
 
 Android开发人员不得不收集的代码(持续更新中)
 http://www.diycode.cc/projects/Blankj/AndroidUtilCode
@@ -1128,15 +1099,10 @@ Proguard
 
 https://github.com/huangkunkun/AndroidUtilCode
 
-[Android开发经验总结:开发规范](http://www.apkbus.com/blog-705730-60906.html)  
-
 [AppCodeArchitecture 安卓APP代码架构，包含比较常用的开源库使用](https://github.com/Frank-Zhu/AppCodeArchitecture)  
 
-[Android项目基础规范](http://frank-zhu.github.io/android/2016/04/26/android-code-rule/)  
 
-
-【Android】ContentValues的用法
-http://www.cnblogs.com/rayray/p/3410204.html
+[【Android】ContentValues的用法](http://www.cnblogs.com/rayray/p/3410204.html)  
 
 码云平台帮助文档 V1.2
 http://git.mydoc.io/
@@ -1364,8 +1330,6 @@ http://blog.csdn.net/lk_blog/article/details/7685169
 
 [Android_滑动的时候头部变化效果](http://blog.csdn.net/qiuchunjia/article/details/51094667)  
 
-[Android App 代码架构](http://frank-zhu.github.io/2014-11-22-android-app-code-architecture.html)  
-
 [安卓集成发布详解（二）](http://frank-zhu.github.io/android/2015/06/15/android-release_app_build_gradle/)  
 
     //View注解   代码地址-----> https://github.com/JakeWharton/butterknife
@@ -1398,9 +1362,6 @@ http://blog.csdn.net/lk_blog/article/details/7685169
 
 [Android 拍照或从相册取图片并裁剪](http://www.cnblogs.com/w-y-f/p/4028379.html)  
 https://github.com/ryanhoo/PhotoCropper
-
-简洁、直观、强悍的前端开发框架，让web开发更迅速、简单。  
-http://www.bootcss.com/
 
 Java MessageDigest类
 ---
