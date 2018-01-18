@@ -4,6 +4,8 @@
 第一行代码Android第2版
 [源码](https://github.com/guolindev/booksource)  
 
+[DevStore 资料下载](http://www.devstore.cn/resource/resourceHome.html)  
+
 [有道云笔记](http://note.youdao.com/index.html)  
 
 [安卓巴士官方微博链接](http://weibo.com/apkbusbbs)  
