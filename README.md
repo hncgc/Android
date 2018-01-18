@@ -8,6 +8,12 @@ http://weibo.com/apkbusbbs
 
 [Bus Weekly回顾](http://www.apkbus.com/thread-565259-1-1.html)  
 
+[Bus Weekly 汇总](http://www.apkbus.com/forum.php?mod=viewthread&tid=267776&page=1&extra=&_dsign=dd10d522)  
+
+[中秋赠书，开启“洪荒之礼”【Bus Weekly】十九期](http://www.apkbus.com/forum.php?mod=viewthread&tid=268127&extra=page%3D1%26filter%3Dauthor%26orderby%3Ddateline)  
+
+[几乎所有开源安卓app的列表](https://github.com/pcqpcq/open-source-android-apps)  
+
 [像大牛一样写代码：31个Android 开发者工具](http://www.apkbus.com/blog-822715-76717.html)  
 
 [codeKK](http://p.codekk.com/)  
@@ -59,6 +65,13 @@ Markdown
 [Cmd Markdown 简明语法手册](https://www.zybuluo.com/mdeditor?url=https://www.zybuluo.com/static/editor/md-help.markdown)  
 
 [Cmd Markdown 高阶语法手册](https://www.zybuluo.com/mdeditor?url=https://www.zybuluo.com/static/editor/md-help.markdown#cmd-markdown-高阶语法手册)  
+
+Markdown Navigator
+---
+
+[IntelliJ IDEA Multi-MarkDown插件安装破J全过程](http://www.jianshu.com/p/a0550f81cbd1)  
+
+简单理解就是用来写文章排版的，一般 github 上面的项目默认都有一个 readme.md 文件（以".md"结尾来描述项目的说明文档）。本文就是使用简书的 markdown 语法写的。
 
 MarkdownView-Android
 ---
@@ -440,201 +453,6 @@ http://code.taobao.org/p/YuanWen/diff/66/trunk/app/src/main/java/com/smile/yuanw
 +
 
 
-android 动态添加view
---------------------------
-
-Android 在程序中动态添加 View 布局或控件
-http://blog.csdn.net/q610098308/article/details/49998457
-http://blog.csdn.net/a15838319826/article/details/70808771
-
-有时我们需要在程序中动态添加布局或控件等，下面用程序来展示一下相应的方法：
-1、addView
-添加View到布局容器
-2、removeView
-在布局容器中删掉已有的View
-3、LayoutParams 
-设置View的大小位置
-
-Android在布局中动态添加view的两种方法
-https://www.2cto.com/kf/201407/314958.html
-添加视图文件的时候有两种方式:1、通过在xml文件定义layout；2、java代码编写
-
-1.构造xml文件
-
-2.LayoutInflater
-
-提到addview，首先要了解一下LayoutInflater类。这个类最主要的功能就是实现将xml表述的layout转化为View的功能。为了便于理解，我们可以将它与findViewById()作一比较，二者都是实例化某一对象，不同的是findViewById()是找xml布局文件下的具体widget控件实例化，而LayoutInflater找res/layout/下的xml布局文件来实例化的。
-
-(1)创建
-
-LayoutInflater inflater=(LayoutInflater)context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);或
-
-LayoutInflater inflater = LayoutInflater.from(Activity.this);或
-
-LayoutInflater inflater = getLayoutInflater();
-
-这三种方法本质是相同的。
-
-(2)inflate()
-
-用LayoutInflater.inflate() 将LayOut文件转化成VIew。
-
-View view = inflater.inflate(R.layout.block_gym_album_list_item, null);
-
-3.添加视图文件
-
-三、步骤
-1、通过在xml文件定义layout(block_gym_album_list_item.xml)
-
-block_gym_album_list_item.xml
-
-<!--?xml version="1.0" encoding="utf-8"?-->
-<linearlayout xmlns:android="https://schemas.android.com/apk/res/android" 
-    xmlns:core="https://schemas.android.com/apk/res/com.gxtag.gym"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:orientation="vertical"
-    android:padding="5dp">
- 
-    <imageview 
-        android:id="@+id/iv_head_album"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/defaulthead">
- 
-    </imageview>
-</linearlayout>
-
-
-main.xml
-
-<!--?xml version="1.0" encoding="utf-8"?-->
-<linearlayout xmlns:android="https://schemas.android.com/apk/res/android"
-    android:id="@+id/ll_parent"
-    android:layout_width="fill_parent"
-    android:layout_height="wrap_content"
-    android:orientation="vertical">
- 
-    <include
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        layout="@layout/block_head_back">
- 
-    </include>
-</linearlayout>
-
-DynamicViewActivity.java
-
-package com.gxtag.gym.ui;
- 
-import android.app.Activity;
-import android.content.Context;
-import android.os.Bundle;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.View.OnClickListener;
-import android.view.ViewGroup;
-import android.widget.LinearLayout;
-import android.widget.LinearLayout.LayoutParams;
-import android.widget.TextView;
- 
-import com.gxtag.gym.R;
-import com.icq.app.widget.StatedButton;
- 
-public class DynamicViewActivity extends Activity implements OnClickListener{
- 
-    private Context mContext;
-    private TextView mTv_title;
-    private String title = "动态添加布局";
-    private StatedButton mSbtn_back;
-    private LinearLayout mLl_parent;
- 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_dynamic);
-        mContext=this;
-        initView();
-        mLl_parent.addView(addView1());
-        mLl_parent.addView(addView2());
- 
-    }
-     
-    private void initView() {
-        // TODO 初始化视图
-        mLl_parent=(LinearLayout) findViewById(R.id.ll_parent);
-        mTv_title = (TextView) findViewById(R.id.tv_title);
-        mTv_title.setText(String.format(String.format(
-                getResources().getString(R.string.title), title)));
-        mSbtn_back = (StatedButton) findViewById(R.id.sbtn_navback);
-        mSbtn_back.setOnClickListener(this);
-         
-         
-    }
-     
-    private View addView1() {
-        // TODO 动态添加布局(xml方式)
-        LinearLayout.LayoutParams lp = new LinearLayout.LayoutParams( 
-                    LayoutParams.FILL_PARENT, LayoutParams.WRAP_CONTENT); 
-//      LayoutInflater inflater1=(LayoutInflater)mContext.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-//      LayoutInflater inflater2 = getLayoutInflater();
-        LayoutInflater inflater3 = LayoutInflater.from(mContext);
-        View view = inflater3.inflate(R.layout.block_gym_album_list_item, null);
-        view.setLayoutParams(lp);
-        return view;
-         
-    }
-     
-    private View addView2() {
-        // TODO 动态添加布局(java方式)
-        LinearLayout.LayoutParams lp = new LinearLayout.LayoutParams( 
-                    LayoutParams.FILL_PARENT, LayoutParams.WRAP_CONTENT); 
-        LinearLayout view = new LinearLayout(this); 
-        view.setLayoutParams(lp);//设置布局参数 
-        view.setOrientation(LinearLayout.HORIZONTAL);// 设置子View的Linearlayout// 为垂直方向布局 
-        //定义子View中两个元素的布局 
-        ViewGroup.LayoutParams vlp = new ViewGroup.LayoutParams( 
-                ViewGroup.LayoutParams.WRAP_CONTENT, 
-                ViewGroup.LayoutParams.WRAP_CONTENT); 
-        ViewGroup.LayoutParams vlp2 = new ViewGroup.LayoutParams( 
-                ViewGroup.LayoutParams.WRAP_CONTENT, 
-                ViewGroup.LayoutParams.WRAP_CONTENT); 
-          
-        TextView tv1 = new TextView(this); 
-        TextView tv2 = new TextView(this); 
-        tv1.setLayoutParams(vlp);//设置TextView的布局 
-        tv2.setLayoutParams(vlp2); 
-        tv1.setText("姓名:"); 
-        tv2.setText("李四"); 
-        tv2.setPadding(calculateDpToPx(50), 0, 0, 0);//设置边距 
-        view.addView(tv1);//将TextView 添加到子View 中 
-        view.addView(tv2);//将TextView 添加到子View 中 
-        return view; 
-    }
- 
-    private int calculateDpToPx(int padding_in_dp){ 
-        final float scale = getResources().getDisplayMetrics().density; 
-        return  (int) (padding_in_dp * scale + 0.5f); 
-    } 
-     
- 
-    @Override
-    public void onClick(View v) {
-        // TODO 控件单击事件
-        switch (v.getId()) {
-        case R.id.sbtn_navback:
-            this.finish();
-            break;
-        default:
-            break;
-        }
-    }
- 
-}
-
-ANDROID 实现布局动态加载
---------------------------
-[ANDROID 实现布局动态加载](http://www.cnblogs.com/Greenwood/archive/2011/03/02/1969340.html)  
 
 
 Volley源码分析
@@ -767,32 +585,25 @@ http://blog.csdn.net/michaelpp/article/details/7302308
 	}
 
 
-Markdown Navigator
-IntelliJ IDEA Multi-MarkDown插件安装破J全过程
-http://www.jianshu.com/p/a0550f81cbd1
-简单理解就是用来写文章排版的，一般 github 上面的项目默认都有一个 readme.md 文件（以".md"结尾来描述项目的说明文档）。本文就是使用简书的 markdown 语法写的。
-
-原生Android结合H5混合开发小结
-http://blog.csdn.net/leaf_130/article/details/54099173
-
-CentOS 上的FireWallD简明指南
-http://www.51xdn.net/czxt/Linux/20170109/43978.html
-
-Jade —— 源于 Node.js 的 HTML 模板引擎
-https://segmentfault.com/a/1190000000357534
 
 
-@NotEmpty、@NotBlank、@NotNull的区别
-http://blog.csdn.net/zz_life/article/details/51470909
-@NotNull和@NotEmpty和@NotBlank区别
-http://blog.csdn.net/melenpeng/article/details/50236449
+[原生Android结合H5混合开发小结](http://blog.csdn.net/leaf_130/article/details/54099173)  
 
-Java中避免NullPointerException的一些方法
-https://segmentfault.com/a/1190000002477715
+[CentOS 上的FireWallD简明指南](http://www.51xdn.net/czxt/Linux/20170109/43978.html)  
+
+[Jade —— 源于 Node.js 的 HTML 模板引擎](https://segmentfault.com/a/1190000000357534)  
+
+
+[@NotEmpty、@NotBlank、@NotNull的区别](http://blog.csdn.net/zz_life/article/details/51470909)  
+
+[@NotNull和@NotEmpty和@NotBlank区别](http://blog.csdn.net/melenpeng/article/details/50236449)  
+
+[Java中避免NullPointerException的一些方法](https://segmentfault.com/a/1190000002477715)  
 
 
 Android SDK加载图片流程
------------------------
+---
+
 Android SDK会根据屏幕密度自动选择对应的资源文件进行渲染加载，比如说，SDK检测到你手机的分辨率是xhdpi，会优先到xhdpi文件夹下找对应的图片资源;
 如果xhdpi文件夹下没有图片资源，那么就会去分辨率高的文件夹下查找，比如xxhdpi，直到找到同名图片资源，将它按比例缩小成xhpi图片;
 如果往上查找图片还是没有找到，那么就会往低分辨率的文件夹查找，比如hdpi，直到找到同名图片资源，将它按比例放大成xhpi图片。
@@ -947,12 +758,6 @@ public class HTMLSpirit{
     } 
 }
 
-使用Spannable或Html.fromHtml设置字体、颜色、超链接等
-http://blog.csdn.net/lindonghai/article/details/49613895
-
-andorid中Html.fromHtml方法
-http://blog.csdn.net/joebaby_/article/details/7954495
-
 Otto
 ----
 Android 事件总线OTTO用法快速入门
@@ -961,112 +766,83 @@ http://blog.csdn.net/zhangweiwtmdbf/article/details/49096615
 Android Otto框架浅析
 http://itindex.net/detail/50349-android-otto-框架
 
-Android版本检测更新 使用腾讯bugly自动更新
-http://www.apkbus.com/blog-705730-62592.html
+
+
+[Android版本检测更新 使用腾讯bugly自动更新](http://www.apkbus.com/blog-705730-62592.html)  
+
 https://bugly.qq.com/docs/user-guide/instruction-manual-android-upgrade/?v=20161011192545
 
-RecyclerView 定制item 分割线
-http://blog.csdn.net/jxxfzgy/article/details/43736385
 
-React Native
-http://reactnative.cn/
+[Butterknife](https://github.com/JakeWharton/butterknife)  
 
-Butterknife
-https://github.com/JakeWharton/butterknife
-ButterKnife：8.1.0的使用
-http://www.jianshu.com/p/0392199a682b
-Android Butter Knife 框架——最好用的View注入
-http://www.jianshu.com/p/9ad21e548b69
+[ButterKnife：8.1.0的使用](http://www.jianshu.com/p/0392199a682b)  
+
+[Android Butter Knife 框架——最好用的View注入](http://www.jianshu.com/p/9ad21e548b69)  
 
 
-Okhttp Logging Interceptor
-http://blog.csdn.net/u010278882/article/details/50724694
+[Okhttp Logging Interceptor](http://blog.csdn.net/u010278882/article/details/50724694)  
 compile 'com.squareup.okhttp3:logging-interceptor:3.1.2'
 该拦截器用于记录应用中的网络请求的信息
 
-Android开发架构思考及经验总结
-http://blog.csdn.net/jf_1994/article/details/53870534
+[Android开发架构思考及经验总结](http://blog.csdn.net/jf_1994/article/details/53870534)  
 
 另外除了 Google 列出的架构，还有 Facebook 推出的 Flux 架构也值得考虑。
 
-React Native 基于 JavaScript 的开源框架 React Native
-React Native 中文网
-http://reactnative.cn/
+React Native   
+---
 
-React Native 中文版(含新增 Android 章节)
-http://wiki.jikexueyuan.com/project/react-native/
+[React Native](http://reactnative.cn/)  
 
-一个 2 年 Android 开发者的 18 条忠告
-http://www.codeceo.com/article/18-tips-2-years-android-developer.html
+React Native 基于 JavaScript 的开源框架 React Native  
 
-一些最佳library的列表
-https://snowdream.github.io/awesome-android/
-几乎所有开源安卓app的列表
-https://github.com/pcqpcq/open-source-android-apps
+[React Native 中文网](http://reactnative.cn/)  
 
-帧动画和补间动画看这篇足够了
-http://www.jianshu.com/p/5163789b1591
+[React Native 中文版(含新增 Android 章节)](http://wiki.jikexueyuan.com/project/react-native/)  
 
-Android属性allowBackup安全风险浅析
-http://www.freebuf.com/articles/terminal/60778.html
 
-WebView控件中的onConsoleMessage方法不被调用
-https://my.oschina.net/xmlspyspring/blog/126045
-http://www.blogjava.net/xmlspy/archive/2013/04/28/398522.html
 
-shouldOverrideUrlLoading相关说明
-https://my.oschina.net/u/1446273/blog/200968
+[一个 2 年 Android 开发者的 18 条忠告](http://www.codeceo.com/article/18-tips-2-years-android-developer.html)  
 
-Android实战技巧：ViewStub的应用
-http://blog.csdn.net/hitlion2008/article/details/6737537/
+[一些最佳library的列表](https://snowdream.github.io/awesome-android/)  
 
-Android布局优化之ViewStub、include、merge使用与源码分析
-http://blog.csdn.net/bboyfeiyu/article/details/45869393
+[帧动画和补间动画看这篇足够了](http://www.jianshu.com/p/5163789b1591)  
 
-ActivityThread的main方法究竟做了什么？
-http://www.apkbus.com/blog-705730-62523.html
+[Android属性allowBackup安全风险浅析](http://www.freebuf.com/articles/terminal/60778.html)  
+
+
+[ActivityThread的main方法究竟做了什么？](http://www.apkbus.com/blog-705730-62523.html)  
 
 http://grepcode.com/ Android sdk源码
 http://grepcode.com/search/?query=ActivityThread
 
-Android消息处理机制(Handler、Looper、MessageQueue与Message)
-http://www.cnblogs.com/angeldevil/p/3340644.html
+Android消息处理机制
+---
+[Android消息处理机制(Handler、Looper、MessageQueue与Message)](http://www.cnblogs.com/angeldevil/p/3340644.html)  
 
-Android消息机制字典型探究（一）
-http://www.jianshu.com/p/8c06b1d7ca68
+[Android消息机制字典型探究（一）](http://www.jianshu.com/p/8c06b1d7ca68)  
 
-Android消息机制字典型探究（二）
-http://www.jianshu.com/p/8501d3b0c359
+[Android消息机制字典型探究（二）](http://www.jianshu.com/p/8501d3b0c359)  
 
-带着这篇去通关所有Handler的提问（三）
-http://www.jianshu.com/p/fad4e2ae32f5
+[带着这篇去通关所有Handler的提问（三）](http://www.jianshu.com/p/fad4e2ae32f5)  
 
-Handler可能造成内存泄漏（四）
-http://www.jianshu.com/p/c0c67c2a0532
+[Handler可能造成内存泄漏（四）](http://www.jianshu.com/p/c0c67c2a0532)  
 
-Android开发中Handler的经典总结
-http://mobile.51cto.com/aprogram-442833.htm
+[Android开发中Handler的经典总结](http://mobile.51cto.com/aprogram-442833.htm)  
 
-Android Handler详细使用方法实例
-http://www.codeceo.com/article/android-handler-usage.html
+[Android Handler详细使用方法实例](http://www.codeceo.com/article/android-handler-usage.html)  
 
-android设置Activity背景色为透明的3种方
-http://blog.csdn.net/lily9/article/details/11983221
+[android设置Activity背景色为透明的3种方法]（http://blog.csdn.net/lily9/article/details/11983221）  
 
 Android唯一标识
 ---
-如何获取Android唯一标识（唯一序列号）
-http://blog.csdn.net/ljz2009y/article/details/22895297
+[如何获取Android唯一标识（唯一序列号）](http://blog.csdn.net/ljz2009y/article/details/22895297)  
 http://www.cnblogs.com/lvcha/p/3721091.html
 
-android获取设备唯一标识完美解决方案
-http://www.tuicool.com/articles/MfQBbe
+[android获取设备唯一标识完美解决方案](http://www.tuicool.com/articles/MfQBbe)  
 
-Android 如何检索Android设备的唯一ID
-http://blog.csdn.net/aminfo/article/details/7604451
+[Android 如何检索Android设备的唯一ID](http://blog.csdn.net/aminfo/article/details/7604451)  
 
-怎样取安卓设备唯一标识来防刷
-http://www.eoeandroid.com/thread-917649-1-1.html?_dsign=d27b4af2
+[怎样取安卓设备唯一标识来防刷](http://www.eoeandroid.com/thread-917649-1-1.html?_dsign=d27b4af2)  
 
 项目模板化  
 ---
@@ -1087,8 +863,7 @@ https://www.jetbrains.com/help/idea/2016.1/live-template-variables.html#predefin
 
 
 
-Android开发人员不得不收集的代码(持续更新中)
-http://www.diycode.cc/projects/Blankj/AndroidUtilCode
+[Android开发人员不得不收集的代码(持续更新中)](http://www.diycode.cc/projects/Blankj/AndroidUtilCode)  
 https://github.com/Blankj/AndroidUtilCode
 Gradle:
 compile 'com.blankj:utilcode:1.3.3'
@@ -1114,8 +889,8 @@ Android Studio-> Files---> Sttrings ----> (preferences ->) plugins -> 搜索Andr
 
 一键上传应用到fir.im
 ---
-FIR_Plugin_Android
-https://github.com/FIRHQ/FIR_Plugin_Android
+
+[FIR_Plugin_Android](https://github.com/FIRHQ/FIR_Plugin_Android)  
 jetbrains插件线上地址: https://plugins.jetbrains.com/plugin/7640?pr=androidstudio
 具体安装步骤
 fir.im upload 安装
@@ -1127,40 +902,29 @@ fir.im upload 安装
 API token:  d4b972e14b530f2d2fe5fc951d58a5d7
 
 
-Android中获取系统通讯录联系人并显示在EditText
-http://www.cnblogs.com/yejiurui/archive/2013/01/02/2842061.html
+[Android中获取系统通讯录联系人并显示在EditText](http://www.cnblogs.com/yejiurui/archive/2013/01/02/2842061.html)  
 
-android 获取电话本中的联系人列表
-http://leiwuluan.iteye.com/blog/1511255
+[android 获取电话本中的联系人列表](http://leiwuluan.iteye.com/blog/1511255)  
 
-Android官方培训课程中文版(v0.9.5)
-http://hukai.me/android-training-course-in-chinese/index.html
-
-Android Api中文版
-http://www.embeddedlinux.org.cn/androidapi/
 
 多渠道打包
----
-Android高阶之Android studio-友盟多渠道打包方式
-http://blog.csdn.net/chenliguan/article/details/51066933
+---  
 
-[Android Studio] Android studio 多渠道打包(超简洁版)
-http://www.cnblogs.com/0616--ataozhijia/p/4203997.html
+[Android高阶之Android studio-友盟多渠道打包方式](http://blog.csdn.net/chenliguan/article/details/51066933)
 
-在AS中gradle多渠道打包应用
-https://my.oschina.net/gef/blog/603991
+[[Android Studio] Android studio 多渠道打包(超简洁版)](http://www.cnblogs.com/0616--ataozhijia/p/4203997.html)  
+
+[在AS中gradle多渠道打包应用](https://my.oschina.net/gef/blog/603991)  
 
 [Android Proguard混淆打包经验总结](http://blog.csdn.net/u011459799/article/details/52637214?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io)  
 
 
-Android Studio利用Gradle删除没有使用到的资源和代码文件
-http://www.cnblogs.com/tianzhijiexian/p/4457763.html
+[Android Studio利用Gradle删除没有使用到的资源和代码文件](http://www.cnblogs.com/tianzhijiexian/p/4457763.html)  
 
 https://www.juhe.cn/
 API数据接口_开发者数据定制_免费数据调用-聚合数据
 
-[应用源码] Android -- 热点新闻 【安卓开发经典】
-http://www.androidym.com/thread-54301-1-1.html
+([应用源码] Android -- 热点新闻 【安卓开发经典】](http://www.androidym.com/thread-54301-1-1.html)  
 接口地址：
 http://v.juhe.cn/toutiao/index?type=top&key=cc9de92b2c3f3517fd2f5a2a566ba2f1
 
@@ -1187,16 +951,15 @@ b1c8_1_mwpl_05500201.jpeg",/*图片3*/
 ...]}}
 
 
-我的Android笔记（八）—— 使用Jsoup解析Html
-http://blog.csdn.net/barryhappy/article/details/7366654
+[我的Android笔记（八）—— 使用Jsoup解析Html](http://blog.csdn.net/barryhappy/article/details/7366654)  
 
-android-dynamical-loading 动态加载技术
-https://github.com/kaedea/android-dynamical-loading
+[android-dynamical-loading 动态加载技术](https://github.com/kaedea/android-dynamical-loading)  
 
 GRADLE下载、安装、配置与检查
-Gradle User Guide 中文版 https://dongchuan.gitbooks.io/gradle-user-guide-/content/index.html
-DOWNLOAD GRADLE 3.1 
-https://gradle.org/gradle-download/
+[Gradle User Guide 中文版](https://dongchuan.gitbooks.io/gradle-user-guide-/content/index.html)  
+
+[DOWNLOAD GRADLE 3.1 ](https://gradle.org/gradle-download/)  
+
 GRADLE_HOME:D:\gradle-3.1
 Path: ......;D:\gradle-3.1\bin
 gradle -v
@@ -1214,24 +977,36 @@ OS:           Windows 7 6.1 amd64
 
 C:\Users\Administrator>
 
-Android收藏夹：
-Android开发者的收藏夹
-https://github.com/ruijun/Android-Dev-Favorites
+Android收藏夹
+---
+[Android开发者的收藏夹](https://github.com/ruijun/Android-Dev-Favorites)  
+
 官方文档
-Android官方培训课程中文版 http://hukai.me/android-training-course-in-chinese/
-Android官方文档 http://developer.android.com/intl/zh-cn/develop/index.html
-Gradle User Guide 中文版 https://dongchuan.gitbooks.io/gradle-user-guide-/content/index.html
-Gradle User Guide https://docs.gradle.org/current/userguide/userguide.html
-Material Design 中文版 http://design.1sters.com/
-groovy 2.4.5 API http://www.groovy-lang.org/api.html
-Android Plugin DSL Reference http://google.github.io/android-gradle-dsl/current/
-Java API https://docs.oracle.com/javase/7/docs/api/
+---
 
-Android之Sensor 简介
-http://wenku.baidu.com/link?url=_x3clXnKWIygI3ey362EoPII_9lZaDvNs9Y9I-424q9nZfBfwcsCl8SxcGTi9c8DnTSHgjMl9ctaK8tOLTn916om7LKbJY4mpF1U8_KwDPC
+[Android官方培训课程中文版](http://hukai.me/android-training-course-in-chinese/)  
 
-SensorEventListener 接口 摇一摇
-http://284772894.iteye.com/blog/1807499
+[Android官方文档](http://developer.android.com/intl/zh-cn/develop/index.html)  
+
+[Android官方培训课程中文版(v0.9.5)](http://hukai.me/android-training-course-in-chinese/index.html)  
+
+[Android Api中文版](http://www.embeddedlinux.org.cn/androidapi/)  
+
+[Gradle User Guide 中文版](https://dongchuan.gitbooks.io/gradle-user-guide-/content/index.html)  
+
+[Gradle User Guide](https://docs.gradle.org/current/userguide/userguide.html)  
+
+[Material Design 中文版](http://design.1sters.com/)  
+
+[groovy 2.4.5 API](http://www.groovy-lang.org/api.html)  
+
+[Android Plugin DSL Reference](http://google.github.io/android-gradle-dsl/current/)  
+
+[Java API](https://docs.oracle.com/javase/7/docs/api/)  
+
+[Android之Sensor 简介](http://wenku.baidu.com/link?url=_x3clXnKWIygI3ey362EoPII_9lZaDvNs9Y9I-424q9nZfBfwcsCl8SxcGTi9c8DnTSHgjMl9ctaK8tOLTn916om7LKbJY4mpF1U8_KwDPC)  
+
+[SensorEventListener 接口 摇一摇](http://284772894.iteye.com/blog/1807499)  
 
 使用 AXMLPrinter单独反编译AndriodManifest.xml
 AXMLPrinter (Android XML)
@@ -1270,8 +1045,6 @@ android {
 分享链接打开客户端功能实现逻辑
 https://www.zybuluo.com/wangwangheng/note/106998#1android浏览器打开客户端原理
 
-Bus Weekly 汇总
-http://www.apkbus.com/forum.php?mod=viewthread&tid=267776&page=1&extra=&_dsign=dd10d522
 
 《Android Studio实战 快速、高效地构建Android应用》
 
@@ -1282,10 +1055,6 @@ Eclipse 中包结构展开有两种方式
 http://blog.csdn.net/cxy_357/article/details/50392076
 一：平坦方式（flat）
 二、分层方式（hierarchical）
-
-
-中秋赠书，开启“洪荒之礼”【Bus Weekly】十九期
-http://www.apkbus.com/forum.php?mod=viewthread&tid=268127&extra=page%3D1%26filter%3Dauthor%26orderby%3Ddateline
 
 Android 者开发如何选择测试机列表
 http://www.apkbus.com/blog-705730-61682.html
@@ -1322,8 +1091,7 @@ bo_id : 业务对象ID
 shape和selector和layer-list的（详细说明）
 http://www.aiuxian.com/article/p-1312640.html
 
-史上最完整的Android开发工具集合
-http://www.apkbus.com/thread-252748-1-1.html
+[史上最完整的Android开发工具集合](http://www.apkbus.com/thread-252748-1-1.html)  
 
 Json转换利器Gson之实例一-简单对象转化和带泛型的List转化
 http://blog.csdn.net/lk_blog/article/details/7685169
@@ -1374,12 +1142,12 @@ http://www.tuicool.com/articles/nMNVVj
 
 dp与pix:
 ---------
-xxxhdpi:	1280x2560  1dp=4pix     48dp=192px
-xxhdpi:	1080x1920  1dp=3pix     48dp=144px
-xhdpi:	720x1280   1dp=2pix	48dp=96px
-hdpi:	480x800    1dp=1.5pix	48dp=72px
-mdpi:	320*480    1dp=1pix	48dp=48px
-ldpi:	240x320    1dp=0.75pix	48dp=36pix
+xxxhdpi:	1280x2560  1dp=4pix     48dp=192px  
+xxhdpi:	1080x1920  1dp=3pix     48dp=144px  
+xhdpi:	720x1280   1dp=2pix	48dp=96px  
+hdpi:	480x800    1dp=1.5pix	48dp=72px  
+mdpi:	320*480    1dp=1pix	48dp=48px  
+ldpi:	240x320    1dp=0.75pix	48dp=36pix  
 
 
 
