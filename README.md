@@ -1,6 +1,9 @@
 资源
 ===
 
+第一行代码Android第2版
+[源码](https://github.com/guolindev/booksource)  
+
 [有道云笔记](http://note.youdao.com/index.html)  
 
 [安卓巴士官方微博链接](http://weibo.com/apkbusbbs)  
