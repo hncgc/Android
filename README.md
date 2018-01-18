@@ -14,6 +14,8 @@ http://weibo.com/apkbusbbs
 
 [几乎所有开源安卓app的列表](https://github.com/pcqpcq/open-source-android-apps)  
 
+[Android开发技术前线 ( android-tech-frontier )](https://github.com/pcqpcq/android-tech-frontier)  
+
 [像大牛一样写代码：31个Android 开发者工具](http://www.apkbus.com/blog-822715-76717.html)  
 
 [codeKK](http://p.codekk.com/)  
