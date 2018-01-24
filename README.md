@@ -1,6 +1,11 @@
 资源
 ===
 
+[Android Studio下载](https://developer.android.google.cn/studio/index.html)  
+
+[Android Studio用户指南](https://developer.android.google.cn/studio/intro/index.html)  
+
+
 第一行代码Android第2版
 [源码](https://github.com/guolindev/booksource)  
 
