@@ -5,6 +5,7 @@
 
 [Android Studio用户指南](https://developer.android.google.cn/studio/intro/index.html)  
 
+[Android-lifecycle](https://github.com/xxv/android-lifecycle)  
 
 第一行代码Android第2版
 [源码](https://github.com/guolindev/booksource)  
