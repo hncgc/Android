@@ -1,6 +1,9 @@
 资源
 ===
 
+[Android - 收藏集](https://www.jianshu.com/p/dad51f6c9c4d?utm_campaign=maleskine&utm_content=note&utm_medium=seo_notes&utm_source=recommendation)  
+
+
 [Android Studio下载](https://developer.android.google.cn/studio/index.html)  
 
 [Android Studio用户指南](https://developer.android.google.cn/studio/intro/index.html)  
