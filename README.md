@@ -62,9 +62,6 @@ Android Studio在线升级失败可以尝试用下面的方法离线升级。
 Android Studio下载及离线升级方法
 http://www.apkbus.com/blog-901770-72691.html
 
-博客精华
--------
-[【新版】Android技术博客精华汇总](http://www.apkbus.com/thread-313856-1-1.html)  
 
 Code Review 
 ---
@@ -119,13 +116,12 @@ Disable this notification.
 [IntelliJ IDEA Multi-MarkDown插件安装破J全过程](http://www.jianshu.com/p/a0550f81cbd1)  
 
 
-Android中Activity与AppCompatActivity的理解
-http://blog.csdn.net/wsdssss/article/details/51276379
+[Android中Activity与AppCompatActivity的理解](http://blog.csdn.net/wsdssss/article/details/51276379)  
 
 
 有大量的Gson数据需要生成javaBean时，可以使用 GsonFormat插件，快速完成javaBean的生成。
-[插件GsonFormat快速实现JavaBean](http://blog.csdn.net/dakaring/article/details/46300963)  
 
+[插件GsonFormat快速实现JavaBean](http://blog.csdn.net/dakaring/article/details/46300963)  
 
 
 
@@ -133,6 +129,7 @@ android砸金蛋
 ---
 [android砸金蛋](http://download.csdn.net/download/wt0731/5009525)  
 
+[Android 原生 轮盘抽奖](http://www.apkbus.com/blog-851511-76989.html)  
 
 技巧与经验
 ---
@@ -839,23 +836,6 @@ React Native 基于 JavaScript 的开源框架 React Native
 http://grepcode.com/ Android sdk源码
 http://grepcode.com/search/?query=ActivityThread
 
-Android消息处理机制
----
-[Android消息处理机制(Handler、Looper、MessageQueue与Message)](http://www.cnblogs.com/angeldevil/p/3340644.html)  
-
-[Android消息机制字典型探究（一）](http://www.jianshu.com/p/8c06b1d7ca68)  
-
-[Android消息机制字典型探究（二）](http://www.jianshu.com/p/8501d3b0c359)  
-
-[带着这篇去通关所有Handler的提问（三）](http://www.jianshu.com/p/fad4e2ae32f5)  
-
-[Handler可能造成内存泄漏（四）](http://www.jianshu.com/p/c0c67c2a0532)  
-
-[Android开发中Handler的经典总结](http://mobile.51cto.com/aprogram-442833.htm)  
-
-[Android Handler详细使用方法实例](http://www.codeceo.com/article/android-handler-usage.html)  
-
-[android设置Activity背景色为透明的3种方法]（http://blog.csdn.net/lily9/article/details/11983221）  
 
 Android唯一标识
 ---
@@ -884,8 +864,6 @@ E:\AndroidSDK\tools\templates\activities
 http://www.diycode.cc/topics/420
 http://www.jianshu.com/p/cb95ce1ba336
 https://www.jetbrains.com/help/idea/2016.1/live-template-variables.html#predefined_functions
-
-
 
 [Android开发人员不得不收集的代码(持续更新中)](http://www.diycode.cc/projects/Blankj/AndroidUtilCode)  
 https://github.com/Blankj/AndroidUtilCode
@@ -930,21 +908,6 @@ API token:  d4b972e14b530f2d2fe5fc951d58a5d7
 
 [android 获取电话本中的联系人列表](http://leiwuluan.iteye.com/blog/1511255)  
 
-
-多渠道打包
----  
-
-[Android高阶之Android studio-友盟多渠道打包方式](http://blog.csdn.net/chenliguan/article/details/51066933)
-
-[[Android Studio] Android studio 多渠道打包(超简洁版)](http://www.cnblogs.com/0616--ataozhijia/p/4203997.html)  
-
-[在AS中gradle多渠道打包应用](https://my.oschina.net/gef/blog/603991)  
-
-[Android Proguard混淆打包经验总结](http://blog.csdn.net/u011459799/article/details/52637214?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io)  
-
-
-[Android Studio利用Gradle删除没有使用到的资源和代码文件](http://www.cnblogs.com/tianzhijiexian/p/4457763.html)  
-
 https://www.juhe.cn/
 API数据接口_开发者数据定制_免费数据调用-聚合数据
 
@@ -978,55 +941,6 @@ b1c8_1_mwpl_05500201.jpeg",/*图片3*/
 [我的Android笔记（八）—— 使用Jsoup解析Html](http://blog.csdn.net/barryhappy/article/details/7366654)  
 
 [android-dynamical-loading 动态加载技术](https://github.com/kaedea/android-dynamical-loading)  
-
-GRADLE下载、安装、配置与检查
-[Gradle User Guide 中文版](https://dongchuan.gitbooks.io/gradle-user-guide-/content/index.html)  
-
-[DOWNLOAD GRADLE 3.1 ](https://gradle.org/gradle-download/)  
-
-GRADLE_HOME:D:\gradle-3.1
-Path: ......;D:\gradle-3.1\bin
-gradle -v
-C:\Users\Administrator>gradle -v
-------------------------------------------------------------
-Gradle 3.1
-------------------------------------------------------------
-Build time:   2016-09-19 10:53:53 UTC
-Revision:     13f38ba699afd86d7cdc4ed8fd7dd3960c0b1f97
-
-Groovy:       2.4.7
-Ant:          Apache Ant(TM) version 1.9.6 compiled on June 29 2015
-JVM:          1.8.0_101 (Oracle Corporation 25.101-b13)
-OS:           Windows 7 6.1 amd64
-
-C:\Users\Administrator>
-
-Android收藏夹
----
-[Android开发者的收藏夹](https://github.com/ruijun/Android-Dev-Favorites)  
-
-官方文档
----
-
-[Android官方培训课程中文版](http://hukai.me/android-training-course-in-chinese/)  
-
-[Android官方文档](http://developer.android.com/intl/zh-cn/develop/index.html)  
-
-[Android官方培训课程中文版(v0.9.5)](http://hukai.me/android-training-course-in-chinese/index.html)  
-
-[Android Api中文版](http://www.embeddedlinux.org.cn/androidapi/)  
-
-[Gradle User Guide 中文版](https://dongchuan.gitbooks.io/gradle-user-guide-/content/index.html)  
-
-[Gradle User Guide](https://docs.gradle.org/current/userguide/userguide.html)  
-
-[Material Design 中文版](http://design.1sters.com/)  
-
-[groovy 2.4.5 API](http://www.groovy-lang.org/api.html)  
-
-[Android Plugin DSL Reference](http://google.github.io/android-gradle-dsl/current/)  
-
-[Java API](https://docs.oracle.com/javase/7/docs/api/)  
 
 [Android之Sensor 简介](http://wenku.baidu.com/link?url=_x3clXnKWIygI3ey362EoPII_9lZaDvNs9Y9I-424q9nZfBfwcsCl8SxcGTi9c8DnTSHgjMl9ctaK8tOLTn916om7LKbJY4mpF1U8_KwDPC)  
 
@@ -1112,10 +1026,8 @@ bo_id : 业务对象ID
 总共有6类点对点推送事件：组团超时，发货超时，订单完成，订单拒收，提现成功，提现失败。
 因此，业务对象类型bo_type有三种类型（00:无关联业务对象，01:订单，02:提现，03：组团）。
 
-shape和selector和layer-list的（详细说明）
-http://www.aiuxian.com/article/p-1312640.html
-
-[史上最完整的Android开发工具集合](http://www.apkbus.com/thread-252748-1-1.html)  
+shape和selector和layer-list的（详细说明）  
+http://www.aiuxian.com/article/p-1312640.html  
 
 Json转换利器Gson之实例一-简单对象转化和带泛型的List转化
 http://blog.csdn.net/lk_blog/article/details/7685169
@@ -1165,13 +1077,13 @@ http://www.tuicool.com/articles/nMNVVj
 
 
 dp与pix:
----------
-xxxhdpi:	1280x2560  1dp=4pix     48dp=192px  
-xxhdpi:	1080x1920  1dp=3pix     48dp=144px  
-xhdpi:	720x1280   1dp=2pix	48dp=96px  
-hdpi:	480x800    1dp=1.5pix	48dp=72px  
-mdpi:	320*480    1dp=1pix	48dp=48px  
-ldpi:	240x320    1dp=0.75pix	48dp=36pix  
+---------  
+    xxxhdpi:	1280x2560  1dp=4pix     48dp=192px  
+    xxhdpi:	1080x1920  1dp=3pix     48dp=144px  
+    xhdpi:	720x1280   1dp=2pix	48dp=96px  
+    hdpi:	480x800    1dp=1.5pix	48dp=72px  
+    mdpi:	320*480    1dp=1pix	48dp=48px  
+    ldpi:	240x320    1dp=0.75pix	48dp=36pix  
 
 
 
