@@ -23,6 +23,8 @@ http://weibo.com/apkbusbbs
 [Bus Weekly回顾](http://www.apkbus.com/thread-565259-1-1.html)  
 
 [Bus Weekly 汇总](http://www.apkbus.com/forum.php?mod=viewthread&tid=267776&page=1&extra=&_dsign=dd10d522)  
+[Bus Weekly 汇总 new](http://www.apkbus.com/thread-565259-1-1.html)  
+
 
 [中秋赠书，开启“洪荒之礼”【Bus Weekly】十九期](http://www.apkbus.com/forum.php?mod=viewthread&tid=268127&extra=page%3D1%26filter%3Dauthor%26orderby%3Ddateline)  
 
