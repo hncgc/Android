@@ -1,5 +1,8 @@
 资源
 ===
+[Android开发教程](https://www.ctolib.com/android/docs/)  
+
+[《Kotlin for android developers》中文版翻译](https://www.ctolib.com/docs//sfile/kotlin-for-android-developers-zh/index.html)  
 
 [Android Studio下载](https://developer.android.google.cn/studio/index.html)  
 
