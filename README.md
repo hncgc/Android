@@ -498,17 +498,6 @@ Groovy
 http://baike.baidu.com/link?url=OJLu44SO9onNCWpsm7zl_uDGWYvnK-M_e0PmUB6g_FgBVj153PeYvSslVfU6HDOq8rhT04M5ujLRjSXtQqiRhq
 
 
-软键盘  
----
-
-[ChatKeyboard](https://github.com/CPPAlien/ChatKeyboard)  
-
-[XhsEmoticonsKeyboard 最良心的开源表情键盘解决方案](https://github.com/w446108264/XhsEmoticonsKeyboard)  
-
-[Android 软键盘监听事件](http://blog.csdn.net/breeze666/article/details/27082419)  
-
-[Android windowSoftInputMode软键盘显示和隐藏的监听和实现](http://blog.csdn.net/u010852801/article/details/43198313)  
-
 
 
 
