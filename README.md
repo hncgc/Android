@@ -292,57 +292,6 @@ ArrayList<String> newList=new ArrayList<>(new TreeSet(strList));
 
 我们通过上面的代码 newList等于 str1 str2
 
-Git
----
-[Git Book](https://git-scm.com/book/zh/v1)  
-
-[6. Git 基础 - 打标签](https://git-scm.com/book/zh/v1/Git-%E5%9F%BA%E7%A1%80-%E6%89%93%E6%A0%87%E7%AD%BE#列显已有的标签)  
-
-
-#### git 操作：
-
-
-强制push：  
-
-    git push -u origin master -f
-
-强制pull  
-
-    git fetch --all  
-    git reset --hard origin/master 
-    git pull
-    
-显示最后一次提交:
-
-    git show 
-    
-查看提交历史（oneline 将 每个提交 放在一行显示）
-
-    git log --pretty=oneline
-
-分享(推送)标签:
-
-    git push origin 标签名
-
-后期加注标签
-你甚至可以在后期对早先的某次提交加注标签。比如在下面展示的提交历史中：  
-$ git tag -a v1.2 9fceb02  
-
-分享标签
-默认情况下，git push 并不会把标签传送到远端服务器上，只有通过显式命令才能分享标签到远端仓库。其命令格式如同推送分支，运行 git push origin [tagname] 即可： 
-
-$ git push origin 标签名  
-
-如果要一次推送所有本地新增的标签上去，可以使用 --tags 选项：  
-
-$ git push origin --tags  
-
-#### 如何使用git获取指定tag的代码
-
-tag是对历史一个提交id的引用，如果理解这句话就明白了
-使用git checkout tag即可切换到指定tag，例如：git checkout v0.1.0
-切换到tag历史记录会处在分离头指针状态，这个是的修改是很危险的，在切换回主线时如果没有合并，之前的修改提交基本都会丢失，如果需要修改可以尝试git checkout -b branch tag创建一个基于指定tag的分支，例如：git checkout -b tset v0.1.0  这个时候就会在分支上进行开发，之后可以切换到主线合并
-
 阅读器Read View
 
 CodeView
@@ -496,8 +445,6 @@ https://www.coursera.org/specializations/scala
 
 Groovy
 http://baike.baidu.com/link?url=OJLu44SO9onNCWpsm7zl_uDGWYvnK-M_e0PmUB6g_FgBVj153PeYvSslVfU6HDOq8rhT04M5ujLRjSXtQqiRhq
-
-
 
 
 
