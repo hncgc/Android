@@ -94,6 +94,7 @@ MarkdownView-Android是一个可以加载markdown或者普通文件并显示成h
 项目地址：https://github.com/mukeshsolanki/MarkdownView-Android
 
 https://vladsch.com/product/markdown-navigator/referrals
+```
 Markdown Navigator 2.2.0
  Now Even Faster  Spread the word & get up to 100% off enhanced edition.       Details  
 Basic & Enhanced / Enhanced Edition only
@@ -112,14 +113,13 @@ Customizable link address mapping
 Print HTML Preview for JavaFX browser
 Buy a license, view Promotions. View all enhanced features.
 Disable this notification.
+```
 
 [IntelliJ IDEA Multi-MarkDown插件安装破J全过程](http://www.jianshu.com/p/a0550f81cbd1)  
 
-
 [Android中Activity与AppCompatActivity的理解](http://blog.csdn.net/wsdssss/article/details/51276379)  
 
-
-有大量的Gson数据需要生成javaBean时，可以使用 GsonFormat插件，快速完成javaBean的生成。
+> 有大量的Gson数据需要生成javaBean时，可以使用 GsonFormat插件，快速完成javaBean的生成。
 
 [插件GsonFormat快速实现JavaBean](http://blog.csdn.net/dakaring/article/details/46300963)  
 
@@ -133,6 +133,9 @@ android砸金蛋
 
 技巧与经验
 ---
+
+[Android奇技淫巧：隐藏APP图标](http://blog.liangruijun.com/2016/01/24/Android%E5%A5%87%E6%8A%80%E6%B7%AB%E5%B7%A7%EF%BC%9A%E9%9A%90%E8%97%8FAPP%E5%9B%BE%E6%A0%87/)  
+
 [Android UI 大全 里面包含所以特效大全的项目，都是每个特效一个项目的结构](https://gitee.com/bob4j/Android-UI)  
 
 [安卓巴士Android开发者门户](http://mp.sohu.com/profile?xpt=c29odW1wNDI3dXhwQHNvaHUuY29t)
@@ -165,7 +168,7 @@ android砸金蛋
 [安卓零基础](http://www.apkbus.com/misc.php?mod=tag&id=6169)  
 
 [Android开发路上那些小技巧与经验，一起聚沙成塔！](http://www.apkbus.com/thread-463317-1-1.html)  
-
+```
 添加了全局的application文件一定要记得AndroidManifest里面注册一下。
 
 全屏可以在配置文件里修改
@@ -237,6 +240,7 @@ getWindow().addFlags(WindowManager.LayoutParams.FLAG_SECURE);
 
 
 很多小白还在为寻找各种应用中的图片而四处寻找，其实只需要在相应文件夹右键[New] >[Image Asset]即可打开AndroidStudio自带的图标生成器。
+```
 
 禁止输入特殊字符以及输入法表情，间接保护神一般后台。。。
 
@@ -264,8 +268,9 @@ getWindow().addFlags(WindowManager.LayoutParams.FLAG_SECURE);
     }
 
 调用如下：
-
+```
 edtRemark.setFilters(new InputFilter[]{new UIHelper.EmojiExcludeFilter()});
+```
 
 Android Studio 使用
 ---
@@ -280,33 +285,38 @@ Android Studio 使用
     Alt+Shift+↓                代码下移一行
 
 #### 自动导包：
+```
 1 Android studio 只有import单个包的快捷键：Alt+Enter。没有Eclipse下的快速导入包的快捷键Ctrl+Shift+O。
 2 但Android studio设置里有一项Auto Import自动导入功能。设置过程如下：
   Android studio --> File--> Settings --> Editor --> Auto Import:然后设置如下图。
 
   Add unambiguous imports on the fly：这个就是自动导入功能了，当你输入类名后，声明就被自动导入了
+```
 
 ArrayList<String> newList=new ArrayList<>(new TreeSet(strList));
-
 去重 假设 strList里面有三个值 分别为：str1 str2 str1 
-
 我们通过上面的代码 newList等于 str1 str2
+
 
 阅读器Read View
 
 CodeView
+```
 CodeView 是一个能显示代码，并且能够进行代码高亮的一个控件。通过hightlight.js 渲染代码，可以自动识别主流的各种语言 比如java,c++,c#,python,bash,ruby等语言 并且有很多种主题风格，可以自由选择一种主题，然后将其显示。
 CodeView  https://github.com/Thereisnospon/CodeView
+```
 
 AndroidPdfViewer
+```
 一个android版本的PDF阅读渲染器，可以用来阅读PDF文档。
 项目地址：https://github.com/barteksc/AndroidPdfViewer
-
+```
 
 android-card-slide-panel
+```
 就是“探探”app实现的那种交互体验，为此我还特意下了一个探探体验了一下，卡片上展示的全是美女！左右拖动操作页非常nice，探探这个产品交互简直无可挑剔。
 项目地址：https://github.com/xmuSistone/android-card-slide-panel
-
+```
 
 其它黑科技
 =========
@@ -364,11 +374,9 @@ PinyinUtils
 
 正则表达式  
 ---
-JAVA replaceAll 正则表达式(
-http://blog.csdn.net/s445320/article/details/50729736
+[JAVA replaceAll 正则表达式](http://blog.csdn.net/s445320/article/details/50729736)  
 
-Java 正则表达式
-http://www.runoob.com/java/java-regular-expressions.html
+[Java 正则表达式](http://www.runoob.com/java/java-regular-expressions.html)  
 
 阿里云开源项目
 -------------
@@ -376,7 +384,7 @@ http://code.taobao.org/project/explore/
 http://code.taobao.org/newest/
 
 http://code.taobao.org/p/YuanWen/diff/66/trunk/app/src/main/java/com/smile/yuanwen/fragment/DynamicDetailFragment.java
-
+```
 +
 +    /**
 +     * 填充webview内容
@@ -416,40 +424,32 @@ http://code.taobao.org/p/YuanWen/diff/66/trunk/app/src/main/java/com/smile/yuanw
 +    }
 +
 
+```
 
 
+[Volley源码分析](http://bxbxbai.github.io/2014/12/24/read-volley-source-code/)  
 
-Volley源码分析
-http://bxbxbai.github.io/2014/12/24/read-volley-source-code/
-Android库Volley的使用介绍
-http://bxbxbai.github.io/2014/09/14/android-working-with-volley/
+[Android库Volley的使用介绍](http://bxbxbai.github.io/2014/09/14/android-working-with-volley/)  
 
-Android Butterknife 8.4.0 使用方法总结
-http://www.apkbus.com/blog-822715-64244.html
+[Android Butterknife 8.4.0 使用方法总结](http://www.apkbus.com/blog-822715-64244.html)  
 https://github.com/JakeWharton/butterknife
 
-漂亮的滑动效果
-http://www.apkbus.com/thread-273921-1-1.html
+[漂亮的滑动效果](http://www.apkbus.com/thread-273921-1-1.html)  
 https://github.com/Sherchen/SlideToggleHeader
 
-Android App内部更新Library
-http://www.apkbus.com/thread-273464-1-1.html
+[Android App内部更新Library](http://www.apkbus.com/thread-273464-1-1.html)  
 https://github.com/MZCretin/AutoUpdateProject
 
 
-Scala社区
-http://www.scalachina.com/
+[Scala社区](http://www.scalachina.com/)  
 
-Scala 函数式程序设计原理
-https://www.coursera.org/specializations/scala
+[Scala 函数式程序设计原理](https://www.coursera.org/specializations/scala)  
 
-Groovy
-http://baike.baidu.com/link?url=OJLu44SO9onNCWpsm7zl_uDGWYvnK-M_e0PmUB6g_FgBVj153PeYvSslVfU6HDOq8rhT04M5ujLRjSXtQqiRhq
+[Groovy](http://baike.baidu.com/link?url=OJLu44SO9onNCWpsm7zl_uDGWYvnK-M_e0PmUB6g_FgBVj153PeYvSslVfU6HDOq8rhT04M5ujLRjSXtQqiRhq)  
 
 
 
-List of Android UI/UX Libraries
-https://github.com/wasabeef/awesome-android-ui
+[List of Android UI/UX Libraries](https://github.com/wasabeef/awesome-android-ui)  
 
 PhotoUpload  
 ---
@@ -560,7 +560,7 @@ http://blog.csdn.net/michaelpp/article/details/7302308
 
 Android SDK加载图片流程
 ---
-
+```
 Android SDK会根据屏幕密度自动选择对应的资源文件进行渲染加载，比如说，SDK检测到你手机的分辨率是xhdpi，会优先到xhdpi文件夹下找对应的图片资源;
 如果xhdpi文件夹下没有图片资源，那么就会去分辨率高的文件夹下查找，比如xxhdpi，直到找到同名图片资源，将它按比例缩小成xhpi图片;
 如果往上查找图片还是没有找到，那么就会往低分辨率的文件夹查找，比如hdpi，直到找到同名图片资源，将它按比例放大成xhpi图片。
@@ -616,8 +616,10 @@ weight的计算
 第二个按钮：宽度 = 屏宽 + 2/3 (屏宽 - 2 屏宽) = 1/3屏宽
 布局使用
 使用相对布局，禁用绝对布局。
+```
 
 屏幕适配之百分比布局
+```
 <?xml version="1.0" encoding="utf-8"?> 
   <android.support.percent.PercentRelativeLayout 
       xmlns:android="http://schemas.android.com/apk/res/android" 
@@ -639,6 +641,7 @@ weight的计算
           app:layout_widthPercent="20%"/> 
  
   </android.support.percent.PercentRelativeLayout>  
+```
 
 --------------------------------------------------------------
 
