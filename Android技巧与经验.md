@@ -167,26 +167,22 @@ Android Studio 使用
 [Java 正则表达式](http://www.runoob.com/java/java-regular-expressions.html)  
 
 
-Android.os包中一些类的使用
-http://www.linuxidc.com/Linux/2011-11/48325.htm
+[Android.os包中一些类的使用](http://www.linuxidc.com/Linux/2011-11/48325.htm)  
 
-添加相机的外部启用MediaStore.ACTION_IMAGE_CAPTURE
-http://blog.csdn.net/wop_niaoren19870227/article/details/6531095
+[添加相机的外部启用MediaStore.ACTION_IMAGE_CAPTURE](http://blog.csdn.net/wop_niaoren19870227/article/details/6531095)  
 
-Java数组String []的用法详解
-http://blog.csdn.net/cation/article/details/4387857/
+[Java数组String []的用法详解](http://blog.csdn.net/cation/article/details/4387857/)  
 
-StringUtils工具类的常用方法
-http://www.tuicool.com/articles/am2u6fm
+[StringUtils工具类的常用方法](http://www.tuicool.com/articles/am2u6fm)  
 
 
-Android 动态切换全屏和非全屏模式
-http://blog.csdn.net/michaelpp/article/details/7302308
+[Android 动态切换全屏和非全屏模式](http://blog.csdn.net/michaelpp/article/details/7302308)  
+
 	/**
 	 * 动态切换全屏和非全屏模式
 	 * @param isFulllScreen
 	 *      2017-01-22
-     */
+         */
 	public void setFulllScreen(boolean isFulllScreen){
 		WindowManager.LayoutParams params = getWindow().getAttributes();
 		if (isFulllScreen) {
@@ -295,10 +291,10 @@ http://www.jianshu.com/p/e8ac0c284601
 
 [测试项目和测试模板的代码已放到 github 上: AndroidStudioTemplateTest](https://github.com/zhenghuiy/AndroidStudioTemplateTest)  
 
-[Android Studio 模板：](F:\AndroidStudio2_2\plugins\android\lib\templates\)  
+[Android Studio 模板](F:\AndroidStudio2_2\plugins\android\lib\templates\)  
 E:\AndroidSDK\tools\templates\activities
 
-[大幅提高Android开发效率之Android项目模板化（下）    Live Template](http://www.diycode.cc/topics/420)  
+[大幅提高Android开发效率之Android项目模板化（下） Live Template](http://www.diycode.cc/topics/420)  
 http://www.jianshu.com/p/cb95ce1ba336  
 https://www.jetbrains.com/help/idea/2016.1/live-template-variables.html#predefined_functions  
 
