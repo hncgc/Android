@@ -4,6 +4,10 @@
 
 [Android技巧与经验](https://github.com/hncgc/Android/blob/master/Android%E6%8A%80%E5%B7%A7%E4%B8%8E%E7%BB%8F%E9%AA%8C.md)  
 
+[Android开放源码](https://github.com/hncgc/Android/blob/master/Android%E5%BC%80%E6%94%BE%E6%BA%90%E7%A0%81.md)  
+
+---
+
 [Android开发教程](https://www.ctolib.com/android/docs/)  
 
 [《Kotlin for android developers》中文版翻译](https://www.ctolib.com/docs//sfile/kotlin-for-android-developers-zh/index.html)  
@@ -32,8 +36,6 @@ http://weibo.com/apkbusbbs
 
 [中秋赠书，开启“洪荒之礼”【Bus Weekly】十九期](http://www.apkbus.com/forum.php?mod=viewthread&tid=268127&extra=page%3D1%26filter%3Dauthor%26orderby%3Ddateline)  
 
-[几乎所有开源安卓app的列表](https://github.com/pcqpcq/open-source-android-apps)  
-
 [Android开发技术前线 ( android-tech-frontier )](https://github.com/pcqpcq/android-tech-frontier)  
 
 [像大牛一样写代码：31个Android 开发者工具](http://www.apkbus.com/blog-822715-76717.html)  
@@ -41,10 +43,6 @@ http://weibo.com/apkbusbbs
 [codeKK](http://p.codekk.com/)  
 
 [微影，一款纯粹的在线视频App，基于Material Design + MVP + Dagger2 + RxJava + Retrofit + Realm + Glide](https://github.com/GeekGhost/Ghost)  
-
-[Android开源库汇总](http://xybcoder.github.io/ANDROID/)  
-
-[Android 开源项目分类汇总](https://github.com/Trinea/android-open-project)  
 
 [数极客安装教程](http://docs.shujike.com/developer/install_android_sdk.html)  
 
@@ -128,14 +126,6 @@ Disable this notification.
 [插件GsonFormat快速实现JavaBean](http://blog.csdn.net/dakaring/article/details/46300963)  
 
 
-
-android砸金蛋
----
-[android砸金蛋](http://download.csdn.net/download/wt0731/5009525)  
-
-[Android 原生 轮盘抽奖](http://www.apkbus.com/blog-851511-76989.html)  
-
-
 ArrayList<String> newList=new ArrayList<>(new TreeSet(strList));
 去重 假设 strList里面有三个值 分别为：str1 str2 str1 
 我们通过上面的代码 newList等于 str1 str2
@@ -197,26 +187,7 @@ LoadingView
 哈哈，不多说，主要看动效，好看最重要。
 项目地址：https://github.com/ldoublem/LoadingView
 
-
-[android企业级商城源码](http://www.apkbus.com/thread-462905-1-1.html)  
-
-[http://grepcode.com/ Android sdk源码](http://grepcode.com/search/?query=ActivityThread)  
-
-[Android开发人员不得不收集的代码(持续更新中)](http://www.diycode.cc/projects/Blankj/AndroidUtilCode)  
-https://github.com/Blankj/AndroidUtilCode  
-```
-Gradle:
-compile 'com.blankj:utilcode:1.3.3'
-Proguard
--keep class com.blankj.utilcode.** { *; }
--keep classmembers class com.blankj.utilcode.** { *; }
--dontwarn com.blankj.utilcode.**
-```
-https://github.com/huangkunkun/AndroidUtilCode  
-
 [AppCodeArchitecture 安卓APP代码架构，包含比较常用的开源库使用](https://github.com/Frank-Zhu/AppCodeArchitecture)  
-
-
 
 《Android 使用RecyclerView实现（仿微信）的联系人A-Z字母排序和过滤搜索功能》 
 http://blog.csdn.net/silenceoo/article/details/75661590
@@ -234,53 +205,7 @@ PinyinUtils
 
 
 
-阿里云开源项目
--------------
-http://code.taobao.org/project/explore/ 
-http://code.taobao.org/newest/
 
-http://code.taobao.org/p/YuanWen/diff/66/trunk/app/src/main/java/com/smile/yuanwen/fragment/DynamicDetailFragment.java
-```
-+
-+    /**
-+     * 填充webview内容
-+     */
-+    private void fillWebViewBody() {
-+        StringBuffer body = new StringBuffer();
-+        body.append(ThemeSwitchUtils.getWebViewBodyString());
-+        body.append(UIHelper.WEB_STYLE + UIHelper.WEB_LOAD_IMAGES);
-+
-+        StringBuilder tweetbody = new StringBuilder(mDynamic.getBody());
-+
-+        String tweetBody = TextUtils.isEmpty(mDynamic.getImgSmall()) ? tweetbody
-+                .toString() : tweetbody.toString() + "<br/><img src=\""
-+                + mDynamic.getImgSmall() + "\">";
-+        body.append(setHtmlCotentSupportImagePreview(tweetBody));
-+
-+        UIHelper.addWebImageShow(getActivity(), mContent);
-+        // 封尾
-+        body.append("</div></body>");
-+        mContent.loadDataWithBaseURL(null, body.toString(), "text/html",
-+                "utf-8", null);
-+    }
-+
-+    /**
-+     * 添加图片放大支持
-+     *
-+     * @param body
-+     * @return
-+     */
-+    private String setHtmlCotentSupportImagePreview(String body) {
-+        // 过滤掉 img标签的width,height属性
-+        body = body.replaceAll("(<img[^>]*?)\\s+width\\s*=\\s*\\S+", "$1");
-+        body = body.replaceAll("(<img[^>]*?)\\s+height\\s*=\\s*\\S+", "$1");
-+        return body.replaceAll("(<img[^>]+src=\")(\\S+)\"",
-+                "$1$2\" onClick=\"javascript:mWebViewImageListener.showImagePreview('"
-+                        + mDynamic.getImgBig() + "')\"");
-+    }
-+
-
-```
 
 
 [Volley源码分析](http://bxbxbai.github.io/2014/12/24/read-volley-source-code/)  
@@ -351,22 +276,17 @@ compile 'com.android.support:percent:22.2.0'
 Android 增强版百分比布局库 为了适配而扩展
 http://blog.csdn.net/lmj623565791/article/details/46767825
 
-[開源安卓](https://www.gitbook.com/book/yongjhih/feed/details)  
-https://github.com/yongjhih/android-gitbook/
-
 [开发中所遇问题归纳](http://www.apkbus.com/blog-719059-62993.html)  
 
 [优秀的（Android）软件工程师是如何练成的](http://mp.weixin.qq.com/s/NWM-OKuKCyHTlXc32h39uA)  
 
 [Android 知识梳理](https://gold.xitu.io/post/587dbaf9570c3522010e400e)  
 
-
 [原生Android结合H5混合开发小结](http://blog.csdn.net/leaf_130/article/details/54099173)  
 
 [CentOS 上的FireWallD简明指南](http://www.51xdn.net/czxt/Linux/20170109/43978.html)  
 
 [Jade —— 源于 Node.js 的 HTML 模板引擎](https://segmentfault.com/a/1190000000357534)  
-
 
 [@NotEmpty、@NotBlank、@NotNull的区别](http://blog.csdn.net/zz_life/article/details/51470909)  
 
@@ -502,8 +422,6 @@ React Native 基于 JavaScript 的开源框架 React Native
 [React Native 中文网](http://reactnative.cn/)  
 
 [React Native 中文版(含新增 Android 章节)](http://wiki.jikexueyuan.com/project/react-native/)  
-
-
 
 [一个 2 年 Android 开发者的 18 条忠告](http://www.codeceo.com/article/18-tips-2-years-android-developer.html)  
 
