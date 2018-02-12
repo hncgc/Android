@@ -139,3 +139,168 @@ getWindow().addFlags(WindowManager.LayoutParams.FLAG_SECURE);
 ```
 edtRemark.setFilters(new InputFilter[]{new UIHelper.EmojiExcludeFilter()});
 ```
+Android Studio 使用
+---
+
+#### 快捷键：
+    ctrl + o                        重写父类方法
+    Alt+Inset                    get和set快捷键
+    ctrl+shift+/                注释
+    ctrl+shift+\                取消注释
+    ctrl + alt + t                try catch快捷键
+    Alt+Shift+↑                代码上衣一行
+    Alt+Shift+↓                代码下移一行
+
+#### 自动导包：
+```
+1 Android studio 只有import单个包的快捷键：Alt+Enter。没有Eclipse下的快速导入包的快捷键Ctrl+Shift+O。
+2 但Android studio设置里有一项Auto Import自动导入功能。设置过程如下：
+  Android studio --> File--> Settings --> Editor --> Auto Import:然后设置如下图。
+
+  Add unambiguous imports on the fly：这个就是自动导入功能了，当你输入类名后，声明就被自动导入了
+```
+
+正则表达式  
+---
+[JAVA replaceAll 正则表达式](http://blog.csdn.net/s445320/article/details/50729736)  
+
+[Java 正则表达式](http://www.runoob.com/java/java-regular-expressions.html)  
+
+
+Android.os包中一些类的使用
+http://www.linuxidc.com/Linux/2011-11/48325.htm
+
+添加相机的外部启用MediaStore.ACTION_IMAGE_CAPTURE
+http://blog.csdn.net/wop_niaoren19870227/article/details/6531095
+
+Java数组String []的用法详解
+http://blog.csdn.net/cation/article/details/4387857/
+
+StringUtils工具类的常用方法
+http://www.tuicool.com/articles/am2u6fm
+
+
+Android 动态切换全屏和非全屏模式
+http://blog.csdn.net/michaelpp/article/details/7302308
+	/**
+	 * 动态切换全屏和非全屏模式
+	 * @param isFulllScreen
+	 *      2017-01-22
+     */
+	public void setFulllScreen(boolean isFulllScreen){
+		WindowManager.LayoutParams params = getWindow().getAttributes();
+		if (isFulllScreen) {
+			params.flags |= WindowManager.LayoutParams.FLAG_FULLSCREEN;
+			getWindow().setAttributes(params);
+			getWindow().addFlags(WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS);
+		} else {
+			params.flags &= (~WindowManager.LayoutParams.FLAG_FULLSCREEN);
+			getWindow().setAttributes(params);
+			getWindow().clearFlags(WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS);
+		}
+	}
+
+
+[java中比较两个double类型的数据的大小](http://dagmom.iteye.com/blog/1616867)  
+```
+import java.math.BigDecimal;
+public class DoubleCompare {
+public String compare(BigDecimal val1, BigDecimal val2) {
+    String result = "";
+    if (val1.compareTo(val2) < 0) {
+        result = "第二位数大！";
+    }
+    if (val1.compareTo(val2) == 0) {
+        result = "两位数一样大！";
+    }
+    if (val1.compareTo(val2) > 0) {
+        result = "第一位数大！";
+    }
+    return result;
+}
+public static void main(String[] args) {
+    double a = 0.01;
+    double b = 0.001;
+    BigDecimal data1 = new BigDecimal(a);
+    BigDecimal data2 = new BigDecimal(b);
+    System.out.print(new DoubleCompare().compare(data1, data2));
+}
+}
+```
+将此 BigDecimal 与指定的 BigDecimal 比较。根据此方法，值相等但具有不同标度的两个 BigDecimal 对象（如，2.0 和 2.00）被认为是相等的。相对六个 boolean 比较运算符 (<, ==, >, >=, !=, <=) 中每一个运算符的各个方法，优先提供此方法。建议使用以下语句执行上述比较：(x.compareTo(y) <op> 0)，其中 <op> 是六个比较运算符之一。
+指定者：
+接口 Comparable<BigDecimal> 中的 compareTo
+参数：
+val - 将此 BigDecimal 与之比较的 BigDecimal。
+返回：
+当此 BigDecimal 在数字上小于、等于或大于 val 时，返回 -1、0 或 1。
+
+
+java string 去掉html标签
+---
+
+[java 去掉html标签](http://www.cnblogs.com/newsouls/p/3995394.html)  
+```
+import java.util.regex.Matcher; 
+import java.util.regex.Pattern; 
+
+public class HTMLSpirit{ 
+    public static String delHTMLTag(String htmlStr){ 
+        String regEx_script = "<script[^>]*?>[\\s\\S]*?<\\/script>"; //定义script的正则表达式 
+        String regEx_style = "<style[^>]*?>[\\s\\S]*?<\\/style>"; //定义style的正则表达式 
+        String regEx_html = "<[^>]+>"; //定义HTML标签的正则表达式 
+         
+        Pattern p_script = Pattern.compile(regEx_script,Pattern.CASE_INSENSITIVE); 
+        Matcher m_script = p_script.matcher(htmlStr); 
+        htmlStr=m_script.replaceAll(""); //过滤script标签 
+         
+        Pattern p_style = Pattern.compile(regEx_style,Pattern.CASE_INSENSITIVE); 
+        Matcher m_style = p_style.matcher(htmlStr); 
+        htmlStr=m_style.replaceAll(""); //过滤style标签 
+         
+        Pattern p_html = Pattern.compile(regEx_html,Pattern.CASE_INSENSITIVE); 
+        Matcher m_html = p_html.matcher(htmlStr); 
+        htmlStr=m_html.replaceAll(""); //过滤html标签 
+
+        return htmlStr.trim(); //返回文本字符串 
+    } 
+}
+```
+
+
+Android 中中 String 资源文件的 format 方法方法
+例一: 整数型的
+<string name="alert">I am %1$d years old</string> 定义的是这样的
+
+    int nAge=23;
+    String sAgeFormat = getResources().getString(R.string.alert);
+    String sFinalAge = String.format(sAgeFormat, nAge); 
+
+Android唯一标识
+---
+[如何获取Android唯一标识（唯一序列号）](http://blog.csdn.net/ljz2009y/article/details/22895297)  
+http://www.cnblogs.com/lvcha/p/3721091.html
+
+[android获取设备唯一标识完美解决方案](http://www.tuicool.com/articles/MfQBbe)  
+
+[Android 如何检索Android设备的唯一ID](http://blog.csdn.net/aminfo/article/details/7604451)  
+
+[怎样取安卓设备唯一标识来防刷](http://www.eoeandroid.com/thread-917649-1-1.html?_dsign=d27b4af2)  
+
+
+项目模板化  
+---
+[大幅提高 Android 开发效率之 Android 项目模板化 (上)](http://www.diycode.cc/topics/410) 
+http://www.jianshu.com/p/e8ac0c284601  
+
+[测试项目和测试模板的代码已放到 github 上: AndroidStudioTemplateTest](https://github.com/zhenghuiy/AndroidStudioTemplateTest)  
+
+[Android Studio 模板：](F:\AndroidStudio2_2\plugins\android\lib\templates\)  
+E:\AndroidSDK\tools\templates\activities
+
+[大幅提高Android开发效率之Android项目模板化（下）    Live Template](http://www.diycode.cc/topics/420)  
+http://www.jianshu.com/p/cb95ce1ba336  
+https://www.jetbrains.com/help/idea/2016.1/live-template-variables.html#predefined_functions  
+
+
+
