@@ -1,6 +1,8 @@
 资源
 ===
-[Android开发教程](https://www.ctolib.com/android/docs/)  
+[常用网址](https://github.com/hncgc/Android/blob/master/%E5%B8%B8%E7%94%A8%E7%BD%91%E5%9D%80.md)  
+
+[Android开发教程](https://www.ctolib.com/android/docs/)  
 
 [《Kotlin for android developers》中文版翻译](https://www.ctolib.com/docs//sfile/kotlin-for-android-developers-zh/index.html)  
 
