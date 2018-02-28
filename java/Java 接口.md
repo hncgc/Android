@@ -17,3 +17,7 @@ Java 接口
 [java接口简单例子](http://blog.csdn.net/Clarissatt/article/details/51263696)  
 
 [Java接口详解](http://blog.csdn.net/zdwzzu2006/article/details/4567957)  
+
+[java中嵌套接口](http://blog.csdn.net/zhugewendu/article/details/72792529)  
+
+
