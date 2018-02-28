@@ -28,6 +28,19 @@ Java 接口
 
 [Java 内部接口、回调](http://blog.csdn.net/dsc114/article/details/39893357)  
 
+[Java在类中定义接口](http://blog.csdn.net/liuhaiabc/article/details/53352006)  
+
+[Java基础课程-接口、内部类、回调函数讲解](http://blog.csdn.net/redarmy_chen/article/details/52105805)  
+
+[java 接口、抽象类、具体类、内部类、匿名内部类的区别及它们之间的关系](http://blog.csdn.net/vlqin1/article/details/48809297)  
+
+[内部类（闭包与回调）](http://blog.csdn.net/eyeooo/article/details/11971145)  
+
+[第十章 内部类 内部类的作用、闭包、内部类继承、覆盖重写内部类、局部内部类、内部类标识符](http://blog.csdn.net/sinat_32955803/article/details/52298564)  
+
+
+
+
 
 
 
