@@ -20,4 +20,17 @@ Java 接口
 
 [java中嵌套接口](http://blog.csdn.net/zhugewendu/article/details/72792529)  
 
+[ Java之嵌套接口和嵌套类了解和简单实例](http://blog.csdn.net/huangwenyi1010/article/details/53873457)  
+
+[java中外部接口与内部接口的使用](http://blog.csdn.net/u012842688/article/details/50939533)  
+
+[Java中的内部接口](http://blog.csdn.net/hspingcc/article/details/54922771)  
+
+[Java 内部接口、回调](http://blog.csdn.net/dsc114/article/details/39893357)  
+
+
+
+
+
+
 
