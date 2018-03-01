@@ -9,3 +9,7 @@ https://www.w3cschool.cn/java/
 [《Thinking In Java》中文版 下载](http://download.csdn.net/download/ckb58/9868312)  
 
 [Thinking In Java 第2版(中文版) 下载](http://download.csdn.net/download/vic_black/9297695)  
+
+[Thinking In Java第四版中文版.pdf](http://download.csdn.net/download/tigerhunter83/4660418)  
+
+
