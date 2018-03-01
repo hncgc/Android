@@ -12,4 +12,8 @@ https://www.w3cschool.cn/java/
 
 [Thinking In Java第四版中文版.pdf](http://download.csdn.net/download/tigerhunter83/4660418)  
 
+[《Thinking in Java》读后总结与感想](http://blog.csdn.net/qq_28899635/article/details/54571356)  
+
+[Thinking In Java 读书笔记](https://www.jianshu.com/p/89299fe00d4c)  
+
 
