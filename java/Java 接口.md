@@ -1,6 +1,10 @@
 Java 接口
 ===
 
+[Java 接口(W3cSchool)](https://www.w3cschool.cn/java/java-interfaces.html)  
+
+[Java 接口(菜鸟教程)](http://www.runoob.com/java/java-interfaces.html)  
+
 [Java 中的接口有什么作用？](https://www.zhihu.com/question/20111251)  
 链接：https://www.zhihu.com/question/20111251/answer/14760353  
 ```
