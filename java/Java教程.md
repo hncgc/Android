@@ -16,4 +16,7 @@ https://www.w3cschool.cn/java/
 
 [Thinking In Java 读书笔记](https://www.jianshu.com/p/89299fe00d4c)  
 
+[Effective Java中文版.pdf](http://vdisk.weibo.com/s/u1O9xuyC0NRZ)  
+
+
 
