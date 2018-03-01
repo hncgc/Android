@@ -18,5 +18,7 @@ https://www.w3cschool.cn/java/
 
 [Effective Java中文版.pdf](http://vdisk.weibo.com/s/u1O9xuyC0NRZ)  
 
+[《Thinking In Java》 VS 《Effective Java》 VS 《深入理解Java虚拟机》]()http://blog.csdn.net/change_on/article/details/53192575  
+
 
 
