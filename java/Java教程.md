@@ -26,7 +26,7 @@ https://www.w3cschool.cn/java/
 
 [Java 教程 目录](http://blog.csdn.net/sinat_32955803/article/category/6308654/2)  
 
-[第一章.对象导论之基本概念[面向对象/问题空间/解空间] (http://blog.csdn.net/sinat_32955803/article/details/51891930)  
+[第一章.对象导论之基本概念[面向对象/问题空间/解空间]](http://blog.csdn.net/sinat_32955803/article/details/51891930)  
 
 [第一章.(1)类 对象和接口](http://blog.csdn.net/sinat_32955803/article/details/51931603)  
 
