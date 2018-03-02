@@ -131,3 +131,30 @@ Thinking in java 学习总结
 
 [Thinking In Java学习总结 百度文库](https://wenku.baidu.com/view/e118493410661ed9ad51f33c.html)  
 
+Java设计模式
+---
+
+[Java设计模式](http://blog.csdn.net/axi295309066/article/details/64445581)  
+
+JavaWeb开发入门   
+---
+
+[JavaWeb开发入门](http://blog.csdn.net/axi295309066/article/details/71057277)
+
+Android源码分析
+---
+[Android源码分析](http://blog.csdn.net/axi295309066/article/details/64450164)  
+
+Java基础入门   
+---
+
+[Java基础入门](http://blog.csdn.net/axi295309066/article/details/52485297)  
+
+Jack-Chan博客
+http://blog.csdn.net/axi295309066
+
+Android学习之路   
+http://blog.csdn.net/axi295309066/article/details/52388360
+
+
+ 
