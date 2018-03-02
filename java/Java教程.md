@@ -79,6 +79,8 @@ https://www.w3cschool.cn/java/
 
 [第八章 多态总结 协变返回类型 向下转型 和运行时类型识别继承中 is-a 和 is-like-a及子类父类的方法调用（ClassCastException）](http://blog.csdn.net/sinat_32955803/article/details/52260363)  
 
+[学习总结-Thinking In Java Chapter 8 polymorphism Java编程思想 第 8 章 多态](http://blog.csdn.net/qq_26392583/article/details/74999106)  
+
 [第九章 接口和抽象类 基本使用](http://blog.csdn.net/sinat_32955803/article/details/52266505)  
 
 [第九章 接口和抽象类 接口详解](http://blog.csdn.net/sinat_32955803/article/details/52267049)  
@@ -99,17 +101,19 @@ https://www.w3cschool.cn/java/
 
 [第十三章 字符串 正则表达式](http://blog.csdn.net/sinat_32955803/article/details/52418006)  
 
+[学习总结-Thinking In Java Chapter 13 strings Java编程思想 第13 章字符串](http://blog.csdn.net/qq_26392583/article/details/74905994)  
+
 [第十四章 类型信息RTTI Class instanceof isInstance](http://blog.csdn.net/sinat_32955803/article/details/52456175)  
 
 [第十四章 类型信息 反射 动态代理 空对象 接口和类型信息](http://blog.csdn.net/sinat_32955803/article/details/52512760)  
 
-[]()  
+[学习总结-Thinking In Java Chapter 15 generics  Java编程思想 第 15 章 泛型](学习总结-Thinking In Java Chapter 15 generics)  
 
+[学习总结-Thinking In Java Chapter concurrency(1) Java编程思想 第 21 章 并发-基本的线程机制](http://blog.csdn.net/qq_26392583/article/details/77095271)  
 
+[《Thinking in Java》读书笔记（不断更新中）](http://blog.csdn.net/zxt0601/article/details/54798925)  
 
-
-
-
+[读第一遍Thinking in java的笔记](http://blog.csdn.net/ns_jun/article/details/51944309)  
 
 
 
