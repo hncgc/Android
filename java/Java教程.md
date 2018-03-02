@@ -24,7 +24,7 @@ https://www.w3cschool.cn/java/
 
 [《Thinking In Java》 VS 《Effective Java》 VS 《深入理解Java虚拟机》](http://blog.csdn.net/change_on/article/details/53192575)  
 
-Java 教程
+【java开发系列】
 ---
 
 [Java 教程 目录](http://blog.csdn.net/sinat_32955803/article/category/6308654/2)  
@@ -61,7 +61,7 @@ Java 教程
 
 [第五章 初始化和清理 终结处理和垃圾回收](http://blog.csdn.net/sinat_32955803/article/details/52204580)  
 
-[第五章.初始化和清理 初始化可变参数列表](http://blog.csdn.net/sinat_32955803/article/details/52205240)  
+[第五章 初始化和清理 初始化可变参数列表](http://blog.csdn.net/sinat_32955803/article/details/52205240)  
 
 []()  
 
