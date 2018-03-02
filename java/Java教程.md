@@ -24,8 +24,20 @@ https://www.w3cschool.cn/java/
 
 [《Thinking In Java》 VS 《Effective Java》 VS 《深入理解Java虚拟机》](http://blog.csdn.net/change_on/article/details/53192575)  
 
+Thinking in Java (Java 编程思想)
+---
+
+[Thinking in Java (Java 编程思想)](http://blog.csdn.net/axi295309066/article/details/71023238)  
+阅读地址：https://alleniverson.gitbooks.io/thinking-in-java/content/  
+下载地址： https://www.gitbook.com/book/alleniverson/thinking-in-java/details  
+github地址：https://github.com/JackChan1999/Thinking-in-Java  
+GitBook：https://www.gitbook.com/@alleniverson  
+
+
 Thinking in java 学习总结
 ---
+
+[Thinking in Java (Java 编程思想)](http://blog.csdn.net/axi295309066/article/details/71023238)  
 
 [Java 教程 目录](http://blog.csdn.net/sinat_32955803/article/category/6308654/2)  
 
