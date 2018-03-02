@@ -24,7 +24,7 @@ https://www.w3cschool.cn/java/
 
 [《Thinking In Java》 VS 《Effective Java》 VS 《深入理解Java虚拟机》](http://blog.csdn.net/change_on/article/details/53192575)  
 
-【java开发系列】-- Thinking in java 学习总结
+Thinking in java 学习总结
 ---
 
 [Java 教程 目录](http://blog.csdn.net/sinat_32955803/article/category/6308654/2)  
