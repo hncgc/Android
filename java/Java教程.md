@@ -101,6 +101,8 @@ Thinking in java 学习总结
 
 [第十三章 字符串 正则表达式](http://blog.csdn.net/sinat_32955803/article/details/52418006)  
 
+[Thinking in Java--java正则表达式初步学习](http://blog.csdn.net/acm_lkl/article/details/46473007)  
+
 [学习总结-Thinking In Java Chapter 13 strings Java编程思想 第13 章字符串](http://blog.csdn.net/qq_26392583/article/details/74905994)  
 
 [第十四章 类型信息RTTI Class instanceof isInstance](http://blog.csdn.net/sinat_32955803/article/details/52456175)  
@@ -115,5 +117,5 @@ Thinking in java 学习总结
 
 [读第一遍Thinking in java的笔记](http://blog.csdn.net/ns_jun/article/details/51944309)  
 
-
+[Thinking In Java学习总结 百度文库](https://wenku.baidu.com/view/e118493410661ed9ad51f33c.html)  
 
