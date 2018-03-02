@@ -31,7 +31,7 @@ Thinking in Java (Java 编程思想)
 阅读地址：https://alleniverson.gitbooks.io/thinking-in-java/content/  
 下载地址： https://www.gitbook.com/book/alleniverson/thinking-in-java/details  
 github地址：https://github.com/JackChan1999/Thinking-in-Java  
-GitBook：https://www.gitbook.com/@alleniverson  
+GitBook：https://www.gitbook.com/@alleniverson  https://www.gitbook.com/book/alleniverson/thinking-in-java/details  
 
 
 Thinking in java 学习总结
