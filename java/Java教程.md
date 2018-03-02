@@ -107,7 +107,7 @@ Thinking in java 学习总结
 
 [第十四章 类型信息 反射 动态代理 空对象 接口和类型信息](http://blog.csdn.net/sinat_32955803/article/details/52512760)  
 
-[学习总结-Thinking In Java Chapter 15 generics  Java编程思想 第 15 章 泛型](学习总结-Thinking In Java Chapter 15 generics)  
+[学习总结-Thinking In Java Chapter 15 generics  Java编程思想 第 15 章 泛型](http://blog.csdn.net/qq_26392583/article/details/75200116)  
 
 [学习总结-Thinking In Java Chapter concurrency(1) Java编程思想 第 21 章 并发-基本的线程机制](http://blog.csdn.net/qq_26392583/article/details/77095271)  
 
