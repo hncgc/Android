@@ -156,5 +156,8 @@ http://blog.csdn.net/axi295309066
 Android学习之路   
 http://blog.csdn.net/axi295309066/article/details/52388360
 
+[ANDROID学习之路](http://stormzhang.com/android/2014/07/07/learn-android-from-rookie/)  
+
+
 
  
