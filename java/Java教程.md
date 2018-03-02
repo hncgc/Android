@@ -1,6 +1,13 @@
 Java教程
 ===
 
+Java基础   
+---
+
+[Java基础入门](http://blog.csdn.net/axi295309066/article/details/52485297)  
+
+[Java基础入门笔记](https://alleniverson.gitbooks.io/java-basic-introduction/content/)  
+
 [Java教程(W3cSchool)](https://www.w3cschool.cn/java/)
 https://www.w3cschool.cn/java/
 
@@ -144,11 +151,6 @@ JavaWeb开发入门
 Android源码分析
 ---
 [Android源码分析](http://blog.csdn.net/axi295309066/article/details/64450164)  
-
-Java基础入门   
----
-
-[Java基础入门](http://blog.csdn.net/axi295309066/article/details/52485297)  
 
 Jack-Chan博客
 http://blog.csdn.net/axi295309066
