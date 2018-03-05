@@ -190,5 +190,37 @@ JAVADOC
 
 [Javadoc 的书写格式和javadoc命令的使用](http://blog.csdn.net/yongping8204/article/details/1796667)  
 
+[java编程规范之java注释规范](http://blog.csdn.net/u012116457/article/details/22589967)  
+```
+类的英文注释模板  
+/** 
+ * CopyRright (c)2014-xxxx:   <暗伤无痕 >  
+ * Project:                     <项目工程名 >
+ * Module ID:   <(模块)类编号，可以引用系统设计中的类编号>
+ * Comments:  <对此类的描述，可以引用系统设计中的描述>
+ * JDK version used:      <JDK1.7>
+ * Namespace:           <命名空间>
+ * Author：        <作者中文名或拼音缩写>
+ * Create Date：  <创建日期，格式:YYYY-MM-DD>
+ * Modified By：   <修改人中文名或拼音缩写>
+ * Modified Date:  <修改日期，格式:YYYY-MM-DD>
+ * Why & What is modified  <修改原因描述>
+ * Version:                  <版本号>
+ */ 
+
+中文模板  
+```
+/** 
+ * 文 件 名 : 
+ * CopyRright (c) 2014-xxxx: 
+ * 文件编号： 
+ * 创 建 人： 
+ * 日    期： 
+ * 修 改 人： 
+ * 日   期： 
+ * 描   述： 
+ * 版 本 号： 
+*/
+```
 
  
