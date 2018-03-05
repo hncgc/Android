@@ -175,8 +175,7 @@ JAVADOC
 > @exception        对方法的说明            对方法可能抛出的异常进行说明  
 
 
-JAVA 文档注释--JAVADOC文档
-http://blog.csdn.net/gxf212/article/details/1399568
+[JAVA 文档注释--JAVADOC文档](http://blog.csdn.net/gxf212/article/details/1399568)  
 ```
 ■常规注释  
     下面这些标记可以在所有文档注释中使用。  
@@ -189,8 +188,7 @@ http://blog.csdn.net/gxf212/article/details/1399568
     ◇ @see 链接  
 ```
 
-Javadoc 的书写格式和javadoc命令的使用
-http://blog.csdn.net/yongping8204/article/details/1796667
+[Javadoc 的书写格式和javadoc命令的使用](http://blog.csdn.net/yongping8204/article/details/1796667)  
 
 
  
