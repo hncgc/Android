@@ -4,7 +4,7 @@ Java教程
 Java基础   
 ---
 
-[Java基础入门](http://blog.csdn.net/axi295309066/article/details/52485297)  
+[Java基础入门](http://blog.csdn.net/axi295309066/article/details/52485297)  https://alleniverson.gitbooks.io/java-basic-introduction/content/
 
 [Java基础入门笔记](https://alleniverson.gitbooks.io/java-basic-introduction/content/)  
 
