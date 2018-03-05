@@ -224,4 +224,11 @@ JAVADOC
 */
 ```
 
- 
+[java BigDecimal实现精确加减乘除运算](http://blog.csdn.net/shadow_zed/article/details/73522157)  
+
+[Java 使用BigDecimal类处理高精度计算](http://blog.csdn.net/qq_20785431/article/details/52281841)  
+
+[BigDecimal 保留小数位](https://www.cnblogs.com/liqforstudy/p/5652517.html)  
+
+
+
