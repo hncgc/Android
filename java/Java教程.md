@@ -160,6 +160,37 @@ http://blog.csdn.net/axi295309066/article/details/52388360
 
 [ANDROID学习之路](http://stormzhang.com/android/2014/07/07/learn-android-from-rookie/)  
 
+JAVADOC
+---
+
+[javadoc注释规范](http://blog.csdn.net/z437955114/article/details/50482372)  
+
+> javadoc 标记有如下一些：  
+> 标记              用于                     作用   
+> @author           对类的说明              标明开发该类模块的作者  
+> @version          对类的说明              标明该类模块的版本  
+> @see              对类、属性、方法的说明   参考转向，也就是相关主题  
+> @param            对方法的说明            对方法中某参数的说明  
+> @return           对方法的说明            对方法返回值的说明  
+> @exception        对方法的说明            对方法可能抛出的异常进行说明  
+
+
+JAVA 文档注释--JAVADOC文档
+http://blog.csdn.net/gxf212/article/details/1399568
+```
+■常规注释  
+    下面这些标记可以在所有文档注释中使用。  
+    ◇ @since 版本  
+    该标记可以生成一个注释表明这个特性（类、接口、属性或者方法等）是在软件的哪个版本之后开始提供的。  
+    ◇ @deprecated 类、属性、方法名等  
+    这个标记可以增加一条注释，指出相应的类、方法或者属性不再应该使用。javadoc仅将首句复制到概览部分和索引中。后面得句子还可以解释为什么不鼓励使用它。有时候，我们也推荐另外一种解决办法，例如：  
+    @deprecated Use <tt>theAnotherMethod</tt>  
+    或者使用{@link}标记给一个推荐的连接关于它的使用我们将马上介绍。  
+    ◇ @see 链接  
+```
+
+Javadoc 的书写格式和javadoc命令的使用
+http://blog.csdn.net/yongping8204/article/details/1796667
 
 
  
