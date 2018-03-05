@@ -4,6 +4,10 @@ Java教程
 Java基础   
 ---
 
+[各类PDF书下载地址](http://blog.csdn.net/jiongyi1/article/list)  
+
+[Head First Java.第二版.中文完整高清版.pdf](http://download.csdn.net/download/u010963246/9649485)  
+
 [Java基础入门](http://blog.csdn.net/axi295309066/article/details/52485297)  https://alleniverson.gitbooks.io/java-basic-introduction/content/
 
 [Java基础入门笔记](https://alleniverson.gitbooks.io/java-basic-introduction/content/)  
