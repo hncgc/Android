@@ -2,6 +2,10 @@ Java
 ===
 [Java](https://github.com/hncgc/Android/tree/master/java)  
 
+WeiXin
+---
+[微信开发](https://github.com/hncgc/Android/blob/master/weixin/WeChatDevelopment.md)  
+
 资源
 ===
 [常用网址](https://github.com/hncgc/Android/blob/master/%E5%B8%B8%E7%94%A8%E7%BD%91%E5%9D%80.md)  
