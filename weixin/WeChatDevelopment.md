@@ -16,3 +16,4 @@
 
 [微信小程序开发资源汇总 wechat weapp](https://github.com/RebeccaHanjw/awesome-wechat-weapp)  
 
+[腾讯云的APIs, SDKs, 开源项目以及文档](https://github.com/tencentyun)  
