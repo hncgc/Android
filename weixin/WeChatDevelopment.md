@@ -14,3 +14,5 @@
 
 [微信中的知乎--微信小程序 demo](https://github.com/RebeccaHanjw/weapp-wechat-zhihu)  
 
+[微信小程序开发资源汇总 wechat weapp](https://github.com/RebeccaHanjw/awesome-wechat-weapp)  
+
