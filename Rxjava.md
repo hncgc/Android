@@ -178,23 +178,23 @@ Rxjava 视频教程
 
 2. [RxJava操作符](http://www.stay4it.com/course/27)  
 
-  •    [Creating Observables(Observable的创建操作符) 【视频教程】](http://blog.csdn.net/jdsjlzx/article/details/51485861)  
+    •    [Creating Observables(Observable的创建操作符) 【视频教程】](http://blog.csdn.net/jdsjlzx/article/details/51485861)  
   
-  •    [Transforming Observables(Observable的转换操作符) 【视频教程】](http://blog.csdn.net/jdsjlzx/article/details/51493772)  
+    •    [Transforming Observables(Observable的转换操作符) 【视频教程】](http://blog.csdn.net/jdsjlzx/article/details/51493772)  
   
-  •    [Filtering Observables(Observable的过滤操作符) 【视频教程】](http://blog.csdn.net/jdsjlzx/article/details/51489061)  
+    •    [Filtering Observables(Observable的过滤操作符) 【视频教程】](http://blog.csdn.net/jdsjlzx/article/details/51489061)  
   
-  •    [Combining Observables(Observable的组合操作符) 【视频教程】](http://blog.csdn.net/jdsjlzx/article/details/52415615)  
+    •    [Combining Observables(Observable的组合操作符) 【视频教程】](http://blog.csdn.net/jdsjlzx/article/details/52415615)  
   
-  •    [Error Handling Operators(Observable的错误处理操作符) 【视频教程】](http://blog.csdn.net/jdsjlzx/article/details/52448173)  
+    •    [Error Handling Operators(Observable的错误处理操作符) 【视频教程】](http://blog.csdn.net/jdsjlzx/article/details/52448173)  
   
-  •    [Observable Utility Operators(Observable的辅助性操作符) 【视频教程】](http://blog.csdn.net/jdsjlzx/article/details/54768360)  
+    •    [Observable Utility Operators(Observable的辅助性操作符) 【视频教程】](http://blog.csdn.net/jdsjlzx/article/details/54768360)  
   
-  •    [Conditional and Boolean Operators(Observable的条件和布尔操作符) 【视频教程】](http://blog.csdn.net/jdsjlzx/article/details/54767751)  
+    •    [Conditional and Boolean Operators(Observable的条件和布尔操作符) 【视频教程】](http://blog.csdn.net/jdsjlzx/article/details/54767751)  
   
-  •    [Mathematical and Aggregate Operators(Observable数学运算及聚合操作符) 【视频教程】](http://blog.csdn.net/jdsjlzx/article/details/51489793)  
+    •    [Mathematical and Aggregate Operators(Observable数学运算及聚合操作符) 【视频教程】](http://blog.csdn.net/jdsjlzx/article/details/51489793)  
   
-  •    [其他如observable.toList()、observable.connect()、observable.publish()等等； 【视频教程】](http://blog.csdn.net/jdsjlzx/article/details/53365839)  
+    •    [其他如observable.toList()、observable.connect()、observable.publish()等等； 【视频教程】](http://blog.csdn.net/jdsjlzx/article/details/53365839)  
   
 3. [RxJava Observer与Subcriber的关系  【视频教程】](http://blog.csdn.net/jdsjlzx/article/details/51534504)  
 
