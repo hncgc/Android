@@ -174,9 +174,9 @@ Rxjava 视频教程
 
 如果你对RxJava1.x还不是了解，可以参考下面文章。
 
-[1. RxJava使用介绍 【视频教程】](http://blog.csdn.net/jdsjlzx/article/details/51485778)  
+1. [RxJava使用介绍 【视频教程】](http://blog.csdn.net/jdsjlzx/article/details/51485778)  
 
-[2. RxJava操作符](http://www.stay4it.com/course/27)  
+2. [RxJava操作符](http://www.stay4it.com/course/27)  
 
   •    [Creating Observables(Observable的创建操作符) 【视频教程】](http://blog.csdn.net/jdsjlzx/article/details/51485861)  
   
@@ -196,6 +196,10 @@ Rxjava 视频教程
   
   •    [其他如observable.toList()、observable.connect()、observable.publish()等等； 【视频教程】](http://blog.csdn.net/jdsjlzx/article/details/53365839)  
   
-3. RxJava Observer与Subcriber的关系  【视频教程】  
-4. RxJava线程控制（Scheduler） 【视频教程】  
-5. RxJava 并发之数据流发射太快如何办（背压（Backpressure）） 【视频教程】  
+3. [RxJava Observer与Subcriber的关系  【视频教程】](http://blog.csdn.net/jdsjlzx/article/details/51534504)  
+
+4. [RxJava线程控制（Scheduler） 【视频教程】](http://blog.csdn.net/jdsjlzx/article/details/51685769)  
+
+5. [RxJava 并发之数据流发射太快如何办（背压（Backpressure）） 【视频教程】](http://blog.csdn.net/jdsjlzx/article/details/51868640)  
+
+
