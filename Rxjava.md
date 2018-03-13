@@ -174,19 +174,28 @@ Rxjava 视频教程
 
 如果你对RxJava1.x还不是了解，可以参考下面文章。
 
-1. RxJava使用介绍 【视频教程】
-http://blog.csdn.net/jdsjlzx/article/details/51485778
-2. RxJava操作符
-  •    Creating Observables(Observable的创建操作符)   【视频教程】
-http://blog.csdn.net/jdsjlzx/article/details/51485861
-  •    Transforming Observables(Observable的转换操作符)    【视频教程】
-  •    Filtering Observables(Observable的过滤操作符)     【视频教程】
-  •    Combining Observables(Observable的组合操作符)     【视频教程】
-  •    Error Handling Operators(Observable的错误处理操作符)    【视频教程】
-  •    Observable Utility Operators(Observable的辅助性操作符)    【视频教程】
-  •    Conditional and Boolean Operators(Observable的条件和布尔操作符)   【视频教程】
-  •    Mathematical and Aggregate Operators(Observable数学运算及聚合操作符)    【视频教程】
-  •    其他如observable.toList()、observable.connect()、observable.publish()等等； 【视频教程】
-3. RxJava Observer与Subcriber的关系  【视频教程】
-4. RxJava线程控制（Scheduler） 【视频教程】
-5. RxJava 并发之数据流发射太快如何办（背压（Backpressure）） 【视频教程】
+[1. RxJava使用介绍 【视频教程】](http://blog.csdn.net/jdsjlzx/article/details/51485778)  
+
+[2. RxJava操作符](http://www.stay4it.com/course/27)  
+
+  •    [Creating Observables(Observable的创建操作符) 【视频教程】](http://blog.csdn.net/jdsjlzx/article/details/51485861)  
+  
+  •    [Transforming Observables(Observable的转换操作符) 【视频教程】](http://blog.csdn.net/jdsjlzx/article/details/51493772)  
+  
+  •    [Filtering Observables(Observable的过滤操作符) 【视频教程】](http://blog.csdn.net/jdsjlzx/article/details/51489061)  
+  
+  •    [Combining Observables(Observable的组合操作符) 【视频教程】](http://blog.csdn.net/jdsjlzx/article/details/52415615)  
+  
+  •    [Error Handling Operators(Observable的错误处理操作符) 【视频教程】](http://blog.csdn.net/jdsjlzx/article/details/52448173)  
+  
+  •    [Observable Utility Operators(Observable的辅助性操作符) 【视频教程】](http://blog.csdn.net/jdsjlzx/article/details/54768360)  
+  
+  •    [Conditional and Boolean Operators(Observable的条件和布尔操作符) 【视频教程】](http://blog.csdn.net/jdsjlzx/article/details/54767751)  
+  
+  •    [Mathematical and Aggregate Operators(Observable数学运算及聚合操作符) 【视频教程】](http://blog.csdn.net/jdsjlzx/article/details/51489793)  
+  
+  •    [其他如observable.toList()、observable.connect()、observable.publish()等等； 【视频教程】](http://blog.csdn.net/jdsjlzx/article/details/53365839)  
+  
+3. RxJava Observer与Subcriber的关系  【视频教程】  
+4. RxJava线程控制（Scheduler） 【视频教程】  
+5. RxJava 并发之数据流发射太快如何办（背压（Backpressure）） 【视频教程】  
