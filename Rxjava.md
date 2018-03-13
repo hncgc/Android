@@ -163,6 +163,7 @@ http://www.jianshu.com/p/031745744bfa
 
 [Learning RxJava(RxJava详解)](https://github.com/xinghongfei/Hello-RxJava)  
 https://github.com/xinghongfei/Hello-RxJava  
+
 [给 Android 开发者的 RxJava 详解](http://gank.io/post/560e15be2dca930e00da1083)  
 在正文开始之前的最后，放上 GitHub 链接和引入依赖的 gradle 代码： Github： 
 https://github.com/ReactiveX/RxJava 
@@ -170,6 +171,22 @@ https://github.com/ReactiveX/RxAndroid
 引入依赖： 
 compile 'io.reactivex:rxjava:1.0.14' 
 compile 'io.reactivex:rxandroid:1.0.1' 
+
+[RxJava操作符大全](http://blog.csdn.net/maplejaw_/article/details/52396175)  
+•本文部分操作符描述参考了【ReactiveX文档中文翻译】。
+•开源库地址：https://github.com/ReactiveX/RxJava 解析版本：1.1.8
+
+[可能是东半球最全的RxJava使用场景小结](http://blog.csdn.net/THEONE10211024/article/details/50435325)  
+例子Github: https://github.com/THEONE10211024/RxJavaSamples
+
+[RxJava使用场景小结](http://blog.csdn.net/lzyzsd/article/details/50120801)  
+- 取数据先检查缓存的场景
+- 界面需要等到多个接口并发取完数据，再更新
+- 一个接口的请求依赖另一个API请求返回的数据
+- 界面按钮需要防止连续点击的情况
+- 响应式的界面
+- 复杂的数据变换
+
 
 Rxjava 视频教程
 ---
@@ -204,4 +221,33 @@ Rxjava 视频教程
 
 5. [RxJava 并发之数据流发射太快如何办（背压（Backpressure）） 【视频教程】](http://blog.csdn.net/jdsjlzx/article/details/51868640)  
 
+RxBinding
+---
 
+[手把手教你写RxBinding](https://www.jianshu.com/p/055002aaf1ca)  
+https://github.com/JakeWharton/RxBinding
+
+[RxBinding基本使用](http://blog.csdn.net/qq_34723470/article/details/72921786)  
+
+[一些RxBinding使用场景](http://blog.csdn.net/qq_17766199/article/details/54646011)  
+https://github.com/simplezhli/RxBindingExample
+
+[关于RXbinding的一些常规使用](http://blog.csdn.net/shb2058/article/details/74629348)  
+
+[RXview实现多次点击事件的监听](http://blog.csdn.net/kuai_le_de_xiao_erbi/article/details/71439403)  
+
+[细数RxBinding的各种优雅响应式绑定](http://blog.csdn.net/u011686167/article/details/53433552)  
+
+[（二）RxJava+RxBinding在View上的一些使用技巧](http://blog.csdn.net/qq1026291832/article/details/51006145)  
+
+[RxBinding系列之RxTextView(二)](http://blog.csdn.net/LeiHolmes/article/details/78515271)  
+
+[RxBinding系列之RxView(一)](http://xulei.tech/2017/11/09/RxBinding%E7%B3%BB%E5%88%97%E4%B9%8BRxView(%E4%B8%80)/)  
+
+[RxAndroid+Retrofit+Rxbinding+RxBus先用再懂（1）](http://blog.csdn.net/zy157953/article/details/51729222)  
+https://github.com/zynote/RxAndroid-Retrofit-RxBus/tree/master
+
+
+[Rxjava-Android资料汇总](http://blog.csdn.net/qq1026291832/article/details/51007490)  
+
+[Kotlin学习资料汇总](http://blog.csdn.net/ithouse/article/details/72597736)  
