@@ -13,7 +13,7 @@ RxJava2 实战系列文章
 
 RxJava2 实战知识梳理
 ---
-[RxJava2 实战知识梳理(1) - 后台执行耗时操作，实时通知 UI 更新](http://www.jianshu.com/p/c935d0860186)
+[RxJava2 实战知识梳理(1) - 后台执行耗时操作，实时通知 UI 更新](http://www.jianshu.com/p/c935d0860186)  
 https://github.com/kaushikgopal/RxJava-Android-Samples
 
 [RxJava2 实战知识梳理(2) - 计算一段时间内数据的平均值](http://www.jianshu.com/p/5dd01b14c02a)
