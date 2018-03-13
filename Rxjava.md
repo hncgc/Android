@@ -52,15 +52,15 @@ http://www.jianshu.com/p/0cd258eecf60
 
 文章链接：
 
-这可能是最好的RxJava 2.x 入门教程（一）
+[这可能是最好的RxJava 2.x 入门教程（一）](https://www.jianshu.com/p/a93c79e9f689)  
 
-这可能是最好的RxJava 2.x 入门教程（二）
+[这可能是最好的RxJava 2.x 入门教程（二）](https://www.jianshu.com/p/b39afa92807e)  
 
-这可能是最好的RxJava 2.x 入门教程（三）
+[这可能是最好的RxJava 2.x 入门教程（三）](https://www.jianshu.com/p/e9c79eacc8e3)  
 
-这可能是最好的RxJava 2.x 入门教程（四）
+[这可能是最好的RxJava 2.x 入门教程（四）](https://www.jianshu.com/p/c08bfc58f4b6)  
 
-这可能是最好的RxJava 2.x 入门教程（五）
+[这可能是最好的RxJava 2.x 入门教程（五）](https://www.jianshu.com/p/81fac37430dd)  
 
 GitHub 代码同步更新：https://github.com/nanchen2251/RxJava2Examples
 https://github.com/nanchen2251/RxJava2Examples
@@ -107,6 +107,8 @@ compile 'com.jakewharton.retrofit:retrofit2-rxjava2-adapter:1.0.0'
 
 RxJava
 ------
+[RxJava教程大集合](http://blog.csdn.net/qq_18402085/article/details/50793631)  
+源地址：https://github.com/THEONE10211024/RxJavaSamples
 
 [深入浅出RxJava就这一篇就够了](http://blog.csdn.net/caihongdao123/article/details/51897793)  
 项目地址：https://github.com/ReactiveX/RxJava  
