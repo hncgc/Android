@@ -107,6 +107,8 @@ RxJava
 ------
 [RxJava 从入门到出轨](http://blog.csdn.net/yyh352091626/article/details/53304728)  
 
+[RxJava从入门到放弃---关于RxJava-入门必看](http://blog.csdn.net/u011200604/article/details/53189491)  
+
 [RxJava教程大集合](http://blog.csdn.net/qq_18402085/article/details/50793631)  
 源地址：https://github.com/THEONE10211024/RxJavaSamples
 
