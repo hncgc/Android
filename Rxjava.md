@@ -63,14 +63,12 @@ http://www.jianshu.com/p/0cd258eecf60
 [这可能是最好的RxJava 2.x 入门教程（五）](https://www.jianshu.com/p/81fac37430dd)  
 
 GitHub 代码同步更新：https://github.com/nanchen2251/RxJava2Examples
-https://github.com/nanchen2251/RxJava2Examples
 
 该例子借鉴了以下项目：
 
 https://github.com/amitshekhariitbhu/RxJava2-Android-Samples
 
-RxJava 2.x（2.1） 的文档
-http://reactivex.io/RxJava/2.x/javadoc/
+[RxJava 2.x（2.1） 的文档](http://reactivex.io/RxJava/2.x/javadoc/)  
 
 rxjava 2.1.6 API
 
@@ -148,18 +146,15 @@ https://github.com/ReactiveX/RxAndroid
 
 [RxJava 创建操作符 timer与interval](http://blog.csdn.net/axuanqq/article/details/50687490)  
 
-[王学岗RxJava(十二)————————interval，timer，取消Observable](http://blog.csdn.net/qczg_wxg/article/details/53131146)  
+[王学岗RxJava(十二) interval，timer，取消Observable](http://blog.csdn.net/qczg_wxg/article/details/53131146)  
 
-V - Layout：淘宝、天猫都在用的Android UI框架 完全解析
-https://juejin.im/post/5a0107816fb9a0452b48a205
+[V - Layout：淘宝、天猫都在用的Android UI框架 完全解析](https://juejin.im/post/5a0107816fb9a0452b48a205)  
 https://github.com/alibaba/vlayout
 
-Android Tangram模型：连淘宝、天猫都在用的UI框架模型你一定要懂
-http://www.jianshu.com/p/b339c2d2d500
+[Android Tangram模型：连淘宝、天猫都在用的UI框架模型你一定要懂](http://www.jianshu.com/p/b339c2d2d500)  
 
 
-RxJava/RxAndroid 使用实例实践
-http://www.jianshu.com/p/031745744bfa
+[RxJava/RxAndroid 使用实例实践](http://www.jianshu.com/p/031745744bfa)  
 
 [Learning RxJava(RxJava详解)](https://github.com/xinghongfei/Hello-RxJava)  
 https://github.com/xinghongfei/Hello-RxJava  
@@ -173,8 +168,8 @@ compile 'io.reactivex:rxjava:1.0.14'
 compile 'io.reactivex:rxandroid:1.0.1' 
 
 [RxJava操作符大全](http://blog.csdn.net/maplejaw_/article/details/52396175)  
-•本文部分操作符描述参考了【ReactiveX文档中文翻译】。
-•开源库地址：https://github.com/ReactiveX/RxJava 解析版本：1.1.8
+•本文部分操作符描述参考了【ReactiveX文档中文翻译】。  
+•开源库地址：https://github.com/ReactiveX/RxJava 解析版本：1.1.8  
 
 [可能是东半球最全的RxJava使用场景小结](http://blog.csdn.net/THEONE10211024/article/details/50435325)  
 例子Github: https://github.com/THEONE10211024/RxJavaSamples
