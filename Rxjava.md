@@ -112,6 +112,9 @@ RxJava
 [RxJava Essentials 中文翻译版](https://github.com/yuxingxin/RxJava-Essentials-CN)  
 https://github.com/yuxingxin/RxJava-Essentials-CN
 
+[《RxJava Essentials》一书作者代码样例](https://github.com/hamen/rxjava-essentials)  
+
+
 [RxJava 从入门到出轨](http://blog.csdn.net/yyh352091626/article/details/53304728)  
 
 [RxJava从入门到放弃---关于RxJava-入门必看](http://blog.csdn.net/u011200604/article/details/53189491)  
