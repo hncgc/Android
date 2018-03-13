@@ -25,6 +25,9 @@ WeiXin
 Android 第三方库
 ===
 
+[检查第三方库的最新版本 http://search.maven.org/](http://search.maven.org/)  
+如：http://search.maven.org/#search%7Cga%7C1%7Cio.reactivex.rxjava  
+
 [RxJava](https://github.com/hncgc/Android/blob/master/Rxjava.md)  
 
 ---
