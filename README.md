@@ -30,6 +30,8 @@ Android 第三方库
 
 [RxJava](https://github.com/hncgc/Android/blob/master/Rxjava.md)  
 
+[Lottie](https://github.com/hncgc/Android/blob/master/Lottie.md)  
+
 ---
 
 [Android开发教程](https://www.ctolib.com/android/docs/)  
