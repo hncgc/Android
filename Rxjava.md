@@ -149,8 +149,22 @@ http://blog.csdn.net/lzyzsd?viewmode=contents
 [RxJava操作符（七）Conditional and Boolean](http://blog.chinaunix.net/uid-20771867-id-5208237.html)  
 [RxJava操作符（八）Aggregate ](http://blog.chinaunix.net/uid-20771867-id-5209862.html)  
 
-[Rx Android实战之项目重构详解](http://www.maiziedu.com/article/10771/)  
 
+[Android RxJava 实战系列：从磁盘 / 内存缓存中 获取缓存数据](http://blog.csdn.net/carson_ho/article/details/78455449)  
+
+[Android RxJava 实战系列：联合判断](http://blog.csdn.net/carson_ho/article/details/78455624)  
+
+[Android RxJava 实战系列：优雅实现 网络请求嵌套回调](http://blog.csdn.net/carson_ho/article/details/78315696)  
+
+[Android RxJava 实战系列：功能防抖](http://blog.csdn.net/carson_ho/article/details/78849689)  
+
+[Android RxJava 实战系列：联想搜索优化](http://blog.csdn.net/carson_ho/article/details/78849661)  
+
+[Android RxJava 实战讲解：优雅实现 网络请求轮询](http://blog.csdn.net/carson_ho/article/details/78256466)  
+
+
+
+[Rx Android实战之项目重构详解](http://www.maiziedu.com/article/10771/)  
 [RxJava 混淆配置](http://blog.csdn.net/soslinken/article/details/51375036)  
 
 [RxJava(RxAndroid)入门级教程及衍生教程](http://blog.csdn.net/biezhihua/article/details/49155111)
@@ -252,13 +266,21 @@ https://github.com/simplezhli/RxBindingExample
 
 [（二）RxJava+RxBinding在View上的一些使用技巧](http://blog.csdn.net/qq1026291832/article/details/51006145)  
 
-[RxBinding系列之RxTextView(二)](http://blog.csdn.net/LeiHolmes/article/details/78515271)  
 
 [RxBinding系列之RxView(一)](http://xulei.tech/2017/11/09/RxBinding%E7%B3%BB%E5%88%97%E4%B9%8BRxView(%E4%B8%80)/)  
+
+[RxBinding系列之RxTextView(二)](http://blog.csdn.net/LeiHolmes/article/details/78515271)  
+
+[RxBinding系列之RxAdapterView(四)](http://blog.csdn.net/leiholmes/article/details/78528738)  
+
 
 [RxAndroid+Retrofit+Rxbinding+RxBus先用再懂（1）](http://blog.csdn.net/zy157953/article/details/51729222)  
 https://github.com/zynote/RxAndroid-Retrofit-RxBus/tree/master
 
+[RxBinding使用和源码解析](https://www.jianshu.com/p/b9e83d6ff010)  
+
+[RxBinding详解: 规范而强大的安卓UI响应式编程](https://www.jianshu.com/p/34cf96b72102)  
+查看Demo：https://github.com/donnfelker/RxBindingsIntro  
 
 [Rxjava-Android资料汇总](http://blog.csdn.net/qq1026291832/article/details/51007490)  
 
