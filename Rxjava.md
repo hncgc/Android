@@ -276,8 +276,8 @@ https://github.com/simplezhli/RxBindingExample
 [RxBinding系列之RxAdapterView(四)](http://blog.csdn.net/leiholmes/article/details/78528738)  
 
 [RxBinding](https://juejin.im/entry/59116eb71b69e600686080c7)  
-Demo：https://link.juejin.im/?target=https%3A%2F%2Fgithub.com%2Fzhujian1989%2Fmf  
-> 点击防抖 监听某按钮多次点击，比如双击 倒计时 文字监听，view状态监听，登录  搜索 权限管理  
+Android 学习与总结--主流三方库以及框架学习，项目包含实践Demo：https://github.com/zhujian1989/mf  
+> 点击防抖 监听某按钮多次点击，比如双击 倒计时 文字监听 view状态监听 登录  搜索 权限管理  
 
 [使用RxBinding处理控件异步调用](http://blog.csdn.net/caroline_wendy/article/details/50580916)  
 代码示例:Github下载(https://github.com/SpikeKing/TestDetailRxAndroid)  
