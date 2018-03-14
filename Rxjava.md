@@ -271,7 +271,13 @@ https://github.com/simplezhli/RxBindingExample
 
 [RxBinding系列之RxTextView(二)](http://blog.csdn.net/LeiHolmes/article/details/78515271)  
 
+[RxBinding系列之RxCompoundButton(三)](http://www.dlxedu.com/detail/20/508147.html)  
+
 [RxBinding系列之RxAdapterView(四)](http://blog.csdn.net/leiholmes/article/details/78528738)  
+
+[使用RxBinding处理控件异步调用](http://blog.csdn.net/caroline_wendy/article/details/50580916)  
+代码示例:Github下载(https://github.com/SpikeKing/TestDetailRxAndroid)  
+参考:[详细解析RxAndroid的使用方式](https://www.jianshu.com/p/6d1ef9f43cdc)  
 
 
 [RxAndroid+Retrofit+Rxbinding+RxBus先用再懂（1）](http://blog.csdn.net/zy157953/article/details/51729222)  
