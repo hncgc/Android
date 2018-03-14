@@ -106,6 +106,8 @@ compile 'com.jakewharton.retrofit:retrofit2-rxjava2-adapter:1.0.0'
 RxJava
 ---
 
+[Rxjava-Android资料汇总](http://blog.csdn.net/qq1026291832/article/details/51007490)  
+
 [Awesome-RxJava](https://github.com/lzyzsd/Awesome-RxJava)  
 收集了很多经典博客、教程、译文和App。想要入门？弄明白这里面的文章足矣！  
 
@@ -247,6 +249,19 @@ Rxjava 视频教程
 
 5. [RxJava 并发之数据流发射太快如何办（背压（Backpressure）） 【视频教程】](http://blog.csdn.net/jdsjlzx/article/details/51868640)  
 
+-------
+
+RxAndroid
+===
+
+[详细解析RxAndroid的使用方式](https://www.jianshu.com/p/6d1ef9f43cdc)  
+
+[RxAndroid 教程](http://blog.csdn.net/kmyhy/article/details/64444682)  
+
+
+-------
+
+
 RxBinding
 ---
 
@@ -292,6 +307,6 @@ https://github.com/zynote/RxAndroid-Retrofit-RxBus/tree/master
 [RxBinding详解: 规范而强大的安卓UI响应式编程](https://www.jianshu.com/p/34cf96b72102)  
 查看Demo：https://github.com/donnfelker/RxBindingsIntro  
 
-[Rxjava-Android资料汇总](http://blog.csdn.net/qq1026291832/article/details/51007490)  
+
 
 [Kotlin学习资料汇总](http://blog.csdn.net/ithouse/article/details/72597736)  
