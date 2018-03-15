@@ -40,7 +40,7 @@ Android 设计模式
 
 [设计模式 | 菜鸟教程](http://www.runoob.com/design-pattern/design-pattern-tutorial.html)  
 
-[图说设计模式](http://design-patterns.readthedocs.io/zh_CN/latest/index.html)  
+[图说设计模式 (c++)](http://design-patterns.readthedocs.io/zh_CN/latest/index.html)  
 
 [设计模式java-design-patterns Demo 一个演示了所有已知设计模式的的Github项目](https://github.com/iluwatar/java-design-patterns)
 
