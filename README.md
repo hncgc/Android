@@ -42,6 +42,10 @@ Android 第三方库
 
 ---
 
+[Android 设计模式](https://github.com/hncgc/Android/blob/master/Android%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F.md)  
+
+---
+
 [Android开发教程](https://www.ctolib.com/android/docs/)  
 
 [《Kotlin for android developers》中文版翻译](https://www.ctolib.com/docs//sfile/kotlin-for-android-developers-zh/index.html)  
