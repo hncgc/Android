@@ -1,6 +1,5 @@
 Android 设计模式
 ===
-[《Android源码设计模式解析与实战》PDF](http://www.java1234.com/a/javabook/andriod/2016/0708/6367.html)  
 
 [设计模式系列文章目录](http://blog.lmj.wiki/categories/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/)  
 
@@ -44,6 +43,63 @@ Android 设计模式
 [图说设计模式](http://design-patterns.readthedocs.io/zh_CN/latest/index.html)  
 
 [设计模式java-design-patterns Demo 一个演示了所有已知设计模式的的Github项目](https://github.com/iluwatar/java-design-patterns)
+
+[《Android源码设计模式解析与实战》PDF](http://www.java1234.com/a/javabook/andriod/2016/0708/6367.html)  
+
+[《Android源码设计模式解析与实战》读书笔记 目录](http://blog.csdn.net/column/details/mode.html)  
+
+[《Android源码设计模式解析与实战》读书笔记（一）](http://blog.csdn.net/qq_17766199/article/details/50212049)  
+
+[《Android源码设计模式解析与实战》读书笔记（二）](http://blog.csdn.net/qq_17766199/article/details/50225395)  
+
+[《Android源码设计模式解析与实战》读书笔记（三）](http://blog.csdn.net/qq_17766199/article/details/50250169)  
+
+[《Android源码设计模式解析与实战》读书笔记（四）](http://blog.csdn.net/qq_17766199/article/details/50265009)  
+
+[《Android源码设计模式解析与实战》读书笔记（五）](http://blog.csdn.net/qq_17766199/article/details/50294233)  
+
+[《Android源码设计模式解析与实战》读书笔记（六）](http://blog.csdn.net/qq_17766199/article/details/50312341)  
+
+[《Android源码设计模式解析与实战》读书笔记（七）](http://blog.csdn.net/qq_17766199/article/details/50340103)  
+
+[《Android源码设计模式解析与实战》读书笔记（八）](http://blog.csdn.net/qq_17766199/article/details/50351146)  
+
+[《Android源码设计模式解析与实战》读书笔记（九）](http://blog.csdn.net/qq_17766199/article/details/50372190)  
+
+[《Android源码设计模式解析与实战》读书笔记（十）](http://blog.csdn.net/qq_17766199/article/details/50384276)  
+
+[《Android源码设计模式解析与实战》读书笔记（十一）](http://blog.csdn.net/qq_17766199/article/details/50401119)  
+
+[《Android源码设计模式解析与实战》读书笔记（十二）](http://blog.csdn.net/qq_17766199/article/details/50416811)  
+
+[《Android源码设计模式解析与实战》读书笔记（十三）](http://blog.csdn.net/qq_17766199/article/details/50432412)  
+
+[《Android源码设计模式解析与实战》读书笔记（十四）](http://blog.csdn.net/qq_17766199/article/details/50447530)  
+
+[《Android源码设计模式解析与实战》读书笔记（十五）](http://blog.csdn.net/qq_17766199/article/details/50454736)  
+
+[《Android源码设计模式解析与实战》读书笔记（十六）](http://blog.csdn.net/qq_17766199/article/details/50466686)  
+
+[《Android源码设计模式解析与实战》读书笔记（十七）](http://blog.csdn.net/qq_17766199/article/details/50480316)  
+
+[《Android源码设计模式解析与实战》读书笔记（十八）](http://blog.csdn.net/qq_17766199/article/details/50492805)  
+
+[《Android源码设计模式解析与实战》读书笔记（十九）](http://blog.csdn.net/qq_17766199/article/details/50501620)  
+
+[《Android源码设计模式解析与实战》读书笔记（二十）](http://blog.csdn.net/qq_17766199/article/details/50514877)  
+
+[《Android源码设计模式解析与实战》读书笔记（二十一）](http://blog.csdn.net/qq_17766199/article/details/50527360)  
+
+[《Android源码设计模式解析与实战》读书笔记（二十二）](http://blog.csdn.net/qq_17766199/article/details/50534726)  
+
+[《Android源码设计模式解析与实战》读书笔记（二十三）](http://blog.csdn.net/qq_17766199/article/details/50546244)  
+
+[《Android源码设计模式解析与实战》读书笔记（二十四）](http://blog.csdn.net/qq_17766199/article/details/50559622)  
+
+[《Android源码设计模式解析与实战》读书笔记（二十五）](http://blog.csdn.net/qq_17766199/article/details/50577302)  
+
+[《Android源码设计模式解析与实战》读书笔记（二十六）](http://blog.csdn.net/qq_17766199/article/details/50591910)  
+
 
 [从Android代码中来记忆23种设计模式](https://www.jianshu.com/p/1a9f571ad7c0)  
 
