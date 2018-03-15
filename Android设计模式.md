@@ -101,8 +101,8 @@ Android 设计模式
 [《Android源码设计模式解析与实战》读书笔记（二十六）](http://blog.csdn.net/qq_17766199/article/details/50591910)  
 
 
-[从Android代码中来记忆23种设计模式](https://www.jianshu.com/p/1a9f571ad7c0)  
-
+[从Android代码中来记忆23种设计模式](https://www.jianshu.com/p/1a9f571ad7c0)  
+> Builer类的setter函数都会返回自身的引用this，这主要是用于链式调用，这也是Builder设计模式中的一个很明显的特征
 ------------------
 
 Android 工厂模式
