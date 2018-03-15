@@ -1,5 +1,6 @@
 Android 设计模式
 ===
+[《Android源码设计模式解析与实战》PDF](http://www.java1234.com/a/javabook/andriod/2016/0708/6367.html)  
 
 [设计模式系列文章目录](http://blog.lmj.wiki/categories/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/)  
 
