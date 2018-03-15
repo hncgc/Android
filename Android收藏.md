@@ -166,3 +166,19 @@ http://blog.csdn.net/angel_w/article/details/79259115
 2018Android面试题和答案
 http://blog.csdn.net/wds1181977/article/details/79412605
 
+JNI
+---
+[IntelliJ IDEA平台下JNI编程（一）—HelloWorld篇](https://www.jianshu.com/p/44cbe11e5d35)  
+
+[IntelliJ IDEA平台下JNI编程（二）—类型映射](https://www.jianshu.com/p/3d483597d641)  
+
+[IntelliJ IDEA平台下JNI编程（三）—字符串、数组](https://www.jianshu.com/p/f216b482b90e)  
+
+[IntelliJ IDEA平台下JNI编程（四）—本地C代码访问JAVA对象](https://www.jianshu.com/p/1231d31d672e)  
+
+[IntelliJ IDEA平台下JNI编程（五）—本地C代码创建Java对象及引用](https://www.jianshu.com/p/19a6c3577cab)  
+
+
+
+
+
