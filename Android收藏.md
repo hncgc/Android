@@ -69,6 +69,7 @@ Github：https://github.com/Carson-Ho
 > https://github.com/mingjunli  
 > http://blog.lmj.wiki/  
 > https://www.jianshu.com/u/bc1dacc65fae  
+- [Carson_Ho的安卓开发笔记](https://www.jianshu.com/u/383970bef0a0)  
 
 开源库
 ---
