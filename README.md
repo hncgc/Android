@@ -42,6 +42,9 @@ Android 第三方库
 
 ---
 
+[JNI与NDK](https://github.com/hncgc/Android/blob/master/JNI%E4%B8%8ENDK.md)  
+
+
 [Android 设计模式](https://github.com/hncgc/Android/blob/master/Android%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F.md)  
 
 ---
