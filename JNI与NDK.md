@@ -3,7 +3,7 @@ NDK
 
 [NDK 入门指南](https://developer.android.google.cn/ndk/guides/index.html)  
 
-[Android NDK | Android Developers])(https://developer.android.google.cn/ndk/index.html)  
+[Android NDK | Android Developers](https://developer.android.google.cn/ndk/index.html)  
 
 [Android：JNI 与 NDK到底是什么？（含实例教学）](http://blog.csdn.net/carson_ho/article/details/73250163)  
 
