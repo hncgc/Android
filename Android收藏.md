@@ -155,6 +155,10 @@ http://www.apkbus.com/myspaceblog-847095.html
 Android 面试
 ---
 
+[史上最全的Java&Android面试题搜集整理](https://blog.csdn.net/wdong_love_cl/article/details/52084720)  
+
+[ Android应用开发面试题（持续更新）](https://blog.csdn.net/vane918/article/details/79394126)  
+
 [Android2017-2018最新面试题（3-5年经验个人面试经历）](http://blog.csdn.net/huangqili1314/article/details/72792682)  
 
 [Android(2017-2018)BAT面试题整理（java篇，含答案）： ](http://blog.csdn.net/huangqili1314/article/details/79448187 )  
@@ -163,8 +167,7 @@ Android 面试
 
 [2018年Android面试题全解](http://blog.csdn.net/angel_w/article/details/79259115)  
 
-2018Android面试题和答案
-http://blog.csdn.net/wds1181977/article/details/79412605
+[2018Android面试题和答案](http://blog.csdn.net/wds1181977/article/details/79412605)  
 
 [android面试题总结](https://blog.csdn.net/angel_w/article/details/79353252)  
 
