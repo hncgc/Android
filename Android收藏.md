@@ -152,8 +152,42 @@ http://www.apkbus.com/myspaceblog-847095.html
 
 [七本一下午就能读完的经典小说](https://www.jianshu.com/p/9d716371de0d)  
 
-Android 面试
+Android 笔试面试
 ---
+
+[Android笔试和面试常见题目（一）](https://blog.csdn.net/wen0801/article/details/78559743)  
+
+[Android笔试和面试常见题目（二）](https://blog.csdn.net/wen0801/article/details/78656525)  
+
+[Android笔试和面试常见题目（三）](https://blog.csdn.net/wen0801/article/details/78656589)  
+
+[Android笔试和面试常见题目（四）](https://blog.csdn.net/wen0801/article/details/78656634)  
+
+[Android笔试和面试常见题目（五）](https://blog.csdn.net/wen0801/article/details/78657014)  
+
+------
+
+[Android 面试题总结之Android 基础（一）](https://blog.csdn.net/vfush/article/details/51481127)  
+
+[Android 面试题总结之Android 基础（二）](https://blog.csdn.net/vfush/article/details/51482296)  
+
+[Android 面试题总结之Android 基础（三）](https://blog.csdn.net/vfush/article/details/51508220)  
+
+[Android 面试题总结之Android 基础（四）](https://blog.csdn.net/vfush/article/details/51508252)  
+
+[Android 面试题总结之Android 基础（五）](https://blog.csdn.net/vfush/article/details/51489504)  
+
+[Android 面试题总结之Android 基础（六）](https://blog.csdn.net/vfush/article/details/51534916)  
+
+-----
+
+[Android 面试题总结之Android 进阶（一）](https://blog.csdn.net/vfush/article/details/51613265)  
+
+[ Android 面试题总结之Android 进阶（二）](https://blog.csdn.net/vfush/article/details/51790079)  
+
+-----
+
+[android面试题 不单单为了面试也是一次很好的学习](https://blog.csdn.net/wufenglong/article/details/6962921)  
 
 [史上最全的Java&Android面试题搜集整理](https://blog.csdn.net/wdong_love_cl/article/details/52084720)  
 
@@ -171,24 +205,11 @@ Android 面试
 
 [android面试题总结](https://blog.csdn.net/angel_w/article/details/79353252)  
 
-[Android 面试题总结之Android 进阶（一）](https://blog.csdn.net/vfush/article/details/51613265)  
+[Android 面试题一](https://blog.csdn.net/u011733020/article/details/45998861)  
 
-[ Android 面试题总结之Android 进阶（二）](https://blog.csdn.net/vfush/article/details/51790079)  
+[ Android 面试题 二](https://blog.csdn.net/u011733020/article/details/46058273)  
 
 ----
-
-[Android 面试题总结之Android 基础（一）](https://blog.csdn.net/vfush/article/details/51481127)  
-
-[Android 面试题总结之Android 基础（二）](https://blog.csdn.net/vfush/article/details/51482296)  
-
-[Android 面试题总结之Android 基础（三）](https://blog.csdn.net/vfush/article/details/51508220)  
-
-[Android 面试题总结之Android 基础（四）](https://blog.csdn.net/vfush/article/details/51508252)  
-
-[Android 面试题总结之Android 基础（五）](https://blog.csdn.net/vfush/article/details/51489504)  
-
-[Android 面试题总结之Android 基础（六）](https://blog.csdn.net/vfush/article/details/51534916)  
-
 
 JNI
 ---
