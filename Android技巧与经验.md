@@ -298,5 +298,41 @@ E:\AndroidSDK\tools\templates\activities
 http://www.jianshu.com/p/cb95ce1ba336  
 https://www.jetbrains.com/help/idea/2016.1/live-template-variables.html#predefined_functions  
 
+ OOM(out of memory)内存泄露
+---
+
+[什么是java OOM？如何分析及解决oom问题？](https://www.cnblogs.com/ThinkVenus/p/6805495.html)  
+```
+内存泄露：申请使用完的内存没有释放，导致虚拟机不能再次使用该内存，此时这段内存就泄露了，因为申请者不用了，而又不能被虚拟机分配给别人用。  
+内存溢出：申请的内存超出了JVM能提供的内存大小，此时称之为溢出。
+```
+
+[OOM问题总结](https://blog.csdn.net/lj19851227/article/details/44018465)  
+
+[异常、堆内存溢出、OOM的几种情况](https://blog.csdn.net/sinat_29912455/article/details/51125748)  
+
+[一次解决OOM的经历](https://segmentfault.com/a/1190000005180612)  
+
+[常见OOM异常](https://blog.csdn.net/qq_33450379/article/details/53731318)  
+
+[Android 关于OOM的解决方案](https://blog.csdn.net/leehong2005/article/details/8056608)  
+
+[Android如何避免OOM总结](https://blog.csdn.net/ljx19900116/article/details/50037627)  
+
+[Android OOM出现常见原因及解决办法](https://blog.csdn.net/hudfang/article/details/51781997)  
+
+[解决Android解析图片的OOM问题!!!](https://blog.csdn.net/Android_Tutor/article/details/8099918)  
+
+[【Android性能优化】内存泄露和内存溢出（OOM）的引发原因及优化方案](https://blog.csdn.net/mxm691292118/article/details/51020023)  
+
+[内存泄漏和内存溢出的区别和联系](https://blog.csdn.net/ruiruihahaha/article/details/70270574)  
+
+[内存溢出和内存泄漏的区别，产生原因以及解决方案](https://blog.csdn.net/ShanYu1198124123/article/details/52414392)  
+
+
+
+
+
+
 
 
