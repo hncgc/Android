@@ -155,17 +155,37 @@ http://www.apkbus.com/myspaceblog-847095.html
 Android 面试
 ---
 
-Android2017-2018最新面试题（3-5年经验个人面试经历）
-http://blog.csdn.net/huangqili1314/article/details/72792682
+[Android2017-2018最新面试题（3-5年经验个人面试经历）](http://blog.csdn.net/huangqili1314/article/details/72792682)  
 
-Android(2017-2018)BAT面试题整理（java篇，含答案）： 
-http://blog.csdn.net/huangqili1314/article/details/79448187 
+[Android(2017-2018)BAT面试题整理（java篇，含答案）： ](http://blog.csdn.net/huangqili1314/article/details/79448187 )  
 
-2018年Android面试题全解   
-http://blog.csdn.net/angel_w/article/details/79259115
+[2017 Android 面试题](https://blog.csdn.net/owenchan1987/article/details/77688017)  
+
+[2018年Android面试题全解](http://blog.csdn.net/angel_w/article/details/79259115)  
 
 2018Android面试题和答案
 http://blog.csdn.net/wds1181977/article/details/79412605
+
+[android面试题总结](https://blog.csdn.net/angel_w/article/details/79353252)  
+
+[Android 面试题总结之Android 进阶（一）](https://blog.csdn.net/vfush/article/details/51613265)  
+
+[ Android 面试题总结之Android 进阶（二）](https://blog.csdn.net/vfush/article/details/51790079)  
+
+----
+
+[Android 面试题总结之Android 基础（一）](https://blog.csdn.net/vfush/article/details/51481127)  
+
+[Android 面试题总结之Android 基础（二）](https://blog.csdn.net/vfush/article/details/51482296)  
+
+[Android 面试题总结之Android 基础（三）](https://blog.csdn.net/vfush/article/details/51508220)  
+
+[Android 面试题总结之Android 基础（四）](https://blog.csdn.net/vfush/article/details/51508252)  
+
+[Android 面试题总结之Android 基础（五）](https://blog.csdn.net/vfush/article/details/51489504)  
+
+[Android 面试题总结之Android 基础（六）](https://blog.csdn.net/vfush/article/details/51534916)  
+
 
 JNI
 ---
