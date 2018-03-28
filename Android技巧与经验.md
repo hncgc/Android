@@ -141,6 +141,10 @@ edtRemark.setFilters(new InputFilter[]{new UIHelper.EmojiExcludeFilter()});
 ```
 Android Studio 使用
 ---
+[Android Studio系列教程与技巧目录](https://blog.csdn.net/vfush/article/details/51474760)  
+
+[通过Android Studio查看SDK源码](https://blog.csdn.net/vfush/article/details/51578403)  
+
 
 #### 快捷键：
     ctrl + o                        重写父类方法
