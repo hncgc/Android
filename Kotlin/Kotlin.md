@@ -58,6 +58,7 @@ Kotlin-github地址: https://github.com/JetBrains/kotlin
 [Kotlin API](https://kotlinlang.org/api/latest/jvm/stdlib/index.html)   
 [Kotlin中文文档](https://www.gitbook.com/book/canglangwenyue/kotlin-/details)   
 
+[Kotlin学习资料汇总](http://blog.csdn.net/ithouse/article/details/72597736)  
 
 [Android KTX简介](http://www.apkbus.com/blog-866962-77173.html)  
 
