@@ -42,24 +42,21 @@ Android 第三方库
 
 [Lottie](https://github.com/hncgc/Android/blob/master/Lottie.md)  
 
----
-
-[JNI与NDK](https://github.com/hncgc/Android/blob/master/JNI%E4%B8%8ENDK.md)  
-
-
-[Android 设计模式](https://github.com/hncgc/Android/blob/master/Android%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F.md)  
-
----
+[Retrofit](https://github.com/hncgc/Android/blob/master/Retrofit.md)  
 
 [Butter Knife](https://github.com/hncgc/Android/blob/master/ButterKnife.md)  
 
 [Dagger2](https://github.com/hncgc/Android/blob/master/Dagger2.md)  
 
------
-
 [EventBus](https://github.com/hncgc/Android/blob/master/EventBus.md)  
 
-------
+---
+
+[JNI与NDK](https://github.com/hncgc/Android/blob/master/JNI%E4%B8%8ENDK.md)  
+
+[Android 设计模式](https://github.com/hncgc/Android/blob/master/Android%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F.md)  
+
+---
 
 [Android开发教程](https://www.ctolib.com/android/docs/)  
 
