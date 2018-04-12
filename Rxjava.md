@@ -319,6 +319,4 @@ RxBus
 
 ------
 
-[Kotlin学习资料汇总](http://blog.csdn.net/ithouse/article/details/72597736)  
-
 
