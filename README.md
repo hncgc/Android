@@ -57,6 +57,10 @@ Android 第三方库
 
 -----
 
+[EventBus](https://github.com/hncgc/Android/blob/master/EventBus.md)  
+
+------
+
 [Android开发教程](https://www.ctolib.com/android/docs/)  
 
 [《Kotlin for android developers》中文版翻译](https://www.ctolib.com/docs//sfile/kotlin-for-android-developers-zh/index.html)  
