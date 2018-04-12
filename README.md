@@ -55,12 +55,17 @@ Android 第三方库
 [Glide.md](https://github.com/hncgc/Android/blob/master/Glide.md)  
 
 ---
+
 [MVP专题](https://github.com/hncgc/Android/blob/master/MVP%E4%B8%93%E9%A2%98.md)  
+
 ---
 
 [JNI与NDK](https://github.com/hncgc/Android/blob/master/JNI%E4%B8%8ENDK.md)  
 
 [Android 设计模式](https://github.com/hncgc/Android/blob/master/Android%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F.md)  
+
+[Android 设计规范](https://github.com/hncgc/Android/blob/master/Android%E8%AE%BE%E8%AE%A1%E8%A7%84%E8%8C%83.md)  
+
 
 ---
 
