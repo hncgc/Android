@@ -76,6 +76,13 @@ Android 第三方库
 
 [Android 架构](https://github.com/hncgc/Android/blob/master/Android%E6%9E%B6%E6%9E%84.md)  
 
+-----
+
+[Android 消息处理机制](https://github.com/hncgc/Android/blob/master/Android%E6%B6%88%E6%81%AF%E5%A4%84%E7%90%86%E6%9C%BA%E5%88%B6.md)  
+
+[Android 多线程](https://github.com/hncgc/Android/blob/master/Android%E5%A4%9A%E7%BA%BF%E7%A8%8B.md)  
+
+
 ---
 
 [other](https://github.com/hncgc/Android/blob/master/other.md)  
