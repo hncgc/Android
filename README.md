@@ -59,6 +59,9 @@ Android 第三方库
 
 [Android二维码](https://github.com/hncgc/Android/blob/master/Android%E4%BA%8C%E7%BB%B4%E7%A0%81.md)  
 
+[Android 指纹识别](https://github.com/hncgc/Android/blob/master/Android%E6%8C%87%E7%BA%B9%E8%AF%86%E5%88%AB.md)  
+
+
 ---
 
 [MVP专题](https://github.com/hncgc/Android/blob/master/MVP%E4%B8%93%E9%A2%98.md)  
