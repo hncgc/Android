@@ -15,6 +15,7 @@ WeiXin
 
 资源
 ===
+
 [Markdown](https://github.com/hncgc/Android/blob/master/Markdown.md)  
 
 [常用网址](https://github.com/hncgc/Android/blob/master/%E5%B8%B8%E7%94%A8%E7%BD%91%E5%9D%80.md)  
@@ -30,6 +31,8 @@ WeiXin
 [Android 网站工具](https://github.com/hncgc/Android/blob/master/Android%E7%BD%91%E7%AB%99%E5%B7%A5%E5%85%B7.md)  
 
 [Android 官方文档](https://github.com/hncgc/Android/blob/master/Android%E5%AE%98%E6%96%B9%E6%96%87%E6%A1%A3.md)  
+
+[Android 库及开发工具类](https://github.com/hncgc/Android/blob/master/Android%E5%BA%93%E5%8F%8A%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7%E7%B1%BB.md)  
 
 ---
 
@@ -57,7 +60,7 @@ Android 第三方库
 
 [Android 图表](https://github.com/hncgc/Android/blob/master/Android%E5%9B%BE%E8%A1%A8.md)  
 
-[Android二维码](https://github.com/hncgc/Android/blob/master/Android%E4%BA%8C%E7%BB%B4%E7%A0%81.md)  
+[Android 二维码](https://github.com/hncgc/Android/blob/master/Android%E4%BA%8C%E7%BB%B4%E7%A0%81.md)  
 
 [Android 指纹识别](https://github.com/hncgc/Android/blob/master/Android%E6%8C%87%E7%BA%B9%E8%AF%86%E5%88%AB.md)  
 
