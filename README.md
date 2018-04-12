@@ -50,6 +50,8 @@ Android 第三方库
 
 [EventBus](https://github.com/hncgc/Android/blob/master/EventBus.md)  
 
+[GreenDao3.0](https://github.com/hncgc/Android/blob/master/GreenDao3.0.md)  
+
 ---
 
 [JNI与NDK](https://github.com/hncgc/Android/blob/master/JNI%E4%B8%8ENDK.md)  
