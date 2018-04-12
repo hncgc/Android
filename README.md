@@ -57,6 +57,7 @@ Android 第三方库
 
 [Android 图表](https://github.com/hncgc/Android/blob/master/Android%E5%9B%BE%E8%A1%A8.md)  
 
+[Android二维码](https://github.com/hncgc/Android/blob/master/Android%E4%BA%8C%E7%BB%B4%E7%A0%81.md)  
 
 ---
 
