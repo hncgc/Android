@@ -122,8 +122,6 @@ https://github.com/kaedea/Android-MVP-Pattern
     }
 
 
-[我们为什么要使用RecyclerView](http://www.apkbus.com/blog-705730-61699.html)  
-
 --------
 Clean
 ===
