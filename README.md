@@ -55,6 +55,9 @@ Android 第三方库
 
 [Glide.md](https://github.com/hncgc/Android/blob/master/Glide.md)  
 
+[Android 图表](https://github.com/hncgc/Android/blob/master/Android%E5%9B%BE%E8%A1%A8.md)  
+
+
 ---
 
 [MVP专题](https://github.com/hncgc/Android/blob/master/MVP%E4%B8%93%E9%A2%98.md)  
