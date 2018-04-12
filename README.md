@@ -66,6 +66,7 @@ Android 第三方库
 
 [Android 设计规范](https://github.com/hncgc/Android/blob/master/Android%E8%AE%BE%E8%AE%A1%E8%A7%84%E8%8C%83.md)  
 
+[Android 架构](https://github.com/hncgc/Android/blob/master/Android%E6%9E%B6%E6%9E%84.md)  
 
 ---
 
