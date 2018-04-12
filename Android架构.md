@@ -24,3 +24,7 @@ diycode
 [Android MVVM 应用框架](https://juejin.im/entry/58c63e64ac502e00620b98b5)  
 
 
+
+[Android开发架构思考及经验总结](http://blog.csdn.net/jf_1994/article/details/53870534)  
+
+另外除了 Google 列出的架构，还有 Facebook 推出的 Flux 架构也值得考虑。
