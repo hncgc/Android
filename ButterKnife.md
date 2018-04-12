@@ -107,3 +107,13 @@ public class FancyFragment extends Fragment {
         unbinder.unbind();
     }
 }
+
+-------
+
+
+[Butterknife](https://github.com/JakeWharton/butterknife)  
+
+[ButterKnife：8.1.0的使用](http://www.jianshu.com/p/0392199a682b)  
+
+[Android Butter Knife 框架——最好用的View注入](http://www.jianshu.com/p/9ad21e548b69)  
+
