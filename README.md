@@ -34,6 +34,9 @@ WeiXin
 
 [Android 库及开发工具类](https://github.com/hncgc/Android/blob/master/Android%E5%BA%93%E5%8F%8A%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7%E7%B1%BB.md)  
 
+[国内顶尖团队的开源地址](
+https://github.com/hncgc/Android/blob/master/%E5%9B%BD%E5%86%85%E9%A1%B6%E5%B0%96%E5%9B%A2%E9%98%9F%E7%9A%84%E5%BC%80%E6%BA%90%E5%9C%B0%E5%9D%80.md)  
+
 ---
 
 Android 第三方库
