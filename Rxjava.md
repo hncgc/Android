@@ -311,6 +311,14 @@ https://github.com/zynote/RxAndroid-Retrofit-RxBus/tree/master
 [RxBinding详解: 规范而强大的安卓UI响应式编程](https://www.jianshu.com/p/34cf96b72102)  
 查看Demo：https://github.com/donnfelker/RxBindingsIntro  
 
+-----
 
+RxBus
+---
+[Android之RxBus详解](http://blog.csdn.net/caben_/article/details/52786184)
+
+------
 
 [Kotlin学习资料汇总](http://blog.csdn.net/ithouse/article/details/72597736)  
+
+
