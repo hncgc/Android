@@ -7,8 +7,7 @@ OkHttp3
 
 [Retrofit自定义GsonConverter处理所有请求错误情况](http://www.jianshu.com/p/5b8b1062866b)  
 
-OkHttp3
---------
+
 #### Android网络编程
 
 [Android网络编程（一）HTTP协议原理](http://liuwangshu.cn/application/network/1-http.html)  
