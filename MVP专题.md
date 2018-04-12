@@ -121,11 +121,24 @@ https://github.com/kaedea/Android-MVP-Pattern
         super.onDestroy();
     }
 
-RxBus
----
-[Android之RxBus详解](http://blog.csdn.net/caben_/article/details/52786184)
 
 [我们为什么要使用RecyclerView](http://www.apkbus.com/blog-705730-61699.html)  
+
+--------
+Clean
+===
+[The Clean Architecture](https://8thlight.com/blog/uncle-bob/2012/08/13/the-clean-architecture.html)  
+
+[Vimeo](https://vimeo.com/43612849)  
+
+[使用Clean架构开发Android应用详细指南](http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2016/0218/3979.html?utm_source=tuicool) 
+
+MVP+Clean
+===
+
+[如何使用MVP+Clean架构去构建和实现APP](http://www.apkbus.com/blog-942559-76725.html) 
+
+[Android官方架构项目之MVP + Clean](http://www.jianshu.com/p/7ae3095f2cb5)  
 
 
 
