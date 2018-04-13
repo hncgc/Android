@@ -16,6 +16,19 @@ Android 多线程
 
 [Android开发：Handler异步通信机制全面解析（包含Looper、Message Queue）](https://www.jianshu.com/p/9fe944ee02f7)  
 
+----
+
+[Android中的几种多线程实现](https://www.cnblogs.com/chendu123/p/6081301.html)  
+
+[Android多线程的四种方式](https://www.jianshu.com/p/2b634a7c49ec)  
+
+[Android 中三种启用线程的方法](https://www.cnblogs.com/propheterLiu/p/6082666.html)  
+
+[JAVA\Android 多线程实现方式及并发与同步](https://blog.csdn.net/csdn_aiyang/article/details/65442540)  
+
+[Android进阶之路——线程机制](https://www.jianshu.com/p/7307492f7e89)  
+
+[浅谈Android中多线程切换的几种方法](http://www.jb51.net/article/131896.htm)  
 
 同步锁synchronized 
 ---
