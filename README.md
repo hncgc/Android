@@ -99,6 +99,9 @@ Android 第三方库
 
 [Android 四大组件](https://github.com/hncgc/Android/blob/master/android/Android%E5%9B%9B%E5%A4%A7%E7%BB%84%E4%BB%B6.md)  
 
+[ndroid 跨进程通信IPC](https://github.com/hncgc/Android/blob/master/android/Android%E8%B7%A8%E8%BF%9B%E7%A8%8B%E9%80%9A%E4%BF%A1IPC.md)  
+
+
 ----
 
 [JUnit教程](https://github.com/hncgc/Android/blob/master/android/JUnit%E6%95%99%E7%A8%8B.md)  
