@@ -124,6 +124,8 @@ Android 第三方库
 [Material Design](https://github.com/hncgc/Android/blob/master/android/MaterialDesign.md)  
 
 
+[Android 动画](https://github.com/hncgc/Android/blob/master/android/Android%E5%8A%A8%E7%94%BB.md)  
+
 ----
 
 [Android Studio 3](https://github.com/hncgc/Android/blob/master/android/AndroidStudio3.md)  
