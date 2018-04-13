@@ -113,6 +113,9 @@ Android 第三方库
 
 [底部菜单 & 头部导航栏](https://github.com/hncgc/Android/blob/master/android/%E5%BA%95%E9%83%A8%E8%8F%9C%E5%8D%95%26%E5%A4%B4%E9%83%A8%E5%AF%BC%E8%88%AA%E6%A0%8F.md)  
 
+
+[Android 键盘](https://github.com/hncgc/Android/blob/master/android/Android%E9%94%AE%E7%9B%98.md)  
+
 ----
 
 [Android Studio 3](https://github.com/hncgc/Android/blob/master/android/AndroidStudio3.md)  
