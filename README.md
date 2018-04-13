@@ -105,6 +105,16 @@ Android 第三方库
 
 ----
 
+[Android Studio 3](https://github.com/hncgc/Android/blob/master/android/AndroidStudio3.md)  
+
+[Gradle](https://github.com/hncgc/Android/blob/master/android/Gradle.md)  
+
+[Android 混淆](https://github.com/hncgc/Android/blob/master/android/Android%E6%B7%B7%E6%B7%86.md)  
+
+[Android 签名](https://github.com/hncgc/Android/blob/master/android/Android%E7%AD%BE%E5%90%8D.md)  
+
+----
+
 [JUnit教程](https://github.com/hncgc/Android/blob/master/android/JUnit%E6%95%99%E7%A8%8B.md)  
 
 ---
