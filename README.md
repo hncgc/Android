@@ -130,6 +130,10 @@ Android 第三方库
 
 ----
 
+[Android 权限管理](https://github.com/hncgc/Android/blob/master/android/Android%E6%9D%83%E9%99%90%E7%AE%A1%E7%90%86.md) 
+
+----
+
 [Android Studio 3](https://github.com/hncgc/Android/blob/master/android/AndroidStudio3.md)  
 
 [Gradle](https://github.com/hncgc/Android/blob/master/android/Gradle.md)  
