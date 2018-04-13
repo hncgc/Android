@@ -16,6 +16,8 @@ WeiXin
 资源
 ===
 
+[Git教程](https://github.com/hncgc/Android/blob/master/Git%E6%95%99%E7%A8%8B.md)  
+
 [Markdown](https://github.com/hncgc/Android/blob/master/android/Markdown.md)  
 
 [常用网址](https://github.com/hncgc/Android/blob/master/android/%E5%B8%B8%E7%94%A8%E7%BD%91%E5%9D%80.md)  
@@ -100,3 +102,5 @@ Android 第三方库
 ---
 
 [other](https://github.com/hncgc/Android/blob/master/android/other.md)  
+
+
