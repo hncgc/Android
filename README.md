@@ -13,6 +13,8 @@ WeiXin
 
 [微信开发](https://github.com/hncgc/Android/blob/master/weixin/WeChatDevelopment.md)  
 
+-----
+
 [UML类图](https://github.com/hncgc/Android/blob/master/UML%E7%B1%BB%E5%9B%BE.md)  
 
 资源
