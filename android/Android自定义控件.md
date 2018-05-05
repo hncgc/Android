@@ -598,12 +598,38 @@ https://github.com/woxingxiao/BubbleSeekBar
 
 [Android UI(SeekBar)详解](https://blog.csdn.net/qq_28057577/article/details/52225870)  
 
+## 禁止ViewPager预加载 NoPreloadViewPager
+
+[禁止ViewPager预加载问题](https://www.jianshu.com/p/278834657d73)  
+
+[修改ViewPage的r预加载,左右滑动,切换经过中间页问题,ViewPager一屏显示多张图片](https://www.cnblogs.com/tangs/articles/5933233.html)  
+
+## StickyNavLayout 悬浮导航栏
+
+[StickyNavLayout 悬浮控件](http://www.apkbus.com/forum.php?mod=viewthread&tid=253914)  
+原项目地址:https://github.com/hongyangAndroid/Android-StickyNavLayout/  
+https://github.com/liaohuqiu/android-GridViewWithHeaderAndFooter/  
+```
+使用时的注意事项
+注意控件id的设置
+top区域:id必须为: android:id="@id/id_stickynavlayout_topview"
+悬浮区域:id必须为: android:id="@+id/id_stickynavlayout_indicator"
+内容区域:id必须为: android:id="@id/id_stickynavlayout_viewpager"
+内容区域
+1.比需为ViewPager或者其子类
+2.ViewPager的内容可以是Fragment,如果Fragment想用ListView,RecycleView等需要设置其id为:
+android:id="@+id/id_stickynavlayout_innerscrollview"
+```
+导航控件是:PagerSlidingTabStrip  
+开源项目:https://github.com/ta893115871/PagerSlidingTabStrip/  
 
 
+[悬浮导航栏StickyNavLayout的实现--适配任意数据量](https://www.jianshu.com/p/daff3b4de3a4)  
+https://github.com/r17171709/android_demo/tree/master/StickyNavLayout
 
+[(Android特效)-Android-StickyNavLayout](https://blog.csdn.net/juntang2015/article/details/48052373)  
 
-
-
+[自定义控件_StickyNavLaout](https://www.cnblogs.com/dubo-/p/6963301.html)  
 
 
 
