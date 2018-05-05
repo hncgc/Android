@@ -587,6 +587,25 @@ ANDROID 实现布局动态加载
 --------------------------
 [ANDROID 实现布局动态加载](http://www.cnblogs.com/Greenwood/archive/2011/03/02/1969340.html)  
 
+## BubbleSeekBar
+
+[BubbleSeekBar自定义 SeekBar，进度变化由可视化气泡样式呈现](http://p.codekk.com/detail/android/woxingxiao/bubbleseekbar)  
+https://github.com/woxingxiao/BubbleSeekBar  
+
+[BubbleSeekBar开源框架在andorid7.0无法适配的解决方案](https://blog.csdn.net/beibaokongming/article/details/70601765)  
+
+[关于SeekBar的简单介绍](https://blog.csdn.net/u011043551/article/details/74097481)  
+
+[Android UI(SeekBar)详解](https://blog.csdn.net/qq_28057577/article/details/52225870)  
+
+
+
+
+
+
+
+
+
 
 
 [我们为什么要使用RecyclerView](http://www.apkbus.com/blog-705730-61699.html)  
