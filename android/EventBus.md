@@ -109,4 +109,9 @@ EventBus在github上源码：https://github.com/greenrobot/EventBus
 
 [EventBus 3.0，让事件订阅更简单，从此告别组件消息传递烦恼~](https://www.cnblogs.com/liushilin/p/6089785.html)  
 
+[EventBus3.0使用总结](https://www.2cto.com/kf/201602/489989.html)  
+
+
+
+
 
