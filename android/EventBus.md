@@ -107,6 +107,6 @@ EventBus在github上源码：https://github.com/greenrobot/EventBus
 
 [Activity，Fragment绑定生命周期，实现EventBus的自动注册、自动注销](https://blog.csdn.net/u010755087/article/details/75308014)  
 
-
+[EventBus 3.0，让事件订阅更简单，从此告别组件消息传递烦恼~](https://www.cnblogs.com/liushilin/p/6089785.html)  
 
 
