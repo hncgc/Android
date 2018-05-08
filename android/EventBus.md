@@ -103,4 +103,5 @@ EventBus在github上源码：https://github.com/greenrobot/EventBus
 
 [Android中EventBus3.0的使用](https://blog.csdn.net/Captain_Magicer/article/details/54413786)  
 
+[Android实现fragment向Activity实时传递信息](https://blog.csdn.net/s1674521/article/details/78318525)  
 
