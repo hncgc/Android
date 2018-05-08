@@ -93,3 +93,14 @@ http://blog.csdn.net/harvic880925/article/details/40787203
 Android EventBus详解其使用
 http://www.apkbus.com/blog-705730-61398.html
 
+
+[Eventbus 详解，Activity和fragment通讯，相互发送接收数据](https://blog.csdn.net/u013790519/article/details/49181857)  
+EventBus在github上源码：https://github.com/greenrobot/EventBus  
+
+[Activity和Fragment的三种通信以及EventBus通信](https://blog.csdn.net/jianesrq0724/article/details/54909911)  
+
+[ANDROID中使用开源框架EVENTBUS3.0实现FRAGMENT之间的通信交互](https://www.cnblogs.com/panhouye/p/6420727.html)  
+
+[Android中EventBus3.0的使用](https://blog.csdn.net/Captain_Magicer/article/details/54413786)  
+
+
