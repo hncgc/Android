@@ -105,3 +105,8 @@ EventBus在github上源码：https://github.com/greenrobot/EventBus
 
 [Android实现fragment向Activity实时传递信息](https://blog.csdn.net/s1674521/article/details/78318525)  
 
+[Activity，Fragment绑定生命周期，实现EventBus的自动注册、自动注销](https://blog.csdn.net/u010755087/article/details/75308014)  
+
+
+
+
