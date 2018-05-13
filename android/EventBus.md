@@ -1,6 +1,13 @@
 EventBus
 ---------
 
+[EventBus 3.0使用详解](https://www.jianshu.com/p/f9ae5691e1bb)  
+EventBus Github地址: https://github.com/greenrobot/EventBus
+
+[EventBus使用详解](https://blog.csdn.net/u012317510/article/details/78935720)  
+
+[Android事件总线（一）EventBus3.0用法全解析](https://blog.csdn.net/itachi85/article/details/52205464)  
+
 EventBus 3.0使用
 http://www.th7.cn/Program/Android/201607/901646.shtml
 
