@@ -50,6 +50,17 @@ ijkplayer
 
 [开源播放器 ijkplayer (一) ：使用Ijkplayer播放直播视频](http://www.cnblogs.com/renhui/p/6420140.html)  
 
+[Android 实现视屏播放器、边播边缓存功能、外加铲屎（IJKPlayer）](https://www.jianshu.com/p/9fe377dd9750)  
+
+GSYVideoPlayer
+---
+[GSYVideoPlayer项目说明](https://www.jianshu.com/p/49831e5e2cd6)  
+
+[基于IJKPlayer（兼容系统MediaPlayer与EXOPlayer2），实现了多功能的视频播放器](https://github.com/CarGuo/GSYVideoPlayer)  
+
+[Android蹲坑的疑难杂症集锦一](https://www.jianshu.com/p/e015269e3478)  
+
+[Android蹲坑的疑难杂症集锦（兼Gradle） 二](https://www.jianshu.com/p/86e4b336c17d)  
 
 JieCaoVideoPlayer
 ---
@@ -162,8 +173,21 @@ https://developer.qiniu.com/pili/sdk/3734/android-short-video-sdk
 
 [Picture Selector Library for Android or 多图片选择器](https://github.com/LuckSiege/PictureSelector)  
 
+[Android 拍摄（横\竖屏）视频的懒人之路](https://www.jianshu.com/p/752f0dd842f8)  
 
 [视频直播技术资源整理](https://www.cnblogs.com/renhui/p/6394988.html)  
 
 [几个不错的Android开源音视频播放器](https://blog.csdn.net/Guofengpu/article/details/72911846)  
+
+[【Android 视频，音频开源框架】](https://blog.csdn.net/da_caoyuan/article/details/73188626)  
+
+
+[快速将Android项目发布的JCenter](https://www.jianshu.com/p/748d59aa6567)  
+
+[通用RecylerAdapter，内置XRecyclerView，兼容上下拉与动画，高复用，一个Adapter通用所有页面，支持空页面，懒人专属](https://www.jianshu.com/p/9c9aede9a19a)  
+
+[让Gradle放飞你的apk构建](https://www.jianshu.com/p/50134707bc46)  
+
+
+
 
