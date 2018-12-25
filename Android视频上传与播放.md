@@ -85,7 +85,10 @@ github 地址：JieCaoVideoPlayer: https://github.com/lipangit/JieCaoVideoPlayer
 [仿今日头条视频播放JieCaoVideoPlayer](https://blog.csdn.net/w_l_s/article/details/53132179)  
 
 [高仿今日头条ListView视频播放和优酷视频播放悬浮窗](https://github.com/open-android/JieCaoVideoPlayer) 
-https://github.com/open-android/JieCaoVideoPlayer
+https://github.com/open-android/JieCaoVideoPlayer 
+~~~
+ compile 'com.github.open-android:JieCaoVideoPlayer:0.1.0'
+~~~
 
 [视频播放---jiecaovideoplayer的使用](https://blog.csdn.net/u012216899/article/details/57186467)  
 
