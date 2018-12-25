@@ -7,8 +7,6 @@ Android视频上传与播放
 
 [Android视频开发基础(三)](https://blog.csdn.net/goodlixueyong/article/details/84711569)
 
-开源的播放库ijkplayer
-
 [Android视频开发基础(四)](https://blog.csdn.net/goodlixueyong/article/details/62447486)  
 
 http-flv协议
@@ -66,10 +64,18 @@ Github上面：https://github.com/yixia
 
 [安卓非常实用又坑多多的视频框架——Vitamio](https://blog.csdn.net/NKPDQZ/article/details/63690374)  
 
-ijkplayer
+ijkplayer  
 ---
 
+开源的播放库 ijkplayer的github地址: https://link.jianshu.com/?t=https://github.com/Bilibili/ijkplayer  
+
+完整版的ijkplayer  https://github.com/thiagooo0/lmnplayer  
+
 [ijkplayer视频播放器](https://blog.csdn.net/weixin_41701790/article/details/81459387)  
+
+[Android 超好用的播放器——ijkplayer](https://www.jianshu.com/p/c5d972ab0309)  
+
+[开源播放器 ijkplayer (一) ：使用Ijkplayer播放直播视频](http://www.cnblogs.com/renhui/p/6420140.html)  
 
 
 [Android实现视频播放](https://blog.csdn.net/yaozhipu/article/details/80528503)  
@@ -121,5 +127,5 @@ https://developer.qiniu.com/pili/sdk/3734/android-short-video-sdk
 [Picture Selector Library for Android or 多图片选择器](https://github.com/LuckSiege/PictureSelector)  
 
 
-
+[视](https://www.cnblogs.com/renhui/p/6394988.html)  
 
