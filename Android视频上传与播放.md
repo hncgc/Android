@@ -1,4 +1,5 @@
-#Android视频上传与播放
+Android视频上传与播放
+===
 
 [Android视频开发基础(一）](https://blog.csdn.net/goodlixueyong/article/details/62058805)  
 
