@@ -49,6 +49,24 @@ http://o6wf52jln.bkt.clouddn.com/演员.mp3
 http://abv.cn/music/红豆.mp3
 ~~~
 
+Vitamio  
+---
+
+[Android视频框架--Vitamio](https://blog.csdn.net/hao54216/article/details/52437252)  
+官网下载:   https://www.vitamio.org/Download/
+Android Vitamio演示(Android Studio):  https://github.com/yixia/VitamioBundleStudio  
+ https://www.vitamio.org/docs/  
+关于官方帮助文档：https://www.vitamio.org/docs/Tutorial/2014/0210/29.html
+
+[Android视频播放项目总结之 使用第三方Vitamio库，开发万能播放器(一)](https://blog.csdn.net/zhaihaohao1/article/details/45417571)  
+Github上面：https://github.com/yixia
+
+[Android 中的视频播放第三方库vitamio的导入的各种坑以及解决方法](https://blog.csdn.net/fucaijin/article/details/80948383)  
+
+[安卓非常实用又坑多多的视频框架——Vitamio](https://blog.csdn.net/NKPDQZ/article/details/63690374)  
+
+
+
 [Android实现视频播放](https://blog.csdn.net/yaozhipu/article/details/80528503)  
 ~~~
 implementation 'com.dou361.ijkplayer:jjdxm-ijkplayer:1.0.5'
