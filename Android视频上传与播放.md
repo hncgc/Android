@@ -21,6 +21,19 @@ vitamio的library下载地址是：https://www.vitamio.org/Download/
 
 [这些优秀的音视频开源框架你值得收藏](http://blog.csdn.net/androidstarjack/article/details/68954614)  
 
+UniversalMusicPlayer
+---
+
+[UniversalMusicPlayer](https://github.com/googlesamples/android-UniversalMusicPlayer)  
+这是Google开源的一个音频播放器项目  
+
+Material-Movies
+---
+
+[Material-Movies](https://github.com/saulmm/Material-Movies)  
+一个高颜值视频播放器  
+
+
 Vitamio  
 ---
 
