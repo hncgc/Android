@@ -91,7 +91,7 @@ play.startPlay();
 [七牛开发者中心](https://developer.qiniu.com/)  
 https://developer.qiniu.com/pili/sdk/3734/android-short-video-sdk
 
-[Android上传视频](https://blog.csdn.net/weixin_41701790/article/details/81977653}
+[Android上传视频](https://blog.csdn.net/weixin_41701790/article/details/81977653)  
 
 [ijkplayer视频播放器](https://blog.csdn.net/weixin_41701790/article/details/81459387)  
 
