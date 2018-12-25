@@ -21,33 +21,6 @@ vitamio的library下载地址是：https://www.vitamio.org/Download/
 
 [这些优秀的音视频开源框架你值得收藏](http://blog.csdn.net/androidstarjack/article/details/68954614)  
 
-[一个强悍而优美的Android视频播放器 JieCaoVideoPlayer](https://blog.csdn.net/androidstarjack/article/details/69526279)  
-GitHub链接下载：https://github.com/androidstarjack/MyGreatPalyerVideo  
-~~~
-        compile 'fm.jiecao:jiecaovideoplayer:5.5.2'
-
-<fm.jiecao.jcvideoplayer_lib.JCVideoPlayerStandard
-    android:id="@+id/videoplayer"
-    android:layout_width="match_parent"
-    android:layout_height="200dp"/>
-
-送上一个播放地址：
-
-http://www.jmzsjy.com/UploadFile/微课/地方风味小吃——宫廷香酥牛肉饼.mp4
-
-http://flashmedia.eastday.com/newdate/news/2016-11/shznews1125-19.mp4
-
-http://112.253.22.157/17/z/z/y/u/zzyuasjwufnqerzvyxgkuigrkcatxr/hc.yinyuetai.com/D046015255134077DDB3ACA0D7E68D45.flv
-
-[https://wdl.wallstreetcn.com/41aae4d2-390a-48ff-9230-ee865552e72d]https://wdl.wallstreetcn.com/41aae4d2-390a-48ff-9230-ee865552e72d)
-
-音乐地址：
-
-http://o6wf52jln.bkt.clouddn.com/演员.mp3
-
-http://abv.cn/music/红豆.mp3
-~~~
-
 Vitamio  
 ---
 
@@ -77,6 +50,69 @@ ijkplayer
 
 [开源播放器 ijkplayer (一) ：使用Ijkplayer播放直播视频](http://www.cnblogs.com/renhui/p/6420140.html)  
 
+
+JieCaoVideoPlayer
+---
+[Android JieCaoVideoPlayer 使用入门指南](https://blog.csdn.net/yaya_xiong/article/details/75213346)  
+github 地址：JieCaoVideoPlayer: https://github.com/lipangit/JieCaoVideoPlayer  最正宗的  
+
+[jiecaovideoplayer最简单的使用](https://blog.csdn.net/Star_Q/article/details/78849610)  
+
+[仿今日头条视频播放JieCaoVideoPlayer](https://blog.csdn.net/w_l_s/article/details/53132179)  
+
+[视频播放---jiecaovideoplayer的使用](https://blog.csdn.net/u012216899/article/details/57186467)  
+
+[Android中节操播放器JieCaoVideoPlayer使用](https://blog.csdn.net/zhaihaohao1/article/details/78029766)  
+转载地址：https://github.com/lipangit/JiaoZiVideoPlayer  
+参考视频：http://ke.atguigu.com/course/149/learn#lesson/1978  
+~~~
+1.添加类库
+compile 'cn.jzvd:jiaozivideoplayer:6.0.0'
+2.添加布局
+
+<cn.jzvd.JZVideoPlayerStandard
+    android:id="@+id/videoplayer"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"/>
+    
+3.设置视频地址、缩略图地址、标题
+
+JZVideoPlayerStandard jzVideoPlayerStandard = (JZVideoPlayerStandard) findViewById(R.id.videoplayer);
+jzVideoPlayerStandard.setUp("http://jzvd.nathen.cn/c6e3dc12a1154626b3476d9bf3bd7266/6b56c5f0dc31428083757a45764763b0-5287d2089db37e62345123a1be272f8b.mp4"
+                            , JZVideoPlayerStandard.SCREEN_LAYOUT_NORMAL, "嫂子闭眼睛");
+jzVideoPlayerStandard.thumbImageView.setImage("http://p.qpic.cn/videoyun/0/2449_43b6f696980311e59ed467f22794e792_1/640");
+
+~~~
+
+[]()  
+
+
+[一个强悍而优美的Android视频播放器 JieCaoVideoPlayer](https://blog.csdn.net/androidstarjack/article/details/69526279)  
+GitHub链接下载：https://github.com/androidstarjack/MyGreatPalyerVideo  
+~~~
+        compile 'fm.jiecao:jiecaovideoplayer:5.5.2'
+
+<fm.jiecao.jcvideoplayer_lib.JCVideoPlayerStandard
+    android:id="@+id/videoplayer"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"/>
+
+送上一个播放地址：
+
+http://www.jmzsjy.com/UploadFile/微课/地方风味小吃——宫廷香酥牛肉饼.mp4
+
+http://flashmedia.eastday.com/newdate/news/2016-11/shznews1125-19.mp4
+
+http://112.253.22.157/17/z/z/y/u/zzyuasjwufnqerzvyxgkuigrkcatxr/hc.yinyuetai.com/D046015255134077DDB3ACA0D7E68D45.flv
+
+[https://wdl.wallstreetcn.com/41aae4d2-390a-48ff-9230-ee865552e72d]https://wdl.wallstreetcn.com/41aae4d2-390a-48ff-9230-ee865552e72d)
+
+音乐地址：
+
+http://o6wf52jln.bkt.clouddn.com/演员.mp3
+
+http://abv.cn/music/红豆.mp3
+~~~
 
 [Android实现视频播放](https://blog.csdn.net/yaozhipu/article/details/80528503)  
 ~~~
@@ -128,4 +164,6 @@ https://developer.qiniu.com/pili/sdk/3734/android-short-video-sdk
 
 
 [视](https://www.cnblogs.com/renhui/p/6394988.html)  
+
+[几个不错的Android开源音视频播放器](https://blog.csdn.net/Guofengpu/article/details/72911846)  
 
