@@ -163,7 +163,7 @@ https://developer.qiniu.com/pili/sdk/3734/android-short-video-sdk
 [Picture Selector Library for Android or 多图片选择器](https://github.com/LuckSiege/PictureSelector)  
 
 
-[视](https://www.cnblogs.com/renhui/p/6394988.html)  
+[视频直播技术资源整理](https://www.cnblogs.com/renhui/p/6394988.html)  
 
 [几个不错的Android开源音视频播放器](https://blog.csdn.net/Guofengpu/article/details/72911846)  
 
