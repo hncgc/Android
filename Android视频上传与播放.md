@@ -62,7 +62,7 @@ GSYVideoPlayer
 
 [Android蹲坑的疑难杂症集锦（兼Gradle） 二](https://www.jianshu.com/p/86e4b336c17d)  
 
-JieCaoVideoPlayer
+JieCaoVideoPlayer 节操
 ---
 [Android JieCaoVideoPlayer 使用入门指南](https://blog.csdn.net/yaya_xiong/article/details/75213346)  
 github 地址：JieCaoVideoPlayer: https://github.com/lipangit/JieCaoVideoPlayer  最正宗的  
@@ -72,6 +72,12 @@ github 地址：JieCaoVideoPlayer: https://github.com/lipangit/JieCaoVideoPlayer
 [仿今日头条视频播放JieCaoVideoPlayer](https://blog.csdn.net/w_l_s/article/details/53132179)  
 
 [视频播放---jiecaovideoplayer的使用](https://blog.csdn.net/u012216899/article/details/57186467)  
+
+
+JiaoZiVideoPlayer  
+---
+
+[详解demo中自定义播放器的实现](https://github.com/lipangit/JiaoZiVideoPlayer/wiki/%E8%AF%A6%E8%A7%A3demo%E4%B8%AD%E8%87%AA%E5%AE%9A%E4%B9%89%E6%92%AD%E6%94%BE%E5%99%A8%E7%9A%84%E5%AE%9E%E7%8E%B0)  
 
 [Android中节操播放器JieCaoVideoPlayer使用](https://blog.csdn.net/zhaihaohao1/article/details/78029766)  
 转载地址：https://github.com/lipangit/JiaoZiVideoPlayer  
@@ -95,7 +101,6 @@ jzVideoPlayerStandard.thumbImageView.setImage("http://p.qpic.cn/videoyun/0/2449_
 
 ~~~
 
-[]()  
 
 
 [一个强悍而优美的Android视频播放器 JieCaoVideoPlayer](https://blog.csdn.net/androidstarjack/article/details/69526279)  
