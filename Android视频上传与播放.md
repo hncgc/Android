@@ -5,7 +5,7 @@ Android视频上传与播放
 
 [Android视频开发基础(二)](https://blog.csdn.net/goodlixueyong/article/details/62447452)  
 
-[Android视频开发基础（三）](https://blog.csdn.net/goodlixueyong/article/details/84711569)
+[Android视频开发基础(三)](https://blog.csdn.net/goodlixueyong/article/details/84711569)
 
 开源的播放库ijkplayer
 
@@ -66,6 +66,10 @@ Github上面：https://github.com/yixia
 
 [安卓非常实用又坑多多的视频框架——Vitamio](https://blog.csdn.net/NKPDQZ/article/details/63690374)  
 
+ijkplayer
+---
+
+[ijkplayer视频播放器](https://blog.csdn.net/weixin_41701790/article/details/81459387)  
 
 
 [Android实现视频播放](https://blog.csdn.net/yaozhipu/article/details/80528503)  
@@ -112,8 +116,10 @@ https://developer.qiniu.com/pili/sdk/3734/android-short-video-sdk
 
 [Android上传视频](https://blog.csdn.net/weixin_41701790/article/details/81977653)  
 
-[ijkplayer视频播放器](https://blog.csdn.net/weixin_41701790/article/details/81459387)  
-
 [Android多图上传](https://blog.csdn.net/weixin_41701790/article/details/82344938)  
 
 [Picture Selector Library for Android or 多图片选择器](https://github.com/LuckSiege/PictureSelector)  
+
+
+
+
