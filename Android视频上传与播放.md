@@ -21,7 +21,7 @@ vitamio的library下载地址是：https://www.vitamio.org/Download/
 
 [这些优秀的音视频开源框架你值得收藏](http://blog.csdn.net/androidstarjack/article/details/68954614)  
 
-[一个强悍而优美的Android视频播放器](https://blog.csdn.net/androidstarjack/article/details/69526279)  
+[一个强悍而优美的Android视频播放器 JieCaoVideoPlayer](https://blog.csdn.net/androidstarjack/article/details/69526279)  
 GitHub链接下载：https://github.com/androidstarjack/MyGreatPalyerVideo  
 ~~~
         compile 'fm.jiecao:jiecaovideoplayer:5.5.2'
