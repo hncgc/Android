@@ -194,6 +194,10 @@ play.startPlay();
 
 ~~~
 
+-----------------
+
+[Android读取本地照片和视频相册实例代码](http://www.jb51.net/article/115459.htm)  
+
 [Android 跳转系统选择本地视频的功能](https://www.cnblogs.com/widgetbox/p/7503894.html)  
 
 [Android上传附件（图片，视频，文档）](https://www.jianshu.com/p/caca4f68961d)  
