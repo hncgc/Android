@@ -1,6 +1,8 @@
 Android视频上传与播放
 ===
 
+[Android教程](https://www.yiibai.com/android/)  
+
 [Android视频开发基础(一）](https://blog.csdn.net/goodlixueyong/article/details/62058805)  
 
 [Android视频开发基础(二)](https://blog.csdn.net/goodlixueyong/article/details/62447452)  
@@ -204,6 +206,10 @@ https://developer.qiniu.com/pili/sdk/3734/android-short-video-sdk
 视频录制  
 ---
 [Camera](https://www.jianshu.com/p/208b8b6105d8)  
+
+[Android Camera](https://www.jianshu.com/p/1e7ddbd7372f)  
+
+[Android Camera(摄像头)](https://www.yiibai.com/android/android_camera.html)  
 
 [Android 调用系统应用的方法总结](https://www.jb51.net/article/120715.htm)  
 
