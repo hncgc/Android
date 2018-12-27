@@ -214,6 +214,8 @@ https://developer.qiniu.com/pili/sdk/3734/android-short-video-sdk
 
 [android之多媒体篇（三）](https://www.cnblogs.com/Free-Thinker/p/3546413.html)  
 
+------------------------
+
 [快速将Android项目发布的JCenter](https://www.jianshu.com/p/748d59aa6567)  
 
 [通用RecylerAdapter，内置XRecyclerView，兼容上下拉与动画，高复用，一个Adapter通用所有页面，支持空页面，懒人专属](https://www.jianshu.com/p/9c9aede9a19a)  
