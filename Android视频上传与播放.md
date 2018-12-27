@@ -221,6 +221,10 @@ https://developer.qiniu.com/pili/sdk/3734/android-short-video-sdk
 
 [Picture Selector Library for Android or 多图片选择器](https://github.com/LuckSiege/PictureSelector)  
 
+[PictureSelector 7.0及以上拍照或拍摄 出现的FileUriExposedException](https://blog.csdn.net/qq_31433193/article/details/83995817)  
+
+[Android7.0及以上拍照获取照片无法使用file://，使用content://URI](https://blog.csdn.net/trq2012/article/details/80568094)  
+
 [Android 拍摄（横\竖屏）视频的懒人之路](https://www.jianshu.com/p/752f0dd842f8)  
 
 [视频直播技术资源整理](https://www.cnblogs.com/renhui/p/6394988.html)  
