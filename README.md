@@ -156,7 +156,7 @@ Android 第三方库
 
 [直播平台](https://github.com/hncgc/Android/blob/master/%E7%9B%B4%E6%92%AD%E5%B9%B3%E5%8F%B0.md)  
 
-[Android视频上传与播放](https://github.com/hncgc/Android/blob/master/Android%E8%A7%86%E9%A2%91%E4%B8%8A%E4%BC%A0%E4%B8%8E%E6%92%AD%E6%94%BE.md)  
+[Android视频](https://github.com/hncgc/Android/tree/master/Video)  
 
 [Flutter](https://github.com/hncgc/Android/blob/master/Flutter.md)  
 
