@@ -31,6 +31,9 @@ https://developer.qiniu.com/pili/sdk/3734/android-short-video-sdk
 
 [Android7.0及以上拍照获取照片无法使用file://，使用content://URI](https://blog.csdn.net/trq2012/article/details/80568094)  
 
+[仿微信的图片选择器PictureSelector](https://www.jianshu.com/p/2c1f7e31b74f)  
+https://github.com/arvinljw/PictureSelector  功能：多选、单选、拍照、预览、裁剪、大图、支持7.0
+
 [Android 拍摄（横\竖屏）视频的懒人之路](https://www.jianshu.com/p/752f0dd842f8)  
 
 [视频直播技术资源整理](https://www.cnblogs.com/renhui/p/6394988.html)  
