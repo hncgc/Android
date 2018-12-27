@@ -203,6 +203,7 @@ https://developer.qiniu.com/pili/sdk/3734/android-short-video-sdk
 
 视频录制  
 ---
+[Camera](https://www.jianshu.com/p/208b8b6105d8)  
 
 [Android 调用系统应用的方法总结](https://www.jb51.net/article/120715.htm)  
 
