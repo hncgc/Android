@@ -201,6 +201,18 @@ https://developer.qiniu.com/pili/sdk/3734/android-short-video-sdk
 
 [【Android 视频，音频开源框架】](https://blog.csdn.net/da_caoyuan/article/details/73188626)  
 
+视频录制  
+---
+
+[Android录制视频，可限制时长，限大小](https://blog.csdn.net/huideveloper/article/details/52327022)  
+
+[android 设置录制视频的时长与大小限制，超时、超大小时自动停止](https://blog.csdn.net/liubenlong007/article/details/19300395)  
+
+[android之多媒体篇（一）](https://www.cnblogs.com/Free-Thinker/p/3546408.html)  
+
+[android之多媒体篇（二）](https://www.cnblogs.com/Free-Thinker/p/3546412.html)  
+
+[android之多媒体篇（三）](https://www.cnblogs.com/Free-Thinker/p/3546413.html)  
 
 [快速将Android项目发布的JCenter](https://www.jianshu.com/p/748d59aa6567)  
 
@@ -214,5 +226,7 @@ https://developer.qiniu.com/pili/sdk/3734/android-short-video-sdk
 [android.os.Build 常用常量](https://blog.csdn.net/dzkdxyx/article/details/78879521)  
 
 [Android开发-查看设备信息 （android.os.Build）](https://www.jianshu.com/p/2e9e5e60796f)  
+
+[将毫秒 换算成(天 时 分 秒 毫秒)](https://blog.csdn.net/fuxiaohui/article/details/25505823) 
 
 
