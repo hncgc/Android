@@ -40,11 +40,6 @@ https://developer.qiniu.com/pili/sdk/3734/android-short-video-sdk
 [【Android 视频，音频开源框架】](https://blog.csdn.net/da_caoyuan/article/details/73188626)  
 
 
--------------------
-
-Android视频上传与播放
-===
-
 
 
 ------------------------
