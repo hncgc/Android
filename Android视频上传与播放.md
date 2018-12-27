@@ -234,7 +234,7 @@ https://developer.qiniu.com/pili/sdk/3734/android-short-video-sdk
 
 [android 多媒体和相机详解八](https://blog.csdn.net/love_techlive/article/details/70799819)  
 
-[android 多媒体和相机详解发九](https://blog.csdn.net/niu_gao/article/details/7770054)  
+[android 多媒体和相机详解九](https://blog.csdn.net/niu_gao/article/details/7770054)  
 
 [android 多媒体和相机详解十](https://blog.csdn.net/niu_gao/article/details/7782959)  
 
