@@ -35,6 +35,26 @@ Material-Movies
 [Material-Movies](https://github.com/saulmm/Material-Movies)  
 一个高颜值视频播放器  
 
+SurfaceView
+---
+
+[SurfaceView的基本使用](https://www.cnblogs.com/zhangyingai/p/7087371.html)  
+
+[SurfaceView 基础用法](https://blog.csdn.net/zhaoyw2008/article/details/45825069)  
+
+[Android提高第一篇之MediaPlayer](https://blog.csdn.net/hellogv/article/details/5975864)  
+
+[Android提高第二篇之SurfaceView的基本使用](https://blog.csdn.net/hellogv/article/details/5985090)  
+
+[Android SurfaceView使用详解（很好的实战例子）](https://blog.csdn.net/tantion/article/details/81109365)  
+
+[Android中SurfaceView使用详解](https://blog.csdn.net/android_cmos/article/details/68955134)  
+
+[Android -- 多媒体播放之MediaPlayer基础简介](https://blog.csdn.net/csdn_of_coder/article/details/63684353)  
+
+[Android使用MediaPlayer播放视频](https://blog.csdn.net/zhe_ge_sha_shou/article/details/52811973)  
+
+[MediaPlayer播放音频，也可以播放视频](https://blog.csdn.net/dubo_csdn/article/details/81744154)  
 
 Vitamio  
 ---
@@ -205,6 +225,9 @@ https://developer.qiniu.com/pili/sdk/3734/android-short-video-sdk
 
 视频录制  
 ---
+
+[Android Camera 相机开发详解](https://www.jianshu.com/p/7dd2191b4537)  
+
 [Camera](https://www.jianshu.com/p/208b8b6105d8)  
 
 [Android Camera](https://www.jianshu.com/p/1e7ddbd7372f)  
