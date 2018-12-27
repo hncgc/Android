@@ -204,6 +204,8 @@ https://developer.qiniu.com/pili/sdk/3734/android-short-video-sdk
 视频录制  
 ---
 
+[Android 调用系统应用的方法总结](https://www.jb51.net/article/120715.htm)  
+
 [Android录制视频，可限制时长，限大小](https://blog.csdn.net/huideveloper/article/details/52327022)  
 
 [android 设置录制视频的时长与大小限制，超时、超大小时自动停止](https://blog.csdn.net/liubenlong007/article/details/19300395)  
@@ -213,6 +215,8 @@ https://developer.qiniu.com/pili/sdk/3734/android-short-video-sdk
 [android之多媒体篇（二）](https://www.cnblogs.com/Free-Thinker/p/3546412.html)  
 
 [android之多媒体篇（三）](https://www.cnblogs.com/Free-Thinker/p/3546413.html)  
+
+[Android之多媒体编程](https://www.cnblogs.com/jiaowoxiaochen/p/4954388.html)  
 
 ------------------------
 
