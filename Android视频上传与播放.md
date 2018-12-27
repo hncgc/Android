@@ -218,6 +218,29 @@ https://developer.qiniu.com/pili/sdk/3734/android-short-video-sdk
 
 [Android之多媒体编程](https://www.cnblogs.com/jiaowoxiaochen/p/4954388.html)  
 
+[android多媒体和相机详解一](https://www.2cto.com/kf/201205/131766.html)  
+
+[android 多媒体和相机详解二](https://blog.csdn.net/yangxi_pekin/article/details/8493648)  
+
+[android 多媒体和相机详解三](https://blog.csdn.net/love_techlive/article/details/70799745)  
+
+[android 多媒体和相机详解四](https://www.aliyun.com/jiaocheng/112598.html)  
+
+[android 多媒体和相机详解五](https://blog.csdn.net/niu_gao/article/details/7658008)  
+
+[android 多媒体和相机详解六](https://www.2cto.com/kf/201207/138289.html) 
+
+[android 多媒体和相机详解七](https://blog.csdn.net/love_techlive/article/details/70800232)  
+
+[android 多媒体和相机详解八](https://blog.csdn.net/love_techlive/article/details/70799819)  
+
+[android 多媒体和相机详解发九](https://blog.csdn.net/niu_gao/article/details/7770054)  
+
+[android 多媒体和相机详解十](https://blog.csdn.net/niu_gao/article/details/7782959)  
+
+[android 多媒体和相机详解十一](https://blog.csdn.net/niu_gao/article/details/7787209)  
+
+
 ------------------------
 
 [快速将Android项目发布的JCenter](https://www.jianshu.com/p/748d59aa6567)  
