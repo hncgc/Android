@@ -194,6 +194,8 @@ play.startPlay();
 
 ~~~
 
+[Android 跳转系统选择本地视频的功能](https://www.cnblogs.com/widgetbox/p/7503894.html)  
+
 [Android上传附件（图片，视频，文档）](https://www.jianshu.com/p/caca4f68961d)  
 
 [android 选择视频文件 上传到后台服务器](https://blog.csdn.net/d276031034/article/details/52652749)  
