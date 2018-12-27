@@ -240,6 +240,9 @@ https://developer.qiniu.com/pili/sdk/3734/android-short-video-sdk
 
 [android 多媒体和相机详解十一](https://blog.csdn.net/niu_gao/article/details/7787209)  
 
+[Android开发指南(33) —— Multimedia and Camera - Camera](https://www.cnblogs.com/over140/archive/2011/11/16/2251344.html)  
+
+
 
 ------------------------
 
