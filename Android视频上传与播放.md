@@ -209,5 +209,10 @@ https://developer.qiniu.com/pili/sdk/3734/android-short-video-sdk
 [让Gradle放飞你的apk构建](https://www.jianshu.com/p/50134707bc46)  
 
 
+[android.os.Build的一些使用方法](https://blog.csdn.net/ioiol/article/details/45535601)  
+
+[android.os.Build 常用常量](https://blog.csdn.net/dzkdxyx/article/details/78879521)  
+
+[Android开发-查看设备信息 （android.os.Build）](https://www.jianshu.com/p/2e9e5e60796f)  
 
 
