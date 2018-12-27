@@ -8,6 +8,6 @@ Android视频
 
 [Android视频录制](https://github.com/hncgc/Android/blob/master/Video/Android%E8%A7%86%E9%A2%91%E5%BD%95%E5%88%B6.md)  
 
-[]()  
+[Android读取本地视频](https://github.com/hncgc/Android/blob/master/Video/Android%E8%AF%BB%E5%8F%96%E6%9C%AC%E5%9C%B0%E8%A7%86%E9%A2%91.md)  
 
 
