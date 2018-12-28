@@ -11,6 +11,9 @@ Android读取本地视频
 
 [Android Uri获取不到视频文件路径的问题](https://blog.csdn.net/u013450131/article/details/51569426) 
 
+[Android 4.4 前后版本读取图库图片和拍照完美解决方案-获取文件路径](https://blog.csdn.net/zbjdsbj/article/details/42387551)  
+(https://blog.csdn.net/qq_34983989/article/details/78647278)  
+
 [Android之根据Uri获得图片或视频文件路径（解决4.4以上版本得不到路径的情况）](https://blog.csdn.net/jenly121/article/details/48373861)  
 
 
