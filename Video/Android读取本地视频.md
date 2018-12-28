@@ -5,6 +5,9 @@ Android读取本地视频
 
 [Android 跳转系统选择本地视频的功能](https://www.cnblogs.com/widgetbox/p/7503894.html)  
 
+[android uri 解析获取文件真实路径（兼容7.0+）](https://blog.csdn.net/a1018875550/article/details/82957333)  
+
+[Android Uri获取资源文件（多种方式）](https://blog.csdn.net/guang_liang_/article/details/81939898)  
 
 [Android Uri获取不到视频文件路径的问题](https://blog.csdn.net/u013450131/article/details/51569426) 
 
