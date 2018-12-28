@@ -17,6 +17,8 @@
 
 [Android调用相机拍照录视频录音以及存储，7.0以上及以下都可使用](https://blog.csdn.net/haojiagou/article/details/81235574)  
 
+[像微信一样录制视频和音频](https://www.jianshu.com/p/619fca8671a1)  
+
 [android之多媒体篇（一）](https://www.cnblogs.com/Free-Thinker/p/3546408.html)  
 
 [android之多媒体篇（二）](https://www.cnblogs.com/Free-Thinker/p/3546412.html)  
