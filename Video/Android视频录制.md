@@ -18,6 +18,8 @@
 [Android调用相机拍照录视频录音以及存储，7.0以上及以下都可使用](https://blog.csdn.net/haojiagou/article/details/81235574)  
 
 [像微信一样录制视频和音频](https://www.jianshu.com/p/619fca8671a1)  
+GitHub 地址：https://github.com/Werb/MediaUtils  
+也可直接点击下载体验 https://fir.im/cbas  
 
 [android之多媒体篇（一）](https://www.cnblogs.com/Free-Thinker/p/3546408.html)  
 
