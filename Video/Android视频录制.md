@@ -15,6 +15,8 @@
 
 [android 设置录制视频的时长与大小限制，超时、超大小时自动停止](https://blog.csdn.net/liubenlong007/article/details/19300395)  
 
+[Android调用相机拍照录视频录音以及存储，7.0以上及以下都可使用](https://blog.csdn.net/haojiagou/article/details/81235574)  
+
 [android之多媒体篇（一）](https://www.cnblogs.com/Free-Thinker/p/3546408.html)  
 
 [android之多媒体篇（二）](https://www.cnblogs.com/Free-Thinker/p/3546412.html)  
