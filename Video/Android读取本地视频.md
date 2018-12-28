@@ -27,8 +27,8 @@ Android读取本地视频
 [仿微信的图片选择器PictureSelector](https://www.jianshu.com/p/2c1f7e31b74f)  
 https://github.com/arvinljw/PictureSelector  功能：多选、单选、拍照、预览、裁剪、大图、支持7.0
 
-
-
+[Android第三方文件选择器：aFileChooser](https://blog.csdn.net/zhangphil/article/details/51636141)  
+https://github.com/iPaulPro/aFileChoose
 
 视频上传
 ---
