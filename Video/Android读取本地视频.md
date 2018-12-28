@@ -16,7 +16,7 @@ Android读取本地视频
 
 [Android之根据Uri获得图片或视频文件路径（解决4.4以上版本得不到路径的情况）](https://blog.csdn.net/jenly121/article/details/48373861)  
 
-
+[Android studio实现调用相机实现拍照、录像、读取相册并展示在新的页面的功能](https://blog.csdn.net/DiligentTime/article/details/82118452)  
 
 [Picture Selector Library for Android or 多图片选择器](https://github.com/LuckSiege/PictureSelector)  
 
