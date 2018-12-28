@@ -20,6 +20,11 @@
 [像微信一样录制视频和音频](https://www.jianshu.com/p/619fca8671a1)  
 GitHub 地址：https://github.com/Werb/MediaUtils  
 也可直接点击下载体验 https://fir.im/cbas  
+欢迎使用我自己开源的一个 Android 图片选择器
+【PickPhotoView】 Github 地址：https://github.com/Werb/PickPhotoSample
+项目中关于 Android M的权限检查用到了，我的另外一个库
+【PermissionsChecker】Github 地址 ：https://github.com/Werb/PermissionsCheckerSample
+
 
 [android之多媒体篇（一）](https://www.cnblogs.com/Free-Thinker/p/3546408.html)  
 
