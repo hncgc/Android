@@ -107,7 +107,6 @@ GitHub代码地址：https://github.com/lipangit/JiaoZiVideoPlayer
 
 ~~~
 
-
 [Android JieCaoVideoPlayer 使用入门指南](https://blog.csdn.net/yaya_xiong/article/details/75213346)  
 github 地址：JieCaoVideoPlayer: https://github.com/lipangit/JieCaoVideoPlayer  最正宗的  
 
@@ -202,5 +201,14 @@ play.startPlay();
 </LinearLayout>
 
 ~~~
+
+
+[Android:使用VideoView播放本地视频](https://www.jianshu.com/p/910c4764a196)  
+
+[[总结]Android 获取本地视频文件路径并播放的几种方式](https://blog.csdn.net/zung435/article/details/52918139)   
+
+[Android 视频播放器 VideoView 的使用，播放本地视频 和 网络视频](https://blog.csdn.net/github_27263697/article/details/79613225)  
+
+[Android在程序中播放本地视频](https://blog.csdn.net/muzhengjun/article/details/46880815)  
 
 -----------------
