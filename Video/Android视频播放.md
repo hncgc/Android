@@ -85,6 +85,29 @@ GSYVideoPlayer
 
 JieCaoVideoPlayer 节操 (JiaoZiVideoPlayer 饺子)
 ---
+
+[JiaoZiVideoPlayer饺子视频播放器](https://www.jianshu.com/p/93b788615655)  
+GitHub代码地址：https://github.com/lipangit/JiaoZiVideoPlayer  
+
+[JiaoZiVideoPlayer使用说明（持续更新中...）](https://www.jianshu.com/p/4c187a09b838)
+(http://www.imooc.com/article/254593)  
+~~~
+自动播放
+1. myJzvdStd.startButton.performClick();
+2. myJzvdStd.startVideo();
+
+2.播放sd卡下视频
+3.播放assets目录下的视频
+4.直接全屏播放
+5.开启小窗播放
+6.列表Item划出开启小窗播放
+......
+作者：大明小明C
+链接：https://www.jianshu.com/p/4c187a09b838
+
+~~~
+
+
 [Android JieCaoVideoPlayer 使用入门指南](https://blog.csdn.net/yaya_xiong/article/details/75213346)  
 github 地址：JieCaoVideoPlayer: https://github.com/lipangit/JieCaoVideoPlayer  最正宗的  
 
