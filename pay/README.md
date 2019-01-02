@@ -3,7 +3,7 @@ Pay
 
 [支付宝开发指南](https://docs.open.alipay.com/200/)  
 
-[沙箱环境使用说明](https://docs.open.alipay.com/200/105311/)  
+[支付宝沙箱环境使用说明](https://docs.open.alipay.com/200/105311/)  
 ~~~
  1. 生成并上传RSA2(SHA256)的应用公钥，详见生成RSA密钥；配置RSA2(SHA256)的应用公钥后，不需要配置RSA(SHA1)密钥，RSA和RSA2签名算法区别可以参考此处；
       2. 编写代码时，请将
@@ -26,7 +26,7 @@ AES密钥：目前不再使用；
 
 ~~~
 
-
+[支付宝App支付快速接入](https://docs.open.alipay.com/204/105297)  
 
 [Android移动支付（支付宝支付2017最新接入详解）](https://blog.csdn.net/mr_jianrong/article/details/78995580)  
 
