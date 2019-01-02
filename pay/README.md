@@ -4,7 +4,21 @@ Pay
 [支付宝开发指南](https://docs.open.alipay.com/200/)  
 
 [沙箱环境使用说明](https://docs.open.alipay.com/200/105311/)  
+~~~
+ 1. 生成并上传RSA2(SHA256)的应用公钥，详见生成RSA密钥；配置RSA2(SHA256)的应用公钥后，不需要配置RSA(SHA1)密钥，RSA和RSA2签名算法区别可以参考此处；
 
+      2. 编写代码时，请将
+
+          a.请求网关修改为：https://openapi.alipaydev.com/gateway.do
+
+          b.appid切换为沙箱的appid
+
+          c.签名方式使用RSA2
+
+          d.应用私钥使用第1步生成的RSA2(SHA256)的私钥(请根据开发语言进行选择原始或pkcs8格式)
+
+          e.支付宝公钥切换为第1步配置后应用公钥后，点击查看支付宝公钥看到的公钥
+~~~
 
 
 
