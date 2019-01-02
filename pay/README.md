@@ -11,10 +11,28 @@ Pay
 
 [超详细Android接入支付宝支付实现，有图有真相](https://www.jianshu.com/p/2aa2e8748476)  
 
+[Android App支付系列（二）：支付宝SDK接入详细指南(附官方支付demo)](https://www.jb51.net/article/98280.htm)  
+
+[支付宝支付](https://www.aliyun.com/jiaocheng/36063.html)  
+
+
+
+
 
 
 [支付宝支付和微信支付](https://www.jianshu.com/p/66a7fe2effaf)  
 
 
 
+
+
+
+
+
+
+
+
+
+
+[阿里云  >   教程中心  >   Android教程](https://www.aliyun.com/jiaocheng/android?spm=5176.100033.1.3.6fab6aa1Jdym0h)  
 
