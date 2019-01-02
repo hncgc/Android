@@ -1,6 +1,7 @@
 Pay  
 ===
 
+[支付宝开发指南](https://docs.open.alipay.com/200/)  
 
 [Android移动支付（支付宝支付2017最新接入详解）](https://blog.csdn.net/mr_jianrong/article/details/78995580)  
 
