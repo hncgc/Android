@@ -3,6 +3,7 @@ Pay
 
 支付宝官方文档
 ---
+[支付宝开发文档](https://docs.open.alipay.com/catalog)  
 
 [支付宝开发指南](https://docs.open.alipay.com/200/)  
 
