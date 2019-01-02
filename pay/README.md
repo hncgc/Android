@@ -37,6 +37,10 @@ AES密钥：目前不再使用；
 
 [单笔转账到支付宝账户产品介绍(给客户转账)](https://docs.open.alipay.com/309)  
 
+[支付宝支付API](https://docs.open.alipay.com/api)  
+
+[alipay.trade.app.pay(app支付接口2.0)-服务端](https://docs.open.alipay.com/api_1/alipay.trade.app.pay)  
+
 ----------------------
 
 [支付宝Pay，一个类直接搞定](https://blog.csdn.net/woaiheima/article/details/50982851)  
