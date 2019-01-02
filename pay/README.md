@@ -15,7 +15,7 @@ Pay
 
 [支付宝支付](https://www.aliyun.com/jiaocheng/36063.html)  
 
-
+[android 支付宝的植入 《曾经踩过的坑》](https://blog.csdn.net/androidstarjack/article/details/52808705)  
 
 
 
