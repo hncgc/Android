@@ -35,6 +35,8 @@ AES密钥：目前不再使用；
 
 [Android移动支付（支付宝支付2017最新接入详解）](https://blog.csdn.net/mr_jianrong/article/details/78995580)  
 
+[单笔转账到支付宝账户产品介绍(给客户转账)](https://docs.open.alipay.com/309)  
+
 ----------------------
 
 [支付宝Pay，一个类直接搞定](https://blog.csdn.net/woaiheima/article/details/50982851)  
