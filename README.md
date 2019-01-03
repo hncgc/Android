@@ -162,6 +162,6 @@ Android 第三方库
 
 [Pay](https://github.com/hncgc/Android/tree/master/pay)  
 
-[分享](https://github.com/hncgc/Android/blob/master/SharePush.md)  
+[分享与推送](https://github.com/hncgc/Android/blob/master/SharePush.md)  
 
 
