@@ -42,6 +42,28 @@ AES密钥：目前不再使用；
 
 [alipay.trade.app.pay(app支付接口2.0)-服务端](https://docs.open.alipay.com/api_1/alipay.trade.app.pay)  
 
+[开发文档 /  移动支付 /  Android - 旧版本](https://docs.open.alipay.com/59/103662)  
+~~~
+订单支付
+
+方法名称：payTask.pay
+方法原型：PayTask payTask = new PayTask(activity); payTask.pay(orderInfo,true);
+方法功能：提供给商户订单支付功能。
+方法参数： 实例化PayTask，传入参数activity 的实例。
+
+参数名称	参数说明
+String orderInfo	主要包含商户的订单信息，key="value"形式，以&连接。
+boolean isShowPayLoading	用户在商户app内部点击付款，是否需要一个loading做为在钱包唤起之前的过渡，这个值设置为true，将会在调用pay接口的时候直接唤起一个loading，直到唤起H5支付页面或者唤起外部的钱包付款页面loading才消失。（建议将该值设置为true，优化点击付款到支付唤起支付页面的过渡过程。）
+
+获取开发包版本号
+
+方法名称：payTask.getVersion
+方法原型：PayTask payTask = new PayTask(activity); payTask.getVersion();
+方法功能：获取当前开发包版本号。
+方法参数： 实例化PayTask，传入参数activity 的实例。
+返回值： String 类型值，如“2.0.0”。
+~~~
+
 ----------------------
 
 [支付宝Pay，一个类直接搞定](https://blog.csdn.net/woaiheima/article/details/50982851)  
