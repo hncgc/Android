@@ -1,6 +1,14 @@
 Android视频压缩
 ===
 
+[android视频压缩(七牛短视频-转码功能)](https://blog.csdn.net/qq_31796651/article/details/79154072)  
+~~~
+demoApk下载（自己将官方demo打了一个包）：链接:[点击打开链接](https://pan.baidu.com/s/1kVZPqEb) 密码: rxkx
+官网链接：https://developer.qiniu.com/pili/sdk/3734/short-video-android-sdk#6
+sdk下载地址：https://developer.qiniu.com/sdk#official-sdk
+~~~
+
+
 [Android 视频压缩](https://blog.csdn.net/Lamphogani/article/details/80513452)  
 使用开源库SiliCompressor，也是我最终采用的一种方案  
 开源库地址 https://github.com/Tourenathan-G5organisation/SiliCompressor  
