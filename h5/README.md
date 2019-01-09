@@ -1,5 +1,6 @@
 h5
 ===
+[Android/IOS 微信及浏览器（h5）中唤起本地APP，唤起浮层，然后用外部浏览器打开唤起某本地APP](https://www.cnblogs.com/fanbi/p/9221596.html)  
 
 [iOS/Android 浏览器(h5)及微信中唤起本地APP](https://www.cnblogs.com/shadajin/p/5724117.html)  
 
