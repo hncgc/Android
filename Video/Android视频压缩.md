@@ -7,6 +7,8 @@ https://github.com/voiddog/FFmpeg-Android
 [Android本地视频压缩方案](https://www.jianshu.com/p/4f82b058c8ec)  
 开源库：https://github.com/WritingMinds/ffmpeg-android-java  
 
+----------------
+
 [Android视频压缩（硬解）](https://blog.csdn.net/qq_36421691/article/details/79113392)  
 https://github.com/wuxiaoqiang625/VideoCompress  
 
@@ -22,7 +24,7 @@ https://github.com/LuckSiege/PictureSelector
 [VideoCompressor(有progress)](https://github.com/fishwjy/VideoCompressor)  
 https://github.com/fishwjy/VideoCompressor  
 
-
+----------------
 
 [Android 使用自带的MediaCodec 框架进行本地视频压缩，速度嗖嗖的，亲测有效！！！](https://github.com/tangpeng/VideoCompressor)  
 https://github.com/tangpeng/VideoCompressor
