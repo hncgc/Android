@@ -114,6 +114,7 @@ new Thread() {
 
 --------------
 
+
 阿里云帮助文档
 ---
 
@@ -124,6 +125,10 @@ new Thread() {
 [媒体处理](https://help.aliyun.com/product/29194.html?spm=a2c4g.750001.17.3.1b6e7b13RgMKcO)  
 
 [提交转码作业](https://help.aliyun.com/document_detail/29208.html?spm=a2c4g.11174283.3.3.72c0556exHnpCr)  
+
+[Android 短视频SDK](https://help.aliyun.com/document_detail/99289.html?spm=a2c4g.11174283.3.3.6579149bD7j19d)  
+
+
 
 
 --------------
