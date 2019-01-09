@@ -112,6 +112,18 @@ new Thread() {
 
 [Android实现视频硬编码](https://blog.csdn.net/matrix_laboratory/article/details/58237903)  
 
+--------------
+
+阿里云帮助文档
+---
+
+[阿里云帮助文档](https://help.aliyun.com/?spm=5176.8050858.1280361.4.2bb0a1a9LTLtS6)  
+
+[视频点播](https://help.aliyun.com/product/29932.html?spm=a2c4g.750001.17.1.1b6e7b13aoEHbG)  
+
+[媒体处理](https://help.aliyun.com/product/29194.html?spm=a2c4g.750001.17.3.1b6e7b13RgMKcO)  
+
+[提交转码作业](https://help.aliyun.com/document_detail/29208.html?spm=a2c4g.11174283.3.3.72c0556exHnpCr)  
 
 
 --------------
