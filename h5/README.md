@@ -63,6 +63,8 @@ https://blog.csdn.net/vM199zkg3Y7150u5/article/details/79178252
 Shareinstall
 ----  
 
+[Shareinstall文档中心](http://shareinstall.net/document.html)  
+
 [Shareinstall-App推广专家](http://www.shareinstall.com/)  
 
 [我相信这是日后所有移动应用的标准，shareinstall ！！干掉邀请码！！！](https://blog.csdn.net/weixin_42296867/article/details/80568802)  
