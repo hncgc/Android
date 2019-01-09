@@ -13,6 +13,8 @@ github地址：https://github.com/jczmdeveloper/XCVideoCompressor
 ffmpeg命令参数详解：https://segmentfault.com/a/1190000002502526  
 再放一个官网的连接：http://ffmpeg.org/  
 
+[视频录制 视频压缩（使用FFMpeg）Android Video Recorder/Video Compressor ](https://github.com/chenzhihui28/VideoRecorderAndCompressor)  
+https://github.com/chenzhihui28/VideoRecorderAndCompressor
 
 [Android 视频压缩](https://blog.csdn.net/Lamphogani/article/details/80513452)  
 使用开源库SiliCompressor，最终采用的一种方案  
