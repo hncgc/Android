@@ -102,11 +102,6 @@ new Thread() {
      2. 第二个参数是压缩后保存的路径，注意这个地址一定要是你目录中存在的
      
      String path= SiliCompressor.with(activity).compressVideo(videopath ,Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES).getPath());
---------------------- 
-作者：heishuai123 
-来源：CSDN 
-原文：https://blog.csdn.net/heishuai123/article/details/84634834 
-版权声明：本文为博主原创文章，转载请附上博文链接！
 ~~~
 
 --------------
