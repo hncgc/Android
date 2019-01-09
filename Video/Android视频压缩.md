@@ -1,6 +1,21 @@
 Android视频压缩
 ===
 
+[Android 视频压缩](https://blog.csdn.net/Lamphogani/article/details/80513452)  
+使用开源库SiliCompressor，也是我最终采用的一种方案  
+开源库地址 https://github.com/Tourenathan-G5organisation/SiliCompressor  
+~~~
+public static void compressVideo(Context mContext, final String videoPath) {
+    try {
+        String newVideoPath = SiliCompressor.with(mContext).compressVideo(videoPath,
+                new File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES), TAG).getPath(),
+                960, 544, 1000000);
+    } catch (URISyntaxException e) {
+        e.printStackTrace();
+    }
+}
+~~~
+
 [在Android上使用FFmpeg压缩视频](https://www.jianshu.com/p/ceaa286d8aff)  
 https://github.com/voiddog/FFmpeg-Android  
 
