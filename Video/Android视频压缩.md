@@ -2,6 +2,7 @@ Android视频压缩
 ===
 
 [在Android上使用FFmpeg压缩视频](https://www.jianshu.com/p/ceaa286d8aff)  
+https://github.com/voiddog/FFmpeg-Android  
 
 [Android本地视频压缩方案](https://www.jianshu.com/p/4f82b058c8ec)  
 开源库：https://github.com/WritingMinds/ffmpeg-android-java  
