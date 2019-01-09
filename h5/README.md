@@ -60,6 +60,27 @@ https://blog.csdn.net/vM199zkg3Y7150u5/article/details/79178252
 [h5打开APP](https://github.com/hncgc/Android/blob/master/h5/h5%E6%89%93%E5%BC%80APP.txt)  
 
 
+-----------------
+
+[Shareinstall-App推广专家](http://www.shareinstall.com/)  
+
+[我相信这是日后所有移动应用的标准，shareinstall ！！干掉邀请码！！！](https://blog.csdn.net/weixin_42296867/article/details/80568802)  
+
+[APP推广有效手段：友盟和shareinstall的区别！](https://blog.csdn.net/g123tianqi/article/details/81077432)  
+
+[shareinstall与openinstall有什么不同？](https://zhidao.baidu.com/question/430563210556915732.html)  
+
+[Shareinstall实例应用](http://www.mamicode.com/info-detail-2309693.html)  
+
+[创业人现身说法：APP推广离不开Shareinstall](https://cloud.tencent.com/info/810c3311151fbf8399a26874e1feb7cd.html)  
+
+
+
+
+
+[推荐用于移动APP开发的顶级JavaScript框架](https://cloud.tencent.com/info/6ffab3bb2e7fe5ae0955f1124a5dbb60.html)  
+
+
 
 
 
