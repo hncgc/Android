@@ -69,6 +69,46 @@ https://github.com/tangpeng/Filmr
 [Android 集成 FFmpeg (三) 获取 FFmpeg 执行进度](https://blog.csdn.net/yhaolpz/article/details/77146156)  
 
 
+
+[Android从相册选取视频](https://www.cnblogs.com/wzqnxd/p/10011664.html)  
+
+[Android视频压缩并且上传](https://blog.csdn.net/heishuai123/article/details/84634834)
+github链接地址：https://github.com/Tourenathan-G5organisation/SiliCompressor  
+~~~
+new Thread() {
+            @Override
+            public void run() {
+                super.run();
+                try {
+                    /**
+                     * 视频压缩
+                     * 第一个参数:视频源文件路径
+                     * 第二个参数:压缩后视频保存的路径
+                     */
+                    String comPressPath = SiliCompressor.with(getActivity()).compressVideo(filePath, dirPath);
+//                    if (!StringUtil.isEmpty(comPressPath)) {
+//                        notCompressedVideo.setCompressPath(comPressPath);
+//                        compressVideo();
+//                    } else {
+//                        stopCompress("失败");
+//                    }
+                } catch (URISyntaxException e) {
+                    e.printStackTrace();
+                }
+            }
+        }.start();
+        
+注意：1，就是要放到子线程执行
+     2. 第二个参数是压缩后保存的路径，注意这个地址一定要是你目录中存在的
+     
+     String path= SiliCompressor.with(activity).compressVideo(videopath ,Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES).getPath());
+--------------------- 
+作者：heishuai123 
+来源：CSDN 
+原文：https://blog.csdn.net/heishuai123/article/details/84634834 
+版权声明：本文为博主原创文章，转载请附上博文链接！
+~~~
+
 --------------
 
 [完美解决Android 6.0+运行时权限问题](https://www.jianshu.com/p/52795b5dab3a)  
