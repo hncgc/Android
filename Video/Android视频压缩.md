@@ -8,9 +8,14 @@ demoApk下载（自己将官方demo打了一个包）：链接:[点击打开链�
 sdk下载地址：https://developer.qiniu.com/sdk#official-sdk
 ~~~
 
+[android视频压缩：兼容7.0版本(ffmpeg)](https://blog.csdn.net/qq_35373333/article/details/77765605)  
+github地址：https://github.com/jczmdeveloper/XCVideoCompressor  
+ffmpeg命令参数详解：https://segmentfault.com/a/1190000002502526  
+再放一个官网的连接：http://ffmpeg.org/  
+
 
 [Android 视频压缩](https://blog.csdn.net/Lamphogani/article/details/80513452)  
-使用开源库SiliCompressor，也是我最终采用的一种方案  
+使用开源库SiliCompressor，最终采用的一种方案  
 开源库地址 https://github.com/Tourenathan-G5organisation/SiliCompressor  
 ~~~
 public static void compressVideo(Context mContext, final String videoPath) {
