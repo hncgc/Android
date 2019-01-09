@@ -1,6 +1,8 @@
 h5打开APP
 ===
 
+[如何通过JS唤醒APP页面！](https://blog.csdn.net/zhouting9907/article/details/81195046)  
+
 [Android H5判断是否安装app和唤起APP](https://blog.csdn.net/robertcpp/article/details/51324947)  
 
 [h5通过连接打开本地app_以及常见应用的URL Scheme](http://www.fly63.com/article/detial/389)  
