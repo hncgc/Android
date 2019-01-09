@@ -44,7 +44,7 @@ https://blog.csdn.net/vM199zkg3Y7150u5/article/details/79178252
 
 [Webview与H5交互——支持Intput type=”file“属性](https://www.jianshu.com/p/3443e9725f5a)  
 
-
+[APP内嵌H5页面传值方法](https://www.oschina.net/question/931234_2142629)  
 
 -------------
 
