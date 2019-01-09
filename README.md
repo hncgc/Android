@@ -164,4 +164,8 @@ Android 第三方库
 
 [分享与推送](https://github.com/hncgc/Android/blob/master/SharePush.md)  
 
+-----------------
+
+[Android 中.aar文件生成方法与用法](https://blog.csdn.net/fesdgasdgasdg/article/details/76560341)  
+
 
