@@ -19,8 +19,10 @@ https://github.com/tangpeng/Filmr
 [Android 集成 FFmpeg (三) 获取 FFmpeg 执行进度](https://blog.csdn.net/yhaolpz/article/details/77146156)  
 
 
+--------------
 
-
+[完美解决Android 6.0+运行时权限问题](https://www.jianshu.com/p/52795b5dab3a)  
+https://github.com/tangpeng/EsayPermissions
 
 
 
