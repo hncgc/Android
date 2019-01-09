@@ -73,6 +73,7 @@ https://github.com/tangpeng/Filmr
 [Android从相册选取视频](https://www.cnblogs.com/wzqnxd/p/10011664.html)  
 
 [Android视频压缩并且上传](https://blog.csdn.net/heishuai123/article/details/84634834)  
+地址：https://download.csdn.net/download/heishuai123/10816897  
 github链接地址：https://github.com/Tourenathan-G5organisation/SiliCompressor  
 ~~~
 new Thread() {
