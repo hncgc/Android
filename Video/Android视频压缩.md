@@ -107,6 +107,13 @@ new Thread() {
      String path= SiliCompressor.with(activity).compressVideo(videopath ,Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES).getPath());
 ~~~
 
+[Android实现本地视频+录制视频+视频压缩上传](https://blog.csdn.net/weixin_39706415/article/details/84636625)  
+
+
+[Android实现视频硬编码](https://blog.csdn.net/matrix_laboratory/article/details/58237903)  
+
+
+
 --------------
 
 [完美解决Android 6.0+运行时权限问题](https://www.jianshu.com/p/52795b5dab3a)  
