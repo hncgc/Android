@@ -12,3 +12,35 @@ Android 键盘
 [KeyboardView 自定义安全键盘](https://github.com/GitPhoenix/KeyboardView)  
 
 [Keyboard 仿京东，支付宝密码键盘和密码输入框](https://github.com/GitPhoenix/Keyboard)  
+
+
+
+
+-----------------------------
+[EditText的setSelection属性](https://www.aliyun.com/jiaocheng/21703.html)  
+
+[控件EditText的setOnEditorActionListener方法的使用](https://blog.csdn.net/u010041075/article/details/65445043)  
+编辑完之后点击软键盘上的各种键才会触发  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
