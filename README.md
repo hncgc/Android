@@ -78,7 +78,7 @@ Android 第三方库
 
 [Android 指纹识别](https://github.com/hncgc/Android/blob/master/android/Android%E6%8C%87%E7%BA%B9%E8%AF%86%E5%88%AB.md)  
 
-[Android ](https://github.com/hncgc/Android/tree/master/map)  
+[Android 地图](https://github.com/hncgc/Android/tree/master/map)  
 
 ---
 
