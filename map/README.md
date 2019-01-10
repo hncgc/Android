@@ -10,6 +10,8 @@
 
 [地点检索输入提示检索（Sug检索）简介](http://lbsyun.baidu.com/index.php?title=androidsdk/guide/search/suggestion)  
 
+[地理编码（地址转坐标）GeoCoder](http://lbsyun.baidu.com/index.php?title=androidsdk/guide/search/geo)  
+
 [百度地图 API](http://wiki.lbsyun.baidu.com/cms/androidsdk/doc/1025v4.1.1/index.html)  
 
 ----------------------
