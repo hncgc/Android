@@ -54,7 +54,55 @@ https://github.com/LuckSiege/PictureSelector
 [VideoCompressor(有progress)](https://github.com/fishwjy/VideoCompressor)  
 https://github.com/fishwjy/VideoCompressor  
 
+SiliCompressor
+---
+
+[使用开源库SiliCompressor对视频进行压缩处理](https://www.jianshu.com/p/b3b7c73893be)  
+~~~
+<1> 视频压缩压缩视频文件并返回新视频的文件路径
+StringfilePath=SiliCompressor.with(Context).compressVideo(videoPath, destinationDirectory);
+<2> 图片压缩压缩图像并返回新图像的文件路径
+StringfilePath=SiliCompressor.with(Context).compress(imagePath, destinationDirectory);
+压缩图像并在删除源图像时返回新图像的文件路径
+StringfilePath=SiliCompressor.with(Context).compress(imagePath, destinationDirectory,true);
+~~~
+
+[Silicompressor源码学习（一） 基本架构和图片压缩](https://blog.csdn.net/zhang___yong/article/details/79697146)  
+
+[Android 视频压缩](https://blog.csdn.net/lamphogani/article/details/80513452)  
+~~~
+public static void compressVideo(Context mContext, final String videoPath) {
+    try {
+        String newVideoPath = SiliCompressor.with(mContext).compressVideo(videoPath,
+                new File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES), TAG).getPath(),
+                960, 544, 1000000);
+    } catch (URISyntaxException e) {
+        e.printStackTrace();
+    }
+}
+
+~~~
+
+
 ----------------
+
+[Android视频录制与压缩](https://www.jianshu.com/p/cdae476087d4)  
+
+[android 本地视频压缩](https://blog.csdn.net/fangjingjingll/article/details/79808744)  
+~~~
+1.https://download.csdn.net/download/qq_33129625/9901480  （没有整合成功）
+2.http://www.jb51.net/article/133902.htm
+3.https://github.com/chenzhihui28/VideoRecorderAndCompressor
+4.https://blog.csdn.net/qq_31796651/article/details/79154072
+5.https://blog.csdn.net/qq_35373333/article/details/79564991
+
+
+可以用
+https://github.com/jczmdeveloper/XCVideoCompressor  （github）
+https://blog.csdn.net/qq_36421691/article/details/79113392 （整合步骤）
+https://github.com/wuxiaoqiang625/VideoCompress
+
+~~~
 
 [Android 使用自带的MediaCodec 框架进行本地视频压缩，速度嗖嗖的，亲测有效！！！](https://github.com/tangpeng/VideoCompressor)  
 https://github.com/tangpeng/VideoCompressor
