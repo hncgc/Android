@@ -199,9 +199,11 @@ https://github.com/1455364690/Android_LocalDocument
     }
 ~~~
 
+[android获取存储目录(路径)的几种方式和注意事项](https://blog.csdn.net/yan_startwith2015/article/details/77931389)  
 
+[android获取各种系统路径的方法](https://blog.csdn.net/qq_26296197/article/details/51909423)  
 
-
+[android 8.0系统创建文件夹失败](https://blog.csdn.net/liuxiaopang520/article/details/84032595)  
 
 
 
