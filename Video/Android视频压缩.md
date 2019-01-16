@@ -184,9 +184,20 @@ new Thread() {
 [完美解决Android 6.0+运行时权限问题](https://www.jianshu.com/p/52795b5dab3a)  
 https://github.com/tangpeng/EsayPermissions
 
-
-
-
+[Android创建本地文件夹、创建本地文件以及访问本地文件](https://blog.csdn.net/s1455364690/article/details/79477536)  
+https://github.com/1455364690/Android_LocalDocument  
+~~~
+    public void newDirectory(String _path,String dirName){
+        File file = new File(_path+"/"+dirName);
+        try {
+            if (!file.exists()) {
+                file.mkdir();
+            }
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+    }
+~~~
 
 
 
