@@ -169,4 +169,6 @@ Android 第三方库
 
 [Android 中.aar文件生成方法与用法](https://blog.csdn.net/fesdgasdgasdg/article/details/76560341)  
 
+[免填邀请码安装](https://www.openinstall.io/invitation.html)  
+https://www.openinstall.io/doc/index.html  
 
