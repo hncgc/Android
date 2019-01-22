@@ -205,6 +205,9 @@ https://github.com/1455364690/Android_LocalDocument
 
 [android 8.0系统创建文件夹失败](https://blog.csdn.net/liuxiaopang520/article/details/84032595)  
 
+--------------------------
+
+[Android 写文件,及手机和SD卡根目录](https://www.cnblogs.com/onone/articles/6496047.html)  
 
 
 
