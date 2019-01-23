@@ -209,5 +209,34 @@ https://github.com/1455364690/Android_LocalDocument
 
 [Android 写文件,及手机和SD卡根目录](https://www.cnblogs.com/onone/articles/6496047.html)  
 
+[android 删除整个文件夹里面的文件](https://blog.csdn.net/m940034240/article/details/76473770)  
+~~~
+使用时记得添加操作文件的权限！
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+<uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+<uses-permission android:name="android.permission.WRITE_MEDIA_STORAGE" />
+
+//flie：要删除的文件夹的所在位置
+private void deleteFile(File file) {
+    if (file.isDirectory()) {
+        File[] files = file.listFiles();
+        for (int i = 0; i < files.length; i++) {
+            File f = files[i];
+            deleteFile(f);
+        }
+        file.delete();//如要保留文件夹，只删除文件，请注释这行
+    } else if (file.exists()) {
+        file.delete();
+    }
+}
+~~~
+
+[Android删除文件夹（文件夹以及文件夹下所有的文件）](https://www.cnblogs.com/zhangfeitao/p/6733872.html)  
+
+[java android 删除文件和文件夹的函数__函数](https://yq.aliyun.com/ziliao/276447)  
+
+
+
+
 
 
