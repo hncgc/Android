@@ -80,6 +80,8 @@ Android 第三方库
 
 [Android 地图](https://github.com/hncgc/Android/tree/master/map)  
 
+[SeekBar](https://github.com/hncgc/Android/tree/master/SeekBar)  
+
 ---
 
 [MVP专题](https://github.com/hncgc/Android/blob/master/android/MVP%E4%B8%93%E9%A2%98.md)  
