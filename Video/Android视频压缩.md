@@ -235,8 +235,8 @@ private void deleteFile(File file) {
 
 [java android 删除文件和文件夹的函数__函数](https://yq.aliyun.com/ziliao/276447)  
 
+[android 获取本地缓存文件大小，删除功能](https://blog.csdn.net/huang15984/article/details/53103146)  
 
-
-
+[android 获取文件夹、文件的大小 以B、KB、MB、GB 为单位](https://blog.csdn.net/qq_34329508/article/details/55101635)  
 
 
