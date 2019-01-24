@@ -205,7 +205,28 @@ https://github.com/1455364690/Android_LocalDocument
 
 [android 8.0系统创建文件夹失败](https://blog.csdn.net/liuxiaopang520/article/details/84032595)  
 
---------------------------
+
+Android 清除缓存
+===
+
+[Android 清除第三方应用的数据缓存实现（包括清除系统应用缓存）](https://blog.csdn.net/lnn368/article/details/52684122)  
+
+[Android中应用程序清除data/data，清除cache，超详细](https://blog.csdn.net/blueangle17/article/details/79992490)  
+
+[Android 清理app所有缓存](https://blog.csdn.net/m940034240/article/details/78741308)  
+~~~
+ActivityManager manager = (ActivityManager)getSystemService(Context.ACTIVITY_SERVICE);
+manager.clearApplicationUserData();
+~~~
+
+[Android 手机app缓存清理实现](https://blog.csdn.net/qq_26296197/article/details/79290277)  
+
+[android 获取本地缓存文件大小，删除功能](https://blog.csdn.net/huang15984/article/details/53103146)  
+
+[android获取缓存大小和清除缓存](https://www.cnblogs.com/guilin-hu/p/5620758.html)  
+
+[Android清除缓存、清除数据](https://blog.csdn.net/baidu_30084597/article/details/79692299)  
+
 
 [Android 写文件,及手机和SD卡根目录](https://www.cnblogs.com/onone/articles/6496047.html)  
 
@@ -234,8 +255,6 @@ private void deleteFile(File file) {
 [Android删除文件夹（文件夹以及文件夹下所有的文件）](https://www.cnblogs.com/zhangfeitao/p/6733872.html)  
 
 [java android 删除文件和文件夹的函数__函数](https://yq.aliyun.com/ziliao/276447)  
-
-[android 获取本地缓存文件大小，删除功能](https://blog.csdn.net/huang15984/article/details/53103146)  
 
 [android 获取文件夹、文件的大小 以B、KB、MB、GB 为单位](https://blog.csdn.net/qq_34329508/article/details/55101635)  
 
@@ -305,10 +324,6 @@ getFilesDir() = /data/data/com.my.app/files
 [Android中通过Exif-ExifInterface获取图片的相关信息，并且在图片上添加获取到的信息将图片展示出来](https://blog.csdn.net/liu_jing_hui/article/details/62416876)  
 
 [Android之exif格式 ExifInterface](https://www.jianshu.com/p/18eaa4f8c58a)  
-
-
-
-
 
 
 
