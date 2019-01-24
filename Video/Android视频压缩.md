@@ -209,6 +209,14 @@ https://github.com/1455364690/Android_LocalDocument
 Android 清除缓存
 ===
 
+~~~
+缓存位置
+context.getExternalCacheDir().getAbsolutePath()
+/storage/emulated/0/Android/data/包名/cache
+~~~
+
+[Android 不Root查看App /data/data/目录文件](https://blog.csdn.net/TE28093163/article/details/78684712)  
+
 [Android 清除第三方应用的数据缓存实现（包括清除系统应用缓存）](https://blog.csdn.net/lnn368/article/details/52684122)  
 
 [Android中应用程序清除data/data，清除cache，超详细](https://blog.csdn.net/blueangle17/article/details/79992490)  
@@ -324,7 +332,5 @@ getFilesDir() = /data/data/com.my.app/files
 [Android中通过Exif-ExifInterface获取图片的相关信息，并且在图片上添加获取到的信息将图片展示出来](https://blog.csdn.net/liu_jing_hui/article/details/62416876)  
 
 [Android之exif格式 ExifInterface](https://www.jianshu.com/p/18eaa4f8c58a)  
-
-
 
 
