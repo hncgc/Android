@@ -300,11 +300,11 @@ getFilesDir() = /data/data/com.my.app/files
 
 
 
+[Android相机拍照方向旋转的解决方案：ExifInterface](https://www.jianshu.com/p/95cd95e961d7)  
 
+[Android中通过Exif-ExifInterface获取图片的相关信息，并且在图片上添加获取到的信息将图片展示出来](https://blog.csdn.net/liu_jing_hui/article/details/62416876)  
 
-
-
-
+[Android之exif格式 ExifInterface](https://www.jianshu.com/p/18eaa4f8c58a)  
 
 
 
