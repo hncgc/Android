@@ -240,3 +240,50 @@ private void deleteFile(File file) {
 [android 获取文件夹、文件的大小 以B、KB、MB、GB 为单位](https://blog.csdn.net/qq_34329508/article/details/55101635)  
 
 
+[Android笔记:存储相关,getExternalCacheDir, getExternalFilesDir,getExternalStorageDirectory等](http://blog.51cto.com/glblong/1699245)  
+~~~
+File cacheDir = mContext.getExternalCacheDir();
+if(null != cacheDir){
+   mCacheDirPath = cacheDir.getAbsolutePath() + "/images/";
+}
+
+
+if(TextUtils.isEmpty(mCacheDirPath)){
+   if(Environment.MEDIA_MOUNTED.equals(Environment.getExternalStorageState())){
+      mCacheDirPath = Environment.getExternalStorageDirectory().getPath() + "/Android/data/com.meiyaapp.meiya/cache/images/";
+   }else{
+      Toast.makeText(mContext,"SD卡状态错误,请调整后重试哦。",Toast.LENGTH_SHORT).show();
+   }
+}
+~~~
+
+[getExternalCacheDir getCacheDir getExternalStorageDirectory 区别](https://blog.csdn.net/LOLYIKU/article/details/81628771)  
+
+~~~
+记录下：
+
+File externalCacheDir = getExternalCacheDir();
+File cacheDir = getCacheDir();
+File externalStorageDirectory = Environment.getExternalStorageDirectory();
+这个三个文件，getAbsolutePath（）之后，获取绝对路径；
+
+1）getExternalCacheDir()；一般文件路径： /storage/emulated/0/Android/data/com.common.dn_jni_lsn9/cache
+
+2）getCacheDir()；一般路径：/data/user/0/com.common.dn_jni_lsn9/cache
+
+3）getExternalStorageDirectory()；一般路劲：/storage/emulated/0
+
+相对而言，SD卡存在的时候，作为Android开发人员，应该把自己的文件操作，在第一个的相对的目录下，因为这个目录下操作，当当前App卸载的时候，也会随着清理掉；当SD卡不存在用第二种也会被清掉；第三种这里只是比对下，路径就是sd卡根目录，如果你在这个里面直接新建文件是不会被清理掉的，不建议使用；
+
+了解更多参考：https://blog.csdn.net/a910626/article/details/51470866这里有一些不常用的路径，应用开发没有特殊需求，几乎不用；
+~~~
+
+
+
+
+
+
+
+
+
+
