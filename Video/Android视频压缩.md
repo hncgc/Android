@@ -271,12 +271,38 @@ File externalStorageDirectory = Environment.getExternalStorageDirectory();
 
 2）getCacheDir()；一般路径：/data/user/0/com.common.dn_jni_lsn9/cache
 
-3）getExternalStorageDirectory()；一般路劲：/storage/emulated/0
+3）getExternalStorageDirectory()；一般路径：/storage/emulated/0
 
 相对而言，SD卡存在的时候，作为Android开发人员，应该把自己的文件操作，在第一个的相对的目录下，因为这个目录下操作，当当前App卸载的时候，也会随着清理掉；当SD卡不存在用第二种也会被清掉；第三种这里只是比对下，路径就是sd卡根目录，如果你在这个里面直接新建文件是不会被清理掉的，不建议使用；
 
 了解更多参考：https://blog.csdn.net/a910626/article/details/51470866这里有一些不常用的路径，应用开发没有特殊需求，几乎不用；
 ~~~
+
+[getCacheDir()、getFilesDir()、getExternalFilesDir()、getExternalCacheDir()的作用](https://blog.csdn.net/a910626/article/details/51470866)  
+~~~
+Environment.getDataDirectory() = /data
+Environment.getDownloadCacheDirectory() = /cache
+Environment.getExternalStorageDirectory() = /mnt/sdcard
+Environment.getExternalStoragePublicDirectory(“test”) = /mnt/sdcard/test
+Environment.getRootDirectory() = /system
+getPackageCodePath() = /data/app/com.my.app-1.apk
+getPackageResourcePath() = /data/app/com.my.app-1.apk
+getCacheDir() = /data/data/com.my.app/cache
+getDatabasePath(“test”) = /data/data/com.my.app/databases/test
+getDir(“test”, Context.MODE_PRIVATE) = /data/data/com.my.app/app_test
+getExternalCacheDir() = /mnt/sdcard/Android/data/com.my.app/cache
+getExternalFilesDir(“test”) = /mnt/sdcard/Android/data/com.my.app/files/test
+getExternalFilesDir(null) = /mnt/sdcard/Android/data/com.my.app/files
+getFilesDir() = /data/data/com.my.app/files
+~~~
+
+[Android 缓存目录 Context.getExternalFilesDir()和Context.getExternalCacheDir()方法](https://blog.csdn.net/zhaoyanjun6/article/details/72283289)  
+
+
+
+
+
+
 
 
 
