@@ -199,12 +199,13 @@ https://www.openinstall.io/doc/index.html
 
 [Android应用闪退异常java.lang.RuntimeException: Unable to instantiate application](https://blog.csdn.net/lijueqing/article/details/80854823)  
 
+[MultiDex后java.lang.NoClassDefFoundError异常解决](https://blog.csdn.net/m00123456789/article/details/60767351)  
 
+[android.dexOptions.incremental属性已被弃用](https://www.jianshu.com/p/da861a89ade7)  
 
+[Android报unable to instantiate application怎么解决？](https://www.aliyun.com/jiaocheng/53238.html)  
 
-
-
-
+[OS--›Gradle3.3 修改APK生成路径和文件名(附AAR修改方式以及分析过程)](https://blog.csdn.net/angcyo/article/details/78357512)  
 
 
 
