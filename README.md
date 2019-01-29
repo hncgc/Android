@@ -184,3 +184,27 @@ https://www.openinstall.io/doc/index.html
 
 [Android组件化之不同模块间 交互（activity互相跳转，数据互相传递，互相调用函数）](https://blog.csdn.net/gaolei1201/article/details/77601027)  
 
+--------------------------------------
+
+
+[Unable to instantiate application 解决办法](https://blog.csdn.net/adobe2000/article/details/78262960)  
+
+[Android打包生成的APK安装包，安装后一打开软件就闪退问题](https://blog.csdn.net/rabbit_ding0810/article/details/78260374)  
+
+[Android java.io.IOException异常情况整理](https://blog.csdn.net/zhufuing/article/details/38312441)  
+
+[Android版本兼容性问题](https://blog.csdn.net/calvin_zhou/article/details/78466800)  
+
+[android 调试崩溃Unable to instantiate application的解决方法](https://www.2cto.com/kf/201803/725461.html)  
+
+
+
+
+
+
+
+
+
+
+
+
