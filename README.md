@@ -197,7 +197,7 @@ https://www.openinstall.io/doc/index.html
 
 [android 调试崩溃Unable to instantiate application的解决方法](https://www.2cto.com/kf/201803/725461.html)  
 
-
+[Android应用闪退异常java.lang.RuntimeException: Unable to instantiate application](https://blog.csdn.net/lijueqing/article/details/80854823)  
 
 
 
