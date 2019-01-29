@@ -174,3 +174,13 @@ Android 第三方库
 [免填邀请码安装](https://www.openinstall.io/invitation.html)  
 https://www.openinstall.io/doc/index.html  
 
+
+
+[今日头条屏幕适配方案终极版，一个极低成本的 Android 屏幕适配方案](https://github.com/JessYanCoding/AndroidAutoSize)  
+
+[Android Studio引用另一个模块module的方法](https://blog.csdn.net/lyf970419/article/details/80762821)  
+
+[java（Android）跨Module调用对应类方法需求解决方案](https://blog.csdn.net/sunlit_6/article/details/80942137)  
+
+[Android组件化之不同模块间 交互（activity互相跳转，数据互相传递，互相调用函数）](https://blog.csdn.net/gaolei1201/article/details/77601027)  
+
