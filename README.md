@@ -208,4 +208,22 @@ https://www.openinstall.io/doc/index.html
 [OS--›Gradle3.3 修改APK生成路径和文件名(附AAR修改方式以及分析过程)](https://blog.csdn.net/angcyo/article/details/78357512)  
 
 
+[Android项目该如何选择targetSdkVersion](https://blog.csdn.net/zhangjin12312/article/details/78211328)  
+~~~
+compileSdkVersion定义应用程序编译选择哪个Android SDK版本，通常compileSDKVersion属性值被设置为最新的API版本
+compileSDKVersion的属性值不会影响Android系统运行行为
+targetSdkVersion、minSdkVersion和CompileSdkVersion之间的关系:
+Android系统平台的行为变更，只有targetSdkVersion的属性值被设置为大于或等于该系统平台的API版本时，才会生效；compileSdkVersion属于Android编译项目时其中的一项配置，主要区别是compileSDKVersion在不会被打包的APK文件中，targetSdkVersion和minSdkVersion将被打包到APK文件中，具体可以解压APK文件后，查看AndroidManifest.xml文件
+minSdkVersion <= targetSdkVersion <= compileSdkVersion
+~~~
+
+[Android targetSdkVersion你真的了解吗？](https://blog.csdn.net/qq_23062979/article/details/81294550)  
+
+
+
+
+
+
+
+
 
