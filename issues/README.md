@@ -76,7 +76,7 @@ minSdkVersion <= targetSdkVersion <= compileSdkVersion
 
 [android studio去除重复依赖](https://www.csdn.net/gather_20/MtTakg2sOTg0MC1ibG9n.html)  
 
-
+[AndroidStudio添加多依赖导致依赖重复的解决办法](https://blog.csdn.net/zhang721677/article/details/79752433)  
 
 
 
