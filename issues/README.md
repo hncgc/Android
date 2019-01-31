@@ -11,3 +11,4 @@ Issues
 
 [Android系统进程Zygote启动过程的源代码分析](https://blog.csdn.net/luoshengyang/article/details/6768304)  
 
+[Android Multidex正确使用方式（你可能也会遇到的坑）](https://www.jianshu.com/p/78f2e2d9484a)  
