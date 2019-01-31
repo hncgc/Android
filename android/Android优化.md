@@ -24,17 +24,34 @@ Android App优化系列
 
 [10.Android App优化之如何高效网络请求](https://www.jianshu.com/p/d4c2c62ffc35)  
 
-[App性能优化系列结语篇](http://blog.lmj.wiki/2016/11/06/app-opti/app_opt_summary/)  
-
+性能优化
 ---
 
+[App性能优化系列结语篇](http://blog.lmj.wiki/2016/11/06/app-opti/app_opt_summary/)  
 
 [小细节，大用途，35 个 Java 代码性能优化总结！](https://segmentfault.com/p/1210000008638186/read)  
 
 [Android的性能优化](http://www.jianshu.com/p/be05874965d4)  
 
+去除重复依赖
+---
+[android studio去除重复依赖](https://www.csdn.net/gather_20/MtTakg2sOTg0MC1ibG9n.html)  
+
+[AndroidStudio添加多依赖导致依赖重复的解决办法](https://blog.csdn.net/zhang721677/article/details/79752433)  
+
+
+去除无用资源
+---
 [Android APK瘦身经验总结](http://www.jianshu.com/p/bfe44ef18aca)  
 AndResGuard: https://github.com/shwenzhang/AndResGuard
+
+[Android Studio 检查并去除无用资源文件](https://www.jianshu.com/p/51da2d4492e1)  
+~~~
+Analyze --> run inspaction by Name ...
+在弹出的搜索窗口中输入想执行的检查类型，如“Unused Resources”。不必全部输入就应该自动找到
+点击后会弹出“inspaction scope”选择窗口
+inspaction scope 可以设置文件过滤，选择好后点ok就开始检查
+~~~
 
 [android之as自动化删除无用资源为apk瘦身](http://blog.csdn.net/zhongwn/article/details/52769927)  
 
