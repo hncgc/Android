@@ -9,3 +9,14 @@ Photo
 [Android 拍照或从相册取图片并裁剪](http://www.cnblogs.com/w-y-f/p/4028379.html)  
 https://github.com/ryanhoo/PhotoCropper
 
+
+PhotoUpload  
+---
+http://www.cnblogs.com/zhuyuliang/
+
+Android - Camera
+http://www.tutorialspoint.com/android/android_camera.htm
+
+Android文件图片上传的详细讲解（一）HTTP multipart/form-data 上传报文格式实现手机端上传
+http://topmanopensource.iteye.com/blog/1605238
+
