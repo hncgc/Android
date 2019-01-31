@@ -21,4 +21,4 @@ Android 官方文档
 
 [Java API](https://docs.oracle.com/javase/7/docs/api/)  
 
-[Developers ](https://developer.android.google.cn/)  
+[Developers 中文](https://developer.android.google.cn/)  
