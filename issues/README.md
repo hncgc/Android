@@ -71,6 +71,10 @@ minSdkVersion <= targetSdkVersion <= compileSdkVersion
 
 [Android targetSdkVersion你真的了解吗？](https://blog.csdn.net/qq_23062979/article/details/81294550)  
 
+去除重复依赖
+---
+
+[Android Gradle依赖管理、去除重复依赖、忽略](https://blog.csdn.net/wapchief/article/details/84974219)  
 
 [Android Studio 引用第三方包时，com.android.support 因版本冲突问题](https://blog.csdn.net/qq_34983989/article/details/82746642)  
 
