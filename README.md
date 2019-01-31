@@ -155,6 +155,9 @@ Android 第三方库
 
 ---
 
+[Issues](https://github.com/hncgc/Android/tree/master/issues)  
+
+
 [other](https://github.com/hncgc/Android/blob/master/android/other.md)  
 
 [直播平台](https://github.com/hncgc/Android/blob/master/%E7%9B%B4%E6%92%AD%E5%B9%B3%E5%8F%B0.md)  
@@ -175,52 +178,9 @@ Android 第三方库
 https://www.openinstall.io/doc/index.html  
 
 
-
 [今日头条屏幕适配方案终极版，一个极低成本的 Android 屏幕适配方案](https://github.com/JessYanCoding/AndroidAutoSize)  
 
-[Android Studio引用另一个模块module的方法](https://blog.csdn.net/lyf970419/article/details/80762821)  
-
-[java（Android）跨Module调用对应类方法需求解决方案](https://blog.csdn.net/sunlit_6/article/details/80942137)  
-
-[Android组件化之不同模块间 交互（activity互相跳转，数据互相传递，互相调用函数）](https://blog.csdn.net/gaolei1201/article/details/77601027)  
-
 --------------------------------------
-
-
-[Unable to instantiate application 解决办法](https://blog.csdn.net/adobe2000/article/details/78262960)  
-
-[Android打包生成的APK安装包，安装后一打开软件就闪退问题](https://blog.csdn.net/rabbit_ding0810/article/details/78260374)  
-
-[Android java.io.IOException异常情况整理](https://blog.csdn.net/zhufuing/article/details/38312441)  
-
-[Android版本兼容性问题](https://blog.csdn.net/calvin_zhou/article/details/78466800)  
-
-[android 调试崩溃Unable to instantiate application的解决方法](https://www.2cto.com/kf/201803/725461.html)  
-
-[Android应用闪退异常java.lang.RuntimeException: Unable to instantiate application](https://blog.csdn.net/lijueqing/article/details/80854823)  
-
-[MultiDex后java.lang.NoClassDefFoundError异常解决](https://blog.csdn.net/m00123456789/article/details/60767351)  
-
-[android.dexOptions.incremental属性已被弃用](https://www.jianshu.com/p/da861a89ade7)  
-
-[Android报unable to instantiate application怎么解决？](https://www.aliyun.com/jiaocheng/53238.html)  
-
-[OS--›Gradle3.3 修改APK生成路径和文件名(附AAR修改方式以及分析过程)](https://blog.csdn.net/angcyo/article/details/78357512)  
-
-
-[Android项目该如何选择targetSdkVersion](https://blog.csdn.net/zhangjin12312/article/details/78211328)  
-~~~
-compileSdkVersion定义应用程序编译选择哪个Android SDK版本，通常compileSDKVersion属性值被设置为最新的API版本
-compileSDKVersion的属性值不会影响Android系统运行行为
-targetSdkVersion、minSdkVersion和CompileSdkVersion之间的关系:
-Android系统平台的行为变更，只有targetSdkVersion的属性值被设置为大于或等于该系统平台的API版本时，才会生效；compileSdkVersion属于Android编译项目时其中的一项配置，主要区别是compileSDKVersion在不会被打包的APK文件中，targetSdkVersion和minSdkVersion将被打包到APK文件中，具体可以解压APK文件后，查看AndroidManifest.xml文件
-minSdkVersion <= targetSdkVersion <= compileSdkVersion
-~~~
-
-[Android targetSdkVersion你真的了解吗？](https://blog.csdn.net/qq_23062979/article/details/81294550)  
-
-
-[Issues](https://github.com/hncgc/Android/tree/master/issues)  
 
 
 
