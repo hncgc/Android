@@ -1,6 +1,8 @@
 Issues
 ===
 
+OOM
+---
 [Fixing issues with Multidex on pre-lollipop devices on Windows](https://www.jimbobbennett.io/fixing-issues-with-multidex-on-pre-lollipop-devices-on-windows/)  
 
 [什么是OOM？如何解决OOM问题!](https://www.jianshu.com/p/41ffbf31b20c)  
@@ -11,10 +13,8 @@ Issues
 
 [Android系统进程Zygote启动过程的源代码分析](https://blog.csdn.net/luoshengyang/article/details/6768304)  
 
-[Android Multidex正确使用方式（你可能也会遇到的坑）](https://www.jianshu.com/p/78f2e2d9484a)  
 
----------------------
-
+--------
 
 [Android Studio引用另一个模块module的方法](https://blog.csdn.net/lyf970419/article/details/80762821)  
 
@@ -22,10 +22,23 @@ Issues
 
 [Android组件化之不同模块间 交互（activity互相跳转，数据互相传递，互相调用函数）](https://blog.csdn.net/gaolei1201/article/details/77601027)  
 
-----------------------
 
+
+
+Multidex
+---
+
+[Android Multidex正确使用方式（你可能也会遇到的坑）](https://www.jianshu.com/p/78f2e2d9484a)  
+
+
+[如何解决java.io.IOException：找不到dex位置的原始dex文件？](https://cloud.tencent.com/developer/ask/192762)  
 
 [Unable to instantiate application 解决办法](https://blog.csdn.net/adobe2000/article/details/78262960)  
+
+[安卓- apk安装出现闪退java.lang.RuntimeException: Unable to instantiate application](https://blog.csdn.net/daxue_haha/article/details/76919120)  
+
+[Android Apk包安装应用闪退，出现 java.lang.RuntimeException Unable to instantiate application Caused by: java](https://blog.csdn.net/wjr1949/article/details/80493051)  
+
 
 [Android打包生成的APK安装包，安装后一打开软件就闪退问题](https://blog.csdn.net/rabbit_ding0810/article/details/78260374)  
 
@@ -45,6 +58,7 @@ Issues
 
 [OS--›Gradle3.3 修改APK生成路径和文件名(附AAR修改方式以及分析过程)](https://blog.csdn.net/angcyo/article/details/78357512)  
 
+---------------------
 
 [Android项目该如何选择targetSdkVersion](https://blog.csdn.net/zhangjin12312/article/details/78211328)  
 ~~~
@@ -56,3 +70,19 @@ minSdkVersion <= targetSdkVersion <= compileSdkVersion
 ~~~
 
 [Android targetSdkVersion你真的了解吗？](https://blog.csdn.net/qq_23062979/article/details/81294550)  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
