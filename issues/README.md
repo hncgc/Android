@@ -84,10 +84,15 @@ minSdkVersion <= targetSdkVersion <= compileSdkVersion
 
 [Android Studio/Gradle/重复依赖](https://blog.csdn.net/u014587769/article/details/71214973)  
 
+[gradle 编译忽略警告](https://blog.csdn.net/dounine/article/details/64129415)  
 
-
-
-
+[android studio 解决重复依赖的问题](https://blog.csdn.net/xzp297988064/article/details/70708434)  
+~~~
+在build.gradle里面添加上
+configurations {
+　　all*.exclude group: 'com.android.support', module: 'support-v4'
+}
+~~~
 
 
 
