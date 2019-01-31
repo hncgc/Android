@@ -12,4 +12,6 @@ Android视频
 
 [Android视频压缩](https://github.com/hncgc/Android/blob/master/Video/Android%E8%A7%86%E9%A2%91%E5%8E%8B%E7%BC%A9.md)  
 
-[直播平台](https://github.com/hncgc/Android/blob/master/%E7%9B%B4%E6%92%AD%E5%B9%B3%E5%8F%B0.md)
+[直播平台](https://github.com/hncgc/Android/blob/master/%E7%9B%B4%E6%92%AD%E5%B9%B3%E5%8F%B0.md)  
+
+[Photo](https://github.com/hncgc/Android/blob/master/Video/Photo.md)  
