@@ -94,6 +94,27 @@ configurations {
 }
 ~~~
 
+[【android】Gradle配置之ResolutionStrategy](https://www.jianshu.com/p/0a60a78648bf)  
+~~~
+比如统一替换SupportVersion版本
+configurations.all {
+    resolutionStrategy.eachDependency { DependencyResolveDetails details ->
+        def requested = details.requested
+        if (requested.group == 'com.android.support') {
+            if (!requested.name.startsWith("multidex")) {
+                details.useVersion SupportVersion
+            }
+        }
+    }
+}
+~~~
+
+
+
+
+
+
+
 
 
 
