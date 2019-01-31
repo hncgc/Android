@@ -78,7 +78,7 @@ minSdkVersion <= targetSdkVersion <= compileSdkVersion
 
 [AndroidStudio添加多依赖导致依赖重复的解决办法](https://blog.csdn.net/zhang721677/article/details/79752433)  
 
-
+[Android Studio/Gradle/重复依赖](https://blog.csdn.net/u014587769/article/details/71214973)  
 
 
 
