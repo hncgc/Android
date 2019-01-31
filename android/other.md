@@ -172,16 +172,6 @@ https://github.com/MZCretin/AutoUpdateProject
 [Groovy](http://baike.baidu.com/link?url=OJLu44SO9onNCWpsm7zl_uDGWYvnK-M_e0PmUB6g_FgBVj153PeYvSslVfU6HDOq8rhT04M5ujLRjSXtQqiRhq)  
 [List of Android UI/UX Libraries](https://github.com/wasabeef/awesome-android-ui)  
 
-PhotoUpload  
----
-http://www.cnblogs.com/zhuyuliang/
-
-Android - Camera
-http://www.tutorialspoint.com/android/android_camera.htm
-
-Android文件图片上传的详细讲解（一）HTTP multipart/form-data 上传报文格式实现手机端上传
-http://topmanopensource.iteye.com/blog/1605238
-
 Android SnackBar
 http://blog.csdn.net/jdsjlzx/article/details/46892363
 还在用Toast？你Out啦，试试Snackbar吧！
@@ -546,13 +536,6 @@ http://blog.csdn.net/lk_blog/article/details/7685169
     compile 'com.github.ksoichiro:android-observablescrollview:1.5.1'
 
 [Android Studio实用指南](http://yuedu.baidu.com/ebook/31beb61a9b6648d7c1c746e8)  
-
-[拍照、相册及裁剪的终极实现（一）——拍照及裁剪功能实现](http://blog.csdn.net/harvic880925/article/details/43163175)  
-
-[拍照、相册及裁剪的终极实现（二）——相册选择及裁剪功能实现](http://blog.csdn.net/harvic880925/article/details/43314451)  
-
-[Android 拍照或从相册取图片并裁剪](http://www.cnblogs.com/w-y-f/p/4028379.html)  
-https://github.com/ryanhoo/PhotoCropper
 
 Java MessageDigest类
 ---
