@@ -86,6 +86,8 @@ GSYVideoPlayer
 JieCaoVideoPlayer 节操 (JiaoZiVideoPlayer 饺子)
 ---
 
+[饺子播放API](https://github.com/lipangit/JiaoZiVideoPlayer/wiki)  
+
 [JiaoZiVideoPlayer饺子视频播放器](https://www.jianshu.com/p/93b788615655)  
 GitHub代码地址：https://github.com/lipangit/JiaoZiVideoPlayer  
 
@@ -101,10 +103,6 @@ GitHub代码地址：https://github.com/lipangit/JiaoZiVideoPlayer
 4.直接全屏播放
 5.开启小窗播放
 6.列表Item划出开启小窗播放
-......
-作者：大明小明C
-链接：https://www.jianshu.com/p/4c187a09b838
-
 ~~~
 
 [Android JieCaoVideoPlayer 使用入门指南](https://blog.csdn.net/yaya_xiong/article/details/75213346)  
