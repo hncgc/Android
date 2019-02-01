@@ -322,6 +322,6 @@ https://www.jetbrains.com/help/idea/2016.1/live-template-variables.html#predefin
 
 [如何判断一个fragment是否显示](https://blog.csdn.net/zhhr1122/article/details/85077973)  
 
+[判断Fragment是否对用户可见](https://www.jianshu.com/p/a9da7297e9d3)  
 
-
-
+[Android ViewPager+Fragment 和 Fragment 是否显示状态](https://blog.csdn.net/xx936112399xx/article/details/81904857)  
