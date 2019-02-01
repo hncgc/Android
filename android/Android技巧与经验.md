@@ -302,9 +302,25 @@ E:\AndroidSDK\tools\templates\activities
 http://www.jianshu.com/p/cb95ce1ba336  
 https://www.jetbrains.com/help/idea/2016.1/live-template-variables.html#predefined_functions  
 
+------------------------
 
+[判断fragment是否当前为可视状态](https://blog.csdn.net/msn465780/article/details/54237560)  
+~~~
+@Override
+    public void setUserVisibleHint(boolean isVisibleToUser) {
+        super.setUserVisibleHint(isVisibleToUser);
+         
+        if(getUserVisibleHint()) {
+            // 可视
+        } else {
+            // 不可视
+        }
 
+~~~
 
+[如何判断Fragment是否对用户可见](https://www.cnblogs.com/dongweiq/p/5411899.html)  
+
+[如何判断一个fragment是否显示](https://blog.csdn.net/zhhr1122/article/details/85077973)  
 
 
 
