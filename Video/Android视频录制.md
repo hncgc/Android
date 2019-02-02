@@ -67,9 +67,9 @@ GitHub 地址：https://github.com/Werb/MediaUtils
 
 [android ImageLoader加载本地图片的工具类](http://www.cnblogs.com/tony-yang-flutter/p/3986157.html)  
 
+[获取屏幕的宽度以及动态设置ImageView的宽度、高度](https://blog.csdn.net/u012336923/article/details/39780189)  
 
-
-
+[动态的获取和设置ImageView的宽度和高度](https://blog.csdn.net/heng615975867/article/details/9358679)  
 
 
 
