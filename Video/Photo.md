@@ -33,7 +33,7 @@ http://topmanopensource.iteye.com/blog/1605238
 [Android获取APP的应用程序名称、包名、图标，版本号基本信息](https://blog.csdn.net/jia635/article/details/78722073)  
 
 
-
+[关于安卓图库更新的问题终极解决方法（实测）](https://blog.csdn.net/qq_34157407/article/details/51407992)  
 
 
 
