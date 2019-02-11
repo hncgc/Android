@@ -30,7 +30,7 @@ http://topmanopensource.iteye.com/blog/1605238
 
 [适用于 Android 8.0 及以下全部版本的拍照示例](https://blog.csdn.net/fengzhiqi1993/article/details/81216849)  
 
-
+[Android获取APP的应用程序名称、包名、图标，版本号基本信息](https://blog.csdn.net/jia635/article/details/78722073)  
 
 
 
