@@ -24,7 +24,7 @@ http://topmanopensource.iteye.com/blog/1605238
 
 [Android7.0及以上拍照获取照片无法使用file://，使用content://URI](https://blog.csdn.net/trq2012/article/details/80568094)  
 
-
+[Android7.0完美适配——FileProvider拍照裁剪全解析](https://blog.csdn.net/u010873775/article/details/72811581)  
 
 
 
