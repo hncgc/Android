@@ -35,6 +35,12 @@ http://topmanopensource.iteye.com/blog/1605238
 
 [关于安卓图库更新的问题终极解决方法（实测）](https://blog.csdn.net/qq_34157407/article/details/51407992)  
 
+[Android8.0之后调用系统相机的配置](https://blog.csdn.net/guibao513/article/details/79015470)  
+
+
+
+
+
 
 
 
