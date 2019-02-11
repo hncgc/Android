@@ -37,7 +37,7 @@ http://topmanopensource.iteye.com/blog/1605238
 
 [Android8.0之后调用系统相机的配置](https://blog.csdn.net/guibao513/article/details/79015470)  
 
-
+[Android调用相册、相机（兼容6.0、7.0、8.0）所需添加的权限](https://blog.csdn.net/qq_41893253/article/details/83349478)  
 
 
 
