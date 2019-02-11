@@ -20,3 +20,19 @@ http://www.tutorialspoint.com/android/android_camera.htm
 Android文件图片上传的详细讲解（一）HTTP multipart/form-data 上传报文格式实现手机端上传
 http://topmanopensource.iteye.com/blog/1605238
 
+[Android7.0拍照失败FileUriExposedException,你的拍照代码升级了吗](https://blog.csdn.net/yunboxiang/article/details/54017121)  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
