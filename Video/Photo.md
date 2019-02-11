@@ -22,7 +22,7 @@ http://topmanopensource.iteye.com/blog/1605238
 
 [Android7.0拍照失败FileUriExposedException,你的拍照代码升级了吗](https://blog.csdn.net/yunboxiang/article/details/54017121)  
 
-
+[Android7.0及以上拍照获取照片无法使用file://，使用content://URI](https://blog.csdn.net/trq2012/article/details/80568094)  
 
 
 
