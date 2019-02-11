@@ -26,7 +26,7 @@ http://topmanopensource.iteye.com/blog/1605238
 
 [Android7.0完美适配——FileProvider拍照裁剪全解析](https://blog.csdn.net/u010873775/article/details/72811581)  
 
-
+[Android 拍照及相册选取图片功能，已适配Android6.0、7.0、8.0](https://blog.csdn.net/wufeng55/article/details/80918749)  
 
 
 
