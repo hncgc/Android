@@ -109,6 +109,7 @@ configurations.all {
 }
 ~~~
 
+[Android7.0拍照失败FileUriExposedException,你的拍照代码升级了吗](https://blog.csdn.net/yunboxiang/article/details/54017121)  
 
 
 
