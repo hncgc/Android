@@ -28,6 +28,8 @@ http://topmanopensource.iteye.com/blog/1605238
 
 [Android 拍照及相册选取图片功能，已适配Android6.0、7.0、8.0](https://blog.csdn.net/wufeng55/article/details/80918749)  
 
+[适用于 Android 8.0 及以下全部版本的拍照示例](https://blog.csdn.net/fengzhiqi1993/article/details/81216849)  
+
 
 
 
