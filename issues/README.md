@@ -64,8 +64,6 @@ Multidex
 
 [Android 分Dex (MultiDex)](https://www.cnblogs.com/wingyip/p/4496028.html)  
 
-[Android 分Dex (MultiDex)](https://www.cnblogs.com/wingyip/p/4496028.html)  
-
 [multiDex分包时指定主dex的class列表](https://www.cnblogs.com/zzq-include/p/6370500.html)  
 
 [构建神器Gradle](http://jiajixin.cn/2015/08/07/gradle-android/)  
