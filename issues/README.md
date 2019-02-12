@@ -58,6 +58,19 @@ Multidex
 
 [OS--›Gradle3.3 修改APK生成路径和文件名(附AAR修改方式以及分析过程)](https://blog.csdn.net/angcyo/article/details/78357512)  
 
+[android 兼容性测试](https://www.testin.cn/account/login.htm)  
+
+[Android MultiDex实践：如何绕过那些坑？](https://blog.csdn.net/richie0006/article/details/51103976)  
+
+[Android 分Dex (MultiDex)](https://www.cnblogs.com/wingyip/p/4496028.html)  
+
+[Android 分Dex (MultiDex)](https://www.cnblogs.com/wingyip/p/4496028.html)  
+
+[multiDex分包时指定主dex的class列表](https://www.cnblogs.com/zzq-include/p/6370500.html)  
+
+[构建神器Gradle](http://jiajixin.cn/2015/08/07/gradle-android/)  
+
+
 ---------------------
 
 [Android项目该如何选择targetSdkVersion](https://blog.csdn.net/zhangjin12312/article/details/78211328)  
