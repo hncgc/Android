@@ -68,6 +68,13 @@ Multidex
 
 [构建神器Gradle](http://jiajixin.cn/2015/08/07/gradle-android/)  
 
+[【性能优化】65535方法数超出](https://blog.csdn.net/www1575066083/article/details/80938378)  
+
+
+[Android关于Dex拆分(MultiDex)技术详解](https://blog.csdn.net/tan6458/article/details/54315037)  
+
+
+
 
 ---------------------
 
