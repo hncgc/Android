@@ -66,6 +66,8 @@ Multidex
 
 [multiDex分包时指定主dex的class列表](https://www.cnblogs.com/zzq-include/p/6370500.html)  
 
+[multidex分包续：将指定的类打包到主dex中](https://blog.csdn.net/qq_24451593/article/details/79554372)  
+
 [构建神器Gradle](http://jiajixin.cn/2015/08/07/gradle-android/)  
 
 [【性能优化】65535方法数超出](https://blog.csdn.net/www1575066083/article/details/80938378)  
