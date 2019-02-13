@@ -129,10 +129,11 @@ configurations.all {
 
 [Android7.0拍照失败FileUriExposedException,你的拍照代码升级了吗](https://blog.csdn.net/yunboxiang/article/details/54017121)  
 
+-----------
 
+[设置Application ID](https://www.jianshu.com/p/28a12dc7bfba)  
 
-
-
+[Multiple APK Support(相同的应用程序有多个APKs支持)](https://blog.csdn.net/dblackde/article/details/7804544)  
 
 
 
