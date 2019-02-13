@@ -631,7 +631,12 @@ https://github.com/r17171709/android_demo/tree/master/StickyNavLayout
 
 [自定义控件_StickyNavLaout](https://www.cnblogs.com/dubo-/p/6963301.html)  
 
+[CoordinatorLayout使用总结](https://blog.csdn.net/zhq217217/article/details/58609693)  
 
+[AppbarLayout的简单用法](https://www.jianshu.com/p/bbc703a0015e)  
 
+[Android使用CollapsingToolbarLayout实现折叠效果](https://blog.csdn.net/qq_29882585/article/details/74913956)  
+
+---
 
 [我们为什么要使用RecyclerView](http://www.apkbus.com/blog-705730-61699.html)  
