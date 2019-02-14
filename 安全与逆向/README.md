@@ -6,6 +6,7 @@
 [Android逆向之旅---解析编译之后的AndroidManifest文件格式](https://blog.csdn.net/jiangwei0910410003/article/details/50568487)  
 
 [AXMLPrinter2 官方版](https://www.xiazaiba.com/html/29724.html)  
+AndroidManifest.xml反编译工具
 ~~~
 axmlprinter2.jar 使用方法：
 1、必须安装java运行环境jre
