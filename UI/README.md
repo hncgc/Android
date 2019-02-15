@@ -1,3 +1,14 @@
+Android UI
+===
+
+[Android UI基本技术点](https://www.androidos.net.cn/article/fSJJNVeeqg.html)  
+
+[安卓720*1280界面尺寸规范参考](https://www.25xt.com/appdesign/9712.html)  
+
+[安卓1080P界面设计规范解读](https://www.25xt.com/appdesign/9487.html)  
+
+[Android 应用项目工程规范](https://www.androidos.net.cn/article/fSxmyVeeqq.html)  
+
 Android 控件
 ===
 
