@@ -9,6 +9,10 @@ Android UI
 
 [Android 应用项目工程规范](https://www.androidos.net.cn/article/fSxmyVeeqq.html)  
 
+[app设计字体大小规范](https://www.25xt.com/guidelines/20689.html)  
+
+
+
 Android 控件
 ===
 
