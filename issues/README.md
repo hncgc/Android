@@ -96,7 +96,7 @@ D:\gongwei-app2\build.gradle
     }
 
 测试包dex大小(preDexLibraries = false)：
-classes.dex    8857KB
+classes.dex    8857KB （不包含com.gong_wei.base.BaseApplication, 不包含com.gong_wei.ui）
 classes2.dex   9231KB
 classes3.dex   1074KB
 
@@ -107,7 +107,7 @@ classes3.dex   1074KB
         //preDexLibraries = false
     }
 测试包dex大小(去掉preDexLibraries = false)：
-classes.dex    1074KB
+classes.dex    1074KB （包含com.gong_wei.base.BaseApplication, 包含com.gong_wei.ui）
 classes2.dex   8857KB
 classes3.dex   9231KB
 ---------------------------------------------------
