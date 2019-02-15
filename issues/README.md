@@ -76,7 +76,6 @@ https://github.com/Qcwxx123/MultiDex/tree/master/MultiDexTest
 [Android dex 进行手动分包,可以指定类进行分包](https://blog.csdn.net/zcv5and/article/details/78413684)  
 
 
-
 [构建神器Gradle](http://jiajixin.cn/2015/08/07/gradle-android/)  
 
 [【性能优化】65535方法数超出](https://blog.csdn.net/www1575066083/article/details/80938378)  
@@ -84,8 +83,37 @@ https://github.com/Qcwxx123/MultiDex/tree/master/MultiDexTest
 
 [Android关于Dex拆分(MultiDex)技术详解](https://blog.csdn.net/tan6458/article/details/54315037)  
 
+---------------------
+
+~~~
+设置preDexLibraries = false的影响
+=================================
+
+D:\gongwei-app2\build.gradle
+    dexOptions {
+        javaMaxHeapSize "4g"
+        preDexLibraries = false
+    }
+
+测试包dex大小(preDexLibraries = false)：
+classes.dex    8857KB
+classes2.dex   9231KB
+classes3.dex   1074KB
 
 
+
+    dexOptions {
+        javaMaxHeapSize "4g"
+        //preDexLibraries = false
+    }
+测试包dex大小(去掉preDexLibraries = false)：
+classes.dex    1074KB
+classes2.dex   8857KB
+classes3.dex   9231KB
+---------------------------------------------------
+
+
+~~~
 
 ---------------------
 
