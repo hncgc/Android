@@ -28,6 +28,10 @@ OOM
 Multidex
 ---
 
+[Android Dex分包](https://www.jianshu.com/p/e96f345e822f)  
+
+[mainDexClasses脚本分析](http://coolpers.github.io/multidex/maindexclasses/2015/04/23/mainDexClasses%E8%84%9A%E6%9C%AC%E5%88%86%E6%9E%90.html)  
+
 [Android Multidex正确使用方式（你可能也会遇到的坑）](https://www.jianshu.com/p/78f2e2d9484a)  
 
 
