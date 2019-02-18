@@ -70,6 +70,39 @@ https://github.com/Qcwxx123/MultiDex/tree/master/MultiDexTest
 [Android 分Dex (MultiDex)](https://www.cnblogs.com/wingyip/p/4496028.html)  
 
 [multiDex分包时指定主dex的class列表](https://www.cnblogs.com/zzq-include/p/6370500.html)  
+~~~
+在gradle中我们使用了如下代码可以将指定类型分配到主dex中：
+afterEvaluate {
+    tasks.matching {
+        it.name.startsWith('dex')
+    }.each { dx ->
+       def listMain = project.rootDir.absolutePath+'/app/maindexlist.txt'
+        if (dx.additionalParameters == null) {
+            dx.additionalParameters = []
+        }
+       //改变dex方法数上线为50000，超过后进行拆分
+       dx.additionalParameters += '--set-max-idx-number=50000'
+        //方法数越界时则生成多个dex文件
+        dx.additionalParameters += '--multi-dex'
+        //maindexlist.txt文件为主dex中的类型配置文件
+        dx.additionalParameters += '--main-dex-list=' + listMain
+        //-main-dex-list指定的所有class会打包到主dex中
+       dx.additionalParameters += '--minimal-main-dex'
+　　
+    }
+}
+高版本的gradle需要使用如下方式配置：
+ dexOptions {
+        javaMaxHeapSize "4g"
+        preDexLibraries = false
+        additionalParameters = ['--multi-dex', '--main-dex-list=' + project.rootDir.absolutePath + '/app/maindexlist.txt', '--minimal-main-dex',
+                                '--set-max-idx-number=1000']
+    }
+    
+其实我们可以直接参考app\build\intermediates\legacy_multidex_main_dex_list\debug\transformClassesWithMultidexlistForDebug\mainDexL目录下的maindexlist.txt文件
+
+ 别忘了把这个文件复制到项目目录下app/maindexlist.txt才会生效！
+~~~
 
 [multidex分包续：将指定的类打包到主dex中](https://blog.csdn.net/qq_24451593/article/details/79554372)  
 
@@ -120,7 +153,7 @@ D:\gongwei-app2\app\build\intermediates\legacy_multidex_main_dex_list\debug\tran
         additionalParameters = ['--multi-dex', '--main-dex-list=' + project.rootDir.absolutePath + '/app/maindexlist.txt', '--minimal-main-dex',
                                 '--set-max-idx-number=1000']
     }
----------------------------------------------------
+
 ~~~
 
 [Android Too many classes in --main-dex-list 优化方法](https://www.jianshu.com/p/b4c179ad137e)  
