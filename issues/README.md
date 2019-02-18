@@ -114,6 +114,12 @@ classes3.dex   9231KB
 D:\gongwei-app2\app\build\intermediates\legacy_multidex_main_dex_list\release\transformClassesWithMultidexlistForRelease\mainDexList.txt
 D:\gongwei-app2\app\build\intermediates\legacy_multidex_main_dex_list\debug\transformClassesWithMultidexlistForDebug\mainDexList.txt
 
+    dexOptions {
+        javaMaxHeapSize "4g"
+        preDexLibraries = false
+        additionalParameters = ['--multi-dex', '--main-dex-list=' + project.rootDir.absolutePath + '/app/maindexlist.txt', '--minimal-main-dex',
+                                '--set-max-idx-number=1000']
+    }
 ---------------------------------------------------
 ~~~
 
