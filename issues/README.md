@@ -110,10 +110,15 @@ classes3.dex   1074KB
 classes.dex    1074KB （包含com.gong_wei.base.BaseApplication, 包含com.gong_wei.ui）
 classes2.dex   8857KB
 classes3.dex   9231KB
+
+D:\gongwei-app2\app\build\intermediates\legacy_multidex_main_dex_list\release\transformClassesWithMultidexlistForRelease\mainDexList.txt
+D:\gongwei-app2\app\build\intermediates\legacy_multidex_main_dex_list\debug\transformClassesWithMultidexlistForDebug\mainDexList.txt
+
 ---------------------------------------------------
-
-
 ~~~
+
+[Android Too many classes in --main-dex-list 优化方法](https://www.jianshu.com/p/b4c179ad137e)  
+
 
 ---------------------
 
