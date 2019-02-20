@@ -46,8 +46,10 @@ Android 控件
 
 [关于tablayout的tab点击事件](https://blog.csdn.net/wlxfxy/article/details/72820440)  
 
-
-
+[TabLayout默认某个选项卡选中](https://blog.csdn.net/qq_29897079/article/details/77969617)  
+~~~
+tabLayout.getTabAt(postision).select(); //默认选中某项放在加载viewpager之后
+~~~
 
 
 
