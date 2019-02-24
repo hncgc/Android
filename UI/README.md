@@ -50,11 +50,26 @@ Android 控件
 ~~~
 tabLayout.getTabAt(postision).select(); //默认选中某项放在加载viewpager之后
 ~~~
+---------------------
+
+[Android之AutoCompleteTextView用法详解](https://www.jianshu.com/p/8b91cc1c0fd4)  
+
+[AutoCompleteTextView](https://www.jianshu.com/p/aeae6a201a7b)  
+
+[AutoCompleteTextView：自己主动完毕输入内容的控件（自己主动补全）](https://www.cnblogs.com/zsychanpin/p/7218369.html)  
+
+[动态匹配输入内容AutoCompleteTextView](https://www.jianshu.com/p/300cd948001e)  
 
 
 
 
 
+--------------------
+
+[GitHub上受欢迎的Android UI Library](https://www.jianshu.com/p/da1ca645b95c)  
+https://hndeveloper.github.io/2017/github-android-ui.html  
+
+[Android开源项目库汇总](https://www.jianshu.com/p/86541dc33bc4)  
 
 
 
