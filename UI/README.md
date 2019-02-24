@@ -60,6 +60,8 @@ tabLayout.getTabAt(postision).select(); //默认选中某项放在加载viewpage
 
 [动态匹配输入内容AutoCompleteTextView](https://www.jianshu.com/p/300cd948001e)  
 
+[Android UI系列-----EditText和AutoCompleteTextView](https://www.cnblogs.com/xiaoluo501395377/p/3411359.html)  
+
 
 
 
