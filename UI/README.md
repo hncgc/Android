@@ -62,8 +62,19 @@ tabLayout.getTabAt(postision).select(); //默认选中某项放在加载viewpage
 
 [Android UI系列-----EditText和AutoCompleteTextView](https://www.cnblogs.com/xiaoluo501395377/p/3411359.html)  
 
+[Android中的AutoCompleteTextView的使用](https://www.cnblogs.com/wlming/p/5420133.html)  
 
+[Android-使用AutoCompleteTextView进行动态匹配](https://blog.csdn.net/acm_th/article/details/50986569)  
 
+[AutoCompleteTextView获取其内容](https://wang-peng1.iteye.com/blog/748061)  
+
+[关于AutoCompleteTextView中调用setOnItemClickListener中参数调用介绍](https://bbs.csdn.net/topics/370231828)  
+
+[自定义AutoCompleteTextView的点击事件]https://blog.csdn.net/jloveben/article/details/50494559()  
+
+[AutoCompleteTextView监听器的一些用法](https://blog.csdn.net/qice675563721/article/details/22430467)  
+
+[AutoCompleteTextView监听输入内容并显示](https://blog.csdn.net/u010002184/article/details/49886517)  
 
 
 --------------------
