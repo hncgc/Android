@@ -98,7 +98,11 @@ tabLayout.getTabAt(postision).select(); //默认选中某项放在加载viewpage
 
 [Android 沉浸式状态栏与隐藏导航栏](https://blog.csdn.net/Chen_xiaobao/article/details/80985923)  
 
+[Android动态控制状态栏以及系统导航栏显示和隐藏](https://blog.csdn.net/Maiduoudo/article/details/77239557)  
 
+[在Android 7.0隐藏导航栏和状态栏的一些方法](https://blog.csdn.net/maetelibom/article/details/78656021)  
+
+[Android9.0 完全隐藏导航栏、状态栏](https://blog.csdn.net/u011386173/article/details/84104971)  
 
 --------------------
 
