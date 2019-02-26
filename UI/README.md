@@ -79,6 +79,29 @@ tabLayout.getTabAt(postision).select(); //默认选中某项放在加载viewpage
 
 --------------------
 
+[Android-StickyNavLayout 一个Android库用于创建可置顶的导航条](https://python.ctolib.com/hongyangAndroid-Android-StickyNavLayout.html)  
+
+[悬浮导航栏StickyNavLayout的实现--基本滑动的实现](https://www.jianshu.com/p/e5ef7e36cbd3)  
+
+[悬浮导航栏StickyNavLayout的实现--适配任意数据量](https://www.jianshu.com/p/daff3b4de3a4)  
+
+[Android 实现酷炫的顶部栏](https://www.2cto.com/kf/201609/544183.html)  
+
+[Android：下拉上滑显示与隐藏导航栏和状态栏](https://blog.csdn.net/u011343735/article/details/53761170)  
+
+[Android实现上下滑动隐藏/显示工具栏](https://blog.csdn.net/futureshine1/article/details/50768735)  
+
+[Android 底部导航栏动态显示和隐藏(上滑,下拉)](https://blog.csdn.net/xfhy_/article/details/78584459)  
+
+[Android 动态隐藏显示导航栏，状态栏](https://blog.csdn.net/zhoumushui/article/details/51792568)  
+
+
+[Android 沉浸式状态栏与隐藏导航栏](https://blog.csdn.net/Chen_xiaobao/article/details/80985923)  
+
+
+
+--------------------
+
 [GitHub上受欢迎的Android UI Library](https://www.jianshu.com/p/da1ca645b95c)  
 https://hndeveloper.github.io/2017/github-android-ui.html  
 
