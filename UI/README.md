@@ -50,6 +50,13 @@ Android 控件
 ~~~
 tabLayout.getTabAt(postision).select(); //默认选中某项放在加载viewpager之后
 ~~~
+
+[TabLayout设置下划线(Indicator)宽](https://blog.csdn.net/lmy820200104/article/details/79583924)  
+
+[API 28下的TabLayout的差异](https://www.jianshu.com/p/cf4ed386efe9)  
+
+[TabLayout的高级用法（自定义tab和修改指示器宽度）](https://blog.csdn.net/Jiang_Rong_Tao/article/details/85247988)  
+
 ---------------------
 
 [Android之AutoCompleteTextView用法详解](https://www.jianshu.com/p/8b91cc1c0fd4)  
