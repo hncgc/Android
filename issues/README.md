@@ -245,5 +245,11 @@ tabLayout.getDeclaredField("mTextView")，在API28下记得改为：tabLayout.ge
 改为：
                             Field mTextViewField = tabView.getClass().getDeclaredField("textView");
 
+TabTab的点击有水波纹的背景样式
+在布局文件中我已经加上了 tabBackground 属性
+app:tabBackground="@null"
+在API28下还需要加上一句属性：
 
+    app:tabBackground="@null"
+    app:tabRippleColor="@null"
 ~~~
