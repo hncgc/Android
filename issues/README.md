@@ -256,4 +256,4 @@ app:tabBackground="@null"
 
 [自定义View 出现android.view.InflateException的几种情况总结](https://blog.csdn.net/sinat_36533134/article/details/79860649)  
 
-
+[android 中解决scrollview和listview冲突时底部多出一个空白](https://blog.csdn.net/u013446591/article/details/73608985)  
