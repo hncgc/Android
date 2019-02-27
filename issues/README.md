@@ -219,6 +219,31 @@ configurations.all {
 [Multiple APK Support(相同的应用程序有多个APKs支持)](https://blog.csdn.net/dblackde/article/details/7804544)  
 
 
+-------------------------
+
+[修改TabLayout下划线宽度，以及在Api28下遇到的问题—— tabLayout.getDeclaredField 空指针以及水波纹背景问题](https://blog.csdn.net/shanshan_1117/article/details/84319012)  
+~~~
+    public void setIndicator(TabLayout tabs, int leftDip, int rightDip) {
+        Class<?> tabLayout = tabs.getClass();
+        Field tabStrip = null;
+        try {
+            tabStrip = tabLayout.getDeclaredField("mTabStrip");
+改为：
+            tabStrip = tabLayout.getDeclaredField("slidingTabIndicator");
+
+        } catch (NoSuchFieldException e) {
+            e.printStackTrace();
+            return;
+        }
+
+API28下mTextView改名为textView
+tabLayout.getDeclaredField("mTextView")，在API28下记得改为：tabLayout.getDeclaredField("textView")；
+
+    public static void setTablayoutIndicatorEqualTitle(final TabLayout tabLayout){
+    ......
+                            Field mTextViewField = tabView.getClass().getDeclaredField("mTextView");
+改为：
+                            Field mTextViewField = tabView.getClass().getDeclaredField("textView");
 
 
-
+~~~
