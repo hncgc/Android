@@ -59,6 +59,31 @@ tabLayout.getTabAt(postision).select(); //默认选中某项放在加载viewpage
 
 ---------------------
 
+[Android布局中的空格以及占一个汉字宽度的空格的实现](https://blog.csdn.net/u014651216/article/details/52411113)  
+~~~
+空格：&#160;
+窄空格：&#8201;
+一个汉字宽度的空格：&#160;&#160;&#8201;【用两个空格（&#160;&#160;）占一个汉字的宽度时，两个空格比一个汉字略窄，三个空格（&#160;&#160;&#160;）比一个汉字略宽】
+
+TextView实现首行缩进的方法：
+
+在string资源文件中，在文字的前面加入”\u3000\u3000”即可实现首行缩进
+在Java代码中，使用setText("\u3000\u3000"+xxxxx);
+~~~
+
+[Android TextView设置空格](https://blog.csdn.net/zhe_ge_sha_shou/article/details/80066954)  
+
+[android:如何在TextView实现图文混排](https://blog.csdn.net/su20145104009/article/details/50667838)  
+
+[Android TextView加载Html图文混排](https://blog.csdn.net/Vermouth_alone/article/details/76502302)  
+
+[Android TextView使用HTML处理图片文字混合显示](https://blog.csdn.net/qq_36455052/article/details/78734734)  
+
+[Android图文混排实现方式详解](https://blog.csdn.net/p19900618/article/details/78468025)  
+
+
+---------------------
+
 [Android之AutoCompleteTextView用法详解](https://www.jianshu.com/p/8b91cc1c0fd4)  
 
 [AutoCompleteTextView](https://www.jianshu.com/p/aeae6a201a7b)  
