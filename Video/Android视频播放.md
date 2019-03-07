@@ -83,10 +83,18 @@ GSYVideoPlayer
 
 [Android蹲坑的疑难杂症集锦（兼Gradle） 二](https://www.jianshu.com/p/86e4b336c17d)  
 
+
 JieCaoVideoPlayer 节操 (JiaoZiVideoPlayer 饺子)
 ---
 
+
 [饺子播放API](https://github.com/lipangit/JiaoZiVideoPlayer/wiki)  
+
+
+~~~
+隐藏全屏播放按钮
+mVideoPlay.fullscreenButton.setVisibility(View.GONE);
+~~~
 
 [JiaoZiVideoPlayer饺子视频播放器](https://www.jianshu.com/p/93b788615655)  
 GitHub代码地址：https://github.com/lipangit/JiaoZiVideoPlayer  
