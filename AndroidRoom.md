@@ -3,6 +3,12 @@ Android Room
 
 [Android Room 官方指南](https://blog.csdn.net/u011897062/article/details/82107709)  
 
+~~~
+    //room persistence
+    implementation 'android.arch.persistence.room:runtime:1.1.1'
+    annotationProcessor "android.arch.persistence.room:compiler:1.1.1"
+~~~
+
 [谷歌官方Android应用架构库——Room 持久化库](https://blog.csdn.net/hubinqiang/article/details/73012353)  
 
 [Android Room Orm框架学习](https://www.jianshu.com/p/29e5e8c75450)  
