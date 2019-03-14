@@ -4,6 +4,8 @@ RecyclerView
 [RecyclerView实现Item点击事件处理](https://www.jianshu.com/p/4e5631a5c9bc)  
 
 ------------------
+~~~
+
 public class ChooseAndSearchEntitySimpleAdapter extends BaseRvAdapter {
 
     private OnRecyclerViewItemClickListenter mClickListenter;
@@ -23,6 +25,9 @@ public class ChooseAndSearchEntitySimpleAdapter extends BaseRvAdapter {
             public void onClick(View view) {
                 if (mClickListenter != null) {
                     mClickListenter.OnItemClick(view, viewHolder.getAdapterPosition());
+//-----------------------------------------------------------------------------
+//注意：viewHolder.getAdapterPosition()在RecyclerView不-1，在LRecyclerView中要-1
+//------------------------------------------------------------------------------
                 }
             }
         });
@@ -48,5 +53,6 @@ D:\gongwei-app2\app\src\main\java\com\gong_wei\ui\community\AddProductActivity.j
             }
         });
     }
+~~~
 
 ------------------
