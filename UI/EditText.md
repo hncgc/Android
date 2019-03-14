@@ -35,9 +35,27 @@ imeOptions=”actionDone” –> EditorInfo.IME_ACTION_DONE
 
 [EditText软键盘弹出关闭等使用总结](https://blog.csdn.net/lnn368/article/details/51201148)  
 
+[android EditText光标位置(定位到最后)](https://www.cnblogs.com/jenson138/p/4342699.html)  
+http://blog.csdn.net/sww_simpcity/article/details/8949374  
 
+~~~
+方法：edittext.setSelection(int);
+et.setText(content);//设置EditText控件的内容
+et.setSelection(content.length());//将光标移至文字末尾
 
+editText.requestFocus();获取焦点
 
+如果对edittext组件设置了editText.setFocusable(false);需要重新获取焦点则必须执行：
+
+    editText.setFocusable(ture);
+    editText.setFocusableInTouchMode(true);
+    editText.requestFocus();
+
+注意：这种情况下，当重新点击文本框，是无法打开软键盘，必须点击第二次才能打开。
+
+如果改为：
+editText.clearFocus(); 失去焦点
+~~~
 
 
 
