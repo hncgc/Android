@@ -257,3 +257,99 @@ app:tabBackground="@null"
 [自定义View 出现android.view.InflateException的几种情况总结](https://blog.csdn.net/sinat_36533134/article/details/79860649)  
 
 [android 中解决scrollview和listview冲突时底部多出一个空白](https://blog.csdn.net/u013446591/article/details/73608985)  
+
+----------------
+
+修复安卓8.0版本为支持全面屏透明的Activity不能固定方向的bug
+---
+
+[Only fullscreen activities can request orientation终极解决方法](https://blog.csdn.net/starry_eve/article/details/82777160)  
+
+~~~
+申请管理出错：
+
+2019-03-28 11:38:52.409 29420-29420/com.gong_wei.debug E/AndroidRuntime: FATAL EXCEPTION: main
+    Process: com.gong_wei.debug, PID: 29420
+    java.lang.RuntimeException: Unable to start activity ComponentInfo{com.gong_wei.debug/com.gong_wei.ui.community.activity.ApplyAdministratorPromptBoxWebActivity}: java.lang.IllegalStateException: Only fullscreen opaque activities can request orientation
+        at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3303)
+        at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3411)
+        at android.app.ActivityThread.-wrap12(Unknown Source:0)
+......
+
+放在BaseActivity.java中
+D:\gongwei-app2\app\src\main\java\com\gong_wei\base\BaseActivity.java
+    @Override
+    protected void onCreate(@Nullable Bundle savedInstanceState) {
+//add
+        if (Build.VERSION.SDK_INT == Build.VERSION_CODES.O && isTranslucentOrFloating()) {
+            boolean result = fixOrientation();
+            //Log.i(ApplyAdministratorPromptBoxWebActivity.class.getSimpleName(), "onCreate fixOrientation when Oreo, result = " + result);
+        }
+        
+        super.onCreate(savedInstanceState);
+        ButterKnife.bind(this);
+    }
+
+//add
+    private boolean isTranslucentOrFloating(){
+        boolean isTranslucentOrFloating = false;
+        try {
+            int [] styleableRes = (int[]) Class.forName("com.android.internal.R$styleable").getField("Window").get(null);
+            final TypedArray ta = obtainStyledAttributes(styleableRes);
+            Method m = ActivityInfo.class.getMethod("isTranslucentOrFloating", TypedArray.class);
+            m.setAccessible(true);
+            isTranslucentOrFloating = (boolean)m.invoke(null, ta);
+            m.setAccessible(false);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return isTranslucentOrFloating;
+    }
+
+//add
+    private boolean fixOrientation() {
+        try {
+            Field field = Activity.class.getDeclaredField("mActivityInfo");
+            field.setAccessible(true);
+            ActivityInfo o = (ActivityInfo) field.get(this);
+            o.screenOrientation = -1;
+            field.setAccessible(false);
+            return true;
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return false;
+    }
+//add
+    @Override
+    public void setRequestedOrientation(int requestedOrientation) {
+        if (Build.VERSION.SDK_INT == Build.VERSION_CODES.O && isTranslucentOrFloating()) {
+            //Log.i(ApplyAdministratorPromptBoxWebActivity.class.getSimpleName(), "avoid calling setRequestedOrientation when Oreo. ");
+            return;
+        }
+        super.setRequestedOrientation(requestedOrientation);
+    }
+
+
+D:\gongwei-app2\app\src\main\AndroidManifest.xml
+
+        <activity
+            android:name=".ui.community.activity.ApplyAdministratorPromptBoxWebActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Transparent" />
+
+
+~~~
+
+
+
+
+
+
+
+
+
+
+
+
+
