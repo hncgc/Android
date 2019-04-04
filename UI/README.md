@@ -151,11 +151,550 @@ TextView实现首行缩进的方法：
 
 https://github.com/jgilfelt/SystemBarTint/blob/master/library/src/com/readystatesoftware/systembartint/SystemBarTintManager.java
 
+Android手机Rom类型判断的工具类
+----
+
+~~~
+package com.gong_wei.utils;
+
+import android.os.Build;
+import android.text.TextUtils;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+public class OSUtils {
+
+    public static final String ROM_MIUI = "MIUI";
+    public static final String ROM_EMUI = "EMUI";
+    public static final String ROM_FLYME = "FLYME";
+    public static final String ROM_OPPO = "OPPO";
+    public static final String ROM_SMARTISAN = "SMARTISAN";
+    public static final String ROM_VIVO = "VIVO";
+    public static final String ROM_QIKU = "QIKU";
+
+    private static final String KEY_VERSION_MIUI = "ro.miui.ui.version.name";
+    private static final String KEY_VERSION_EMUI = "ro.build.version.emui";
+    private static final String KEY_VERSION_OPPO = "ro.build.version.opporom";
+    private static final String KEY_VERSION_SMARTISAN = "ro.smartisan.version";
+    private static final String KEY_VERSION_VIVO = "ro.vivo.os.version";
+
+    private static String sName;
+    private static String sVersion;
+
+    public static boolean isEmui() {
+        return check(ROM_EMUI);
+    }
+
+    public static boolean isMiui() {
+        return check(ROM_MIUI);
+    }
+
+    public static boolean isVivo() {
+        return check(ROM_VIVO);
+    }
+
+    public static boolean isOppo() {
+        return check(ROM_OPPO);
+    }
+
+    public static boolean isFlyme() {
+        return check(ROM_FLYME);
+    }
+
+    public static boolean is360() {
+        return check(ROM_QIKU) || check("360");
+    }
+
+    public static boolean isSmartisan() {
+        return check(ROM_SMARTISAN);
+    }
+
+    public static String getName() {
+        if (sName == null) {
+            check("");
+        }
+        return sName;
+    }
+
+    public static String getVersion() {
+        if (sVersion == null) {
+            check("");
+        }
+        return sVersion;
+    }
+
+    public static boolean check(String rom) {
+        if (sName != null) {
+            return sName.equals(rom);
+        }
+
+        if (!TextUtils.isEmpty(sVersion = getProp(KEY_VERSION_MIUI))) {
+            sName = ROM_MIUI;
+        } else if (!TextUtils.isEmpty(sVersion = getProp(KEY_VERSION_EMUI))) {
+            sName = ROM_EMUI;
+        } else if (!TextUtils.isEmpty(sVersion = getProp(KEY_VERSION_OPPO))) {
+            sName = ROM_OPPO;
+        } else if (!TextUtils.isEmpty(sVersion = getProp(KEY_VERSION_VIVO))) {
+            sName = ROM_VIVO;
+        } else if (!TextUtils.isEmpty(sVersion = getProp(KEY_VERSION_SMARTISAN))) {
+            sName = ROM_SMARTISAN;
+        } else {
+            sVersion = Build.DISPLAY;
+            if (sVersion.toUpperCase().contains(ROM_FLYME)) {
+                sName = ROM_FLYME;
+            } else {
+                sVersion = Build.UNKNOWN;
+                sName = Build.MANUFACTURER.toUpperCase();
+            }
+        }
+        return sName.equals(rom);
+    }
+
+    public static String getProp(String name) {
+        String line = null;
+        BufferedReader input = null;
+        try {
+            Process p = Runtime.getRuntime().exec("getprop " + name);
+            input = new BufferedReader(new InputStreamReader(p.getInputStream()), 1024);
+            line = input.readLine();
+            input.close();
+        } catch (IOException ex) {
+            return null;
+        } finally {
+            if (input != null) {
+                try {
+                    input.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
+        return line;
+    }
+}
+
+
+package com.gyf.barlibrary;
+
+import android.text.TextUtils;
+
+import java.lang.reflect.Method;
+
+/**
+ * 手机系统判断
+ * Created by geyifeng on 2017/4/18.
+ */
+public class OSUtils {
+
+    private static final String KEY_MIUI_VERSION_NAME = "ro.miui.ui.version.name";
+    private static final String KEY_EMUI_VERSION_NAME = "ro.build.version.emui";
+    private static final String KEY_DISPLAY = "ro.build.display.id";
+
+    /**
+     * 判断是否为miui
+     * Is miui boolean.
+     *
+     * @return the boolean
+     */
+    public static boolean isMIUI() {
+        String property = getSystemProperty(KEY_MIUI_VERSION_NAME, "");
+        return !TextUtils.isEmpty(property);
+    }
+
+    /**
+     * 判断miui版本是否大于等于6
+     * Is miui 6 later boolean.
+     *
+     * @return the boolean
+     */
+    public static boolean isMIUI6Later() {
+        String version = getMIUIVersion();
+        int num;
+        if ((!version.isEmpty())) {
+            try {
+                num = Integer.valueOf(version.substring(1));
+                return num >= 6;
+            } catch (NumberFormatException e) {
+                return false;
+            }
+        } else
+            return false;
+    }
+
+    /**
+     * 获得miui的版本
+     * Gets miui version.
+     *
+     * @return the miui version
+     */
+    public static String getMIUIVersion() {
+        return isMIUI() ? getSystemProperty(KEY_MIUI_VERSION_NAME, "") : "";
+    }
+
+    /**
+     * 判断是否为emui
+     * Is emui boolean.
+     *
+     * @return the boolean
+     */
+    public static boolean isEMUI() {
+        String property = getSystemProperty(KEY_EMUI_VERSION_NAME, "");
+        return !TextUtils.isEmpty(property);
+    }
+
+    /**
+     * 得到emui的版本
+     * Gets emui version.
+     *
+     * @return the emui version
+     */
+    public static String getEMUIVersion() {
+        return isEMUI() ? getSystemProperty(KEY_EMUI_VERSION_NAME, "") : "";
+    }
+
+    /**
+     * 判断是否为emui3.1版本
+     * Is emui 3 1 boolean.
+     *
+     * @return the boolean
+     */
+    public static boolean isEMUI3_1() {
+        String property = getEMUIVersion();
+        if ("EmotionUI 3".equals(property) || property.contains("EmotionUI_3.1")) {
+            return true;
+        }
+        return false;
+    }
+
+    /**
+     * 判断是否为emui3.0版本
+     * Is emui 3 1 boolean.
+     *
+     * @return the boolean
+     */
+    public static boolean isEMUI3_0() {
+        String property = getEMUIVersion();
+        if (property.contains("EmotionUI_3.0")) {
+            return true;
+        }
+        return false;
+    }
+
+    /**
+     * 判断是否为flymeOS
+     * Is flyme os boolean.
+     *
+     * @return the boolean
+     */
+    public static boolean isFlymeOS() {
+        return getFlymeOSFlag().toLowerCase().contains("flyme");
+    }
+
+    /**
+     * 判断flymeOS的版本是否大于等于4
+     * Is flyme os 4 later boolean.
+     *
+     * @return the boolean
+     */
+    public static boolean isFlymeOS4Later() {
+        String version = getFlymeOSVersion();
+        int num;
+        if (!version.isEmpty()) {
+            try {
+                if (version.toLowerCase().contains("os")) {
+                    num = Integer.valueOf(version.substring(9, 10));
+                } else {
+                    num = Integer.valueOf(version.substring(6, 7));
+                }
+                return num >= 4;
+            } catch (NumberFormatException e) {
+                return false;
+            }
+        }
+        return false;
+    }
+
+    /**
+     * 判断flymeOS的版本是否等于5
+     * Is flyme os 5 boolean.
+     *
+     * @return the boolean
+     */
+    public static boolean isFlymeOS5() {
+        String version = getFlymeOSVersion();
+        int num;
+        if (!version.isEmpty()) {
+            try {
+                if (version.toLowerCase().contains("os")) {
+                    num = Integer.valueOf(version.substring(9, 10));
+                } else {
+                    num = Integer.valueOf(version.substring(6, 7));
+                }
+                return num == 5;
+            } catch (NumberFormatException e) {
+                return false;
+            }
+        }
+        return false;
+    }
+
+
+    /**
+     * 得到flymeOS的版本
+     * Gets flyme os version.
+     *
+     * @return the flyme os version
+     */
+    public static String getFlymeOSVersion() {
+        return isFlymeOS() ? getSystemProperty(KEY_DISPLAY, "") : "";
+    }
+
+    private static String getFlymeOSFlag() {
+        return getSystemProperty(KEY_DISPLAY, "");
+    }
+
+    private static String getSystemProperty(String key, String defaultValue) {
+        try {
+            Class<?> clz = Class.forName("android.os.SystemProperties");
+            Method get = clz.getMethod("get", String.class, String.class);
+            return (String) get.invoke(clz, key, defaultValue);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return defaultValue;
+    }
+}
+
+
+~~~
+
+兼容4.x以上沉浸透明状态栏的 一个兼容类
+---
+
+~~~
+package com.gong_wei.utils;
+
+import android.annotation.SuppressLint;
+import android.annotation.TargetApi;
+import android.app.Activity;
+import android.content.Context;
+import android.graphics.Color;
+import android.os.Build;
+import android.support.annotation.IntDef;
+import android.view.View;
+import android.view.ViewGroup;
+import android.view.Window;
+import android.view.WindowManager;
+
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+import java.lang.reflect.Field;
+import java.lang.reflect.Method;
+
+public class StatusBarUtil {
+    public final static int TYPE_MIUI = 0;
+    public final static int TYPE_FLYME = 1;
+    public final static int TYPE_M = 3;//6.0
+
+    @IntDef({TYPE_MIUI,
+            TYPE_FLYME,
+            TYPE_M})
+    @Retention(RetentionPolicy.SOURCE)
+    @interface ViewType {
+    }
+
+    /**
+     * 修改状态栏颜色，支持4.4以上版本
+     *
+     * @param colorId 颜色
+     */
+    public static void setStatusBarColor(Activity activity, int colorId) {
+
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+            Window window = activity.getWindow();
+            window.setStatusBarColor(colorId);
+        } else if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
+            //使用SystemBarTintManager,需要先将状态栏设置为透明
+            setTranslucentStatus(activity);
+            SystemBarTintManager systemBarTintManager = new SystemBarTintManager(activity);
+            systemBarTintManager.setStatusBarTintEnabled(true);//显示状态栏
+            systemBarTintManager.setStatusBarTintColor(colorId);//设置状态栏颜色
+        }
+    }
+
+    /**
+     * 设置状态栏透明
+     */
+    @TargetApi(19)
+    public static void setTranslucentStatus(Activity activity) {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+            //5.x开始需要把颜色设置透明，否则导航栏会呈现系统默认的浅灰色
+            Window window = activity.getWindow();
+            View decorView = window.getDecorView();
+            //两个 flag 要结合使用，表示让应用的主体内容占用系统状态栏的空间
+            int option = View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN
+                    | View.SYSTEM_UI_FLAG_LAYOUT_STABLE;
+            decorView.setSystemUiVisibility(option);
+            window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
+            window.setStatusBarColor(Color.TRANSPARENT);
+            //导航栏颜色也可以正常设置
+            //window.setNavigationBarColor(Color.TRANSPARENT);
+        } else if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
+            Window window = activity.getWindow();
+            WindowManager.LayoutParams attributes = window.getAttributes();
+            int flagTranslucentStatus = WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS;
+            attributes.flags |= flagTranslucentStatus;
+            //int flagTranslucentNavigation = WindowManager.LayoutParams.FLAG_TRANSLUCENT_NAVIGATION;
+            //attributes.flags |= flagTranslucentNavigation;
+            window.setAttributes(attributes);
+        }
+    }
+
+
+    /**
+     *  代码实现android:fitsSystemWindows
+     *
+     * @param activity
+     */
+    public static void setRootViewFitsSystemWindows(Activity activity, boolean fitSystemWindows) {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
+            ViewGroup winContent = (ViewGroup) activity.findViewById(android.R.id.content);
+            if (winContent.getChildCount() > 0) {
+                ViewGroup rootView = (ViewGroup) winContent.getChildAt(0);
+                if (rootView != null) {
+                    rootView.setFitsSystemWindows(fitSystemWindows);
+                }
+            }
+        }
+
+    }
+
+
+    /**
+     * 设置状态栏深色浅色切换
+     */
+    public static boolean setStatusBarDarkTheme(Activity activity, boolean dark) {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+                setStatusBarFontIconDark(activity, TYPE_M, dark);
+            }
+            else if (OSUtils.isMiui()) {
+                setStatusBarFontIconDark(activity, TYPE_MIUI, dark);
+            } else if (OSUtils.isFlyme()) {
+                setStatusBarFontIconDark(activity, TYPE_FLYME, dark);
+            } else {//其他情况
+                return false;
+            }
+
+            return true;
+        }
+        return false;
+    }
+
+    /**
+     * 设置 状态栏深色浅色切换
+     */
+    public static boolean setStatusBarFontIconDark(Activity activity, @ViewType int type,boolean dark) {
+        switch (type) {
+            case TYPE_MIUI:
+                return setMiuiUI(activity, dark);
+            case TYPE_FLYME:
+                return setFlymeUI(activity, dark);
+            case TYPE_M:
+            default:
+                return setCommonUI(activity,dark);
+        }
+    }
+
+    //设置6.0 状态栏深色浅色切换
+    public static boolean setCommonUI(Activity activity, boolean dark) {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+            View decorView = activity.getWindow().getDecorView();
+            if (decorView != null) {
+                int vis = decorView.getSystemUiVisibility();
+                if (dark) {
+                    vis |= View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR;
+                } else {
+                    vis &= ~View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR;
+                }
+                if (decorView.getSystemUiVisibility() != vis) {
+                    decorView.setSystemUiVisibility(vis);
+                }
+                return true;
+            }
+        }
+        return false;
+
+    }
+
+    //设置Flyme 状态栏深色浅色切换
+    public static boolean setFlymeUI(Activity activity, boolean dark) {
+        try {
+            Window window = activity.getWindow();
+            WindowManager.LayoutParams lp = window.getAttributes();
+            Field darkFlag = WindowManager.LayoutParams.class.getDeclaredField("MEIZU_FLAG_DARK_STATUS_BAR_ICON");
+            Field meizuFlags = WindowManager.LayoutParams.class.getDeclaredField("meizuFlags");
+            darkFlag.setAccessible(true);
+            meizuFlags.setAccessible(true);
+            int bit = darkFlag.getInt(null);
+            int value = meizuFlags.getInt(lp);
+            if (dark) {
+                value |= bit;
+            } else {
+                value &= ~bit;
+            }
+            meizuFlags.setInt(lp, value);
+            window.setAttributes(lp);
+            return true;
+        } catch (Exception e) {
+            e.printStackTrace();
+            return false;
+        }
+    }
+
+    //设置MIUI 状态栏深色浅色切换
+    public static boolean setMiuiUI(Activity activity, boolean dark) {
+        try {
+            Window window = activity.getWindow();
+            Class<?> clazz = activity.getWindow().getClass();
+            @SuppressLint("PrivateApi") Class<?> layoutParams = Class.forName("android.view.MiuiWindowManager$LayoutParams");
+            Field field = layoutParams.getField("EXTRA_FLAG_STATUS_BAR_DARK_MODE");
+            int darkModeFlag = field.getInt(layoutParams);
+            Method extraFlagField = clazz.getDeclaredMethod("setExtraFlags", int.class, int.class);
+            extraFlagField.setAccessible(true);
+            if (dark) {    //状态栏亮色且黑色字体
+                extraFlagField.invoke(window, darkModeFlag, darkModeFlag);
+            } else {
+                extraFlagField.invoke(window, 0, darkModeFlag);
+            }
+            return true;
+        } catch (Exception e) {
+            e.printStackTrace();
+            return false;
+        }
+    }
+    //获取状态栏高度
+    public static int getStatusBarHeight(Context context) {
+        int result = 0;
+        int resourceId = context.getResources().getIdentifier(
+                "status_bar_height", "dimen", "android");
+        if (resourceId > 0) {
+            result = context.getResources().getDimensionPixelSize(resourceId);
+        }
+        return result;
+    }
+}
+
+
+~~~
+
 [Android状态栏适配，fitsSystemWindows分析](https://www.jianshu.com/p/353074f1d155)  
 
+~~~
 
-
-
+~~~
 -------------------
 
 [GitHub上受欢迎的Android UI Library](https://www.jianshu.com/p/da1ca645b95c)  
