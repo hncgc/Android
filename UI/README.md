@@ -144,6 +144,20 @@ TextView实现首行缩进的方法：
 
 --------------------
 
+沉浸式状态栏
+---
+
+[Android 沉浸式状态栏完美解决方案](https://blog.csdn.net/u014418171/article/details/81223681)  
+
+https://github.com/jgilfelt/SystemBarTint/blob/master/library/src/com/readystatesoftware/systembartint/SystemBarTintManager.java
+
+[Android状态栏适配，fitsSystemWindows分析](https://www.jianshu.com/p/353074f1d155)  
+
+
+
+
+-------------------
+
 [GitHub上受欢迎的Android UI Library](https://www.jianshu.com/p/da1ca645b95c)  
 https://hndeveloper.github.io/2017/github-android-ui.html  
 
