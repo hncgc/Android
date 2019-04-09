@@ -1,6 +1,8 @@
 Android视频压缩
 ===
 
+[一键压缩视频/图片/PDF](https://lightmake.cn/compress)  
+
 [android视频压缩(七牛短视频-转码功能)](https://blog.csdn.net/qq_31796651/article/details/79154072)  
 ~~~
 demoApk下载（自己将官方demo打了一个包）：链接:[点击打开链接](https://pan.baidu.com/s/1kVZPqEb) 密码: rxkx
@@ -54,8 +56,12 @@ https://github.com/LuckSiege/PictureSelector
 [VideoCompressor(有progress)](https://github.com/fishwjy/VideoCompressor)  
 https://github.com/fishwjy/VideoCompressor  
 
+
 SiliCompressor
 ---
+
+[Silicompressor源码学习（一） 基本架构和图片压缩](https://blog.csdn.net/zhang___yong/article/details/79697146)  
+
 
 [使用开源库SiliCompressor对视频进行压缩处理](https://www.jianshu.com/p/b3b7c73893be)  
 ~~~
@@ -332,5 +338,13 @@ getFilesDir() = /data/data/com.my.app/files
 [Android中通过Exif-ExifInterface获取图片的相关信息，并且在图片上添加获取到的信息将图片展示出来](https://blog.csdn.net/liu_jing_hui/article/details/62416876)  
 
 [Android之exif格式 ExifInterface](https://www.jianshu.com/p/18eaa4f8c58a)  
+
+
+------------------------
+
+[图片压缩库Compressor](https://blog.csdn.net/x_nuo/article/details/80347678)  
+
+
+
 
 
