@@ -142,6 +142,18 @@ TextView实现首行缩进的方法：
 
 [Android9.0 完全隐藏导航栏、状态栏](https://blog.csdn.net/u011386173/article/details/84104971)  
 
+悬浮按钮
+---
+
+[android ——悬浮按钮及可交互提示](https://www.cnblogs.com/xxbbtt/p/7470287.html)  
+
+[Android中FloatingActionButton实现悬浮按钮](https://www.jianshu.com/p/4ef788fe0624)  
+
+[Android 可拖拽悬浮按钮](https://www.jianshu.com/p/ba3e5fc5cff1)  
+
+[Android自定义可拖动的悬浮按钮](http://www.cnblogs.com/zhujiabin/p/9165641.html)  
+
+
 --------------------
 
 沉浸式状态栏
