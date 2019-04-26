@@ -637,6 +637,27 @@ https://github.com/r17171709/android_demo/tree/master/StickyNavLayout
 
 [Android使用CollapsingToolbarLayout实现折叠效果](https://blog.csdn.net/qq_29882585/article/details/74913956)  
 
+九宫格布局
 ---
+
+Android NineGridLayout — 仿微信朋友圈和QQ空间的九宫格图片展示自定义控件
+https://www.cnblogs.com/zhujiabin/p/7184001.html
+GitHub：https://github.com/HMY314/NineGridLayout
+
+Android自定义九宫格布局
+https://www.jianshu.com/p/9875d0c10487
+
+Android自定义网格布局，九宫格布局加强版
+https://www.jianshu.com/p/9da5c61c3405
+
+
+Android实现固定比例的ImageView
+https://blog.csdn.net/yaochangliang159/article/details/75162100
+
+Android屏幕适配问题，ImageView在代码中设置宽高，以及使用LayoutParams的坑
+https://blog.csdn.net/pengbo6665631/article/details/80536178
+
+
+----
 
 [我们为什么要使用RecyclerView](http://www.apkbus.com/blog-705730-61699.html)  
