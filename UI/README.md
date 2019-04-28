@@ -79,6 +79,21 @@ TextView实现首行缩进的方法：
 
 [Android TextView设置空格](https://blog.csdn.net/zhe_ge_sha_shou/article/details/80066954)  
 
+[TextView设置行间距、行高，以及字间距](https://blog.csdn.net/shanshan_1117/article/details/79564271)  
+~~~
+设置行间距
+1、android:lineSpacingExtra 设置行间距，如”10dp”。
+2、android:lineSpacingMultiplier 设置行间距的倍数，如”1.5或者2″
+3. android:lineSpacingExtra和android:lineSpacingMultiplier 
+setLineSpacing (float add, float mult)
+tv_textview.setLineSpacing(15,3);
+设置字间距
+android:textScaleX 水平方向放大
+~~~
+
+[Android Study 之真正解决TextView字间距，那些扯淡的边儿去吧](https://blog.csdn.net/u012400885/article/details/71599497)  
+https://github.com/HLQ-Struggle/TextViewSetWordSpace
+
 [android:如何在TextView实现图文混排](https://blog.csdn.net/su20145104009/article/details/50667838)  
 
 [Android TextView加载Html图文混排](https://blog.csdn.net/Vermouth_alone/article/details/76502302)  
