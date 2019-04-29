@@ -348,6 +348,12 @@ getFilesDir() = /data/data/com.my.app/files
 
 [Android 手把手做视频文件第一帧缓存](https://www.jianshu.com/p/7541b0385813)  
 
+[Android中如何获取视频文件的截图、缩略图](http://www.cppcns.com/ruanjian/android/144759.html)  
+
+[Android获取本地视频文件的截图](https://www.jianshu.com/p/4aa82a21b4b5)  
+
+[Android获取本地视频缩略图的几种方法](https://www.jianshu.com/p/4a519531321c)  
+
 -----------------------
 
 
