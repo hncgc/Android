@@ -342,6 +342,7 @@ D:\gongwei-app2\app\src\main\AndroidManifest.xml
 ~~~
 
 ---------------
+[Android总结篇系列：Activity Intent Flags及Task相关属性](https://www.cnblogs.com/lwbqqyumidi/p/3775479.html)  
 
 [Android Intent.FLAG_ACTIVITY_NEW_TASK的个人理解](https://blog.csdn.net/u010389391/article/details/78558475)  
 
