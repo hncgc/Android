@@ -356,5 +356,79 @@ getFilesDir() = /data/data/com.my.app/files
 
 -----------------------
 
+Android获取本地视频缩略图
+---
+~~~
 
+            if (cursor != null) {
+                if (cursor.moveToFirst()) {
+                    // 视频ID:MediaStore.Audio.Media._ID
+                    int videoId = cursor.getInt(cursor.getColumnIndexOrThrow(MediaStore.Video.Media._ID));
+                    // 视频名称：MediaStore.Audio.Media.TITLE
+                    String title = cursor.getString(cursor.getColumnIndexOrThrow(MediaStore.Video.Media.TITLE));
+                    Log.d("AddVideoCommonActivity", "AddVideoCommonActivity title = " + title);
+                    // 视频路径：MediaStore.Audio.Media.DATA
+                    mFilePath = cursor.getString(cursor.getColumnIndexOrThrow(MediaStore.Video.Media.DATA));
+                    setButtonCommit(true);
+                    Log.d("AddVideoCommonActivity", "AddVideoCommonActivity mFilePath = " + mFilePath);
+                    // 视频时长：MediaStore.Audio.Media.DURATION
+                    int duration = cursor.getInt(cursor.getColumnIndexOrThrow(MediaStore.Video.Media.DURATION));
+                    Log.d("AddVideoCommonActivity", "AddVideoCommonActivity duration = " + duration);
+                    mTvTimeLength.setText("时长：" + TimeUtils.formatTime(Integer.valueOf(duration)));
+                    // 视频大小：MediaStore.Audio.Media.SIZE
+                    mFileSize = cursor.getLong(cursor.getColumnIndexOrThrow(MediaStore.Video.Media.SIZE));
+                    Log.d("AddVideoCommonActivity", "AddVideoCommonActivity size = " + mFileSize);
+
+                    String fileName = mFilePath.substring(mFilePath.lastIndexOf("/") + 1);
+                    mTvFileSize.setVisibility(View.VISIBLE);
+                    mTvFileSize.setText(fileName + " " + FileUtil.getFormatSize(mFileSize));
+
+                    // 缩略图
+                    File file = new File(mFilePath);
+                    MediaMetadataRetriever mmr = new MediaMetadataRetriever();//实例化MediaMetadataRetriever对象
+                    mmr.setDataSource(file.getAbsolutePath());
+                    Bitmap bitmap = mmr.getFrameAtTime();//获得视频第一帧的Bitmap对象
+                    mImagePath = saveBitmap(bitmap);
+                    bitmap.recycle();
+                    /*
+                    //或
+                    int imageId = cursor.getInt(cursor.getColumnIndexOrThrow(MediaStore.Images.Media._ID));
+                    Bitmap bitmap1 = MediaStore.Video.Thumbnails.getThumbnail(cr, imageId, MediaStore.Video.Thumbnails.MINI_KIND, null);
+                    mImagePath = saveBitmap(bitmap1);+
+
+                    bitmap1.recycle();
+                    */
+                    mIvThumbnail.setImageBitmap(ImageLoaderUtils.getLoacalBitmap(mImagePath));
+                    mIvThumbnail.setVisibility(View.VISIBLE);
+                    mIvStart.setVisibility(View.VISIBLE);
+                    if (mFileSize > 2 * 1024 * 1024) {
+                        setButtonText("确定");
+                    }
+                }
+                cursor.close();
+            }
+
+    /**
+     * 将Bitmap保存png文件
+     *
+     * @param bm
+     */
+    public String saveBitmap(Bitmap bm) {
+        if (bm == null) {
+            return null;
+        }
+        if (!Environment.MEDIA_MOUNTED.equals(Environment.getExternalStorageState())) {
+            ToastUtil.show("未发现SD卡", Toast.LENGTH_LONG);
+            return null;
+        }
+
+        String fileName = new SimpleDateFormat("yyMMddHHmmssSSS").format(new Date()) + ".png";
+        String filePath = FileManager.getGwPath() + File.separator + fileName;
+
+        File f = new File(filePath);
+        if (f.exists()) {
+            f.delete();
+        }
+
+~~~
 
