@@ -344,7 +344,11 @@ getFilesDir() = /data/data/com.my.app/files
 
 [图片压缩库Compressor](https://blog.csdn.net/x_nuo/article/details/80347678)  
 
+[Android Bitmap压缩图像的正确方法(compress的误区)](https://blog.csdn.net/m0_37402140/article/details/77413953)   
 
+[Android 手把手做视频文件第一帧缓存](https://www.jianshu.com/p/7541b0385813)  
+
+-----------------------
 
 
 
