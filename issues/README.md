@@ -341,9 +341,15 @@ D:\gongwei-app2\app\src\main\AndroidManifest.xml
 
 ~~~
 
+---------------
 
+[Android Intent.FLAG_ACTIVITY_NEW_TASK的个人理解](https://blog.csdn.net/u010389391/article/details/78558475)  
 
+[Intent.FLAG_ACTIVITY_NEW_TASK 理解](https://www.jianshu.com/p/890d8897caf4)  
 
+[FLAG_ACTIVITY_NEW_TASK谨慎使用](https://blog.csdn.net/xiaoqiangliu/article/details/80962871)  
+
+---------------
 
 
 
