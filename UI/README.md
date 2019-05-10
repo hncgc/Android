@@ -174,9 +174,24 @@ https://github.com/HLQ-Struggle/TextViewSetWordSpace
 沉浸式状态栏
 ---
 
+[Android适配---沉浸式状态栏](https://blog.csdn.net/black_bread/article/details/79832514)  
+
 [Android 沉浸式状态栏完美解决方案](https://blog.csdn.net/u014418171/article/details/81223681)  
 
-https://github.com/jgilfelt/SystemBarTint/blob/master/library/src/com/readystatesoftware/systembartint/SystemBarTintManager.java
+https://github.com/jgilfelt/SystemBarTint/blob/master/library/src/com/readystatesoftware/systembartint/SystemBarTintManager.java  
+
+[android:fitsSystemWindows属性](https://blog.csdn.net/alex01550/article/details/86521132)  
+
+[Android中fitsSystemWindows属性的用法总结](https://blog.csdn.net/baidu_32472003/article/details/79925766)  
+
+[android沉浸式状态栏、fitsSystemWindows、标题栏折叠](https://blog.csdn.net/smileiam/article/details/61643006)  
+
+[解决Android7.0下沉浸式状态栏变灰问题](https://blog.csdn.net/hmmhhmmhmhhm/article/details/77840604)  
+
+[沉浸式状态栏--让你的状态栏和主题色一样](https://blog.csdn.net/wangye21323/article/details/79408435)  
+
+
+
 
 Android手机Rom类型判断的工具类
 ----
