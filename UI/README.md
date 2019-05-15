@@ -745,9 +745,9 @@ https://hndeveloper.github.io/2017/github-android-ui.html
 [Android开源项目库汇总](https://www.jianshu.com/p/86541dc33bc4)  
 
 
+[NestedScrolling 嵌套滑动机制：简单实践（一）](https://blog.csdn.net/happy_horse/article/details/54619526)  
 
-
-
+[如何避免在使用setNestedScrollingEnable(False)时阻止滚动本身？](https://cloud.tencent.com/developer/ask/60689)  
 
 
 
