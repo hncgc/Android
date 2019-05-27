@@ -102,6 +102,65 @@ https://github.com/HLQ-Struggle/TextViewSetWordSpace
 
 [Android图文混排实现方式详解](https://blog.csdn.net/p19900618/article/details/78468025)  
 
+----------------------
+
+
+
+[Android-TextView 默认字体大小](https://blog.csdn.net/yanjunhui2011/article/details/72818237)  
+
+源码中的textSize为15，单位是sp
+
+[android改变全局字体大小](https://blog.csdn.net/apple_xiangsiyu/article/details/50896401)  
+
+[填填Android lineSpacingExtra 的坑,解决行间距兼容性问题](https://blog.csdn.net/etwge/article/details/72818859)  
+
+[android:textIsSelectable="true"引起的RecyclerView自动滚动问题](https://www.jianshu.com/p/4fbfd8442cbc)  
+
+[控件的textIsSelectable属性引起的血案](https://www.cnblogs.com/epmouse/p/6857208.html)  
+android中为了让控件上的文字可以选择复制，会加入
+android:textIsSelectable="true"属性
+但是假如你给这个控件设置了点击事件，你会发现第一次点击时，事件不会触发
+
+[Android触摸事件（续）——点击长按事件](https://www.jianshu.com/p/f57bab1db012)  
+
+[Android开发：在onTouchEvent中处理任意时间的长按事件](https://www.cnblogs.com/Free-Thinker/p/4795922.html)  
+
+[Android onTouchEvent, onClick及onLongClick的调用机制](https://www.cnblogs.com/Free-Thinker/p/4795288.html)  
+
+[Android Clipboard(复制/剪贴板)](https://www.cnblogs.com/exmyth/p/4603496.html)  
+
+[设置点击效果foreground](http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2017/1029/8655.html)  
+
+~~~
+            <RelativeLayout
+                android:id="@+id/rl_password_management"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/px45"
+                android:background="@color/white"
+                
+                android:foreground="@drawable/bg_ripple_themecolor"
+                
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/px14"
+                android:paddingRight="@dimen/px14">
+                
+                
+D:\App1\app\src\main\res\drawable\bg_ripple_themecolor.xml
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@color/color_6000" android:state_pressed="true"/>
+    <item android:drawable="@color/transparent" android:state_pressed="false"/>
+
+</selector>
+~~~
+
+[小Demo小知识-android:foreground与android:background](https://www.jianshu.com/p/b5ecd39ed494)  
+
+
+
+
+
 
 ---------------------
 
