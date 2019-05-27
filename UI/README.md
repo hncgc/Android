@@ -91,6 +91,17 @@ tv_textview.setLineSpacing(15,3);
 android:textScaleX 水平方向放大
 ~~~
 
+
+
+[ExpandableTextView——一个可折叠的Textview](https://blog.csdn.net/qq_37237245/article/details/73559055)
+
+[android ExpandableTextView-自定义可以动态展开/收缩显示长文本的TextView](https://blog.csdn.net/yeah0126/article/details/52060210)  
+
+[关于ExpandableTextView几点优化](https://www.jianshu.com/p/f5e5e579796f)  
+
+
+
+
 [Android Study 之真正解决TextView字间距，那些扯淡的边儿去吧](https://blog.csdn.net/u012400885/article/details/71599497)  
 https://github.com/HLQ-Struggle/TextViewSetWordSpace
 
@@ -101,6 +112,8 @@ https://github.com/HLQ-Struggle/TextViewSetWordSpace
 [Android TextView使用HTML处理图片文字混合显示](https://blog.csdn.net/qq_36455052/article/details/78734734)  
 
 [Android图文混排实现方式详解](https://blog.csdn.net/p19900618/article/details/78468025)  
+
+
 
 ----------------------
 
