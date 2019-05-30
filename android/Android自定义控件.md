@@ -146,6 +146,14 @@ ExpandingPager
 图片轮播
 ---
 
+[Android轮播图RollViewPager库的使用](https://www.jianshu.com/p/3588e392fbc9)  
+https://github.com/Jude95/RollViewPager  
+https://github.com/chaiming/BannerDemo
+
+[RollPagerView的用法](http://www.bubuko.com/infodetail-1796009.html)  
+
+[RollViewPager图片轮播效果开源框架使用方法详解](https://www.jb51.net/article/126889.htm)  
+
 Android Auto Scroll ViewPager
 Android自动滚动 轮播循环的ViewPager
 http://www.trinea.cn/android/auto-scroll-view-pager/
