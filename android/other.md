@@ -555,6 +555,14 @@ dp与pix:
     mdpi:	320*480    1dp=1pix	48dp=48px  
     ldpi:	240x320    1dp=0.75pix	48dp=36pix  
 
-
-
+[Android横竖屏 mdpi hdpi xhdpi xxhdpi xxxhdpi](https://www.jianshu.com/p/7fc8f67eba7c)  
+~~~
+dp与px计算图（mdpi 1dp=1px）：
+ldpi:1dp=0.75px 
+mdpi:1dp=1px 
+hdpi:1dp=1.5px 
+xhdpi:1dp=2px 
+xxhdpi:1dp=3px 
+xxxhdpi:1dp=4px
+~~~
 
