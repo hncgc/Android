@@ -1,5 +1,8 @@
 ## Android二维码
 
+[Android利用zxing生成二维码，识别二维码，中间填充图片超详细、超简易教程](https://blog.csdn.net/mountain_hua/article/details/80646089)  
+https://github.com/zxing/zxing  
+
 [Android 基于google Zxing实现二维码、条形码扫描，仿微信二维码扫描效果](http://blog.csdn.net/xiaanming/article/details/10163203)  
 
 [Android 使用Zxing实现二维码的生成，扫描](http://blog.csdn.net/qq_28057541/article/details/52034988)  
