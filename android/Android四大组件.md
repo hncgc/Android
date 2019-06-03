@@ -8,6 +8,10 @@ Activity
 
 [基础总结篇之二：Activity的四种launchMode](https://blog.csdn.net/liuhe688/article/details/6754323/)  
 
+[彻底明白Activity启动模式-SingleTop、SingleTask、SingleInstance具体使用场景](https://blog.csdn.net/u011682673/article/details/53313795)  
+
+
+
 [Android：Fragment最全面介绍 & 使用方法解析](https://www.jianshu.com/p/2bf21cefb763)  
 
 [Android：手把手教你 实现Activity 与 Fragment 相互通信（含Demo）](https://www.jianshu.com/p/825eb1f98c19)  
