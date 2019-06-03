@@ -6,6 +6,8 @@ Activity
 ---
 [Android基础：最易懂的Activity启动模式详解 ](https://www.jianshu.com/p/399e83d02e33)  
 
+[基础总结篇之二：Activity的四种launchMode](https://blog.csdn.net/liuhe688/article/details/6754323/)  
+
 [Android：Fragment最全面介绍 & 使用方法解析](https://www.jianshu.com/p/2bf21cefb763)  
 
 [Android：手把手教你 实现Activity 与 Fragment 相互通信（含Demo）](https://www.jianshu.com/p/825eb1f98c19)  
