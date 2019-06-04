@@ -117,4 +117,11 @@ ANR(Application Not Responding)
 
 [内存溢出和内存泄漏的区别，产生原因以及解决方案](https://blog.csdn.net/ShanYu1198124123/article/details/52414392)  
 
+[Android手机提示“内部存储空间不足”产生原因及解决方案](https://blog.csdn.net/iteye_11192/article/details/82614601)   
+[Android O 版本（Android 8.0） 存储空间不足时提醒](https://blog.csdn.net/rzc0525/article/details/85759819)  
+[android中内存不足及Activity恢复的情况](https://www.jianshu.com/p/04a8d85807ca)  
+[Android OutOfMemoryError：内存不足问题的排查与解决](https://www.jianshu.com/p/db98a40e0455)  
+[Android 内存泄漏 - 做一个有“洁癖”的开发者](https://www.jianshu.com/p/44d26d355a56)  
+
+
 
