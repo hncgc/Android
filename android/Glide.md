@@ -29,3 +29,16 @@ http://hot.guanaitong.com/index.html
 Glide 支持拉取，解码和展示视频快照，图片，和GIF动画
 
 [Glide v4 使用教程与详细文档](http://www.apkbus.com/blog-873055-75813.html)
+
+
+------------------
+
+[Android 开源框架Universal-Image-Loader完全解析（一）--- 基本介绍及使用](https://blog.csdn.net/xiaanming/article/details/26810303)  
+~~~
+    //图片加载
+    implementation 'com.nostra13.universalimageloader:universal-image-loader:1.9.5'
+~~~
+[Android图片加载框架Glide用法](https://www.cnblogs.com/guilin-hu/p/5706916.html)
+~~~
+    implementation 'com.github.bumptech.glide:glide:3.8.0'
+~~~
