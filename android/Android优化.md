@@ -128,6 +128,8 @@ ANR(Application Not Responding)
 [Android 内存泄漏 - 做一个有“洁癖”的开发者](https://www.jianshu.com/p/44d26d355a56)  
 
 
+[java.lang.OutOfMemoryError when createBitmap](https://stackoverflow.com/questions/41895852/java-lang-outofmemoryerror-when-createbitmap)  
+
 
 
 
