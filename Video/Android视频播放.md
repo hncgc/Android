@@ -218,3 +218,18 @@ play.startPlay();
 [Android在程序中播放本地视频](https://blog.csdn.net/muzhengjun/article/details/46880815)  
 
 -----------------
+
+[[已解决] MediaPlayer.setVolume设置声音大小失效问题](https://blog.csdn.net/talenter111/article/details/70184987)  
+
+[Android MediaPlayer setVolume方法设置程序音量](https://blog.csdn.net/ibicf777/article/details/9719763)   
+
+[Java的float和double](https://blog.csdn.net/longronglin/article/details/2127081)  
+~~~
+float型定义的数据末尾必须有"f"或"F",
+~~~
+
+
+
+
+
+
