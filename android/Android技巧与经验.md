@@ -276,6 +276,8 @@ Android 中中 String 资源文件的 format 方法方法
     String sAgeFormat = getResources().getString(R.string.alert);
     String sFinalAge = String.format(sAgeFormat, nAge); 
 
+
+
 Android唯一标识
 ---
 [如何获取Android唯一标识（唯一序列号）](http://blog.csdn.net/ljz2009y/article/details/22895297)  
@@ -286,6 +288,17 @@ http://www.cnblogs.com/lvcha/p/3721091.html
 [Android 如何检索Android设备的唯一ID](http://blog.csdn.net/aminfo/article/details/7604451)  
 
 [怎样取安卓设备唯一标识来防刷](http://www.eoeandroid.com/thread-917649-1-1.html?_dsign=d27b4af2)  
+
+[友盟统计使用及添加测试设备(设备ID及Mac地址识别)](https://blog.csdn.net/lknlll/article/details/70228028)  
+
+[Android umeng推送无法获取DeviceToken](https://blog.csdn.net/o279642707/article/details/81163948)  
+
+[获取设备唯一ID](https://www.jianshu.com/p/ac8849d8868b)  
+
+~~~
+        String deviceNumber = Settings.Secure.getString(this.getContentResolver(),
+                Settings.Secure.ANDROID_ID);
+~~~
 
 
 项目模板化  
