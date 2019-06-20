@@ -43,6 +43,10 @@ imeOptions=”actionDone” –> EditorInfo.IME_ACTION_DONE
 
 [Android Studio 软键盘的监听事件setOnEditorActionListener](https://blog.csdn.net/i_love_program__19/article/details/80135946)  
 
+
+[安卓开发——对EditText设置软键盘的回车键的监听事件](https://blog.csdn.net/qq_28484355/article/details/51307016)  
+
+
 [EditText软键盘弹出关闭等使用总结](https://blog.csdn.net/lnn368/article/details/51201148)  
 
 [android EditText光标位置(定位到最后)](https://www.cnblogs.com/jenson138/p/4342699.html)  
