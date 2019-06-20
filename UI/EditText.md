@@ -7,6 +7,16 @@ EditText
 
 [EditText，这篇就够了](https://blog.csdn.net/thanksforandroid/article/details/70859894)  
 
+[android动态设置edittext高度](http://www.debugease.com/android/3534991.html)  
+~~~
+int newHeight = 200;
+        //注意这里，到底是用ViewGroup还是用LinearLayout或者是FrameLayout，主要是看你这个EditTex
+        //控件所在的父控件是啥布局，如果是LinearLayout，那么这里就要改成LinearLayout.LayoutParams
+        ViewGroup.LayoutParams lp = editText.getLayoutParams();
+        lp.height = newHeight;
+        editText.setLayoutParams(lp);
+~~~
+
 [Android UI系列-----EditText和AutoCompleteTextView](https://www.cnblogs.com/xiaoluo501395377/p/3411359.html)  
 
 [Android TextWatcher三个回调详解，监听EditText的输入](https://blog.csdn.net/zengsidou/article/details/78665301)  
