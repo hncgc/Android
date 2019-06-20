@@ -7,6 +7,8 @@ Android 键盘
 
 [Android 软键盘监听事件](http://blog.csdn.net/breeze666/article/details/27082419)  
 
+[Android监听键盘弹出收起](https://blog.csdn.net/u011181222/article/details/52043001)  
+
 ~~~~~~
     @BindView(R.id.et_description)
     EditText mEtDescription;
