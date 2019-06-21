@@ -17,6 +17,16 @@ int newHeight = 200;
         editText.setLayoutParams(lp);
 ~~~
 
+[Android EdiText超出设定高度自适应](https://blog.csdn.net/Androidtalent/article/details/52919925)  
+
+[EditText自适应高度](https://blog.csdn.net/lang791534167/article/details/30542709)  
+
+[Android EditText控件即设置最小高度又运行高度随内容增加而变化](https://blog.csdn.net/qq654783742/article/details/52238970)  
+
+[android EditText最多显示多高，超出的滑动显示](https://blog.csdn.net/qq_33919497/article/details/79960670)  
+
+
+
 [Android UI系列-----EditText和AutoCompleteTextView](https://www.cnblogs.com/xiaoluo501395377/p/3411359.html)  
 
 [Android TextWatcher三个回调详解，监听EditText的输入](https://blog.csdn.net/zengsidou/article/details/78665301)  
