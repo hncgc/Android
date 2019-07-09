@@ -75,6 +75,9 @@ imeOptions=”actionDone” –> EditorInfo.IME_ACTION_DONE
             android:windowSoftInputMode="adjustResize"/>
 ~~~
 
+[Android中Activity的android:windowSoftInputMode属性](https://blog.csdn.net/qiutiandepaomo/article/details/84028558)  
+
+
 
 [EditText软键盘弹出关闭等使用总结](https://blog.csdn.net/lnn368/article/details/51201148)  
 
