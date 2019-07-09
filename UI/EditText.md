@@ -59,6 +59,8 @@ imeOptions=”actionDone” –> EditorInfo.IME_ACTION_DONE
 
 [EditText软键盘弹出关闭等使用总结](https://blog.csdn.net/lnn368/article/details/51201148)  
 
+[EditText中关闭或者隐藏输入法](https://kevin19900306.iteye.com/blog/1310677)  
+
 [android EditText光标位置(定位到最后)](https://www.cnblogs.com/jenson138/p/4342699.html)  
 http://blog.csdn.net/sww_simpcity/article/details/8949374  
 
