@@ -56,6 +56,15 @@ imeOptions=”actionDone” –> EditorInfo.IME_ACTION_DONE
 
 [安卓开发——对EditText设置软键盘的回车键的监听事件](https://blog.csdn.net/qq_28484355/article/details/51307016)  
 
+[真正完美解决EditText嵌套ScrollView的滑动冲突](https://www.jianshu.com/p/44c2e56a43bf)  
+
+[ScrollView嵌套EditView、滑动TextView冲突解决](https://www.jianshu.com/p/e00e36b5cd05)  
+
+[允许的EditText，同时禁用滚动(Allow EditText to Scroll while Disabled)](http://www.it1352.com/139383.html)  
+
+[针对ScrollView和EditText合用时，EditText长度超过本身高度时不能滑动问题](https://blog.csdn.net/smile0heaven/article/details/52780083)  
+
+[android scrollview中edittext 软键盘跳出遮住edittext](https://blog.csdn.net/GEM_yaorao/article/details/51693328)  
 
 [EditText软键盘弹出关闭等使用总结](https://blog.csdn.net/lnn368/article/details/51201148)  
 
