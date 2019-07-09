@@ -66,6 +66,16 @@ imeOptions=”actionDone” –> EditorInfo.IME_ACTION_DONE
 
 [android scrollview中edittext 软键盘跳出遮住edittext](https://blog.csdn.net/GEM_yaorao/article/details/51693328)  
 
+[解决android软键盘弹出有时会遮住EditText输入框的一种方法](https://blog.csdn.net/chzjy/article/details/73162671)  
+
+[【Android】EditText 遇到软键盘遮挡底部一点的问题](https://blog.csdn.net/xiaoguda1/article/details/52084248)  
+
+~~~
+        <activity android:name=".ui.xxxxActivity"
+            android:windowSoftInputMode="adjustResize"/>
+~~~
+
+
 [EditText软键盘弹出关闭等使用总结](https://blog.csdn.net/lnn368/article/details/51201148)  
 
 [EditText中关闭或者隐藏输入法](https://kevin19900306.iteye.com/blog/1310677)  
