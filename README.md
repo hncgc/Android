@@ -121,6 +121,8 @@ Android 第三方库
 
 [Android 动画](https://github.com/hncgc/Android/blob/master/android/Android%E5%8A%A8%E7%94%BB.md)  
 
+[Android图片](https://github.com/hncgc/Android/blob/master/Android%E5%9B%BE%E7%89%87.md)  
+
 ----
 
 [Android 权限管理](https://github.com/hncgc/Android/blob/master/android/Android%E6%9D%83%E9%99%90%E7%AE%A1%E7%90%86.md) 
