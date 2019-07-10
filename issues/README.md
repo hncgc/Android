@@ -1,6 +1,18 @@
 Issues
 ===
 
+启动白屏
+----
+
+[救救你的 StartingWindow](https://www.androidperformance.com/2018/05/20/zhihu-startingwindow/)  
+
+[Android APP应用启动页白屏(StartingWindow)优化](https://www.cnblogs.com/whycxb/p/9312914.html)  
+
+[android 启动页开始白屏解决方法](https://www.jianshu.com/p/d2073e4b6b70)  
+
+[Android - 启动白屏分析与优化](https://www.jianshu.com/p/cdbdfa5a5319)  
+
+
 OOM
 ---
 [Fixing issues with Multidex on pre-lollipop devices on Windows](https://www.jimbobbennett.io/fixing-issues-with-multidex-on-pre-lollipop-devices-on-windows/)  
