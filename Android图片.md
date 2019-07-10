@@ -1,9 +1,42 @@
 Android图片
 ===
 
-[Android Activity之间传递图片(Bitmap)的方法](https://www.jb51.net/article/40747.htm)  
+[Android Activity之间传递图片(Bitmap)的方法](https://www.jb51.net/article/40747.htm) 
+传递失败 放大有效
 
 [安卓开发小技巧：Activity之间传递图片](https://www.jianshu.com/p/e7e856bd17f2)  
+传递成功
+
+~~~~
+                                    ByteArrayOutputStream baos = new ByteArrayOutputStream();
+                                    bitmap.compress(Bitmap.CompressFormat.PNG, 100, baos);
+                                    byte[] b = baos.toByteArray();
+                                    mIvPic.setOnClickListener(new View.OnClickListener() {
+                                        @Override
+                                        public void onClick(View v) {
+                                            ShowBigPictureActivity.startAction(ABCActivity.this, b);
+                                        }
+                                    });
+                                    
+                                    
+    public static void startAction(Context context, byte[] b) {
+        Intent intent=new Intent(context, ShowBigPictureActivity.class);
+        intent.putExtra("bite", b);
+        context.startActivity(intent);
+    }
+    
+        Bundle extras = getIntent().getExtras();
+        if(extras!=null) {
+            byte[] b = extras.getByteArray("bite");
+            bitmap = BitmapFactory.decodeByteArray(b, 0, b.length);
+            Matrix matrix = new Matrix();
+            matrix.postScale(2f, 2f);
+            bitmap = Bitmap.createBitmap(bitmap, 0, 0, bitmap.getWidth(),
+                    bitmap.getHeight(), matrix, true);
+            mPhotoView.setImageBitmap(bitmap);
+        }
+
+~~~~
 
 [体验非常好的Android图片手势控件PinchImageView](http://www.codesocang.com/kj-imageview/36647.html)  
 
