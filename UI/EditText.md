@@ -105,8 +105,12 @@ editText.requestFocus();获取焦点
 editText.clearFocus(); 失去焦点
 ~~~
 
+[EditText禁止输入表情符号]（https://blog.csdn.net/suyimin2010/article/details/82250467）  
+https://github.com/woxingxiao/XEditText
 
+[android EditText完美解决禁止输入法表情](https://blog.csdn.net/chenhuakang/article/details/53308255)  
 
+[Android中EditText禁止输入表情](https://www.jianshu.com/p/a2b4eec5ed16)  
 
 
 
