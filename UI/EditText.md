@@ -25,7 +25,60 @@ int newHeight = 200;
 
 [android EditText最多显示多高，超出的滑动显示](https://blog.csdn.net/qq_33919497/article/details/79960670)  
 
+-----------
 
+[允许的EditText，同时禁用滚动(Allow EditText to Scroll while Disabled)](http://www.it1352.com/139383.html)  
+本文地址：IT屋 » Allow EditText to Scroll while Disabled  
+~~~
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:descendantFocusability="beforeDescendants"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/edittext"
+            android:layout_width="match_parent"
+            android:layout_height="375dp"
+            android:ems="10"
+            android:gravity="top" >
+        </EditText>
+
+        <TextView
+            android:id="@+id/textview"
+            android:layout_width="match_parent"
+            android:layout_height="375dp"
+            android:ems="10"
+            android:gravity="top"
+            android:visibility="gone" >
+        </TextView>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</ScrollView>  
+edittext.setOnKeyListener(new OnKeyListener() {
+    public boolean onKey(View v, int keyCode, KeyEvent event) {
+        if ((event.getAction() == KeyEvent.ACTION_DOWN) && (keyCode == KeyEvent.KEYCODE_ENTER)) {
+            String st = edittext.getText().toString();
+            textview.setVisibility(View.VISIBLE);
+            textview.setText(st);
+            return true;
+        }
+        return false;
+    }
+});
+~~~
+
+[真正完美解决EditText嵌套ScrollView的滑动冲突](https://www.jianshu.com/p/44c2e56a43bf)  
+
+-------------
 
 [Android UI系列-----EditText和AutoCompleteTextView](https://www.cnblogs.com/xiaoluo501395377/p/3411359.html)  
 
