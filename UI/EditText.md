@@ -78,6 +78,10 @@ edittext.setOnKeyListener(new OnKeyListener() {
 
 [真正完美解决EditText嵌套ScrollView的滑动冲突](https://www.jianshu.com/p/44c2e56a43bf)  
 
+[Android仿新浪微博加＃话题的EditText实现](https://www.cnblogs.com/bkymy/p/4630650.html)  
+
+[android 仿新浪微博的弹性滑动](https://blog.csdn.net/chaozhung_no_l/article/details/8968245)  
+
 -------------
 
 [Android UI系列-----EditText和AutoCompleteTextView](https://www.cnblogs.com/xiaoluo501395377/p/3411359.html)  
