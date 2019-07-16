@@ -25,7 +25,20 @@ int newHeight = 200;
 
 [android EditText最多显示多高，超出的滑动显示](https://blog.csdn.net/qq_33919497/article/details/79960670)  
 
------------
+Edidtext滑动问题
+----------------
+
+[真正完美解决EditText嵌套ScrollView的滑动冲突](https://www.jianshu.com/p/44c2e56a43bf)  
+
+[Android仿新浪微博加＃话题的EditText实现](https://www.cnblogs.com/bkymy/p/4630650.html)  
+
+[android 仿新浪微博的弹性滑动](https://blog.csdn.net/chaozhung_no_l/article/details/8968245)  
+
+[真正完美解决EditText嵌套ScrollView的滑动冲突](https://www.jianshu.com/p/44c2e56a43bf)  
+
+[ScrollView嵌套EditView、滑动TextView冲突解决](https://www.jianshu.com/p/e00e36b5cd05)  
+
+[针对ScrollView和EditText合用时，EditText长度超过本身高度时不能滑动问题](https://blog.csdn.net/smile0heaven/article/details/52780083)  
 
 [允许的EditText，同时禁用滚动(Allow EditText to Scroll while Disabled)](http://www.it1352.com/139383.html)  
 本文地址：IT屋 » Allow EditText to Scroll while Disabled  
@@ -76,11 +89,6 @@ edittext.setOnKeyListener(new OnKeyListener() {
 });
 ~~~
 
-[真正完美解决EditText嵌套ScrollView的滑动冲突](https://www.jianshu.com/p/44c2e56a43bf)  
-
-[Android仿新浪微博加＃话题的EditText实现](https://www.cnblogs.com/bkymy/p/4630650.html)  
-
-[android 仿新浪微博的弹性滑动](https://blog.csdn.net/chaozhung_no_l/article/details/8968245)  
 
 -------------
 
@@ -108,18 +116,13 @@ imeOptions=”actionNext” –> EditorInfo.IME_ACTION_NEXT
 imeOptions=”actionDone” –> EditorInfo.IME_ACTION_DONE
 ~~~
 
+Edidtext软键盘
+----
+
 [Android Studio 软键盘的监听事件setOnEditorActionListener](https://blog.csdn.net/i_love_program__19/article/details/80135946)  
 
 
 [安卓开发——对EditText设置软键盘的回车键的监听事件](https://blog.csdn.net/qq_28484355/article/details/51307016)  
-
-[真正完美解决EditText嵌套ScrollView的滑动冲突](https://www.jianshu.com/p/44c2e56a43bf)  
-
-[ScrollView嵌套EditView、滑动TextView冲突解决](https://www.jianshu.com/p/e00e36b5cd05)  
-
-[允许的EditText，同时禁用滚动(Allow EditText to Scroll while Disabled)](http://www.it1352.com/139383.html)  
-
-[针对ScrollView和EditText合用时，EditText长度超过本身高度时不能滑动问题](https://blog.csdn.net/smile0heaven/article/details/52780083)  
 
 [android scrollview中edittext 软键盘跳出遮住edittext](https://blog.csdn.net/GEM_yaorao/article/details/51693328)  
 
@@ -133,7 +136,6 @@ imeOptions=”actionDone” –> EditorInfo.IME_ACTION_DONE
 ~~~
 
 [Android中Activity的android:windowSoftInputMode属性](https://blog.csdn.net/qiutiandepaomo/article/details/84028558)  
-
 
 
 [EditText软键盘弹出关闭等使用总结](https://blog.csdn.net/lnn368/article/details/51201148)  
@@ -161,6 +163,8 @@ editText.requestFocus();获取焦点
 如果改为：
 editText.clearFocus(); 失去焦点
 ~~~
+
+-------------
 
 [EditText禁止输入表情符号](https://blog.csdn.net/suyimin2010/article/details/82250467)  
 https://github.com/woxingxiao/XEditText
