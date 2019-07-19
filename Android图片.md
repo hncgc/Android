@@ -66,6 +66,12 @@ Android 高斯模糊处理
 
 [android 获取当前屏幕作为毛玻璃模糊背景Acitivity作为弹出框。](https://www.cnblogs.com/CharlesGrant/p/4813735.html)  
 
+[Android Bitmap精确缩放到指定大小](https://blog.csdn.net/wuzuyu365/article/details/78064244)  
+
+[Bitmap缩放到指定的大小](https://blog.csdn.net/u011978309/article/details/52162619)  
+
+
+
 下载图片模糊设置背景
 ---
 ~~~
