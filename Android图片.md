@@ -56,6 +56,16 @@ https://github.com/chrisbanes/PhotoView
 Android 高斯模糊处理
 ---
 
+[Android Bitmap换背景颜色](https://blog.csdn.net/itchenlin/article/details/51206246)  
+
+[android 除imageview的其他控件，设置bitmap为背景](https://blog.csdn.net/jian11058/article/details/86591656)  
+~~~
+linearLayout.setBackground( new BitmapDrawable(bitmap));
+
+linearLayout.setBackground( new BitmapDrawable(getResources(),bitmap));
+~~~
+
+
 [Android截屏并对图片做高斯模糊处理](https://gqdy365.iteye.com/blog/2193913)  
 
 [Android背景模糊话模糊、高斯模糊（FastBlur）](https://blog.csdn.net/blank__box/article/details/80099359)  
