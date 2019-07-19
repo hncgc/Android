@@ -128,13 +128,15 @@ linearLayout.setBackground( new BitmapDrawable(getResources(),bitmap));
         }
 
         try {
-            HttpURLConnection conn = (HttpURLConnection) fileUrl
-                    .openConnection();
-            conn.setDoInput(true);
-            conn.connect();
-            InputStream is = conn.getInputStream();
-            bitmap = BitmapFactory.decodeStream(is);
-            is.close();
+            if (fileUrl != null) {
+                HttpURLConnection conn = (HttpURLConnection) fileUrl
+                        .openConnection();
+                conn.setDoInput(true);
+                conn.connect();
+                InputStream is = conn.getInputStream();
+                bitmap = BitmapFactory.decodeStream(is);
+                is.close();
+            }
         } catch (IOException e) {
             e.printStackTrace();
         }
