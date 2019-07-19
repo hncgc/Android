@@ -115,6 +115,9 @@ linearLayout.setBackground( new BitmapDrawable(getResources(),bitmap));
      * @return
      */
     private Bitmap returnBitmap(String url) {
+        if (TextUtils.isEmpty(url)){
+            return null;
+        }
         URL fileUrl = null;
         Bitmap bitmap = null;
 
