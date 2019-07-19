@@ -129,8 +129,13 @@ Android 高斯模糊处理
 
     }
 
-    // 模糊并设置背景
 
+    /**
+     * 模糊图像并设置背景
+     * @param bkg
+     * @param view
+     *    scaleFactor * 2.8,  scaleFactor * 1.3 调试得到的值   不科学, 下面有改进
+     */
     private void blur(Bitmap bkg, View view) {
         long startMs = System.currentTimeMillis();
         float scaleFactor = 8;//图片缩放比例；
@@ -149,7 +154,65 @@ Android 高斯模糊处理
         view.setBackground(new BitmapDrawable(getResources(), overlay));
         Log.i("AFragment", "AFragment blur time:" + (System.currentTimeMillis() - startMs));
     }
-}
+    
+    改为:
+    /**
+     * 模糊图像并设置背景
+     * @param bkg
+     * @param view
+     */
+    private void blur(Bitmap bkg, View view) {
+        // Bitmap缩放到view控件的大小
+        bkg = zoomImage(bkg, view.getMeasuredWidth(), view.getMeasuredHeight());
+        
+        long startMs = System.currentTimeMillis();
+        float scaleFactor = 8;//图片缩放比例；
+        float radius = 8;//模糊程度
+        Bitmap overlay = Bitmap.createBitmap(
+                (int) (view.getMeasuredWidth() / scaleFactor),
+                (int) (view.getMeasuredHeight() / scaleFactor),
+                Bitmap.Config.ARGB_8888);
+        Canvas canvas = new Canvas(overlay);
+        canvas.translate(-view.getLeft() / scaleFactor, -view.getTop()/ scaleFactor);
+        canvas.scale(1 / scaleFactor, 1 / scaleFactor);
+        Paint paint = new Paint();
+        paint.setFlags(Paint.FILTER_BITMAP_FLAG);
+        canvas.drawBitmap(bkg, 0, 0, paint);
+        overlay = FastBlur.doBlur(overlay, (int) radius, true);
+        
+        // Bitmap缩放到view控件的大小
+        overlay = zoomImage(overlay, view.getMeasuredWidth(), view.getMeasuredHeight());
+        
+        view.setBackground(new BitmapDrawable(getResources(), overlay));
+        Log.i("MineNewFragment", "MineNewFragment blur time:" + (System.currentTimeMillis() - startMs));
+    }
+
+
+
+
+    /**
+     * Bitmap缩放到指定的大小
+     * @param bgimage
+     * @param newWidth
+     * @param newHeight
+     * @return
+     */
+    public static Bitmap zoomImage(Bitmap bgimage, double newWidth,
+                                   double newHeight) {
+        // 获取这个图片的宽和高
+        float width = bgimage.getWidth();
+        float height = bgimage.getHeight();
+        // 创建操作图片用的matrix对象
+        Matrix matrix = new Matrix();
+        // 计算宽高缩放率
+        float scaleWidth = ((float) newWidth) / width;
+        float scaleHeight = ((float) newHeight) / height;
+        // 缩放图片动作
+        matrix.postScale(scaleWidth, scaleHeight);
+        Bitmap bitmap = Bitmap.createBitmap(bgimage, 0, 0, (int) width,
+                (int) height, matrix, true);
+        return bitmap;
+    }
 
 
 ~~~
