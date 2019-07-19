@@ -141,7 +141,7 @@ Android 高斯模糊处理
         canvas.drawBitmap(bkg, 0, 0, paint);
         overlay = FastBlur.doBlur(overlay, (int) radius, true);
         view.setBackground(new BitmapDrawable(getResources(), overlay));
-        Log.i("MineNewFragment", "MineNewFragment blur time:" + (System.currentTimeMillis() - startMs));
+        Log.i("AFragment", "AFragment blur time:" + (System.currentTimeMillis() - startMs));
     }
 }
 
