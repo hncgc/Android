@@ -53,14 +53,20 @@ https://github.com/chrisbanes/PhotoView
 
 [超自然的点击图片放大](https://www.jianshu.com/p/d59d683609e1)  
 
--------------------------------
+Android 高斯模糊处理
+---
+
+[Android截屏并对图片做高斯模糊处理](https://gqdy365.iteye.com/blog/2193913)  
 
 [Android背景模糊话模糊、高斯模糊（FastBlur）](https://blog.csdn.net/blank__box/article/details/80099359)  
 
-[ Android 背景模糊](https://www.csdn.net/gather_2e/MtTakgwsNzgwNC1ibG9n.html)  
+[Android 背景模糊](https://www.csdn.net/gather_2e/MtTakgwsNzgwNC1ibG9n.html)  
 
 
 [android 获取当前屏幕作为毛玻璃模糊背景Acitivity作为弹出框。](https://www.cnblogs.com/CharlesGrant/p/4813735.html)  
+
+
+
 
 
 
