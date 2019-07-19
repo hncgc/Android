@@ -62,11 +62,91 @@ Android 高斯模糊处理
 
 [Android 背景模糊](https://www.csdn.net/gather_2e/MtTakgwsNzgwNC1ibG9n.html)  
 
+[Android 背景模糊专题](https://blog.csdn.net/L25000/article/details/46550017)  
 
 [android 获取当前屏幕作为毛玻璃模糊背景Acitivity作为弹出框。](https://www.cnblogs.com/CharlesGrant/p/4813735.html)  
 
+下载图片模糊设置背景
+---
+~~~
+    if (!TextUtils.isEmpty(imgUrl)){
+        downloadPicture(imgUrl, llView);
+    }
+
+    // 从网上下载图片
+    private void downloadPicture(final String url, View view) {
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                final Bitmap b = returnBitmap(url);
+                if (b != null) {
+                    getActivity().runOnUiThread(new Runnable() {
+                        @Override
+                        public void run() {
+                            blur(b, view);
+                        }
+                    });
+                }
+
+            }
+        }).start();
+    }
+
+    /**
+     * 根据图片的url路径获得Bitmap对象
+     *
+     * @param url
+     * @return
+     */
+    private Bitmap returnBitmap(String url) {
+        URL fileUrl = null;
+        Bitmap bitmap = null;
+
+        try {
+            fileUrl = new URL(url);
+        } catch (MalformedURLException e) {
+            e.printStackTrace();
+        }
+
+        try {
+            HttpURLConnection conn = (HttpURLConnection) fileUrl
+                    .openConnection();
+            conn.setDoInput(true);
+            conn.connect();
+            InputStream is = conn.getInputStream();
+            bitmap = BitmapFactory.decodeStream(is);
+            is.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return bitmap;
+
+    }
+
+    // 模糊并设置背景
+
+    private void blur(Bitmap bkg, View view) {
+        long startMs = System.currentTimeMillis();
+        float scaleFactor = 8;//图片缩放比例；
+        float radius = 4;//模糊程度
+        Bitmap overlay = Bitmap.createBitmap(
+                (int) (view.getMeasuredWidth() / (scaleFactor * 2.8)),
+                (int) (view.getMeasuredHeight() / (scaleFactor * 1.3)),
+                Bitmap.Config.ARGB_8888);
+        Canvas canvas = new Canvas(overlay);
+        canvas.translate(-view.getLeft() / scaleFactor, -view.getTop()/ scaleFactor);
+        canvas.scale(1 / scaleFactor, 1 / scaleFactor);
+        Paint paint = new Paint();
+        paint.setFlags(Paint.FILTER_BITMAP_FLAG);
+        canvas.drawBitmap(bkg, 0, 0, paint);
+        overlay = FastBlur.doBlur(overlay, (int) radius, true);
+        view.setBackground(new BitmapDrawable(getResources(), overlay));
+        Log.i("MineNewFragment", "MineNewFragment blur time:" + (System.currentTimeMillis() - startMs));
+    }
+}
 
 
+~~~
 
 
 
