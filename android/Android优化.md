@@ -130,8 +130,9 @@ ANR(Application Not Responding)
 
 [java.lang.OutOfMemoryError when createBitmap](https://stackoverflow.com/questions/41895852/java-lang-outofmemoryerror-when-createbitmap)  
 
+---------------
 
-
+[Android 高质量开发之崩溃优化](http://www.apkbus.com/blog-985056-80770.html)  
 
 
 
