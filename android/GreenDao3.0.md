@@ -122,3 +122,8 @@ git clean 参数
     -n 显示 将要 删除的 文件 和  目录
     -f 删除 文件
     -df 删除 文件 和 目录1
+    
+[Android studio 4.0 使用greenDAO](https://blog.csdn.net/luckywujl/article/details/106834352)  
+
+
+
