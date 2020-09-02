@@ -126,4 +126,9 @@ git clean 参数
 [Android studio 4.0 使用greenDAO](https://blog.csdn.net/luckywujl/article/details/106834352)  
 
 
+[GreenDao使用总结](https://www.jianshu.com/p/967d402d411d)  
+
+
+
+
 
