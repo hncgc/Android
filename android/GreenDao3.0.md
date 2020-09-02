@@ -122,13 +122,114 @@ git clean 参数
     -n 显示 将要 删除的 文件 和  目录
     -f 删除 文件
     -df 删除 文件 和 目录1
-    
+
+
+[GreenDao 3.2.0 的基本使用](https://www.cnblogs.com/tonycheng93/p/6295724.html)  
+
+[GreenDao3.2使用详解（增，删，改，查，升级）](https://blog.csdn.net/wzgbgz/article/details/79140056)
+
+
+
+
 [Android studio 4.0 使用greenDAO](https://blog.csdn.net/luckywujl/article/details/106834352)  
 
 
 [GreenDao使用总结](https://www.jianshu.com/p/967d402d411d)  
 
+~~~
+F:\ReciteWords\app\build.gradle
+
+apply plugin: 'org.greenrobot.greendao'
+
+android {
+......
+    // 自定义数据库路径
+    greendao {
+        schemaVersion 1
+        daoPackage 'com.mywords.app.greendao.gen'
+        targetGenDir 'src/main/java'
+    }
+
+}
+
+.....
+repositories {
+......
+}
+
+dependencies {
+......
+
+    // 数据库GreenDao
+    implementation 'org.greenrobot:greendao:3.3.0'
+    implementation 'org.greenrobot:greendao-generator:3.3.0'
+
+......
+}
+
+F:\ReciteWords\build.gradle
+
+buildscript {
+    repositories {
+        google()
+        jcenter()
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:4.0.1'
+        
+        classpath 'org.greenrobot:greendao-gradle-plugin:3.3.0'
+        
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+F:\ReciteWords\app\src\main\java\com\mywords\app\base\BaseApplication.java
+
+class BaseApplication extends Application {
+    public static final String DB_NAME = "word.db";
+    public static Context mContext;
+    private static DaoSession mDaoSession;
+    private static BaseApplication instance;
+
+    /**
+     * 单一实例
+     */
+    public static BaseApplication getInstance() {
+        if (null == instance) {
+            instance = new BaseApplication();
+        }
+        return instance;
+    }
 
 
+    @Override
+    public void onCreate() {
+        super.onCreate();
+        mContext = getApplicationContext();
+        initGreenDao();
+    }
+
+    public static Context getAppContext() {
+        return mContext;
+    }
+
+    /**
+     * 初始化数据库
+     */
+    private void initGreenDao() {
+        DaoMaster.DevOpenHelper mHelper = new DaoMaster.DevOpenHelper(this, DB_NAME, null);
+        SQLiteDatabase db = mHelper.getWritableDatabase();
+        DaoMaster mDaoMaster = new DaoMaster(db);
+        mDaoSession = mDaoMaster.newSession(IdentityScopeType.None);
+    }
+
+    public DaoSession getDaoSession() {
+        return mDaoSession;
+    }
+
+}
 
 
+~~~
