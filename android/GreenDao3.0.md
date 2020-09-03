@@ -12,6 +12,16 @@ github:https://github.com/LitePalFramework/LitePal
 GreenDao3.0
 ---
 
+[GitHub项目地址](https://github.com/greenrobot/greenDAO)  
+
+[greenDAO官方文档](http://greenrobot.org/greendao/documentation)  
+
+
+[greendao使用详解](https://blog.csdn.net/yang_niuxxx/article/details/88851489)  
+
+[greenDAO数据本地化](https://www.jianshu.com/p/c0015f0e9e73)  
+
+
 GreenDao3.0简单使用
 http://www.jianshu.com/p/4986100eff90
 http://greenrobot.org/greendao/
