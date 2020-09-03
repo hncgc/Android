@@ -233,3 +233,11 @@ class BaseApplication extends Application {
 
 
 ~~~
+
+[学习GreenDAO的QueryBuilder的使用](https://blog.csdn.net/flybamboo/article/details/52846110)  
+
+[GreenDao简明教程（查询，Querying）](https://blog.csdn.net/yuyuanhuang/article/details/42751469)  
+
+
+
+
