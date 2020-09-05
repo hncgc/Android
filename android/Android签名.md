@@ -81,13 +81,88 @@ http://www.aiuxian.com/article/p-1675467.html
 
 [Android Studio gradle打包实践](https://www.jianshu.com/p/c5f69437100a)  
 
+[最全的命令行（gradle）打包安卓apk](https://www.cnblogs.com/peng-lan/p/11097117.html)  
 
+[android studio打包导出未签名apk](https://blog.csdn.net/u010111268/article/details/105053649)  
 
+[Android 使用 Gradle 打包之签名配置](https://www.jianshu.com/p/8dc154f0f89f)  
 
+~~~
+android {
+    ......
+    // 配置 release 的签名信息
+    signingConfigs {
+        release {
+            storeFile
+            storePassword
+            keyAlias
+            keyPassword
+        }
+    }
 
+    // 读取签名配置
+    getSigningProperties()
 
+    buildTypes {
+        // debug 和 release 使用同样的签名
+        debug {
+            signingConfig signingConfigs.release
+        }
 
+        release {
+            minifyEnabled true
+            shrinkResources true
+            zipAlignEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
+            // 修改生成的 apk 文件名，输出 apk 名称：MyApp_v1.0.0_2017-11-10_debug.apk
+            applicationVariants.all { variant ->
+                def suffix
+                if (variant.buildType.name == 'release') {
+                    suffix = 'release'
+                } else {
+                    suffix = 'debug'
+                }
+                variant.outputs.each { output ->
+                    def outputFile = output.outputFile
+                    if (outputFile != null && outputFile.name.endsWith('.apk')) {
+                        def fileName = "MyApp_v${defaultConfig.versionName}_${releaseTime()}_${suffix}.apk"
+                        output.outputFile = new File(outputFile.parent, fileName)
+                    }
+                }
+            }
+        }
+    }
+    ......
+}
 
+// 读取签名配置
+def getSigningProperties() {
+    def propFile = file('../signing.properties')
+    if (propFile.exists() && propFile.canRead()) {
+        def props = new Properties()
+        props.load(new FileInputStream(propFile))
+        if (props.containsKey('STORE_FILE') && props.containsKey('STORE_PASSWORD') &&
+                props.containsKey('KEY_ALIAS') && props.containsKey('KEY_PASSWORD')) {
+            android.signingConfigs.release.storeFile = file('../' + props['STORE_FILE'])
+            android.signingConfigs.release.storePassword = props['STORE_PASSWORD']
+            android.signingConfigs.release.keyAlias = props['KEY_ALIAS']
+            android.signingConfigs.release.keyPassword = props['KEY_PASSWORD']
+        } else {
+            println 'signing.properties are found but some entries are missed!'
+            android.buildTypes.release.signingConfig = null
+        }
+    } else {
+        println 'signing.properties are not found!'
+        android.buildTypes.release.signingConfig = null
+    }
+}
+
+// 定义打包时间
+static def releaseTime() {
+    return new Date().format("yyyy-MM-dd", TimeZone.getTimeZone("UTC"))
+}
+~~~
 
 
 
