@@ -47,6 +47,7 @@ https://github.com/hncgc/Android/blob/master/android/%E5%9B%BD%E5%86%85%E9%A1%B6
 
 [Android 技巧与经验](https://github.com/hncgc/Android/blob/master/android/Android%E6%8A%80%E5%B7%A7%E4%B8%8E%E7%BB%8F%E9%AA%8C.md)  
 
+[SQLite](https://github.com/hncgc/Android/blob/master/android/SQLite.md)  
 
 ---
 
@@ -72,7 +73,7 @@ Android 第三方库
 
 [Android Room](https://github.com/hncgc/Android/blob/master/AndroidRoom.md)  
 
-[Glide.md](https://github.com/hncgc/Android/blob/master/android/Glide.md)  
+[Glide](https://github.com/hncgc/Android/blob/master/android/Glide.md)  
 
 [Android 图表](https://github.com/hncgc/Android/blob/master/android/Android%E5%9B%BE%E8%A1%A8.md)  
 
