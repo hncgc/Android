@@ -75,7 +75,11 @@ http://www.aiuxian.com/article/p-1675467.html
 [Android jks文件签名转换keystore文件签名](https://blog.csdn.net/ONLYMETAGAIN/article/details/78781316)
 
 
+[Android-解放双手之Gradle自动化打包实战（原创）](https://www.jianshu.com/p/38eb97d3477e)  
 
+[Android-V1、V2签名包和快速集成美团多渠道打包（原创）](https://www.jianshu.com/p/332525b09a88)  
+
+[Android Studio gradle打包实践](https://www.jianshu.com/p/c5f69437100a)  
 
 
 
