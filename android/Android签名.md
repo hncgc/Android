@@ -56,32 +56,23 @@ http://www.aiuxian.com/article/p-1675467.html
 
 [Key was created with errors: Warning: JKS 密钥库使用专用格式。android Studio打包报错](https://blog.csdn.net/qq_42221857/article/details/105975431)
 
-[Android APK签名 JKS 密钥库使用专用格式。建议使用 “keytool -importkeystore -srckeystore E:\xxxxxx- pkcs12“ 迁移到行业标准格式]
-(https://blog.csdn.net/xkai007/article/details/106073091)
+[Android APK签名 JKS 密钥库使用专用格式。建议使用 “keytool -importkeystore -srckeystore E:\xxxxxx- pkcs12“ 迁移到行业标准格式](https://blog.csdn.net/xkai007/article/details/106073091)
 
-[Java证书工具keytool用法总结]
-(https://blog.csdn.net/w47_csdn/article/details/87564029)
+[Java证书工具keytool用法总结](https://blog.csdn.net/w47_csdn/article/details/87564029)
 
-[JDK自带的keytool证书工具详解]
-(https://www.cnblogs.com/zhi-leaf/p/10418222.html)
+[JDK自带的keytool证书工具详解](https://www.cnblogs.com/zhi-leaf/p/10418222.html)
 
-[android 使用signingConfigs进行打包]
-(https://blog.csdn.net/bzlj2912009596/article/details/78188570)
+[android 使用signingConfigs进行打包](https://blog.csdn.net/bzlj2912009596/article/details/78188570)
 
-[android signingConfigs打包配置]
-(https://www.jianshu.com/p/62ac145ee0ad)
+[android signingConfigs打包配置](https://www.jianshu.com/p/62ac145ee0ad)
 
-[AS3.6.1版apk签名打包Warning-JKS密钥库使用专用格式]
-(https://www.tqwba.com/x_d/jishu/11788.html)
+[AS3.6.1版apk签名打包Warning-JKS密钥库使用专用格式](https://www.tqwba.com/x_d/jishu/11788.html)
 
-[Warning:JKS 密钥库使用专用格式。建议使用 "keytool -importkeystore -srckeystore...pkcs12" 迁移到行业标准格式 PKCS12]
-(https://blog.csdn.net/csdnzouqi/article/details/105882034)
+[Warning:JKS 密钥库使用专用格式。建议使用 "keytool -importkeystore -srckeystore...pkcs12" 迁移到行业标准格式 PKCS12](https://blog.csdn.net/csdnzouqi/article/details/105882034)
 
-[jks与keystore区别]
-(https://blog.csdn.net/qq_15509421/article/details/91870944)
+[jks与keystore区别](https://blog.csdn.net/qq_15509421/article/details/91870944)
 
-[Android jks文件签名转换keystore文件签名]
-(https://blog.csdn.net/ONLYMETAGAIN/article/details/78781316}
+[Android jks文件签名转换keystore文件签名](https://blog.csdn.net/ONLYMETAGAIN/article/details/78781316)
 
 
 
