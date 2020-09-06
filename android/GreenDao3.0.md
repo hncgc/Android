@@ -21,6 +21,9 @@ GreenDao3.0
 
 [greenDAO数据本地化](https://www.jianshu.com/p/c0015f0e9e73)  
 
+[GreenDao 3.X之注解](https://blog.csdn.net/IO_Field/article/details/52213972)  
+
+[GreenDao 3.X之基本使用](https://blog.csdn.net/io_field/article/details/52214099)  
 
 GreenDao3.0简单使用
 http://www.jianshu.com/p/4986100eff90
