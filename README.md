@@ -157,6 +157,8 @@ Android 第三方库
 
 [Android视频](https://github.com/hncgc/Android/tree/master/Video)  
 
+[Android音频](https://github.com/hncgc/Android/tree/master/Audio)  
+
 [Flutter](https://github.com/hncgc/Android/blob/master/Flutter.md)  
 
 [Pay](https://github.com/hncgc/Android/tree/master/pay)  
