@@ -4,7 +4,9 @@
 
 [迁移到 AndroidX](https://developer.android.google.cn/jetpack/androidx/migrate)  
 
-[Androidx官方文档](https://developer.android.com/jetpack/androidx/versions)
+[Androidx官方文档](https://developer.android.com/jetpack/androidx/versions)  
+
+
 
 [一次解决找不到 android.support.v7.XXX 问题](https://www.jianshu.com/p/f0bbae225cac)  
 
@@ -54,9 +56,11 @@ android.enableJetifier=true
 
 [详解Android Studio3.5及使用AndroidX的一些坑](https://www.jb51.net/article/173941.htm)   
 
-[]()   
+[慎用 AndroidX 库](https://www.jianshu.com/p/641d683f78d5)   
 
+[Androidx的使用](https://www.jianshu.com/p/6c5c17fc574a)    
 
+[AndroidX从入门到放弃...](https://www.jianshu.com/p/ee3484c8eb9a)  
 
 
 
