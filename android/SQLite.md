@@ -117,9 +117,37 @@ sqlite> .help
 .vfsname ?AUX?           Print the name of the VFS stack
 .width NUM1 NUM2 ...     Set minimum column widths for columnar output
 sqlite>
+
+sqlite> .show
+        echo: off
+         eqp: off
+     explain: auto
+     headers: off
+        mode: list
+   nullvalue: ""
+      output: stdout
+colseparator: "|"
+rowseparator: "\n"
+       stats: off
+       width:
+    filename: :memory:
+sqlite>
+
 sqlite> .quit
 
 D:\SQLite>
+
+2020/09/07  12:42    <DIR>          .
+2020/09/07  12:42    <DIR>          ..
+2020/08/14  21:44           521,728 sqldiff.exe
+2020/09/07  12:40           500,989 sqlite-dll-win32-x86-3330000.zip
+2020/09/07  12:37           829,331 sqlite-dll-win64-x64-3330000.zip
+2020/09/07  12:37         1,844,004 sqlite-tools-win32-x86-3330000.zip
+2020/08/15  05:15             6,262 sqlite3.def
+2020/08/15  05:15         1,950,208 sqlite3.dll
+2020/08/14  21:45           987,136 sqlite3.exe
+2020/08/14  21:44         2,037,248 sqlite3_analyzer.exe
+               8 个文件      8,676,906 字节
 ~~~
 
 
