@@ -165,5 +165,14 @@ sqlite> .quit
 
 ~~~
 
+[android实现raw文件夹导入数据库代码](https://www.jb51.net/article/45080.htm)  
+
+[Android导入现有的数据库方法示例](https://www.jb51.net/article/106790.htm)
+
+[android读取assets中Excel表格并显示](https://www.jb51.net/article/104588.htm)  
+
+[android通过jxl读excel存入sqlite3数据库](https://www.jb51.net/article/47469.htm)  
+
+[Android开发实现的导出数据库到Excel表格功能【附源码下载】](https://www.jb51.net/article/136440.htm)  
 
 
