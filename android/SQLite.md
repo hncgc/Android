@@ -171,8 +171,65 @@ sqlite> .quit
 
 [android读取assets中Excel表格并显示](https://www.jb51.net/article/104588.htm)  
 
+[android通过jxl读excel存入sqlite3数据库](https://www.xp.cn/b.php/67477.html)  
+
 [android通过jxl读excel存入sqlite3数据库](https://www.jb51.net/article/47469.htm)  
 
 [Android开发实现的导出数据库到Excel表格功能【附源码下载】](https://www.jb51.net/article/136440.htm)  
+
+[Android 使用存放在存assets文件夹下的SQLite数据库](https://blog.csdn.net/u011494050/article/details/38427089)  
+
+[android导入外部的数据库sqlite](https://download.csdn.net/download/dianqiugg/7475771)  
+~~~
+public class MainActivity extends Activity
+{
+	/**
+	 * 如果数据库文件较大，使用FileSplit分割为小于1M的小文件
+	 * 本例分割为test_db.001,test_db.002,test_db.003........
+	 * 
+	 * @see DBUtils#ASSETS_SUFFIX_BEGIN
+	 * @see DBUtils#createDataBase()
+	 * @see DBUtils#copyDataBase()
+	 * @see DBUtils#copyBigDataBase()
+	 * 
+	 *      要被导入的数据库，置于工程assets目录下
+	 */
+	public String RESOURCE_DB = "test_db";
+
+	/**
+	 * 导入到这个数据库里
+	 */
+	public String DB_NAME = "test.db";
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState)
+	{
+		super.onCreate(savedInstanceState);
+
+		// 数据库文件目标存放的路径(本例为系统默认位置)
+		String db_path = getFilesDir().getPath() + "data/" + getPackageName()
+				+ "/databases/";
+		new DBUtils(this, RESOURCE_DB, DB_NAME, db_path).createDataBase();
+	}
+
+}
+
+2020-09-08 23:41:56.720 29693-29693/com.mywords.app D/MainActivity: db_path = /data/user/0/com.mywords.app/filesdata/com.mywords.app/databases/
+
+~~~
+
+Filesplit(文件分割合并工具) 
+[文件分割（FileSplit）](https://jingyan.baidu.com/article/ed15cb1b94c7a01be3698181.html)  
+
+[scimence / fileSplit](https://gitee.com/scimence/fileSplit?utm_source=aladin&utm_campaign=repo)  
+
+
+
+
+
+
+
+
+
 
 
