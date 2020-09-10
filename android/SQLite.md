@@ -106,6 +106,11 @@ Filesplit(文件分割合并工具)
 
 ~~~
 
+
+[android私有文件夹的访问](https://www.cnblogs.com/viki117/archive/2010/09/27/1837091.html)  
+
+[Android中对/data/data/<package name>/files下文件操作](https://www.cnblogs.com/6060b/p/4246905.html)  
+
 [Android 文件外/内部存储的获取各种存储目录路径](https://blog.csdn.net/csdn_aiyang/article/details/80665185)  
 
 [Android 常用路径的获取](https://www.jianshu.com/p/e8a11d23513b)  
@@ -119,6 +124,7 @@ daoMaster.getDatabase().close()
 daoSession.getDatabase().close()
 ~~~
 
+[Android关于保存数据(Saving data)](https://www.cnblogs.com/953050373April/p/4201951.html)  
 
 
 
