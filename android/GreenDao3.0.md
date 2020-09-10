@@ -251,6 +251,37 @@ class BaseApplication extends Application {
 
 [GreenDao简明教程（查询，Querying）](https://blog.csdn.net/yuyuanhuang/article/details/42751469)  
 
+[Day5 greenDao的List存储与查询方法大全](https://www.jianshu.com/p/7e66d95b098a)  
+
+[greendao用完需要手动关闭数据库吗](https://zhidao.baidu.com/question/2120401707570803067.html)  
+~~~
+点开baigreendao某方法
+
+private void deleteInTxInternal(Iterable<T> entities, Iterable<K> keys) {
+    //此处打开
+    db.beginTransaction();
+    try {
+       ...
+    } finally {
+        //此处关闭
+        db.endTransaction();
+    }
+}
+greendao不需要手du动去打zhi开和关闭数据库，已经帮我们做dao好了
+~~~
+
+
+[使用greenDao关闭数据库](https://mlog.club/article/1729704)  
+~~~
+    private static DaoMaster daoMaster;
+    private static DaoSession daoSession;
+
+daoMaster.getDatabase().close()
+或
+daoSession.getDatabase().close()
+~~~
+
+
 
 
 
