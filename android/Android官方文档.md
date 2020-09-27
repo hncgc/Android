@@ -1,6 +1,11 @@
 Android 官方文档
 ---
 
+[ndroid 开发者](https://developer.android.google.cn/)  
+
+[Android 开发者指南](https://developer.android.google.cn/guide)  
+
+
 [Android官方培训课程中文版](http://hukai.me/android-training-course-in-chinese/)  
 
 [Android官方文档](http://developer.android.com/intl/zh-cn/develop/index.html)  
