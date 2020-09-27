@@ -35,4 +35,9 @@ http://dict.youdao.com/speech?audio=good%20bye
 
 [15000个英文单词SQLite库，含翻译、各种时态、复数形式、例句](https://download.csdn.net/download/chen_ice/8757337)  
 
+[聚合数据 Api免费接口](https://www.juhe.cn/)  
+
+https://www.juhe.cn/docs/index/otherid/1/page/1
+
+
 
