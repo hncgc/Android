@@ -15,7 +15,19 @@
 
 
 
+[天行数据英汉词典API](https://www.tianapi.com/apiview/49)  
+
+[收集可用的关于英语单词api](https://blog.csdn.net/chemmuxin1993/article/details/52588074)  
+
+扇贝单词发音(https://www.shanbay.com/)：
+~~~
+1. 美式：http://media.shanbay.com/audio/us/%s.mp3
+2. 英式：http://media.shanbay.com/audio/uk/%s.mp3
+~~~
 
 
+[10万条英语单词库](https://download.csdn.net/download/waynehu1991/10705498)  
+
+[15000个英文单词SQLite库，含翻译、各种时态、复数形式、例句](https://download.csdn.net/download/chen_ice/8757337)  
 
 
