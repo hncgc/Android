@@ -1,3 +1,15 @@
+Android 数据库框架
+===
+
+[Android 数据库框架总结，总有一个适合你！](https://blog.csdn.net/qq_22703355/article/details/80804876)  
+
+[Android 数据库框架对比分析](https://www.jianshu.com/p/71d4acc2054d)  
+
+[Android开源的数据库框架](https://www.cnblogs.com/sparrowlhl/p/11171685.html)  
+
+[Android最好用的数据库框架——DBFLOW全面解析](https://www.jianshu.com/p/9fe0e179f5bf)  
+
+
 LitePal
 ---
 
