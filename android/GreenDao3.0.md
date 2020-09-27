@@ -247,11 +247,57 @@ class BaseApplication extends Application {
 
 ~~~
 
+GreenDao查询
+---
+
 [学习GreenDAO的QueryBuilder的使用](https://blog.csdn.net/flybamboo/article/details/52846110)  
 
 [GreenDao简明教程（查询，Querying）](https://blog.csdn.net/yuyuanhuang/article/details/42751469)  
 
 [Day5 greenDao的List存储与查询方法大全](https://www.jianshu.com/p/7e66d95b098a)  
+
+[GreenDao讲义3：带你了解查询生成器和更加复杂的查询](https://blog.csdn.net/huangjiamingboke/article/details/52123993)  
+
+
+GreenDao 分页
+---
+
+[GreenDao 分页条件查询排序](https://blog.csdn.net/nuonuonuonuonuo/article/details/81234168)  
+
+[GreenDao的简单使用说明(三)多表的操作1:n](https://blog.csdn.net/chenguang79/article/details/50460718)  
+
+[greenDao分页加载](https://blog.csdn.net/haowei0708/article/details/51596837)  
+~~~
+分页加载20条数据，getTwentyRec(int offset)中控制页数offset++即可
+    public List<UserEntity> getTwentyRec(int offset){
+        UserDao dao = openReadableDb().getUserDao();
+        List<UserEntity> listMsg = dao.queryBuilder()
+                .offset(offset * 20).limit(20).list();
+        return listMsg;
+    }
+~~~
+
+
+[分页加载（类似网页）](https://blog.csdn.net/nihaozhanghua/article/details/78142487)  
+
+
+GreenDao 多表
+---
+
+[GreenDAO 3.2.2 简单入门（一）增删改查](https://www.jianshu.com/p/aa4e172f7d47)  
+
+[GreenDAO 3.2.2 简单入门（二）多表查询和多表关联](https://www.jianshu.com/p/e6ac52498576)  
+
+[GreenDao的简单使用说明(三)多表的操作1:n](https://blog.csdn.net/chenguang79/article/details/50460718/)  
+
+[]()  
+
+
+[视频【安卓开发】Android 开发教程初级—第十六讲 项目开发 GreenDao应用—](https://www.bilibili.com/video/av498277248)  
+
+
+
+
 
 [greendao用完需要手动关闭数据库吗](https://zhidao.baidu.com/question/2120401707570803067.html)  
 ~~~
