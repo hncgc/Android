@@ -25,6 +25,11 @@
 2. 英式：http://media.shanbay.com/audio/uk/%s.mp3
 ~~~
 
+[有道词典发音接口]
+~~~
+http://dict.youdao.com/speech?audio=dog 
+http://dict.youdao.com/speech?audio=good%20bye 
+~~~
 
 [10万条英语单词库](https://download.csdn.net/download/waynehu1991/10705498)  
 
