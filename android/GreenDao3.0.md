@@ -1,13 +1,23 @@
 LitePal
 ---
+
+[LitePal的简单使用[一]](https://blog.csdn.net/wj9966/article/details/80695207)  
+
 [Android数据库框架 - LitePal学习笔记](https://www.jianshu.com/p/bc68e763c7a2)  
-github:https://github.com/LitePalFramework/LitePal  
+
+GitHub：https://github.com/LitePalFramework/LitePal
+
 郭霖       https://github.com/guolindev  
+
           《第一行代码 第2版》全书源代码  
 
 [LitePal详解](http://blog.csdn.net/fuzhongbin/article/details/51217944)  
 
 [开源数据库 LitePal 学习，强大好使的 CRUD](https://segmentfault.com/p/1210000008884257/read)  
+
+[Litepal使用详解](https://blog.csdn.net/pigdreams/article/details/69330946)  
+
+
 
 GreenDao3.0
 ---
@@ -16,6 +26,9 @@ GreenDao3.0
 
 [greenDAO官方文档](http://greenrobot.org/greendao/documentation)  
 
+GreenDao托管地址：https://github.com/greenrobot/greenDAO
+
+官方文档：http://greenrobot.org/greendao/documentation/updating-to-greendao-3-and-annotations
 
 [greendao使用详解](https://blog.csdn.net/yang_niuxxx/article/details/88851489)  
 
@@ -290,7 +303,13 @@ GreenDao 多表
 
 [GreenDao的简单使用说明(三)多表的操作1:n](https://blog.csdn.net/chenguang79/article/details/50460718/)  
 
-[]()  
+[GreenDao的简单使用[一]之增删改查](https://blog.csdn.net/wj9966/article/details/79272564)  
+
+[GreenDao的简单使用[二]之升级数据库](https://blog.csdn.net/wj9966/article/details/79280215)  
+
+[GreenDao的简单使用[三]之多表关系操作](https://blog.csdn.net/wj9966/article/details/81545827)  
+
+[使用GreenDao创建表、关联表（一对一，一对多，多对多）、CURD、升级数据库等操作](https://blog.csdn.net/zhanlv/article/details/82425709)  
 
 
 [视频【安卓开发】Android 开发教程初级—第十六讲 项目开发 GreenDao应用—](https://www.bilibili.com/video/av498277248)  
