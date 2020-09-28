@@ -1,6 +1,10 @@
 # 翻译
 
 
+[百度翻译开放平台](https://api.fanyi.baidu.com/)  
+
+
+
 [Android 调用百度翻译API 实现在线翻译](https://blog.csdn.net/Davey_Zhou/article/details/83212666)  
 
 [Android接入百度翻译API](https://download.csdn.net/download/highboys/9599342)  
@@ -41,5 +45,9 @@ https://www.juhe.cn/docs/index/otherid/1/page/1
 
 
 [【数据】常用API接口汇总](https://cloud.tencent.com/developer/article/1102112)   
+
+[友盟](https://developer.umeng.com/)  
+
+
 
 
